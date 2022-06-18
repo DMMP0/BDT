@@ -43,6 +43,7 @@ pip-selfcheck.json
 
 # IntelliJ project files
 .idea
+.idea/
 *.iml
 out
 gen

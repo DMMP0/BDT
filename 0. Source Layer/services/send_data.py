@@ -16,17 +16,17 @@ message_producer_broker = MessageProducer(broker, topics[1])
 message_producer_questura = MessageProducer(broker, topics[2])
 
 t1 = threading.Thread(target=message_producer_bank.keep_sending_data_from_dir,
-                      args=(source_layer + "/components/reports/", False))
+                      args=(source_layer + "/components/reports/", True))
 t2 = threading.Thread(target=message_producer_broker.keep_sending_data_from_dir,
-                      args=(source_layer + "/components/reports/", False))
+                      args=(source_layer + "/components/reports/", True))
 t3 = threading.Thread(target=message_producer_questura.keep_sending_data_from_dir,
-                      args=(source_layer + "/components/reports/", False))
+                      args=(source_layer + "/components/reports/", True))
 
 t1.start()
 t2.start()
 t3.start()
 
 # stop threads after completing the task
-t1.join(20)
-t2.join(20)
-t3.join(20)
+t1.join()
+t2.join()
+t3.join()

@@ -1,6 +1,6 @@
 ### Our data
 documents
-.credentials/*
+credentials/*
 
 ### VisualStudioCode template
 .vscode/*

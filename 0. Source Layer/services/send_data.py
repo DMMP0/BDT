@@ -22,11 +22,11 @@ t2 = threading.Thread(target=message_producer_broker.keep_sending_data_from_dir,
 t3 = threading.Thread(target=message_producer_questura.keep_sending_data_from_dir,
                       args=(source_layer + "/components/reports/", False))
 
-#t1.start()
+t1.start()
 t2.start()
 t3.start()
 
 # stop threads after completing the task
-#t1.join(20)
+t1.join(20)
 t2.join(20)
 t3.join(20)

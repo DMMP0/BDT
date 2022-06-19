@@ -41,17 +41,19 @@ class MessageProducer:
                 with open(directory+filename, mode='r', encoding='utf-8') as f:
                     try:
                         msg = f.read()
+                        msg += filename  # otherwise we will never know the format
                         self.send_msg(msg)
                     except UnicodeDecodeError:
                         print("Could not decode the file: "+filename)
                 time.sleep(2)
         else:   # we are testing with lots of files
             for filename in data:
-                if filename[0:4] != self.topic:
+                if filename[0:4] != self.topic[0:4]:
                     continue  # not a message from this  producer
                 with open(directory + filename, mode='r', encoding='utf-8') as f:
                     try:
                         msg = f.read()
+                        msg += filename
                         self.send_msg(msg)
                     except UnicodeDecodeError:
                         print("Could not decode the file: " + filename)

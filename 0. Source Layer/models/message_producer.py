@@ -36,18 +36,24 @@ class MessageProducer:
         if simulation:  # we only have few files
             while True:
                 filename = data[Random().randint(0, len(data)-1)]
-                if filename[0:4] != self.topic:
+                if filename[0:4] != self.topic[0:4]:
                     continue  # not a message from this  producer
-                with open(directory+filename, 'r') as f:
-                    msg = f.read()
-                    self.send_msg(msg)
+                with open(directory+filename, mode='r', encoding='utf-8') as f:
+                    try:
+                        msg = f.read()
+                        self.send_msg(msg)
+                    except UnicodeDecodeError:
+                        print("Could not decode the file: "+filename)
                 time.sleep(2)
         else:   # we are testing with lots of files
             for filename in data:
                 if filename[0:4] != self.topic:
                     continue  # not a message from this  producer
-                with open(directory + filename, 'r') as f:
-                    msg = f.read()
-                    self.send_msg(msg)
+                with open(directory + filename, mode='r', encoding='utf-8') as f:
+                    try:
+                        msg = f.read()
+                        self.send_msg(msg)
+                    except UnicodeDecodeError:
+                        print("Could not decode the file: " + filename)
                 time.sleep(2)
 

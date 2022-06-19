@@ -1,6 +1,6 @@
 ### Our data
 documents
-0. Source Layer/.credentials
+.credentials/*
 
 ### VisualStudioCode template
 .vscode/*

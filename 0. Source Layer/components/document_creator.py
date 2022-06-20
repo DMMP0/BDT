@@ -59,22 +59,22 @@ for i in range(0, 6):
             df = data.take(np.random.permutation(len(data))[:rnd])
             RTF.to_rtf(df,bank)
         print(rnd)
-    # if i == 1:
-    #     banks= bank_data.sample(n=rnd_banks)
-    #     banks = pd.DataFrame(banks)
-    #     for index,bank in banks.iterrows():
-    #         rnd = randint(2, rnd)
-    #         df = data.take(np.random.permutation(len(data))[:rnd])
-    #         Word.df_to_word(data[0:idx],bank)
-    #     print(idx)
-    # if i == 2:
-    #     banks= bank_data.sample(n=rnd_banks)
-    #     banks = pd.DataFrame(banks)
-    #     for index,bank in banks.iterrows():
-    #         rnd = randint(2, rnd)
-    #         df = data.take(np.random.permutation(len(data))[:rnd])
-    #         HTML.to_html(df,bank)
-    #     print(idx)
+    if i == 1:
+        banks= bank_data.sample(n=rnd_banks)
+        banks = pd.DataFrame(banks)
+        for index,bank in banks.iterrows():
+            rnd = randint(2, rnd)
+            df = data.take(np.random.permutation(len(data))[:rnd])
+            Word.df_to_word(data[0:idx],bank)
+        print(idx)
+    if i == 2:
+        banks= bank_data.sample(n=rnd_banks)
+        banks = pd.DataFrame(banks)
+        for index,bank in banks.iterrows():
+            rnd = randint(2, rnd)
+            df = data.take(np.random.permutation(len(data))[:rnd])
+            HTML.to_html(df,bank)
+        print(idx)
 #     if i == 3:
 #         banks= bank_data.sample(n=rnd_banks)
 #         banks = pd.DataFrame(banks)
@@ -83,14 +83,14 @@ for i in range(0, 6):
 #             df = data.take(np.random.permutation(len(data))[:rnd])
 #             Tex.to_tex(df,bank)
 #         print(idx)
-    # if i == 4:
-    #     banks= bank_data.sample(n=rnd_banks)
-    #     banks = pd.DataFrame(banks)
-    #     for index,bank in banks.iterrows():
-    #         rnd = randint(2, rnd)
-    #         df = data.take(np.random.permutation(len(data))[:rnd])
-    #         Excel.to_excel(df,bank)
-    #     print(idx)
+    if i == 4:
+        banks= bank_data.sample(n=rnd_banks)
+        banks = pd.DataFrame(banks)
+        for index,bank in banks.iterrows():
+            rnd = randint(2, rnd)
+            df = data.take(np.random.permutation(len(data))[:rnd])
+            Excel.to_excel(df,bank)
+        print(idx)
     # if i == 5:
     #     banks= bank_data.sample(n=rnd_banks)
     #     banks = pd.DataFrame(banks)

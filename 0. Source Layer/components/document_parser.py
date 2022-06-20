@@ -52,7 +52,7 @@ def read_docx_tables(filename, tab_id=None, **kwargs):
             raise
 print(len(excel))
 
-columns=['registeration_number','name','establied_date','country','number_of_employes','purpose','phone_number','email','bank_name','bank_country']
+# columns=['registeration_number','name','establied_date','country','number_of_employes','purpose','phone_number','email','bank_name','bank_country']
 ###read excel
 for i in range(0,len(excel)):
     # Read a text file to a dataframe using read_table function
@@ -85,7 +85,7 @@ for i in range(0,len(word)):
         name = str(word[i]).split('.')[0]
         df = read_docx_tables('reports/' + str(word[i]))
         df = pd.DataFrame(df)
-        df = pd.DataFrame(df.values,columns=['registeration_number','name','establied_date','country','number_of_employes','purpose','phone_number','email','bank_name','bank_country'])
+        df = pd.DataFrame(df.values,columns=columns[1:])
         df.to_json('./jsons/'+name+ '.json',indent=4,orient='index')
 
 

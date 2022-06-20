@@ -1,0 +1,38 @@
+{
+    "0":{
+        "registeration_number":"02895057-1d61-4576-a475-9e9ad28024d4",
+        "name":"ID Biomedical Corp.",
+        "establied_date":"10\/9\/1996",
+        "country":"Canada",
+        "number_of_employes":19,
+        "purpose":null,
+        "phone_number":"118-870-8437",
+        "email":"marketing@idbiomedicalcorp.org",
+        "bank_name":"Metro Bank PLC",
+        "bank_country":"United Kingdom"
+    },
+    "1":{
+        "registeration_number":"d8888f05-57a7-41b8-8349-316e03e7c211",
+        "name":"IMP Industrial Mineral Park Mining Corp.",
+        "establied_date":"8\/21\/1992",
+        "country":"Canada",
+        "number_of_employes":45,
+        "purpose":null,
+        "phone_number":"882-576-3134",
+        "email":"marketing@impindustrialmineralparkminingcorp.org",
+        "bank_name":"Metro Bank PLC",
+        "bank_country":"United Kingdom"
+    },
+    "2":{
+        "registeration_number":"5afc22ee-ddc7-4af4-a3c4-96fcda87373a",
+        "name":"Amvescap plc",
+        "establied_date":"2\/11\/1965",
+        "country":"United Kingdom",
+        "number_of_employes":35,
+        "purpose":null,
+        "phone_number":"484-276-7725",
+        "email":"contact@amvescapplc.org",
+        "bank_name":"Metro Bank PLC",
+        "bank_country":"United Kingdom"
+    }
+}

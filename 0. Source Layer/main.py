@@ -1,2 +1,2 @@
-from services import send_data
+from services import send_data_to_redis
 

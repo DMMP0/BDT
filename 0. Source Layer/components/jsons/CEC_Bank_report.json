@@ -1,0 +1,50 @@
+{
+    "0":{
+        "registeration_number":"6f3bfa68-3fbe-484d-8c51-80c5659025d6",
+        "name":"Willis Group Ltd.",
+        "establied_date":"10\/3\/1982",
+        "country":"United Kingdom",
+        "number_of_employes":17,
+        "purpose":null,
+        "phone_number":"213-029-9893",
+        "email":"hr@willisgroupltd.org",
+        "bank_name":"CEC Bank",
+        "bank_country":"Romania"
+    },
+    "1":{
+        "registeration_number":"37d3b4aa-25ae-4cd9-97e5-476c1a5234e1",
+        "name":"Olicom A\/S",
+        "establied_date":"11\/23\/1982",
+        "country":"Denmark",
+        "number_of_employes":11,
+        "purpose":null,
+        "phone_number":"467-797-5753",
+        "email":"reach@olicomas.org",
+        "bank_name":"CEC Bank",
+        "bank_country":"Romania"
+    },
+    "2":{
+        "registeration_number":"60dcb249-98fd-4108-95d3-6610e68d9f8c",
+        "name":"New Tel Ltd.",
+        "establied_date":"1\/5\/1975",
+        "country":"Australia",
+        "number_of_employes":32,
+        "purpose":null,
+        "phone_number":"994-215-8206",
+        "email":"info@newtelltd.org",
+        "bank_name":"CEC Bank",
+        "bank_country":"Romania"
+    },
+    "3":{
+        "registeration_number":"50bff4d2-eb09-4932-8cae-a1bf24bca8fb",
+        "name":"Citadel Gold Mines Inc.",
+        "establied_date":"5\/20\/1963",
+        "country":"Canada",
+        "number_of_employes":32,
+        "purpose":null,
+        "phone_number":"916-317-9829",
+        "email":"marketing@citadelgoldminesinc.org",
+        "bank_name":"CEC Bank",
+        "bank_country":"Romania"
+    }
+}

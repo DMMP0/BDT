@@ -1,4 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	bank_name	bank_country
-09fbac4b-8673-42d7-9f32-344c87c6a5f4	G. Willi-Food International Ltd.	6/24/1986	Israel	11		220-394-7342	headquarters@gwillifoodinternationalltd.org	Raiffeisen Zentralbank	Austria
-536e0301-7918-475d-8eba-864c98511f72	Ekabel Hessen GmbH	3/15/1964	Germany	48		486-741-7082	info@ekabelhessengmbh.org	Raiffeisen Zentralbank	Austria
-33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23		533-768-9918	contact@chainatacorp.org	Raiffeisen Zentralbank	Austria

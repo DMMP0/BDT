@@ -1,5 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	bank_name	bank_country
-6f3bfa68-3fbe-484d-8c51-80c5659025d6	Willis Group Ltd.	10/3/1982	United Kingdom	17		213-029-9893	hr@willisgroupltd.org	CEC Bank	Romania
-37d3b4aa-25ae-4cd9-97e5-476c1a5234e1	Olicom A/S	11/23/1982	Denmark	11		467-797-5753	reach@olicomas.org	CEC Bank	Romania
-60dcb249-98fd-4108-95d3-6610e68d9f8c	New Tel Ltd.	1/5/1975	Australia	32		994-215-8206	info@newtelltd.org	CEC Bank	Romania
-50bff4d2-eb09-4932-8cae-a1bf24bca8fb	Citadel Gold Mines Inc.	5/20/1963	Canada	32		916-317-9829	marketing@citadelgoldminesinc.org	CEC Bank	Romania

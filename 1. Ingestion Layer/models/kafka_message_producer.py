@@ -1,7 +1,6 @@
 import json
-import os
 import time
-from random import Random
+
 
 from kafka import KafkaProducer
 
@@ -30,32 +29,9 @@ class MessageProducer:
         except Exception as ex:
             return ex
 
-    def keep_sending_data_from_dir(self, directory: str, simulation=True):
-        data = os.listdir(directory)
-
-        if simulation:  # we only have few files
-            while True:
-                filename = data[Random().randint(0, len(data)-1)]
-                if filename[0:4] != self.topic[0:4]:
-                    continue  # not a message from this  producer
-                with open(directory+filename, mode='r', encoding='utf-8') as f:
-                    try:
-                        msg = f.read()
-                        msg += filename  # otherwise we will never know the format
-                        self.send_msg(msg)
-                    except UnicodeDecodeError:
-                        print("Could not decode the file: "+filename)
-                time.sleep(2)
-        else:   # we are testing with lots of files
-            for filename in data:
-                if filename[0:4] != self.topic[0:4]:
-                    continue  # not a message from this  producer
-                with open(directory + filename, mode='r', encoding='utf-8') as f:
-                    try:
-                        msg = f.read()
-                        msg += filename
-                        self.send_msg(msg)
-                    except UnicodeDecodeError:
-                        print("Could not decode the file: " + filename)
-                time.sleep(2)
-
+    def keep_sending_data(self, list_of_tuples):
+        for el in list_of_tuples:
+            if el[0] != self.topic:
+                continue  # not a message from this  producer
+            self.send_msg(json.dumps(el[1]))
+            time.sleep(2)

@@ -18,7 +18,7 @@ txt = [f for f in os.listdir(path) if f.endswith('.txt')]
 r = redis.StrictRedis(host='localhost')  # redis object
 
 
-def send_files_to_redis_hash(filepaths: list, format: str):
+def send_files_to_redis(filepaths: list, format: str):
     """This function will convert the files into dictionaries with the parser. Once done, it will send them to redis as
     a hash that will have the filename as key and the dictionary as values.
     @:param format: the extension of the file. Possile values: {'docx','excel','html','txt'}"""
@@ -44,13 +44,13 @@ def send_files_to_redis_hash(filepaths: list, format: str):
         r.set(name=key, value=json.dumps(d[key]))
 
 
-t1 = threading.Thread(target=send_files_to_redis_hash,
+t1 = threading.Thread(target=send_files_to_redis,
                       args=(excel, 'excel'))
-t2 = threading.Thread(target=send_files_to_redis_hash,
+t2 = threading.Thread(target=send_files_to_redis,
                       args=(html, 'html'))
-t3 = threading.Thread(target=send_files_to_redis_hash,
+t3 = threading.Thread(target=send_files_to_redis,
                       args=(word, 'docx'))
-t4 = threading.Thread(target=send_files_to_redis_hash,
+t4 = threading.Thread(target=send_files_to_redis,
                       args=(txt, 'txt'))
 
 t1.start()

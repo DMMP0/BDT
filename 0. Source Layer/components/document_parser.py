@@ -86,7 +86,7 @@ def docx_to_dict(filepath: str) -> dict:
     df = pd.DataFrame(df)
     df = pd.DataFrame(df.values,
                       columns=['registeration_number', 'name', 'establied_date', 'country', 'number_of_employes',
-                                   'purpose', 'phone_number', 'email', 'bank_name', 'bank_country'])
+                                   'purpose', 'phone_number', 'email', 'bank_name', 'bank_country'])  # NB: don't modify
     return {name: df.to_dict(orient='index')}
     # df.to_json('./jsons/' + name + '.json', indent=4, orient='index')
 

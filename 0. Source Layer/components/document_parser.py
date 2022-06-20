@@ -1,20 +1,12 @@
 import os
 import pandas as pd
-import html_to_json
-import docx
+# import html_to_json
+# import docx  -- must install python-docx and openpyxl
 import io
 import csv
 from docx import Document
-import mdtex2html
 
-
-path = 'reports'
-excel = [f for f in os.listdir(path) if f.endswith('.xlsx')]
-html = [f for f in os.listdir(path) if f.endswith('.html')]
-tex = [f for f in os.listdir(path) if f.endswith('.tex')]
-word = [f for f in os.listdir(path) if f.endswith('.docx')]
-txt = [f for f in os.listdir(path) if f.endswith('.txt')]
-
+# import mdtex2html
 
 
 def read_docx_tables(filename, tab_id=None, **kwargs):
@@ -31,6 +23,7 @@ def read_docx_tables(filename, tab_id=None, **kwargs):
 
     Return: a single DataFrame if tab_id != None or a list of DataFrames otherwise
     """
+
     def read_docx_tab(tab, **kwargs):
         vf = io.StringIO()
         writer = csv.writer(vf)
@@ -42,7 +35,7 @@ def read_docx_tables(filename, tab_id=None, **kwargs):
     doc = Document(filename)
     if tab_id is None:
         for tab in doc.tables:
-            df = read_docx_tab(tab, **kwargs) 
+            df = read_docx_tab(tab, **kwargs)
         return df
     else:
         try:
@@ -50,53 +43,60 @@ def read_docx_tables(filename, tab_id=None, **kwargs):
         except IndexError:
             print('Error: specified [tab_id]: {}  does not exist.'.format(tab_id))
             raise
-print(len(excel))
 
-# columns=['registeration_number','name','establied_date','country','number_of_employes','purpose','phone_number','email','bank_name','bank_country']
-###read excel
-for i in range(0,len(excel)):
+
+
+# print(len(excel))
+
+columns = ['registeration_number', 'name', 'establied_date', 'country', 'number_of_employes', 'purpose', 'phone_number',
+           'email', 'bank_name', 'bank_country']
+
+
+# read excel
+def excel_to_dict(filepath: str) -> dict:
+    """The function returns a dictionary from a filepath. The dictionary will have the filename as key and the values
+    as another dictionary"""
+    global columns
     # Read a text file to a dataframe using read_table function
 
-    data =  pd.read_excel('reports/' + str(excel[i]))
+    data = pd.read_excel(filepath)
     data = pd.DataFrame(data)
     columns = data.columns
-    name = str(excel[i]).split('.')[0]
-    temp = data.to_json('./jsons/'+name+ '.json',indent=4,orient='index')
+    name = str(filepath).split('/')[-1]
+    return {name: data.to_dict(orient='index')}
+    # temp = data.to_json('./jsons/' + name + '.json', indent=4, orient='index')
 
-for i in range(0,len(html)):
+
+def html_to_dict(filepath: str) -> dict:
+    """The function returns a dictionary from a filepath. The dictionary will have the filename as key and the values
+        as another dictionary"""
     # Read a text file to a dataframe using read_table function
-    name = str(html[i]).split('.')[0]
-    data =  pd.read_html('reports/' + str(html[i]))
-    data[0].to_json('./jsons/'+name+ '.json',indent=4,orient='index')
-
-for i in range(0,len(word)):
-    
-# Load the first table from your document. In your example file,
-# there is only one table, so I just grab the first one.
-    document = Document('reports/' + str(word[i]))
-    table = document.tables[0]
-
-    # Data will be a list of rows represented as dictionaries
-    # containing each row's data.
-    data = []
-
-    keys = None
-    for i, row in enumerate(table.rows):
-        name = str(word[i]).split('.')[0]
-        df = read_docx_tables('reports/' + str(word[i]))
-        df = pd.DataFrame(df)
-        df = pd.DataFrame(df.values,columns=columns[1:])
-        df.to_json('./jsons/'+name+ '.json',indent=4,orient='index')
+    name = filepath.split('/')[-1]
+    data = pd.read_html(filepath)
+    return {name: data[0].to_dict(orient='index')}
+    # data[0].to_json('./jsons/' + name + '.json', indent=4, orient='index')
 
 
-for i in range(0,len(txt)):
+def docx_to_dict(filepath: str) -> dict:
+    """The function returns a dictionary from a filepath. The dictionary will have the filename as key and the values
+        as another dictionary"""
+    global columns
+    name = filepath.split('/')[0]
+    df = read_docx_tables(filepath)
+    df = pd.DataFrame(df)
+    df = pd.DataFrame(df.values,
+                      columns=['registeration_number', 'name', 'establied_date', 'country', 'number_of_employes',
+                                   'purpose', 'phone_number', 'email', 'bank_name', 'bank_country'])  # NB: don't modify
+    return {name: df.to_dict(orient='index')}
+    # df.to_json('./jsons/' + name + '.json', indent=4, orient='index')
+
+
+def txt_to_dict(filepath: str) -> dict:
+    """The function returns a dictionary from a filepath. The dictionary will have the filename as key and the values
+           as another dictionary"""
     # Read a text file to a dataframe using read_table function
-    name = str(txt[i]).split('.')[0]
-    data =  pd.read_csv('reports/' + str(txt[i]), sep='\t')
+    name = str(filepath).split('/')[0]
+    data = pd.read_csv(filepath, sep='\t')
     data = pd.DataFrame(data)
-    temp = data.to_json('./jsons/'+name+ '.json',indent=4,orient='index')
-
-
-
-
-
+    return {name:data.to_dict(orient='index')}
+    # temp = data.to_json('./jsons/' + name + '.json', indent=4, orient='index')

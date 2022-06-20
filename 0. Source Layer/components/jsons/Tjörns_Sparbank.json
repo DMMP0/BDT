@@ -1,0 +1,28 @@
+{
+    "0":{
+        "Unnamed: 0":33,
+        "registeration_number":"94eb8f85-e0a9-4190-a226-03c9e2d2ea4d",
+        "name":"Cryptologic Inc.",
+        "establied_date":"12\/13\/1995",
+        "country":"Canada",
+        "number_of_employes":22,
+        "purpose":null,
+        "phone_number":"687-175-0790",
+        "email":"sales@cryptologicinc.org",
+        "bank_name":"Tj\u00f6rns Sparbank",
+        "bank_country":"Sweden"
+    },
+    "1":{
+        "Unnamed: 0":38,
+        "registeration_number":"2d3d1c8b-3cc1-4850-a919-ba4d6cb09075",
+        "name":"Tele Sudeste Celular Participacoes S.A.",
+        "establied_date":"3\/4\/1976",
+        "country":"Brazil",
+        "number_of_employes":7,
+        "purpose":null,
+        "phone_number":"978-489-1684",
+        "email":"contact@telesudestecelularparticipacoessa.org",
+        "bank_name":"Tj\u00f6rns Sparbank",
+        "bank_country":"Sweden"
+    }
+}

@@ -1,0 +1,4 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	bank_name	bank_country
+02895057-1d61-4576-a475-9e9ad28024d4	ID Biomedical Corp.	10/9/1996	Canada	19		118-870-8437	marketing@idbiomedicalcorp.org	Metro Bank PLC	United Kingdom
+d8888f05-57a7-41b8-8349-316e03e7c211	IMP Industrial Mineral Park Mining Corp.	8/21/1992	Canada	45		882-576-3134	marketing@impindustrialmineralparkminingcorp.org	Metro Bank PLC	United Kingdom
+5afc22ee-ddc7-4af4-a3c4-96fcda87373a	Amvescap plc	2/11/1965	United Kingdom	35		484-276-7725	contact@amvescapplc.org	Metro Bank PLC	United Kingdom

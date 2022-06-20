@@ -1,0 +1,28 @@
+{
+    "0":{
+        "Unnamed: 0":32,
+        "registeration_number":"536e0301-7918-475d-8eba-864c98511f72",
+        "name":"Ekabel Hessen GmbH",
+        "establied_date":"3\/15\/1964",
+        "country":"Germany",
+        "number_of_employes":48,
+        "purpose":null,
+        "phone_number":"486-741-7082",
+        "email":"info@ekabelhessengmbh.org",
+        "bank_name":"Jyske Bank",
+        "bank_country":"Gibraltar"
+    },
+    "1":{
+        "Unnamed: 0":18,
+        "registeration_number":"51b52ac3-f0a4-4906-82b3-9ca00c50db0d",
+        "name":"HSBC Bank plc",
+        "establied_date":"12\/3\/1976",
+        "country":"United Kingdom",
+        "number_of_employes":19,
+        "purpose":null,
+        "phone_number":"560-530-8771",
+        "email":"headquarters@hsbcbankplc.org",
+        "bank_name":"Jyske Bank",
+        "bank_country":"Gibraltar"
+    }
+}

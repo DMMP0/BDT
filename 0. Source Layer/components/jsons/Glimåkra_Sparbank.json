@@ -1,0 +1,28 @@
+{
+    "0":{
+        "Unnamed: 0":39,
+        "registeration_number":"d8888f05-57a7-41b8-8349-316e03e7c211",
+        "name":"IMP Industrial Mineral Park Mining Corp.",
+        "establied_date":"8\/21\/1992",
+        "country":"Canada",
+        "number_of_employes":45,
+        "purpose":null,
+        "phone_number":"882-576-3134",
+        "email":"marketing@impindustrialmineralparkminingcorp.org",
+        "bank_name":"Glim\u00e5kra Sparbank",
+        "bank_country":"Sweden"
+    },
+    "1":{
+        "Unnamed: 0":37,
+        "registeration_number":"940197ff-21a7-4911-85ba-123f71ab5779",
+        "name":"CP Ships Ltd.",
+        "establied_date":"4\/13\/1987",
+        "country":"Canada",
+        "number_of_employes":7,
+        "purpose":null,
+        "phone_number":"512-887-1880",
+        "email":"headquarters@cpshipsltd.org",
+        "bank_name":"Glim\u00e5kra Sparbank",
+        "bank_country":"Sweden"
+    }
+}

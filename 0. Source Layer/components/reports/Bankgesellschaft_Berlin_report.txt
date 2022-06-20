@@ -1,0 +1,17 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	bank_name	bank_country
+06dc67e7-f4b0-417e-83cb-8b6810a55aac	Atlantic Telecom Group plc	5/12/1975	United Kingdom	39		379-281-1544	marketing@atlantictelecomgroupplc.org	Bankgesellschaft Berlin	Poland
+536e0301-7918-475d-8eba-864c98511f72	Ekabel Hessen GmbH	3/15/1964	Germany	48		486-741-7082	info@ekabelhessengmbh.org	Bankgesellschaft Berlin	Poland
+50bff4d2-eb09-4932-8cae-a1bf24bca8fb	Citadel Gold Mines Inc.	5/20/1963	Canada	32		916-317-9829	marketing@citadelgoldminesinc.org	Bankgesellschaft Berlin	Poland
+f4e7c23c-039c-4b38-96a4-35e70f3c9935	National Grid Group plc	3/24/1978	United Kingdom	42		765-804-8387	contact@nationalgridgroupplc.org	Bankgesellschaft Berlin	Poland
+85a596b8-e7a4-45ee-ac04-38dd58a04154	Trivalence Mining Corp.	4/24/1963	Canada	25		436-123-3850	hr@trivalenceminingcorp.org	Bankgesellschaft Berlin	Poland
+1408fecd-c605-4008-afd9-9744314abd2d	Anooraq Resources Corp.	5/31/1972	Canada	39		357-536-6476	marketing@anooraqresourcescorp.org	Bankgesellschaft Berlin	Poland
+8235535e-0873-43ef-91ca-879383cf8377	Mirtronics Inc.	5/2/1962	Canada	29		556-124-9965	info@mirtronicsinc.org	Bankgesellschaft Berlin	Poland
+f07f55c1-6182-4b34-8e73-530b5e79c4ed	Pyng Technologies Corp.	12/17/1961	Canada	44		541-439-4964	sales@pyngtechnologiescorp.org	Bankgesellschaft Berlin	Poland
+33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23		533-768-9918	contact@chainatacorp.org	Bankgesellschaft Berlin	Poland
+02895057-1d61-4576-a475-9e9ad28024d4	ID Biomedical Corp.	10/9/1996	Canada	19		118-870-8437	marketing@idbiomedicalcorp.org	Bankgesellschaft Berlin	Poland
+37d3b4aa-25ae-4cd9-97e5-476c1a5234e1	Olicom A/S	11/23/1982	Denmark	11		467-797-5753	reach@olicomas.org	Bankgesellschaft Berlin	Poland
+bf36cc88-14e9-4795-a5d0-7d939ec42333	Premier International Foods plc	6/13/1979	United Kingdom	12		509-222-0158	info@premierinternationalfoodsplc.org	Bankgesellschaft Berlin	Poland
+b04575ab-57a6-4892-a506-18c3a3833bfe	Fomento Economico Mexicano S.A. de C.V.	7/8/1977	Mexico	29		304-380-1927	enquiries@fomentoeconomicomexicanosadecv.org	Bankgesellschaft Berlin	Poland
+94eb8f85-e0a9-4190-a226-03c9e2d2ea4d	Cryptologic Inc.	12/13/1995	Canada	22		687-175-0790	sales@cryptologicinc.org	Bankgesellschaft Berlin	Poland
+28ce529c-14c6-4c54-bf63-4f5fae569fa3	Elan Corp plc	2/2/1991	Ireland	30		864-511-0083	contact@elancorpplc.org	Bankgesellschaft Berlin	Poland
+c5bca43a-6b71-4e5f-8861-7d4ddf5d547e	Canada Life Financial Corp.	1/5/1971	Canada	37		658-667-6356	info@canadalifefinancialcorp.org	Bankgesellschaft Berlin	Poland

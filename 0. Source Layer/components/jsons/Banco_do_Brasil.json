@@ -1,0 +1,28 @@
+{
+    "0":{
+        "Unnamed: 0":19,
+        "registeration_number":"f4e7c23c-039c-4b38-96a4-35e70f3c9935",
+        "name":"National Grid Group plc",
+        "establied_date":"3\/24\/1978",
+        "country":"United Kingdom",
+        "number_of_employes":42,
+        "purpose":null,
+        "phone_number":"765-804-8387",
+        "email":"contact@nationalgridgroupplc.org",
+        "bank_name":"Banco do Brasil",
+        "bank_country":"Portugal"
+    },
+    "1":{
+        "Unnamed: 0":35,
+        "registeration_number":"c434077a-a4b9-4a2b-9c22-d59fb66af8e5",
+        "name":"China Yuchai International Ltd.",
+        "establied_date":"6\/30\/1978",
+        "country":"Bermuda",
+        "number_of_employes":48,
+        "purpose":null,
+        "phone_number":"303-120-3161",
+        "email":"info@chinayuchaiinternationalltd.org",
+        "bank_name":"Banco do Brasil",
+        "bank_country":"Portugal"
+    }
+}

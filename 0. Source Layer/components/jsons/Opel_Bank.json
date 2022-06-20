@@ -1,0 +1,28 @@
+{
+    "0":{
+        "Unnamed: 0":15,
+        "registeration_number":"de1ab2b9-0ec0-48ac-8b3d-c3f8fbb7c76a",
+        "name":"Intertape Polymer Group Inc.",
+        "establied_date":"1\/22\/1981",
+        "country":"Canada",
+        "number_of_employes":35,
+        "purpose":null,
+        "phone_number":"704-390-1802",
+        "email":"reach@intertapepolymergroupinc.org",
+        "bank_name":"Opel Bank",
+        "bank_country":"Greece"
+    },
+    "1":{
+        "Unnamed: 0":30,
+        "registeration_number":"8235535e-0873-43ef-91ca-879383cf8377",
+        "name":"Mirtronics Inc.",
+        "establied_date":"5\/2\/1962",
+        "country":"Canada",
+        "number_of_employes":29,
+        "purpose":null,
+        "phone_number":"556-124-9965",
+        "email":"info@mirtronicsinc.org",
+        "bank_name":"Opel Bank",
+        "bank_country":"Greece"
+    }
+}

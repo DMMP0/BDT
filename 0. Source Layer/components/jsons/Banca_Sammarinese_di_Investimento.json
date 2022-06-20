@@ -1,0 +1,67 @@
+{
+    "0":{
+        "Unnamed: 0":0,
+        "registeration_number":"e6bc06b2-26b0-4fda-b718-e3ad7c81055a",
+        "name":"VI Group plc",
+        "establied_date":"5\/24\/1988",
+        "country":"United Kingdom",
+        "number_of_employes":31,
+        "purpose":null,
+        "phone_number":"495-055-3444",
+        "email":"headquarters@vigroupplc.org",
+        "bank_name":"Banca Sammarinese di Investimento",
+        "bank_country":"San Marino"
+    },
+    "1":{
+        "Unnamed: 0":42,
+        "registeration_number":"3b9e17d2-96d2-49a6-a4e9-745dcdad023e",
+        "name":"Bennett Environmental Inc.",
+        "establied_date":"5\/15\/1962",
+        "country":"Canada",
+        "number_of_employes":39,
+        "purpose":null,
+        "phone_number":"561-685-4405",
+        "email":"sales@bennettenvironmentalinc.org",
+        "bank_name":"Banca Sammarinese di Investimento",
+        "bank_country":"San Marino"
+    },
+    "2":{
+        "Unnamed: 0":15,
+        "registeration_number":"de1ab2b9-0ec0-48ac-8b3d-c3f8fbb7c76a",
+        "name":"Intertape Polymer Group Inc.",
+        "establied_date":"1\/22\/1981",
+        "country":"Canada",
+        "number_of_employes":35,
+        "purpose":null,
+        "phone_number":"704-390-1802",
+        "email":"reach@intertapepolymergroupinc.org",
+        "bank_name":"Banca Sammarinese di Investimento",
+        "bank_country":"San Marino"
+    },
+    "3":{
+        "Unnamed: 0":10,
+        "registeration_number":"85a596b8-e7a4-45ee-ac04-38dd58a04154",
+        "name":"Trivalence Mining Corp.",
+        "establied_date":"4\/24\/1963",
+        "country":"Canada",
+        "number_of_employes":25,
+        "purpose":null,
+        "phone_number":"436-123-3850",
+        "email":"hr@trivalenceminingcorp.org",
+        "bank_name":"Banca Sammarinese di Investimento",
+        "bank_country":"San Marino"
+    },
+    "4":{
+        "Unnamed: 0":5,
+        "registeration_number":"0a5d71b5-81ac-4495-9f16-17da04d9b615",
+        "name":"Eurotel Bratislava, A.S.",
+        "establied_date":"11\/6\/1984",
+        "country":"Slovak Republic",
+        "number_of_employes":44,
+        "purpose":null,
+        "phone_number":"597-184-4016",
+        "email":"marketing@eurotelbratislavaas.org",
+        "bank_name":"Banca Sammarinese di Investimento",
+        "bank_country":"San Marino"
+    }
+}

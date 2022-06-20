@@ -1,0 +1,41 @@
+{
+    "0":{
+        "Unnamed: 0":41,
+        "registeration_number":"b2219b0e-a525-4f22-b9ff-f780c01b6d00",
+        "name":"Rhodia",
+        "establied_date":"6\/21\/1975",
+        "country":"France",
+        "number_of_employes":7,
+        "purpose":null,
+        "phone_number":"583-692-6929",
+        "email":"contact@rhodia.org",
+        "bank_name":"Bank of Ceylon (UK) Ltd",
+        "bank_country":"United Kingdom"
+    },
+    "1":{
+        "Unnamed: 0":7,
+        "registeration_number":"2b917a9f-8086-4365-b880-9652ee8773c6",
+        "name":"Net Sat Servicos Ltda.",
+        "establied_date":"2\/28\/1967",
+        "country":"Brazil",
+        "number_of_employes":13,
+        "purpose":null,
+        "phone_number":"277-786-9269",
+        "email":"headquarters@netsatservicosltda.org",
+        "bank_name":"Bank of Ceylon (UK) Ltd",
+        "bank_country":"United Kingdom"
+    },
+    "2":{
+        "Unnamed: 0":44,
+        "registeration_number":"6f3bfa68-3fbe-484d-8c51-80c5659025d6",
+        "name":"Willis Group Ltd.",
+        "establied_date":"10\/3\/1982",
+        "country":"United Kingdom",
+        "number_of_employes":17,
+        "purpose":null,
+        "phone_number":"213-029-9893",
+        "email":"hr@willisgroupltd.org",
+        "bank_name":"Bank of Ceylon (UK) Ltd",
+        "bank_country":"United Kingdom"
+    }
+}

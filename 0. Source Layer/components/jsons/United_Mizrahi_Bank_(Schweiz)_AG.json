@@ -1,0 +1,28 @@
+{
+    "0":{
+        "Unnamed: 0":39,
+        "registeration_number":"d8888f05-57a7-41b8-8349-316e03e7c211",
+        "name":"IMP Industrial Mineral Park Mining Corp.",
+        "establied_date":"8\/21\/1992",
+        "country":"Canada",
+        "number_of_employes":45,
+        "purpose":null,
+        "phone_number":"882-576-3134",
+        "email":"marketing@impindustrialmineralparkminingcorp.org",
+        "bank_name":"United Mizrahi Bank (Schweiz) AG",
+        "bank_country":"Switzerland"
+    },
+    "1":{
+        "Unnamed: 0":2,
+        "registeration_number":"ba23f684-e6e1-4a63-a455-56599b6d4ca6",
+        "name":"Tele Nordeste Celular Participacoes S.A.",
+        "establied_date":"11\/27\/1976",
+        "country":"Brazil",
+        "number_of_employes":26,
+        "purpose":null,
+        "phone_number":"184-056-2664",
+        "email":"headquarters@telenordestecelularparticipacoessa.org",
+        "bank_name":"United Mizrahi Bank (Schweiz) AG",
+        "bank_country":"Switzerland"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "0":{
+        "Unnamed: 0":0,
+        "registeration_number":"e6bc06b2-26b0-4fda-b718-e3ad7c81055a",
+        "name":"VI Group plc",
+        "establied_date":"5\/24\/1988",
+        "country":"United Kingdom",
+        "number_of_employes":31,
+        "purpose":null,
+        "phone_number":"495-055-3444",
+        "email":"headquarters@vigroupplc.org",
+        "bank_name":"Novum Bank Limited",
+        "bank_country":"Malta"
+    },
+    "1":{
+        "Unnamed: 0":11,
+        "registeration_number":"c5bca43a-6b71-4e5f-8861-7d4ddf5d547e",
+        "name":"Canada Life Financial Corp.",
+        "establied_date":"1\/5\/1971",
+        "country":"Canada",
+        "number_of_employes":37,
+        "purpose":null,
+        "phone_number":"658-667-6356",
+        "email":"info@canadalifefinancialcorp.org",
+        "bank_name":"Novum Bank Limited",
+        "bank_country":"Malta"
+    }
+}

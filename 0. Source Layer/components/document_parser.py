@@ -48,8 +48,10 @@ def read_docx_tables(filename, tab_id=None, **kwargs):
 
 # print(len(excel))
 
-columns = ['registeration_number', 'name', 'establied_date', 'country', 'number_of_employes', 'purpose', 'phone_number',
-           'email', 'bank_name', 'bank_country']
+columns = ['registeration_number','name','establied_date','country','number_of_employes','purpose','phone_number','email',
+	'bank_name','bank_country','open_new_credit_in_6_months','ammount_in_6_months','new_credit_in_12_months','new_credit_in_18_months',
+    'ammount_in_12_months','ammount_in_18_months','house_mortage','amount_of_house_mortage','amount_duee_mortage','house_property',
+	'total_house_amount','credit_card_number','actual_debit_credit_cards','monthly_income','savings','other_savings']
 
 
 # read excel
@@ -85,8 +87,7 @@ def docx_to_dict(filepath: str) -> dict:
     df = read_docx_tables(filepath)
     df = pd.DataFrame(df)
     df = pd.DataFrame(df.values,
-                      columns=['registeration_number', 'name', 'establied_date', 'country', 'number_of_employes',
-                                   'purpose', 'phone_number', 'email', 'bank_name', 'bank_country'])  # NB: don't modify
+                      columns=columns)  # NB: don't modify
     return {name: df.to_dict(orient='index')}
     # df.to_json('./jsons/' + name + '.json', indent=4, orient='index')
 

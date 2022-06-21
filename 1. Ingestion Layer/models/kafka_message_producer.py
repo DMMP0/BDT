@@ -40,7 +40,7 @@ class MessageProducer:
             if ris['status_code'] != 200:
                 print(ris['error'])
                 self.__redis_error_keys.append(el[2])
-            # time.sleep(0.5)
+            time.sleep(0.5)
 
     def get_error_keys(self):
         return self.__redis_error_keys

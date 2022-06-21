@@ -18,7 +18,7 @@ class TempStorageSender:
     def __init__(self, bucket_name:str):
         self.bucket = self.client.get_bucket(bucket_name)
 
-    def create_name(self, message: str, topic='', name='report') -> str:
+    def create_name(self, message: str, topic='', name='_report_row_') -> str:
         ris = message[-10:]  # this string will contain the format
 
         random_string = ''
@@ -34,7 +34,7 @@ class TempStorageSender:
         return topic + name + ' '+random_string+ris.split('.')[-1]
 
     def send_message(self, message, topic, name='report'):
-        blob = self.bucket.blob(self.create_name(message=message, topic=topic,name=name))
+        blob = self.bucket.blob(blob_name=self.create_name(message=message, topic=topic,name=name))
         blob.upload_from_string(data=message)
 
 

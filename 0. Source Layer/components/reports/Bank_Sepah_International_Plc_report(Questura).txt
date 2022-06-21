@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+76eb509c-c5a8-4542-aa8a-f2d1db863bf5	Aztek Technologies Inc.	1/5/1991	Canada	15	office	370-689-6569	contact@aztektechnologiesinc.org	United Kingdom	True	$68,516,112,438.00	True	True	True	True	False
+4e0632de-851b-483b-b9e9-c5cd433603fa	Dynamic Oil & Gas Ltd.	11/24/1983	Canada	19	office	263-751-3055	marketing@dynamicoilgasltd.org	United Kingdom	False	$77,379,005,938.00	False	False	False	False	False

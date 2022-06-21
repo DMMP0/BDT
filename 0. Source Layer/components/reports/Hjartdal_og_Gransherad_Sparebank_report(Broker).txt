@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	office	940-622-1937	info@professionalstaffplc.org	Norway	experian	378021152977708	False	$69,836,985,279.00	Norway
+4e0632de-851b-483b-b9e9-c5cd433603fa	Dynamic Oil & Gas Ltd.	11/24/1983	Canada	19	office	263-751-3055	marketing@dynamicoilgasltd.org	Norway	CRIF	345916717893656	True	$92,077,258,114.00	Norway

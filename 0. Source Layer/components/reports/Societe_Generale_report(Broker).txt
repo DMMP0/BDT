@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-5ad5f65a-4601-42c0-a736-c23f95881abe	China Mobile (Hong Kong) Ltd.	10/2/1984	Hong Kong	25	marketing	836-090-8645	contact@chinamobilehongkongltd.org	Poland	experian	343910311857987	False	$12,190,738,746.00	Poland
-ba350f5c-b544-49e5-8f65-a62e26da6aab	Novartis AG	6/3/1967	Switzerland	49	marketing	646-673-0302	hr@novartisag.org	Poland	experian	343408018450008	True	$76,841,035,838.00	Poland

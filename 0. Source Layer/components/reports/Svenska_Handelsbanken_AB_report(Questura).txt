@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+7f2d17d3-13fd-4f18-a678-5805ab5fa44d	Haemacure Corp.	12/8/1993	Canada	29	office	757-765-4803	info@haemacurecorp.org	Lithuania	True	$29,822,595,673.00	False	False	False	True	True
+5e74f6bc-0894-4d6a-9b5f-a16749aeacb9	American Israeli Paper Mills Ltd.	5/24/1966	Israel	41	office	672-174-8489	marketing@americanisraelipapermillsltd.org	Lithuania	True	$42,991,329,440.00	True	True	False	True	True

@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+6a05f98f-100f-42d9-86b7-a0d589eccbb5	Verena Minerals Corp.	10/10/1981	Canada	46	office	266-884-5949	sales@verenamineralscorp.org	Norway	Banca d italia	347386886609952	True	$85,232,713,977.00	Norway
+33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	office	533-768-9918	contact@chainatacorp.org	Norway	CTC	377056982117233	True	$108,595,138.00	Norway

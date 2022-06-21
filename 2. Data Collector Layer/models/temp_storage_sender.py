@@ -1,7 +1,7 @@
 import os
 import random
 import sys
-from gcloud import storage
+from google.cloud import storage
 from oauth2client.service_account import ServiceAccountCredentials
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # finds the parent directory
@@ -10,10 +10,8 @@ from credentials.GCS_credentials import project_name
 
 
 class TempStorageSender:
-    credentials = ServiceAccountCredentials.from_json_keyfile_dict(
-        credentials_dict
-    )
-    client = storage.Client(credentials=credentials, project=project_name)
+    client = storage.Client.from_service_account_json(json_credentials_path='credentials-python-storage.json')
+
 
     def __init__(self, bucket_name:str):
         self.bucket = self.client.get_bucket(bucket_name)

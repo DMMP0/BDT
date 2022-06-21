@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-6a05f98f-100f-42d9-86b7-a0d589eccbb5	Verena Minerals Corp.	10/10/1981	Canada	46	marketing	266-884-5949	sales@verenamineralscorp.org	Sweden	Banca d italia	347187843413359	False	$28,593,561,435.00	Sweden
-8235535e-0873-43ef-91ca-879383cf8377	Mirtronics Inc.	5/2/1962	Canada	29	marketing	556-124-9965	info@mirtronicsinc.org	Sweden	CRIF	341664918728586	True	$48,316,405,890.00	Sweden

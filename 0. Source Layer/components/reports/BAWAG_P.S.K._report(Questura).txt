@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	bank_name	bank_country	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-3bb57501-4ef9-479f-9e3d-2dac7c920e39	Etruscan Resources Inc.	6/19/1992	Canada	29	marketing	160-009-9526	hr@etruscanresourcesinc.org	BAWAG P.S.K.	Austria	Austria	False	$66,736,223,115.00	True	True	True	False	False
-09fbac4b-8673-42d7-9f32-344c87c6a5f4	G. Willi-Food International Ltd.	6/24/1986	Israel	11	marketing	220-394-7342	headquarters@gwillifoodinternationalltd.org	BAWAG P.S.K.	Austria	Austria	True	$77,911,243,237.00	False	False	True	False	False

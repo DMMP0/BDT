@@ -1,0 +1,12 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+a0321761-63aa-490c-b7d5-a3e30f4d6eae	P.T. Pasifik Satelit Nusantara Tbk	5/5/1963	Indonesia	29	office	629-141-2587	enquiries@ptpasifiksatelitnusantaratbk.org	Luxemburg	False	$40,513,178,946.00	False	False	False	True	True
+f4e7c23c-039c-4b38-96a4-35e70f3c9935	National Grid Group plc	3/24/1978	United Kingdom	42	office	765-804-8387	contact@nationalgridgroupplc.org	Luxemburg	False	$66,528,050,876.00	False	False	True	True	True
+6a05f98f-100f-42d9-86b7-a0d589eccbb5	Verena Minerals Corp.	10/10/1981	Canada	46	office	266-884-5949	sales@verenamineralscorp.org	Luxemburg	True	$78,032,710,698.00	False	False	False	True	False
+5ad5f65a-4601-42c0-a736-c23f95881abe	China Mobile (Hong Kong) Ltd.	10/2/1984	Hong Kong	25	office	836-090-8645	contact@chinamobilehongkongltd.org	Luxemburg	True	$77,909,750,316.00	True	False	True	False	True
+940197ff-21a7-4911-85ba-123f71ab5779	CP Ships Ltd.	4/13/1987	Canada	7	office	512-887-1880	headquarters@cpshipsltd.org	Luxemburg	True	$94,320,723,501.00	True	True	False	True	False
+94eb8f85-e0a9-4190-a226-03c9e2d2ea4d	Cryptologic Inc.	12/13/1995	Canada	22	office	687-175-0790	sales@cryptologicinc.org	Luxemburg	True	$16,662,992,934.00	False	True	True	False	True
+76eb509c-c5a8-4542-aa8a-f2d1db863bf5	Aztek Technologies Inc.	1/5/1991	Canada	15	office	370-689-6569	contact@aztektechnologiesinc.org	Luxemburg	False	$85,752,239,920.00	True	True	True	False	False
+0a5d71b5-81ac-4495-9f16-17da04d9b615	Eurotel Bratislava, A.S.	11/6/1984	Slovak Republic	44	office	597-184-4016	marketing@eurotelbratislavaas.org	Luxemburg	True	$1,912,436,152.00	True	False	True	False	False
+0e83a8d8-b870-4565-b4c5-bdae05f42730	Tele Celular Sul Participacoes S.A.	12/7/1961	Brazil	48	office	667-875-8361	sales@telecelularsulparticipacoessa.org	Luxemburg	False	$5,284,300,382.00	False	True	True	False	False
+4e0632de-851b-483b-b9e9-c5cd433603fa	Dynamic Oil & Gas Ltd.	11/24/1983	Canada	19	office	263-751-3055	marketing@dynamicoilgasltd.org	Luxemburg	False	$71,914,721,037.00	True	True	False	False	False
+50bff4d2-eb09-4932-8cae-a1bf24bca8fb	Citadel Gold Mines Inc.	5/20/1963	Canada	32	office	916-317-9829	marketing@citadelgoldminesinc.org	Luxemburg	True	$89,669,488,030.00	False	True	True	True	False

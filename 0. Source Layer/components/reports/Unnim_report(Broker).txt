@@ -1,0 +1,5 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+32b7f179-da3f-4942-bc68-766f7a853cce	Governor and Company of the Bank of Ireland	4/23/1976	Ireland	18	office	857-210-7051	contact@governorandcompanyofthebankofireland.org	Spain	experian	342677568224101	False	$86,087,847,733.00	Spain
+f4e7c23c-039c-4b38-96a4-35e70f3c9935	National Grid Group plc	3/24/1978	United Kingdom	42	office	765-804-8387	contact@nationalgridgroupplc.org	Spain	CRIF	374154266471633	False	$4,800,433,122.00	Spain
+5ad5f65a-4601-42c0-a736-c23f95881abe	China Mobile (Hong Kong) Ltd.	10/2/1984	Hong Kong	25	office	836-090-8645	contact@chinamobilehongkongltd.org	Spain	Banca d italia	341084372180366	True	$21,485,849,560.00	Spain
+60dcb249-98fd-4108-95d3-6610e68d9f8c	New Tel Ltd.	1/5/1975	Australia	32	office	994-215-8206	info@newtelltd.org	Spain	CTC	348473700520422	True	$25,199,329,768.00	Spain

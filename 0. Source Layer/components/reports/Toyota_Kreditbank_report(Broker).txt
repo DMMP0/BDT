@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+1408fecd-c605-4008-afd9-9744314abd2d	Anooraq Resources Corp.	5/31/1972	Canada	39	office	357-536-6476	marketing@anooraqresourcescorp.org	Norway	CRIF	378660718874048	True	$65,573,449,836.00	Norway
+2d3d1c8b-3cc1-4850-a919-ba4d6cb09075	Tele Sudeste Celular Participacoes S.A.	3/4/1976	Brazil	7	office	978-489-1684	contact@telesudestecelularparticipacoessa.org	Norway	Banca d italia	344056683115882	False	$85,651,620,302.00	Norway

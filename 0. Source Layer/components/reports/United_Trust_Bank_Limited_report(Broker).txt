@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+27ce7b74-7d6a-4d13-b91e-814f61dd179d	ABB Ltd.	8/20/1984	Switzerland	39	office	688-160-3651	marketing@abbltd.org	United Kingdom	Banca d italia	376267954885084	True	$14,379,424,942.00	United Kingdom
+6a05f98f-100f-42d9-86b7-a0d589eccbb5	Verena Minerals Corp.	10/10/1981	Canada	46	office	266-884-5949	sales@verenamineralscorp.org	United Kingdom	CRIF	376016857584207	True	$54,939,936,032.00	United Kingdom

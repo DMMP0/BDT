@@ -1,0 +1,5 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+32b7f179-da3f-4942-bc68-766f7a853cce	Governor and Company of the Bank of Ireland	4/23/1976	Ireland	18	office	857-210-7051	contact@governorandcompanyofthebankofireland.org	Spain	True	$33,887,165,681.00	False	False	True	True	False
+f4e7c23c-039c-4b38-96a4-35e70f3c9935	National Grid Group plc	3/24/1978	United Kingdom	42	office	765-804-8387	contact@nationalgridgroupplc.org	Spain	True	$71,905,368,373.00	False	False	True	True	True
+5ad5f65a-4601-42c0-a736-c23f95881abe	China Mobile (Hong Kong) Ltd.	10/2/1984	Hong Kong	25	office	836-090-8645	contact@chinamobilehongkongltd.org	Spain	True	$15,841,974,924.00	False	True	True	False	True
+60dcb249-98fd-4108-95d3-6610e68d9f8c	New Tel Ltd.	1/5/1975	Australia	32	office	994-215-8206	info@newtelltd.org	Spain	True	$58,229,411,059.00	False	True	True	False	True

@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	bank_name	bank_country	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-8235535e-0873-43ef-91ca-879383cf8377	Mirtronics Inc.	5/2/1962	Canada	29	marketing	556-124-9965	info@mirtronicsinc.org	Abbey National Treasury Services Plc	United Kingdom	United Kingdom	True	$2,813,019,611.00	False	True	False	True	True
-5afc22ee-ddc7-4af4-a3c4-96fcda87373a	Amvescap plc	2/11/1965	United Kingdom	35	marketing	484-276-7725	contact@amvescapplc.org	Abbey National Treasury Services Plc	United Kingdom	United Kingdom	True	$93,177,670,388.00	True	True	True	False	False

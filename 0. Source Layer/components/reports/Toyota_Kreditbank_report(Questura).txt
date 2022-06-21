@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+1408fecd-c605-4008-afd9-9744314abd2d	Anooraq Resources Corp.	5/31/1972	Canada	39	office	357-536-6476	marketing@anooraqresourcescorp.org	Norway	False	$45,856,584,297.00	True	True	False	True	False
+2d3d1c8b-3cc1-4850-a919-ba4d6cb09075	Tele Sudeste Celular Participacoes S.A.	3/4/1976	Brazil	7	office	978-489-1684	contact@telesudestecelularparticipacoessa.org	Norway	True	$26,454,446,079.00	False	True	False	False	False

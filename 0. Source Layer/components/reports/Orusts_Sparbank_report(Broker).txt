@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+3b9e17d2-96d2-49a6-a4e9-745dcdad023e	Bennett Environmental Inc.	5/15/1962	Canada	39	office	561-685-4405	sales@bennettenvironmentalinc.org	Sweden	CTC	345428881195199	False	$4,663,366,517.00	Sweden
+28ce529c-14c6-4c54-bf63-4f5fae569fa3	Elan Corp plc	2/2/1991	Ireland	30	office	864-511-0083	contact@elancorpplc.org	Sweden	CRIF	348935326555438	True	$36,691,802,003.00	Sweden

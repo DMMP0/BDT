@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+df98f86a-e21a-4c11-bb75-716aea0217fa	Aluminum Corp of China Ltd.	5/16/1982	China	30	office	814-039-1974	marketing@aluminumcorpofchinaltd.org	Sweden	experian	344479227031029	True	$6,546,988,092.00	Sweden
+60dcb249-98fd-4108-95d3-6610e68d9f8c	New Tel Ltd.	1/5/1975	Australia	32	office	994-215-8206	info@newtelltd.org	Sweden	Banca d italia	348022866276780	False	$510,332,998.00	Sweden

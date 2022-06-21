@@ -1,0 +1,6 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+c5bca43a-6b71-4e5f-8861-7d4ddf5d547e	Canada Life Financial Corp.	1/5/1971	Canada	37	office	658-667-6356	info@canadalifefinancialcorp.org	Switzerland	experian	378264559768730	False	$58,464,279,948.00	Switzerland
+f4e7c23c-039c-4b38-96a4-35e70f3c9935	National Grid Group plc	3/24/1978	United Kingdom	42	office	765-804-8387	contact@nationalgridgroupplc.org	Switzerland	Banca d italia	349809893358824	True	$2,834,278,346.00	Switzerland
+b9c50519-ea28-43fa-bf9d-70ccaf5d895e	Guangshen Railway Co. Ltd.	3/19/1989	China	11	office	798-857-5135	headquarters@guangshenrailwaycoltd.org	Switzerland	CTC	345569080765322	False	$86,813,879,650.00	Switzerland
+32b7f179-da3f-4942-bc68-766f7a853cce	Governor and Company of the Bank of Ireland	4/23/1976	Ireland	18	office	857-210-7051	contact@governorandcompanyofthebankofireland.org	Switzerland	experian	347469002163573	True	$29,161,454,785.00	Switzerland
+6e9e27a6-f584-4fec-a9b2-00c364e6df21	Kubota Corp.	11/14/1977	Japan	25	office	128-152-1910	hr@kubotacorp.org	Switzerland	CRIF	370425558736048	False	$64,243,197,656.00	Switzerland

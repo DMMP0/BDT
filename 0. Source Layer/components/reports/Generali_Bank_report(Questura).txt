@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	bank_name	bank_country	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-bf36cc88-14e9-4795-a5d0-7d939ec42333	Premier International Foods plc	6/13/1979	United Kingdom	12	marketing	509-222-0158	info@premierinternationalfoodsplc.org	Generali Bank	Austria	Austria	False	$84,134,317,837.00	False	False	True	False	False
-536e0301-7918-475d-8eba-864c98511f72	Ekabel Hessen GmbH	3/15/1964	Germany	48	marketing	486-741-7082	info@ekabelhessengmbh.org	Generali Bank	Austria	Austria	True	$92,625,896,970.00	False	True	True	True	True

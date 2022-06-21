@@ -21,7 +21,7 @@ bank_columns = ['registration_number', 'name', 'established_date', 'country', 'n
 
 
 questura_columns = ['registration_number','name','established_date','country','number_of_employees','purpose',
-'phone_number','email','bank_name','questura_country','bankruptcy','inscred','fraudis','investigation','accused','condamned','civ_pass']
+'phone_number','email','questura_country','bankruptcy','inscred','fraudis','investigation','accused','condamned','civ_pass']
 
 
 

@@ -10,7 +10,7 @@ from docx import Document
 # import mdtex2html
 
 
-columns = ['registration_number', 'name', 'established_date', 'country', 'number_of_employees', 'purpose',
+bank_columns = ['registration_number', 'name', 'established_date', 'country', 'number_of_employees', 'purpose',
            'phone_number', 'email',
            'bank_name', 'bank_country', 'open_new_credit_in_6_months', 'amount_in_6_months', 'new_credit_in_12_months',
            'new_credit_in_18_months',
@@ -68,12 +68,12 @@ def read_docx_tables(filename, tab_id=None, **kwargs):
 def excel_to_dict(filepath: str) -> dict:
     """The function returns a dictionary from a filepath. The dictionary will have the filename as key and the values
     as another dictionary"""
-    global columns
+    # global columns
     # Read a text file to a dataframe using read_table function
 
     data = pd.read_excel(filepath)
     data = pd.DataFrame(data)
-    columns = data.columns
+    # columns = data.columns
     name = str(filepath).split('/')[-1]
     return {name: data.to_dict(orient='index')}
     # temp = data.to_json('./jsons/' + name + '.json', indent=4, orient='index')
@@ -92,10 +92,19 @@ def html_to_dict(filepath: str) -> dict:
 def docx_to_dict(filepath: str) -> dict:
     """The function returns a dictionary from a filepath. The dictionary will have the filename as key and the values
         as another dictionary"""
-    global columns
+    global bank_columns
+    global questura_columns
+    global broker_columns
     name = filepath.split('/')[0]
     df = read_docx_tables(filepath)
     df = pd.DataFrame(df)
+    if 'bank' in name:
+        columns = bank_columns
+    elif 'broker' in name:
+        columns = broker_columns
+    else:
+        columns = questura_columns
+    
     df = pd.DataFrame(df.values,
                       columns=columns)  # NB: don't modify
     return {name: df.to_dict(orient='index')}

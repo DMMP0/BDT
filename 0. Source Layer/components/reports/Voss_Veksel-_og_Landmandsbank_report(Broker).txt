@@ -1,0 +1,10 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+6f3bfa68-3fbe-484d-8c51-80c5659025d6	Willis Group Ltd.	10/3/1982	United Kingdom	17	marketing	213-029-9893	hr@willisgroupltd.org	Norway	experian	370061783682762	False	$54,899,689,543.00	Norway
+b04575ab-57a6-4892-a506-18c3a3833bfe	Fomento Economico Mexicano S.A. de C.V.	7/8/1977	Mexico	29	marketing	304-380-1927	enquiries@fomentoeconomicomexicanosadecv.org	Norway	experian	340879962998643	True	$7,540,661,041.00	Norway
+85a596b8-e7a4-45ee-ac04-38dd58a04154	Trivalence Mining Corp.	4/24/1963	Canada	25	marketing	436-123-3850	hr@trivalenceminingcorp.org	Norway	experian	349390500323147	True	$59,674,304,607.00	Norway
+50bff4d2-eb09-4932-8cae-a1bf24bca8fb	Citadel Gold Mines Inc.	5/20/1963	Canada	32	marketing	916-317-9829	marketing@citadelgoldminesinc.org	Norway	Banca d italia	376052475000235	False	$66,461,640,893.00	Norway
+02895057-1d61-4576-a475-9e9ad28024d4	ID Biomedical Corp.	10/9/1996	Canada	19	marketing	118-870-8437	marketing@idbiomedicalcorp.org	Norway	experian	345995524373300	True	$3,062,568,336.00	Norway
+de1ab2b9-0ec0-48ac-8b3d-c3f8fbb7c76a	Intertape Polymer Group Inc.	1/22/1981	Canada	35	marketing	704-390-1802	reach@intertapepolymergroupinc.org	Norway	CTC	342386673355335	False	$66,530,664,435.00	Norway
+bf36cc88-14e9-4795-a5d0-7d939ec42333	Premier International Foods plc	6/13/1979	United Kingdom	12	marketing	509-222-0158	info@premierinternationalfoodsplc.org	Norway	CRIF	341672060271321	False	$48,005,352,229.00	Norway
+8235535e-0873-43ef-91ca-879383cf8377	Mirtronics Inc.	5/2/1962	Canada	29	marketing	556-124-9965	info@mirtronicsinc.org	Norway	Banca d italia	348197800515681	True	$34,355,328,529.00	Norway
+28ce529c-14c6-4c54-bf63-4f5fae569fa3	Elan Corp plc	2/2/1991	Ireland	30	marketing	864-511-0083	contact@elancorpplc.org	Norway	experian	376529679376719	False	$67,841,881,860.00	Norway

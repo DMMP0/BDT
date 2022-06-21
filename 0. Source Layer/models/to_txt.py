@@ -107,8 +107,8 @@ class RTF:
 	def police_rtf(self):
 		questura_data = pd.DataFrame(self.data)
 		banksName = self.bank['names']
-		questura_data['bank_name'] = self.bank['names']
-		questura_data['bank_country'] = self.bank['country']
+		# questura_data['bank_name'] = self.bank['names']
+		# questura_data['bank_country'] = self.bank['country']
 		# print(banksName)
 		banksName =banksName.replace(' ','_')
 		banksName = banksName.replace('/','_')

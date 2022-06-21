@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+b04575ab-57a6-4892-a506-18c3a3833bfe	Fomento Economico Mexicano S.A. de C.V.	7/8/1977	Mexico	29	marketing	304-380-1927	enquiries@fomentoeconomicomexicanosadecv.org	United Kingdom	Banca d italia	373709720656425	True	$29,229,461,187.00	United Kingdom
+27ce7b74-7d6a-4d13-b91e-814f61dd179d	ABB Ltd.	8/20/1984	Switzerland	39	marketing	688-160-3651	marketing@abbltd.org	United Kingdom	CTC	374143883360857	False	$46,054,964,749.00	United Kingdom

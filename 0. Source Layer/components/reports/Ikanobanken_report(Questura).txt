@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	bank_name	bank_country	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+6a05f98f-100f-42d9-86b7-a0d589eccbb5	Verena Minerals Corp.	10/10/1981	Canada	46	marketing	266-884-5949	sales@verenamineralscorp.org	Ikanobanken	Sweden	Sweden	False	$27,609,453,310.00	False	True	False	True	False
+8235535e-0873-43ef-91ca-879383cf8377	Mirtronics Inc.	5/2/1962	Canada	29	marketing	556-124-9965	info@mirtronicsinc.org	Ikanobanken	Sweden	Sweden	False	$36,104,597,719.00	True	False	True	True	True

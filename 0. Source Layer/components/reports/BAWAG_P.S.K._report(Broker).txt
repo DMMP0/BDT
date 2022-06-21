@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+3bb57501-4ef9-479f-9e3d-2dac7c920e39	Etruscan Resources Inc.	6/19/1992	Canada	29	marketing	160-009-9526	hr@etruscanresourcesinc.org	Austria	CTC	343214608202662	False	$53,019,330,515.00	Austria
+09fbac4b-8673-42d7-9f32-344c87c6a5f4	G. Willi-Food International Ltd.	6/24/1986	Israel	11	marketing	220-394-7342	headquarters@gwillifoodinternationalltd.org	Austria	CTC	343697401394118	True	$99,572,243,192.00	Austria

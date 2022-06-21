@@ -1,4 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	bank_name	bank_country	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-28ce529c-14c6-4c54-bf63-4f5fae569fa3	Elan Corp plc	2/2/1991	Ireland	30	office	864-511-0083	contact@elancorpplc.org	Tjörns Sparbank	Sweden	Sweden	True	$70,199,911,962.00	False	True	True	False	False
-0815f288-380b-4b4e-b263-1f75dd69b72b	AXA	8/26/1989	France	17	office	409-122-5419	reach@axa.org	Tjörns Sparbank	Sweden	Sweden	True	$29,375,257,541.00	False	True	True	False	True
-536e0301-7918-475d-8eba-864c98511f72	Ekabel Hessen GmbH	3/15/1964	Germany	48	office	486-741-7082	info@ekabelhessengmbh.org	Tjörns Sparbank	Sweden	Sweden	True	$86,899,918,693.00	False	True	False	True	False

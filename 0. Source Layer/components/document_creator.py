@@ -167,7 +167,7 @@ def create_Excel(rnd):
 
 ####################### Main
 update_header_of_data()
-for i in range(0, 6):
+for i in range(0,4):
     data = business_data.iloc[0:threshold]
     data['purpose'] = purpose[(randint(0,7))]
     rnd = randint(10, threshold)
@@ -180,6 +180,6 @@ for i in range(0, 6):
         create_Word(rnd)
     if i == 2:
         create_HTML(rnd)
-    if i == 4:
+    if i == 3:
         create_Excel(rnd)
 

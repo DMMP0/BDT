@@ -137,7 +137,7 @@ class HTML:
 	def police_html(self):
 			questura_data = pd.DataFrame(self.data)
 			banksName = self.bank['names']
-			questura_data['bank_name'] = self.bank['names']
+			# questura_data['bank_name'] = self.bank['names']
 			banksName =banksName.replace(' ','_')
 			banksName = banksName.replace('/','_')
 			questura_data =  self.create_questura_data(questura_data)

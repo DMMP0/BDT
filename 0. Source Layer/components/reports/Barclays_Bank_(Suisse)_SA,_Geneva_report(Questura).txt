@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	bank_name	bank_country	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-51b52ac3-f0a4-4906-82b3-9ca00c50db0d	HSBC Bank plc	12/3/1976	United Kingdom	19	office	560-530-8771	headquarters@hsbcbankplc.org	Barclays Bank (Suisse) SA, Geneva	Switzerland	Switzerland	True	$37,450,356,236.00	True	True	True	False	False
-d8888f05-57a7-41b8-8349-316e03e7c211	IMP Industrial Mineral Park Mining Corp.	8/21/1992	Canada	45	office	882-576-3134	marketing@impindustrialmineralparkminingcorp.org	Barclays Bank (Suisse) SA, Geneva	Switzerland	Switzerland	False	$38,773,134,934.00	True	False	True	False	False

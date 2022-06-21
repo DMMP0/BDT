@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	bank_name	bank_country	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+4e0632de-851b-483b-b9e9-c5cd433603fa	Dynamic Oil & Gas Ltd.	11/24/1983	Canada	19	marketing	263-751-3055	marketing@dynamicoilgasltd.org	Banque et Caisse d'Épargne de l'État	Luxemburg	Luxemburg	True	$22,523,855,995.00	True	True	False	False	True
+09fbac4b-8673-42d7-9f32-344c87c6a5f4	G. Willi-Food International Ltd.	6/24/1986	Israel	11	marketing	220-394-7342	headquarters@gwillifoodinternationalltd.org	Banque et Caisse d'Épargne de l'État	Luxemburg	Luxemburg	True	$79,746,299,034.00	False	False	False	False	True

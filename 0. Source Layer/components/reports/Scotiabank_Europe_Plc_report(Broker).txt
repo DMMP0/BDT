@@ -1,6 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-0e83a8d8-b870-4565-b4c5-bdae05f42730	Tele Celular Sul Participacoes S.A.	12/7/1961	Brazil	48	office	667-875-8361	sales@telecelularsulparticipacoessa.org	United Kingdom	CTC	371583927646485	True	$55,296,575,509.00	United Kingdom
-2b917a9f-8086-4365-b880-9652ee8773c6	Net Sat Servicos Ltda.	2/28/1967	Brazil	13	office	277-786-9269	headquarters@netsatservicosltda.org	United Kingdom	Banca d italia	349357554336077	True	$48,199,828,373.00	United Kingdom
-b9c50519-ea28-43fa-bf9d-70ccaf5d895e	Guangshen Railway Co. Ltd.	3/19/1989	China	11	office	798-857-5135	headquarters@guangshenrailwaycoltd.org	United Kingdom	CRIF	342124230075348	True	$29,391,345,433.00	United Kingdom
-b2219b0e-a525-4f22-b9ff-f780c01b6d00	Rhodia	6/21/1975	France	7	office	583-692-6929	contact@rhodia.org	United Kingdom	CTC	371555720711666	True	$19,810,010,387.00	United Kingdom
-de1ab2b9-0ec0-48ac-8b3d-c3f8fbb7c76a	Intertape Polymer Group Inc.	1/22/1981	Canada	35	office	704-390-1802	reach@intertapepolymergroupinc.org	United Kingdom	Banca d italia	371972673782935	False	$95,191,318,077.00	United Kingdom

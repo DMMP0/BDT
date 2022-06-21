@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+5ad5f65a-4601-42c0-a736-c23f95881abe	China Mobile (Hong Kong) Ltd.	10/2/1984	Hong Kong	25	marketing	836-090-8645	contact@chinamobilehongkongltd.org	Denmark	CTC	379042072568632	True	$12,768,095,246.00	Denmark
+ba23f684-e6e1-4a63-a455-56599b6d4ca6	Tele Nordeste Celular Participacoes S.A.	11/27/1976	Brazil	26	marketing	184-056-2664	headquarters@telenordestecelularparticipacoessa.org	Denmark	CTC	372657416343686	True	$94,021,325,583.00	Denmark

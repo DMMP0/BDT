@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+4e0632de-851b-483b-b9e9-c5cd433603fa	Dynamic Oil & Gas Ltd.	11/24/1983	Canada	19	marketing	263-751-3055	marketing@dynamicoilgasltd.org	Luxemburg	CTC	379968281443219	True	$94,894,160,831.00	Luxemburg
+09fbac4b-8673-42d7-9f32-344c87c6a5f4	G. Willi-Food International Ltd.	6/24/1986	Israel	11	marketing	220-394-7342	headquarters@gwillifoodinternationalltd.org	Luxemburg	experian	348716592831558	False	$39,717,554,681.00	Luxemburg

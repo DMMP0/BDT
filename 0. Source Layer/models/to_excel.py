@@ -7,74 +7,175 @@ import ccard
 
 from docx.shared import Pt, Mm
 
-val  = 30000.00
-purpose = ['prototype', 'marketing', 'validation', 'scale-up', 'industrial equipment', 'office', 'employee', 'other investment']
-def bank_data(data,bank)->any:
-        # print(bank['names'])
-        print(bank[0])
-        
-        # bank = pd.DataFrame(bank)
-        # bank = pd.DataFrame(data = bank.values , columns=bank.columns)
-        # bank = list(bank)
-        # print(bank)
-        banksName = str(bank[0])
-        banksName =banksName.replace(' ','_')
-        banksName = banksName.replace('/','_')
-        data = pd.DataFrame(data)
-        data['bank_name'] = bank[0]
-        data['bank_country'] = bank[1]
-        data['open_new_credit_in_6_months'] = 1
-        data['ammount_in_6_months'] = 0.00
-        data['new_credit_in_12_months'] = 0.00
-        data['new_credit_in_18_months'] = 0.00
-        data['ammount_in_12_months'] = 0.00
-        data['ammount_in_18_months'] = 0.00
-        data['house_mortage'] = 1
-        data['amount_of_house_mortage'] = 0.00
-        data['amount_duee_mortage'] = 0.00
-        data['house_property'] = 00
-        data['total_house_amount'] =0.00
-        data['credit_card_number'] = 0
-        data['actual_debit_credit_cards'] =0.00
-        data['monthly_income'] = 0.00
-        data['savings'] = 0.00
-        data['other_savings']= 0.00
-        return data
-
+val  = 300.00
 
 class Excel:
 
-    def __init__(self,data, bank):
-        self.data = data
-        self.bank = bank
-    
+	def __init__(self):
+			self.data = []
+			self.bank = []
 
-    def to_excel(data,bank):
-        formatted_float = "${:,.2f}".format(1500.2)
-        data =  bank_data(data,bank)
-        banksName = str(bank[0])
-        banksName =banksName.replace(' ','_')
-        banksName = banksName.replace('/','_')
-        data = pd.DataFrame(data)
-        # print(banksName)
-        for index,item in data.iterrows():
-            data.loc[index,'purpose'] = purpose[(randint(0,7))] 
-            data.loc[index,'open_new_credit_in_6_months'] = random.randint(0,10)
-            data.loc[index,'ammount_in_6_months'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
-            data.loc[index,'new_credit_in_12_months'] = random.randint(0,10)
-            data.loc[index,'new_credit_in_18_months'] = random.randint(0,10)
-            data.loc[index,'ammount_in_12_months'] ="${:,.2f}".format(val + random.randint(5000,100000000000))
-            data.loc[index,'ammount_in_18_months'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
-            data.loc[index,'house_mortage'] = random.randint(1,10)
-            data.loc[index,'amount_of_house_mortage'] ="${:,.2f}".format(val + random.randint(5000,100000000000))
-            data.loc[index,'amount_duee_mortage'] =  val  + random.randint(5000,100000000000)
-            data.loc[index,'house_property'] = random.randint(0,10)
-            data.loc[index,'total_house_amount'] ="${:,.2f}".format(val + random.randint(5000,100000000000))
-            data.loc[index,'credit_card_number'] = str(ccard.visa())
-            data.loc[index,'actual_debit_credit_cards'] = random.randint(2,10)
-            data.loc[index,'monthly_income'] ="${:,.2f}".format(val + random.randint(5000,100000000000))
-            data.loc[index,'savings'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
-            data.loc[index,'other_savings']= "${:,.2f}".format(val + random.randint(5000,100000000000))
-            # data.loc[index] = item
-            print(data)
-        data.to_excel('./reports/'+banksName+'(Bank).xlsx')
+	def clean(self):
+		self.data = []
+		self.bank = []
+
+	def set_data(self, data):
+		self.data = data
+
+	def set_bank(self, bank):
+		self.bank = bank
+
+	def create_bank_data(self,bdata):
+			# print(bank['names'])
+			
+			# print(self.bank[0])
+			bank_data = bdata
+			# bank = pd.DataFrame(bank)
+			# bank = pd.DataFrame(data = bank.values , columns=bank.columns)
+			# bank = list(bank)
+			# print(bank)
+			banksName = str(self.bank[0])
+			banksName =banksName.replace(' ','_')
+			banksName = banksName.replace('/','_')
+			bank_data = pd.DataFrame(bank_data)
+			bank_data['bank_name'] = self.bank[0]
+			bank_data['bank_country'] = self.bank[1]
+			bank_data['open_new_credit_in_6_months'] = 0
+			bank_data['ammount_in_6_months'] = 0.00
+			bank_data['new_credit_in_12_months'] = 0.00
+			bank_data['new_credit_in_18_months'] = 0.00
+			bank_data['ammount_in_12_months'] = 0.00
+			bank_data['ammount_in_18_months'] = 0.00
+			bank_data['house_mortage'] = 1
+			bank_data['amount_of_house_mortage'] = 0.00
+			bank_data['amount_duee_mortage'] = 0.00
+			bank_data['house_property'] = 00
+			bank_data['total_house_amount'] =0.00
+			bank_data['credit_card_number'] = 0
+			bank_data['actual_debit_credit_cards'] =0.00
+			bank_data['monthly_income'] = 0.00
+			bank_data['savings'] = 0.00
+			bank_data['other_savings']= 0.00
+
+
+			return bank_data
+
+	def create_questura_data(self, questuradata)->any:
+			questura_data = questuradata
+			# print(bank['names'])
+			# print(self.bank[0])
+			
+			# bank = pd.DataFrame(bank)
+			# bank = pd.DataFrame(data = bank.values , columns=bank.columns)
+			# bank = list(bank)
+			# print(bank)
+			banksName = str(self.bank[0])
+			banksName =banksName.replace(' ','_')
+			banksName = banksName.replace('/','_')
+			questura_data = pd.DataFrame(questura_data)
+			questura_data['questura_country'] = self.bank[1]
+			questura_data['bankruptcy'] = bool
+			questura_data['inscred'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
+			questura_data['fraudis'] = bool
+			questura_data['investegation'] = bool
+			questura_data['accused'] = bool
+			questura_data['condamned'] = bool
+			questura_data['civ_pass'] = bool
+		
+			return questura_data
+	   
+	def create_risk_broker_data(self, broker_data)->any:
+			broker_data = broker_data
+			banksName = str(self.bank[0])
+			banksName =banksName.replace(' ','_')
+			banksName = banksName.replace('/','_')
+			broker_data = pd.DataFrame(broker_data)
+			broker_data['agencey_country'] = self.bank[1]
+			broker_data['agency_name'] = ''
+			broker_data['debit_id'] =''
+			broker_data['installment'] = bool
+			broker_data['installment_ammount'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
+		
+			return broker_data
+	
+	def bank_excel(self):
+		bank_data = pd.DataFrame(self.data)
+		banksName = self.bank['names']
+		bank_data['bank_name'] = self.bank['names']
+		bank_data['bank_country'] = self.bank['country']
+		banksName =banksName.replace(' ','_')
+		banksName = banksName.replace('/','_')
+		bank_data =  self.create_bank_data(bank_data)
+		banksName = str(self.bank[0])
+		banksName =banksName.replace(' ','_')
+		banksName = banksName.replace('/','_')
+		bank_data = pd.DataFrame(bank_data)
+		for index,item in bank_data.iterrows():	
+			bank_data.loc[index,'open_new_credit_in_6_months'] = random.randint(0,10)
+			bank_data.loc[index,'ammount_in_6_months'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
+			bank_data.loc[index,'new_credit_in_12_months'] = random.randint(0,10)
+			bank_data.loc[index,'new_credit_in_18_months'] = random.randint(0,10)
+			bank_data.loc[index,'ammount_in_12_months'] ="${:,.2f}".format(val + random.randint(5000,100000000000))
+			bank_data.loc[index,'ammount_in_18_months'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
+			bank_data.loc[index,'house_mortage'] = random.randint(1,10)
+			bank_data.loc[index,'amount_of_house_mortage'] ="${:,.2f}".format(val + random.randint(5000,100000000000))
+			bank_data.loc[index,'amount_duee_mortage'] =  val  + random.randint(5000,100000000000)
+			bank_data.loc[index,'house_property'] = random.randint(0,10)
+			bank_data.loc[index,'total_house_amount'] ="${:,.2f}".format(val + random.randint(5000,100000000000))
+			bank_data.loc[index,'credit_card_number'] = str(ccard.visa())
+			bank_data.loc[index,'actual_debit_credit_cards'] = random.randint(2,10)
+			bank_data.loc[index,'monthly_income'] ="${:,.2f}".format(val + random.randint(5000,100000000000))
+			bank_data.loc[index,'savings'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
+			bank_data.loc[index,'other_savings']= "${:,.2f}".format(val + random.randint(5000,100000000000))
+		bank_data.to_excel('./reports/'+banksName+'(Bank).xlsx')
+
+	def police_excel(self):
+			questura_data = pd.DataFrame(self.data)
+			banksName = self.bank['names']
+			questura_data['bank_name'] = self.bank['names']
+			questura_data['bank_country'] = self.bank['country']
+			# print(banksName)
+			banksName =banksName.replace(' ','_')
+			banksName = banksName.replace('/','_')
+			bank = self.bank
+			questura_data =  self.create_questura_data(questura_data)
+			banksName = str(self.bank[0])
+			banksName =banksName.replace(' ','_')
+			banksName = banksName.replace('/','_')
+			questura_data = pd.DataFrame(questura_data)
+			# print(banksName)
+			for index,item in questura_data.iterrows():
+					questura_data = pd.DataFrame(questura_data)
+					questura_data.loc[index,'questura_country'] = self.bank[1]
+					questura_data.loc[index,'bankruptcy'] = random.choice([True, False])
+					questura_data.loc[index,'inscred'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
+					questura_data.loc[index,'fraudis'] = random.choice([True, False])
+					questura_data.loc[index,'investegation'] = random.choice([True, False])
+					questura_data.loc[index,'accused'] = random.choice([True, False])
+					questura_data.loc[index,'condamned'] = random.choice([True, False])
+					questura_data.loc[index,'civ_pass'] = random.choice([True, False])
+			questura_data.to_excel('./reports/'+banksName+'(Questura).xlsx')
+
+
+
+	agencey_names = ['CRIF','CTC','Banca d italia','experian']
+	def broker_excel(self):
+			broker_data = pd.DataFrame(self.data)
+			banksName = self.bank['names']
+			banksName =banksName.replace(' ','_')
+			banksName = banksName.replace('/','_')
+			broker_data =  self.create_risk_broker_data(broker_data)
+			banksName = self.bank[0]
+			banksName =banksName.replace(' ','_')
+			banksName = banksName.replace('/','_')
+			broker_data = pd.DataFrame(broker_data)
+			# print(banksName)
+			for index,item in broker_data.iterrows():
+					broker_data = pd.DataFrame(broker_data)
+					broker_data.loc[index,'agency_country'] = self.bank[1]
+					broker_data.loc[index,'agency_name'] = self.agencey_names[(randint(0,3))] 
+					broker_data.loc[index,'debit_id'] =str(ccard.americanexpress())
+					broker_data.loc[index,'installment'] =  random.choice([True, False])
+					broker_data.loc[index,'installment_ammount'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
+	
+			broker_data.to_excel('./reports/'+banksName+'(Broker).xlsx')

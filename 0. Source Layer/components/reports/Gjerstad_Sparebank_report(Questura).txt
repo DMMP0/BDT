@@ -1,0 +1,4 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	bank_name	bank_country	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+85a596b8-e7a4-45ee-ac04-38dd58a04154	Trivalence Mining Corp.	4/24/1963	Canada	25	office	436-123-3850	hr@trivalenceminingcorp.org	Gjerstad Sparebank	Norway	Norway	True	$59,157,757,932.00	False	True	True	True	True
+f4e7c23c-039c-4b38-96a4-35e70f3c9935	National Grid Group plc	3/24/1978	United Kingdom	42	office	765-804-8387	contact@nationalgridgroupplc.org	Gjerstad Sparebank	Norway	Norway	False	$58,007,141,898.00	False	True	False	False	False
+94eb8f85-e0a9-4190-a226-03c9e2d2ea4d	Cryptologic Inc.	12/13/1995	Canada	22	office	687-175-0790	sales@cryptologicinc.org	Gjerstad Sparebank	Norway	Norway	True	$45,459,761,769.00	True	False	False	True	False

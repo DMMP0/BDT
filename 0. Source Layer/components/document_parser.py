@@ -10,6 +10,23 @@ from docx import Document
 # import mdtex2html
 
 
+columns = ['registration_number', 'name', 'established_date', 'country', 'number_of_employees', 'purpose',
+           'phone_number', 'email',
+           'bank_name', 'bank_country', 'open_new_credit_in_6_months', 'amount_in_6_months', 'new_credit_in_12_months',
+           'new_credit_in_18_months',
+           'amount_in_12_months', 'amount_in_18_months', 'house_mortgage', 'amount_of_house_mortgage',
+           'amount_due_mortgage', 'house_property',
+           'total_house_amount', 'credit_card_number', 'actual_debit_credit_cards', 'monthly_income', 'savings',
+           'other_savings']
+
+questura_columns = ['registeration_number','name','establied_date','country','number_of_employes','purpose',
+'phone_number','email','bank_name','questura_country''bankruptcy','inscred','fraudis','investegation','accused','condamned','civ_pass']
+
+
+
+broker_columns = ['registration_number', 'name', 'established_date', 'country', 'number_of_employees', 'purpose',
+           'phone_number', 'email','agencey_country','agency_name','debit_id','installment','installment_ammount','agency_country']
+
 def read_docx_tables(filename, tab_id=None, **kwargs):
     """
     parse table(s) from a Word Document (.docx) into Pandas DataFrame(s)
@@ -47,17 +64,6 @@ def read_docx_tables(filename, tab_id=None, **kwargs):
 
 
 # print(len(excel))
-
-columns = ['registration_number', 'name', 'established_date', 'country', 'number_of_employees', 'purpose',
-           'phone_number', 'email',
-           'bank_name', 'bank_country', 'open_new_credit_in_6_months', 'amount_in_6_months', 'new_credit_in_12_months',
-           'new_credit_in_18_months',
-           'amount_in_12_months', 'amount_in_18_months', 'house_mortgage', 'amount_of_house_mortgage',
-           'amount_due_mortgage', 'house_property',
-           'total_house_amount', 'credit_card_number', 'actual_debit_credit_cards', 'monthly_income', 'savings',
-           'other_savings']
-
-
 # read excel
 def excel_to_dict(filepath: str) -> dict:
     """The function returns a dictionary from a filepath. The dictionary will have the filename as key and the values

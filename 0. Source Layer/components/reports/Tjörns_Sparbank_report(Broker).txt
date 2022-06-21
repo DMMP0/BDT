@@ -1,0 +1,4 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+28ce529c-14c6-4c54-bf63-4f5fae569fa3	Elan Corp plc	2/2/1991	Ireland	30	office	864-511-0083	contact@elancorpplc.org	Sweden	CTC	349016835673928	True	$22,936,971,101.00	Sweden
+0815f288-380b-4b4e-b263-1f75dd69b72b	AXA	8/26/1989	France	17	office	409-122-5419	reach@axa.org	Sweden	CRIF	378102641932155	False	$44,694,879,494.00	Sweden
+536e0301-7918-475d-8eba-864c98511f72	Ekabel Hessen GmbH	3/15/1964	Germany	48	office	486-741-7082	info@ekabelhessengmbh.org	Sweden	Banca d italia	374558742630440	True	$89,356,203,830.00	Sweden

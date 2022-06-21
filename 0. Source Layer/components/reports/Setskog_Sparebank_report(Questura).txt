@@ -1,0 +1,7 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+e6bc06b2-26b0-4fda-b718-e3ad7c81055a	VI Group plc	5/24/1988	United Kingdom	31	employee	495-055-3444	headquarters@vigroupplc.org	Norway	True	$7,559,810,903.00	False	False	True	True	True
+51b52ac3-f0a4-4906-82b3-9ca00c50db0d	HSBC Bank plc	12/3/1976	United Kingdom	19	employee	560-530-8771	headquarters@hsbcbankplc.org	Norway	False	$27,306,150,785.00	True	True	True	True	False
+940197ff-21a7-4911-85ba-123f71ab5779	CP Ships Ltd.	4/13/1987	Canada	7	employee	512-887-1880	headquarters@cpshipsltd.org	Norway	False	$71,392,816,335.00	False	True	False	False	True
+b04575ab-57a6-4892-a506-18c3a3833bfe	Fomento Economico Mexicano S.A. de C.V.	7/8/1977	Mexico	29	employee	304-380-1927	enquiries@fomentoeconomicomexicanosadecv.org	Norway	False	$10,618,615,282.00	True	True	True	False	True
+46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	employee	940-622-1937	info@professionalstaffplc.org	Norway	False	$61,813,168,348.00	False	False	True	False	False
+94eb8f85-e0a9-4190-a226-03c9e2d2ea4d	Cryptologic Inc.	12/13/1995	Canada	22	employee	687-175-0790	sales@cryptologicinc.org	Norway	False	$12,929,434,918.00	False	True	True	True	True

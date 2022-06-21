@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	bank_name	bank_country	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-5ad5f65a-4601-42c0-a736-c23f95881abe	China Mobile (Hong Kong) Ltd.	10/2/1984	Hong Kong	25	marketing	836-090-8645	contact@chinamobilehongkongltd.org	Sparekassen Vendsyssel	Denmark	Denmark	False	$66,176,975,026.00	False	False	True	True	False
-ba23f684-e6e1-4a63-a455-56599b6d4ca6	Tele Nordeste Celular Participacoes S.A.	11/27/1976	Brazil	26	marketing	184-056-2664	headquarters@telenordestecelularparticipacoessa.org	Sparekassen Vendsyssel	Denmark	Denmark	False	$68,607,564,192.00	True	True	False	False	False

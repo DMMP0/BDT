@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+a0321761-63aa-490c-b7d5-a3e30f4d6eae	P.T. Pasifik Satelit Nusantara Tbk	5/5/1963	Indonesia	29	employee	629-141-2587	enquiries@ptpasifiksatelitnusantaratbk.org	Cyprus	CTC	347909136394115	False	$15,536,722,526.00	Cyprus
+33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	employee	533-768-9918	contact@chainatacorp.org	Cyprus	Banca d italia	371902358650883	False	$16,642,208,599.00	Cyprus

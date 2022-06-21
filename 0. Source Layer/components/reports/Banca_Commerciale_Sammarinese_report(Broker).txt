@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+ba23f684-e6e1-4a63-a455-56599b6d4ca6	Tele Nordeste Celular Participacoes S.A.	11/27/1976	Brazil	26	employee	184-056-2664	headquarters@telenordestecelularparticipacoessa.org	San Marino	experian	340862412946818	True	$16,577,171,590.00	San Marino
+de1ab2b9-0ec0-48ac-8b3d-c3f8fbb7c76a	Intertape Polymer Group Inc.	1/22/1981	Canada	35	employee	704-390-1802	reach@intertapepolymergroupinc.org	San Marino	CTC	379990277396136	True	$67,653,986,197.00	San Marino

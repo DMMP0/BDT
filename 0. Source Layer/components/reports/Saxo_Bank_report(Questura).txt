@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+a0321761-63aa-490c-b7d5-a3e30f4d6eae	P.T. Pasifik Satelit Nusantara Tbk	5/5/1963	Indonesia	29	employee	629-141-2587	enquiries@ptpasifiksatelitnusantaratbk.org	Cyprus	True	$51,327,041,164.00	True	False	True	True	True
+33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	employee	533-768-9918	contact@chainatacorp.org	Cyprus	False	$5,226,788,686.00	False	True	False	False	True

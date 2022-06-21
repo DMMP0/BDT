@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-ba350f5c-b544-49e5-8f65-a62e26da6aab	Novartis AG	6/3/1967	Switzerland	49	marketing	646-673-0302	hr@novartisag.org	Bulgaria	Banca d italia	379607377192567	True	$99,013,811,683.00	Bulgaria
-37d3b4aa-25ae-4cd9-97e5-476c1a5234e1	Olicom A/S	11/23/1982	Denmark	11	marketing	467-797-5753	reach@olicomas.org	Bulgaria	Banca d italia	370518042379829	False	$96,394,254,410.00	Bulgaria

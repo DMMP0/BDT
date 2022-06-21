@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	employee	940-622-1937	info@professionalstaffplc.org	Portugal	Banca d italia	373055322683783	False	$33,428,943,081.00	Portugal
+0a5d71b5-81ac-4495-9f16-17da04d9b615	Eurotel Bratislava, A.S.	11/6/1984	Slovak Republic	44	employee	597-184-4016	marketing@eurotelbratislavaas.org	Portugal	CTC	372006680035646	True	$19,919,269,347.00	Portugal

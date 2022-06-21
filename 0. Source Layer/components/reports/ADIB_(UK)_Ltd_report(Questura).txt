@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+27ce7b74-7d6a-4d13-b91e-814f61dd179d	ABB Ltd.	8/20/1984	Switzerland	39	employee	688-160-3651	marketing@abbltd.org	United Kingdom	False	$69,490,626,948.00	False	True	False	False	True
+b9c50519-ea28-43fa-bf9d-70ccaf5d895e	Guangshen Railway Co. Ltd.	3/19/1989	China	11	employee	798-857-5135	headquarters@guangshenrailwaycoltd.org	United Kingdom	True	$90,970,863,422.00	True	False	True	True	False

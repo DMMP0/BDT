@@ -41,7 +41,7 @@ def send_files_to_redis(filepaths: list, format: str):
 
         key = list(d.keys())[0]
         # send to redis
-        r.set(name=key, value=json.dumps(d[key]))
+        r.set(name=key, value=json.dumps(d[key])[:-1]+",\"1\":\""+format+"\"}")
 
 
 t1 = threading.Thread(target=send_files_to_redis,

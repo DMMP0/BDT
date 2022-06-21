@@ -95,16 +95,17 @@ def docx_to_dict(filepath: str) -> dict:
     global bank_columns
     global questura_columns
     global broker_columns
-    name = filepath.split('/')[0]
+    name = filepath.split('/')[-1]
     df = read_docx_tables(filepath)
     df = pd.DataFrame(df)
-    if 'bank' in name:
-        columns = bank_columns
-    elif 'broker' in name:
+
+    if 'Questura' in name:
+        columns = questura_columns
+    elif 'Broker' in name:
         columns = broker_columns
     else:
-        columns = questura_columns
-    
+        columns = bank_columns
+
     df = pd.DataFrame(df.values,
                       columns=columns)  # NB: don't modify
     return {name: df.to_dict(orient='index')}
@@ -115,7 +116,7 @@ def txt_to_dict(filepath: str) -> dict:
     """The function returns a dictionary from a filepath. The dictionary will have the filename as key and the values
            as another dictionary"""
     # Read a text file to a dataframe using read_table function
-    name = str(filepath).split('/')[0]
+    name = str(filepath).split('/')[-1]
     data = pd.read_csv(filepath, sep='\t')
     data = pd.DataFrame(data)
     return {name: data.to_dict(orient='index')}

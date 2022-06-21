@@ -4,8 +4,8 @@ import redis
 
 def get_dicts_from_redis():
     """This function returns a list of tuples. The first element of the tuple will be the topic, the second will be the
-     dictionary with all the values.
-     @:returns list of tuples."""
+     dictionary with all the values. The tuple also has a third element, which is the redis key corresponding to the record piece.
+     @:returns a tuple of lists. the first element is a list of tuples, the second a list of keys"""
     r = redis.StrictRedis(host='localhost')
     keys = r.keys('*')  # get all keys available at the moment
     values = list()
@@ -20,7 +20,7 @@ def get_dicts_from_redis():
             topic = "questura"
 
         redis_value = json.loads(redis_value)  # should be a list of dicts
-        for key, el in redis_value.items():
-            values.append((topic, el))
-    return values
+        for k, el in redis_value.items():
+            values.append((topic, el, key))
+    return values, keys
 

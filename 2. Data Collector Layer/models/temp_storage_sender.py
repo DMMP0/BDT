@@ -36,3 +36,5 @@ class TempStorageSender:
     def send_message(self, message, topic, name='report'):
         blob = self.bucket.blob(self.create_name(message=message, topic=topic,name=name))
         blob.upload_from_string(data=message)
+
+

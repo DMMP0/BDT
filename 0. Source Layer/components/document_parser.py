@@ -6,6 +6,7 @@ import io
 import csv
 from docx import Document
 
+
 # import mdtex2html
 
 
@@ -45,13 +46,16 @@ def read_docx_tables(filename, tab_id=None, **kwargs):
             raise
 
 
-
 # print(len(excel))
 
-columns = ['registeration_number','name','establied_date','country','number_of_employes','purpose','phone_number','email',
-	'bank_name','bank_country','open_new_credit_in_6_months','ammount_in_6_months','new_credit_in_12_months','new_credit_in_18_months',
-    'ammount_in_12_months','ammount_in_18_months','house_mortage','amount_of_house_mortage','amount_duee_mortage','house_property',
-	'total_house_amount','credit_card_number','actual_debit_credit_cards','monthly_income','savings','other_savings']
+columns = ['registration_number', 'name', 'established_date', 'country', 'number_of_employees', 'purpose',
+           'phone_number', 'email',
+           'bank_name', 'bank_country', 'open_new_credit_in_6_months', 'amount_in_6_months', 'new_credit_in_12_months',
+           'new_credit_in_18_months',
+           'amount_in_12_months', 'amount_in_18_months', 'house_mortgage', 'amount_of_house_mortgage',
+           'amount_due_mortgage', 'house_property',
+           'total_house_amount', 'credit_card_number', 'actual_debit_credit_cards', 'monthly_income', 'savings',
+           'other_savings']
 
 
 # read excel
@@ -99,5 +103,5 @@ def txt_to_dict(filepath: str) -> dict:
     name = str(filepath).split('/')[0]
     data = pd.read_csv(filepath, sep='\t')
     data = pd.DataFrame(data)
-    return {name:data.to_dict(orient='index')}
+    return {name: data.to_dict(orient='index')}
     # temp = data.to_json('./jsons/' + name + '.json', indent=4, orient='index')

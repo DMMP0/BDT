@@ -1,5 +1,5 @@
 ### Our data
-documents
+0. Source Layer/components/reports
 credentials
 
 ### VisualStudioCode template
@@ -190,7 +190,6 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
 env/
 venv/
 ENV/

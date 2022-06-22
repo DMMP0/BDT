@@ -1,17 +1,6 @@
-from tkinter.tix import COLUMN
-from unicodedata import name
-from xmlrpc.client import DateTime
-import pandas as pd
-import random
-from random import randint
-import uuid
-import numpy as np
-import datetime
-import docx
-import re
-import os
 
-from docx.shared import Pt, Mm
+import pandas as pd
+
 
 class Clipboard:
 
@@ -20,7 +9,7 @@ class Clipboard:
         self.bank = bank
 
 
-    def to_clipboard(data,bank):
+    def to_clipboard(self,data,bank):
         # print('here')
         data = pd.DataFrame(data)
         banksName = str(bank['names'])

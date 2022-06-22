@@ -1,22 +1,19 @@
-from abc import abstractclassmethod, abstractstaticmethod
+import os
+
 import pandas as pd
 import random
 from random import randint
-import numpy as np
+
 import ccard
-import docx
-
-from docx.shared import Pt, Mm
 
 
-
-
-val  = 30000.00
-purpose = ['prototype', 'marketing', 'validation', 'scale-up', 'industrial equipment', 'office', 'employee', 'other investment']
+source = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # finds the 0. Data Source directory
+val = 30000.00
+purpose = ['prototype', 'marketing', 'validation', 'scale-up', 'industrial equipment', 'office', 'employee',
+           'other investment']
 
 
 class RTF:
-
 	def __init__(self):
 			self.data = []
 			self.bank = []

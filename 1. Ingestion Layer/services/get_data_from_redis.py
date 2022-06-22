@@ -9,6 +9,8 @@ def get_dicts_from_redis():
     r = redis.StrictRedis(host='localhost')
     keys = r.keys('*')  # get all keys available at the moment
     values = list()
+    if not keys:
+        return False, False
     for key in keys:
         # we need to understand the topic
         redis_value = r.get(key).decode(encoding='utf-8')

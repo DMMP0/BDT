@@ -120,7 +120,7 @@ class HTML:
 				bank_data.loc[index,'new_credit_in_12_months'] = random.randint(0,3)
 				bank_data.loc[index,'new_credit_in_18_months'] = random.randint(0,3)
 				bank_data.loc[index,'ammount_in_12_months'] ="${:,.2f}".format(val + random.randint(2000,20000))
-				bank_data.loc[index,'ammount_in_18_months'] = "${:,.2f}".format(val + random.randint(5000,1000000))
+				bank_data.loc[index,'ammount_in_18_months'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
 				bank_data.loc[index,'house_mortage'] = random.choice([True, False])
 				if(bank_data.loc[index,'house_mortage'] == True):
 					bank_data.loc[index,'amount_of_house_mortage'] ="${:,.2f}".format(val + random.randint(50000,500000))

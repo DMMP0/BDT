@@ -1,13 +1,14 @@
+import os
 
 import pandas as pd
 import random
 from random import randint
-import numpy as np
+
 import ccard
 
-from docx.shared import Pt, Mm
 
 val  = 300.00
+source = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # finds the 0. Data Source directory
 
 class Excel:
 
@@ -134,6 +135,7 @@ class Excel:
 			bank_data.loc[index,'other_savings']= "${:,.2f}".format(val + random.randint(100,20000))
 		bank_data.to_excel('./reports/'+banksName+'(Bank).xlsx')
 
+
 	def police_excel(self):
 			questura_data = pd.DataFrame(self.data)
 			banksName = self.bank['names']
@@ -162,7 +164,7 @@ class Excel:
 					questura_data.loc[index,'accused'] = random.choice([True, False])
 					questura_data.loc[index,'condamned'] = random.choice([True, False])
 					questura_data.loc[index,'civ_pass'] = random.choice([True, False])
-			questura_data.to_excel('./reports/'+banksName+'(Questura).xlsx')
+			questura_data.to_excel(source + '/components/reports/'+banksName+'(Questura).xlsx')
 
 
 
@@ -190,4 +192,4 @@ class Excel:
 					if(broker_data.loc[index,'insolvent'] == True):
 						broker_data.loc[index,'insolvent_ammount'] = "${:,.2f}".format(val + random.randint(5000, 1000000))
 	
-			broker_data.to_excel('./reports/'+banksName+'(Broker).xlsx')
+			broker_data.to_excel(source + '/components/reports/'+banksName+'(Broker).xlsx')

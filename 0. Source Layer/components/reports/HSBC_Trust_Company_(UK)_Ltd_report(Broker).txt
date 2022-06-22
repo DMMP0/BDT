@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	industrial equipment	533-768-9918	contact@chainatacorp.org	United Kingdom	CRIF	346493078609781	False	$41,106,588,105.00	United Kingdom
-f4e7c23c-039c-4b38-96a4-35e70f3c9935	National Grid Group plc	3/24/1978	United Kingdom	42	industrial equipment	765-804-8387	contact@nationalgridgroupplc.org	United Kingdom	Banca d italia	372586345777062	True	$13,768,027,744.00	United Kingdom

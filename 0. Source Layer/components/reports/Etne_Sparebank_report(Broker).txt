@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-5afc22ee-ddc7-4af4-a3c4-96fcda87373a	Amvescap plc	2/11/1965	United Kingdom	35	industrial equipment	484-276-7725	contact@amvescapplc.org	Norway	CRIF	343421982283792	True	$2,382,511,281.00	Norway
-0a5d71b5-81ac-4495-9f16-17da04d9b615	Eurotel Bratislava, A.S.	11/6/1984	Slovak Republic	44	industrial equipment	597-184-4016	marketing@eurotelbratislavaas.org	Norway	Banca d italia	375480315820903	False	$94,446,392,115.00	Norway

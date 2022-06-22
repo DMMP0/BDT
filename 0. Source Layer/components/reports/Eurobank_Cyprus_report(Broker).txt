@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-06dc67e7-f4b0-417e-83cb-8b6810a55aac	Atlantic Telecom Group plc	5/12/1975	United Kingdom	39	validation	379-281-1544	marketing@atlantictelecomgroupplc.org	Cyprus	CTC	378618750363791	True	$55,985,265,948.00	Cyprus
-51b52ac3-f0a4-4906-82b3-9ca00c50db0d	HSBC Bank plc	12/3/1976	United Kingdom	19	validation	560-530-8771	headquarters@hsbcbankplc.org	Cyprus	Banca d italia	377715455127900	False	$46,903,320,495.00	Cyprus

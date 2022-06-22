@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-c5bca43a-6b71-4e5f-8861-7d4ddf5d547e	Canada Life Financial Corp.	1/5/1971	Canada	37	scale-up	658-667-6356	info@canadalifefinancialcorp.org	Austria	False	$28,881,781,797.00	False	True	False	False	False
-f4e7c23c-039c-4b38-96a4-35e70f3c9935	National Grid Group plc	3/24/1978	United Kingdom	42	scale-up	765-804-8387	contact@nationalgridgroupplc.org	Austria	True	$53,907,317,809.00	True	True	False	True	True

@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-0a5d71b5-81ac-4495-9f16-17da04d9b615	Eurotel Bratislava, A.S.	11/6/1984	Slovak Republic	44	marketing	597-184-4016	marketing@eurotelbratislavaas.org	Poland	CTC	371595383077237	False	$48,489,368,541.00	Poland
-c434077a-a4b9-4a2b-9c22-d59fb66af8e5	China Yuchai International Ltd.	6/30/1978	Bermuda	48	marketing	303-120-3161	info@chinayuchaiinternationalltd.org	Poland	experian	348215538634630	True	$12,868,848,087.00	Poland

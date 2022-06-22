@@ -1,6 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-0815f288-380b-4b4e-b263-1f75dd69b72b	AXA	8/26/1989	France	17	marketing	409-122-5419	reach@axa.org	Germany	CRIF	345841608750932	False	$39,460,201,597.00	Germany
-bb958bd0-5f24-4346-80f3-6615a1ebfd59	Forbes Medi-Tech Inc.	1/5/1994	Canada	38	marketing	502-154-4493	marketing@forbesmeditechinc.org	Germany	experian	379124697013838	True	$37,413,547,359.00	Germany
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-d8888f05-57a7-41b8-8349-316e03e7c211	IMP Industrial Mineral Park Mining Corp.	8/21/1992	Canada	45	validation	882-576-3134	marketing@impindustrialmineralparkminingcorp.org	Germany	Banca d italia	345372512612950	False	$23,362,976,588.00	Germany
-1408fecd-c605-4008-afd9-9744314abd2d	Anooraq Resources Corp.	5/31/1972	Canada	39	validation	357-536-6476	marketing@anooraqresourcescorp.org	Germany	Banca d italia	342541759971385	True	$85,335,335,744.00	Germany

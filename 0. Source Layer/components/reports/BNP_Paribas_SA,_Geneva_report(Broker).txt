@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-536e0301-7918-475d-8eba-864c98511f72	Ekabel Hessen GmbH	3/15/1964	Germany	48	validation	486-741-7082	info@ekabelhessengmbh.org	Switzerland	Banca d italia	371813056032110	False	$59,104,707,318.00	Switzerland
-d8888f05-57a7-41b8-8349-316e03e7c211	IMP Industrial Mineral Park Mining Corp.	8/21/1992	Canada	45	validation	882-576-3134	marketing@impindustrialmineralparkminingcorp.org	Switzerland	CTC	347090132127088	False	$41,415,111,588.00	Switzerland

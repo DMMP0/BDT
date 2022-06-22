@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-a0321761-63aa-490c-b7d5-a3e30f4d6eae	P.T. Pasifik Satelit Nusantara Tbk	5/5/1963	Indonesia	29	validation	629-141-2587	enquiries@ptpasifiksatelitnusantaratbk.org	Sweden	CTC	372324633183946	True	$36,749,588,694.00	Sweden
-1408fecd-c605-4008-afd9-9744314abd2d	Anooraq Resources Corp.	5/31/1972	Canada	39	validation	357-536-6476	marketing@anooraqresourcescorp.org	Sweden	CTC	342659917508095	True	$59,632,983,291.00	Sweden

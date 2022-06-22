@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-2d3d1c8b-3cc1-4850-a919-ba4d6cb09075	Tele Sudeste Celular Participacoes S.A.	3/4/1976	Brazil	7	validation	978-489-1684	contact@telesudestecelularparticipacoessa.org	Denmark	experian	343835953983082	True	$83,156,231,400.00	Denmark
-f4e7c23c-039c-4b38-96a4-35e70f3c9935	National Grid Group plc	3/24/1978	United Kingdom	42	validation	765-804-8387	contact@nationalgridgroupplc.org	Denmark	Banca d italia	375071406231900	True	$73,110,962,436.00	Denmark

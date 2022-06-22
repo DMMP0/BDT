@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-4e0632de-851b-483b-b9e9-c5cd433603fa	Dynamic Oil & Gas Ltd.	11/24/1983	Canada	19	marketing	263-751-3055	marketing@dynamicoilgasltd.org	Norway	True	$57,605,192,913.00	True	True	True	True	False
-0815f288-380b-4b4e-b263-1f75dd69b72b	AXA	8/26/1989	France	17	marketing	409-122-5419	reach@axa.org	Norway	True	$61,965,828,466.00	True	False	True	False	False

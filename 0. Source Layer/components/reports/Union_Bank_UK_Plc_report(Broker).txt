@@ -1,4 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-8235535e-0873-43ef-91ca-879383cf8377	Mirtronics Inc.	5/2/1962	Canada	29	office	556-124-9965	info@mirtronicsinc.org	United Kingdom	experian	347017720513932	True	$61,066,913,248.00	United Kingdom
-06dc67e7-f4b0-417e-83cb-8b6810a55aac	Atlantic Telecom Group plc	5/12/1975	United Kingdom	39	office	379-281-1544	marketing@atlantictelecomgroupplc.org	United Kingdom	CRIF	342306475893200	True	$93,819,043,271.00	United Kingdom
-27ce7b74-7d6a-4d13-b91e-814f61dd179d	ABB Ltd.	8/20/1984	Switzerland	39	office	688-160-3651	marketing@abbltd.org	United Kingdom	CTC	344544362792980	False	$45,655,647,672.00	United Kingdom

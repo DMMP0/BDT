@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-7f2d17d3-13fd-4f18-a678-5805ab5fa44d	Haemacure Corp.	12/8/1993	Canada	29	validation	757-765-4803	info@haemacurecorp.org	Germany	Banca d italia	349868929975878	True	$33,116,495,549.00	Germany
-37d3b4aa-25ae-4cd9-97e5-476c1a5234e1	Olicom A/S	11/23/1982	Denmark	11	validation	467-797-5753	reach@olicomas.org	Germany	CRIF	347352845331872	True	$58,570,154,046.00	Germany

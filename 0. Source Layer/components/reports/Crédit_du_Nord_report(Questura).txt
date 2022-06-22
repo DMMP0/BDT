@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	validation	533-768-9918	contact@chainatacorp.org	France	True	$80,412,825,325.00	False	False	False	True	True
-4e0632de-851b-483b-b9e9-c5cd433603fa	Dynamic Oil & Gas Ltd.	11/24/1983	Canada	19	validation	263-751-3055	marketing@dynamicoilgasltd.org	France	True	$58,169,460,124.00	False	False	True	False	True

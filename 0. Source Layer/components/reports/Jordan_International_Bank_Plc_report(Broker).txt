@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-0815f288-380b-4b4e-b263-1f75dd69b72b	AXA	8/26/1989	France	17	marketing	409-122-5419	reach@axa.org	United Kingdom	experian	372674479931653	False	$59,595,458,659.00	United Kingdom
-6f3bfa68-3fbe-484d-8c51-80c5659025d6	Willis Group Ltd.	10/3/1982	United Kingdom	17	marketing	213-029-9893	hr@willisgroupltd.org	United Kingdom	CRIF	347070543220193	True	$6,789,244,805.00	United Kingdom

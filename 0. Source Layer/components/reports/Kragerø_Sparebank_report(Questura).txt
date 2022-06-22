@@ -1,6 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-b2219b0e-a525-4f22-b9ff-f780c01b6d00	Rhodia	6/21/1975	France	7	validation	583-692-6929	contact@rhodia.org	Norway	True	$2,508,256,451.00	False	False	True	False	True
-5ad5f65a-4601-42c0-a736-c23f95881abe	China Mobile (Hong Kong) Ltd.	10/2/1984	Hong Kong	25	validation	836-090-8645	contact@chinamobilehongkongltd.org	Norway	False	$80,413,723,253.00	False	True	True	False	False
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-2d3d1c8b-3cc1-4850-a919-ba4d6cb09075	Tele Sudeste Celular Participacoes S.A.	3/4/1976	Brazil	7	industrial equipment	978-489-1684	contact@telesudestecelularparticipacoessa.org	Norway	False	$96,135,218,077.00	True	False	False	False	False
-2b917a9f-8086-4365-b880-9652ee8773c6	Net Sat Servicos Ltda.	2/28/1967	Brazil	13	industrial equipment	277-786-9269	headquarters@netsatservicosltda.org	Norway	True	$77,812,932,733.00	True	True	False	False	True

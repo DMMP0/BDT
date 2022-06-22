@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-32b7f179-da3f-4942-bc68-766f7a853cce	Governor and Company of the Bank of Ireland	4/23/1976	Ireland	18	validation	857-210-7051	contact@governorandcompanyofthebankofireland.org	Cyprus	CRIF	378781977093060	True	$57,342,303,027.00	Cyprus
-3b9e17d2-96d2-49a6-a4e9-745dcdad023e	Bennett Environmental Inc.	5/15/1962	Canada	39	validation	561-685-4405	sales@bennettenvironmentalinc.org	Cyprus	Banca d italia	379607097366103	False	$45,198,585,726.00	Cyprus

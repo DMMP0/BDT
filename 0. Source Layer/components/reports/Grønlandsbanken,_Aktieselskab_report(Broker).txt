@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	validation	940-622-1937	info@professionalstaffplc.org	Denmark	experian	342024081886092	False	$26,323,951,888.00	Denmark
-37d3b4aa-25ae-4cd9-97e5-476c1a5234e1	Olicom A/S	11/23/1982	Denmark	11	validation	467-797-5753	reach@olicomas.org	Denmark	CRIF	340557891562223	False	$78,051,210,318.00	Denmark

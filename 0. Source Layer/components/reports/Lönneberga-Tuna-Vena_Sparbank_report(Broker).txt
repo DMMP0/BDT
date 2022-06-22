@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-32b7f179-da3f-4942-bc68-766f7a853cce	Governor and Company of the Bank of Ireland	4/23/1976	Ireland	18	validation	857-210-7051	contact@governorandcompanyofthebankofireland.org	Sweden	experian	375153529255337	False	$52,356,739,354.00	Sweden
-94eb8f85-e0a9-4190-a226-03c9e2d2ea4d	Cryptologic Inc.	12/13/1995	Canada	22	validation	687-175-0790	sales@cryptologicinc.org	Sweden	experian	374843271231210	True	$88,814,639,273.00	Sweden

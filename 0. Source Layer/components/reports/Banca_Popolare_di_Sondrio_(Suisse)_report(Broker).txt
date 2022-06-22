@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-3bb57501-4ef9-479f-9e3d-2dac7c920e39	Etruscan Resources Inc.	6/19/1992	Canada	29	industrial equipment	160-009-9526	hr@etruscanresourcesinc.org	Switzerland	CRIF	346395481664784	False	$4,856,422,068.00	Switzerland
-37d3b4aa-25ae-4cd9-97e5-476c1a5234e1	Olicom A/S	11/23/1982	Denmark	11	industrial equipment	467-797-5753	reach@olicomas.org	Switzerland	CTC	377297228692155	False	$97,981,823,798.00	Switzerland

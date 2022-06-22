@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-f07f55c1-6182-4b34-8e73-530b5e79c4ed	Pyng Technologies Corp.	12/17/1961	Canada	44	scale-up	541-439-4964	sales@pyngtechnologiescorp.org	Sweden	experian	344756356396293	False	$74,892,561,296.00	Sweden
-09fbac4b-8673-42d7-9f32-344c87c6a5f4	G. Willi-Food International Ltd.	6/24/1986	Israel	11	scale-up	220-394-7342	headquarters@gwillifoodinternationalltd.org	Sweden	Banca d italia	372780891331933	False	$11,808,485,573.00	Sweden

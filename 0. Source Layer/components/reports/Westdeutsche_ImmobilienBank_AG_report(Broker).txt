@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-2d3d1c8b-3cc1-4850-a919-ba4d6cb09075	Tele Sudeste Celular Participacoes S.A.	3/4/1976	Brazil	7	validation	978-489-1684	contact@telesudestecelularparticipacoessa.org	Poland	Banca d italia	340042452674782	True	$66,651,100,249.00	Poland
-5afc22ee-ddc7-4af4-a3c4-96fcda87373a	Amvescap plc	2/11/1965	United Kingdom	35	validation	484-276-7725	contact@amvescapplc.org	Poland	CRIF	342720186993036	False	$10,148,093,056.00	Poland

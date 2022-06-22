@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-4e0632de-851b-483b-b9e9-c5cd433603fa	Dynamic Oil & Gas Ltd.	11/24/1983	Canada	19	scale-up	263-751-3055	marketing@dynamicoilgasltd.org	Poland	False	$77,703,573,230.00	False	True	True	True	False
-3bb57501-4ef9-479f-9e3d-2dac7c920e39	Etruscan Resources Inc.	6/19/1992	Canada	29	scale-up	160-009-9526	hr@etruscanresourcesinc.org	Poland	False	$68,560,754,437.00	True	False	True	True	False

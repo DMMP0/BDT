@@ -1,6 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-0815f288-380b-4b4e-b263-1f75dd69b72b	AXA	8/26/1989	France	17	marketing	409-122-5419	reach@axa.org	Germany	False	$31,096,968,698.00	False	True	True	True	True
-bb958bd0-5f24-4346-80f3-6615a1ebfd59	Forbes Medi-Tech Inc.	1/5/1994	Canada	38	marketing	502-154-4493	marketing@forbesmeditechinc.org	Germany	False	$30,946,072,404.00	False	False	False	False	False
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-d8888f05-57a7-41b8-8349-316e03e7c211	IMP Industrial Mineral Park Mining Corp.	8/21/1992	Canada	45	validation	882-576-3134	marketing@impindustrialmineralparkminingcorp.org	Germany	True	$50,225,871,368.00	False	False	False	True	True
-1408fecd-c605-4008-afd9-9744314abd2d	Anooraq Resources Corp.	5/31/1972	Canada	39	validation	357-536-6476	marketing@anooraqresourcescorp.org	Germany	False	$9,077,725,422.00	False	False	False	True	True

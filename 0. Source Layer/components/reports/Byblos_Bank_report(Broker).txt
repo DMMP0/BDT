@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-c5bca43a-6b71-4e5f-8861-7d4ddf5d547e	Canada Life Financial Corp.	1/5/1971	Canada	37	industrial equipment	658-667-6356	info@canadalifefinancialcorp.org	Cyprus	experian	376110330115661	True	$55,401,769,225.00	Cyprus
-85a596b8-e7a4-45ee-ac04-38dd58a04154	Trivalence Mining Corp.	4/24/1963	Canada	25	industrial equipment	436-123-3850	hr@trivalenceminingcorp.org	Cyprus	CTC	377663197559776	False	$43,927,152,575.00	Cyprus

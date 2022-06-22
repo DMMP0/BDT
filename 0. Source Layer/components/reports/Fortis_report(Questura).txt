@@ -1,4 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-51b52ac3-f0a4-4906-82b3-9ca00c50db0d	HSBC Bank plc	12/3/1976	United Kingdom	19	office	560-530-8771	headquarters@hsbcbankplc.org	Norway	True	$55,448,583,500.00	True	False	False	True	True
-33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	office	533-768-9918	contact@chainatacorp.org	Norway	True	$63,797,880,558.00	True	True	True	True	False
-32b7f179-da3f-4942-bc68-766f7a853cce	Governor and Company of the Bank of Ireland	4/23/1976	Ireland	18	office	857-210-7051	contact@governorandcompanyofthebankofireland.org	Norway	True	$91,358,171,906.00	False	True	True	True	True

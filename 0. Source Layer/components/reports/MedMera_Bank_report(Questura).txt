@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-a0321761-63aa-490c-b7d5-a3e30f4d6eae	P.T. Pasifik Satelit Nusantara Tbk	5/5/1963	Indonesia	29	validation	629-141-2587	enquiries@ptpasifiksatelitnusantaratbk.org	Sweden	False	$40,832,023,308.00	False	False	False	True	True
-1408fecd-c605-4008-afd9-9744314abd2d	Anooraq Resources Corp.	5/31/1972	Canada	39	validation	357-536-6476	marketing@anooraqresourcescorp.org	Sweden	True	$49,802,473,526.00	True	False	True	False	True

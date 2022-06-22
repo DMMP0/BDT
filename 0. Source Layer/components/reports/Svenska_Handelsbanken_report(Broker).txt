@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-51b52ac3-f0a4-4906-82b3-9ca00c50db0d	HSBC Bank plc	12/3/1976	United Kingdom	19	scale-up	560-530-8771	headquarters@hsbcbankplc.org	Latvia	CTC	340958773295058	True	$2,213,595,078.00	Latvia
-940197ff-21a7-4911-85ba-123f71ab5779	CP Ships Ltd.	4/13/1987	Canada	7	scale-up	512-887-1880	headquarters@cpshipsltd.org	Latvia	Banca d italia	377059432566637	True	$99,994,843,934.00	Latvia

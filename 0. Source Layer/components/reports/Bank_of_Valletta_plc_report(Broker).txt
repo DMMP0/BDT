@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-06dc67e7-f4b0-417e-83cb-8b6810a55aac	Atlantic Telecom Group plc	5/12/1975	United Kingdom	39	validation	379-281-1544	marketing@atlantictelecomgroupplc.org	Malta	Banca d italia	347230558223918	True	$44,194,228,242.00	Malta
-46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	validation	940-622-1937	info@professionalstaffplc.org	Malta	Banca d italia	373896869672428	True	$80,424,419,940.00	Malta

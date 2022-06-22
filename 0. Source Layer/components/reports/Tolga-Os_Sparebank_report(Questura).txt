@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-27ce7b74-7d6a-4d13-b91e-814f61dd179d	ABB Ltd.	8/20/1984	Switzerland	39	validation	688-160-3651	marketing@abbltd.org	Norway	False	$17,555,473,557.00	True	False	False	True	False
-a0321761-63aa-490c-b7d5-a3e30f4d6eae	P.T. Pasifik Satelit Nusantara Tbk	5/5/1963	Indonesia	29	validation	629-141-2587	enquiries@ptpasifiksatelitnusantaratbk.org	Norway	True	$12,816,253,728.00	False	False	False	True	True

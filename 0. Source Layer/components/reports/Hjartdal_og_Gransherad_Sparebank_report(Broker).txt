@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-b2219b0e-a525-4f22-b9ff-f780c01b6d00	Rhodia	6/21/1975	France	7	marketing	583-692-6929	contact@rhodia.org	Norway	CRIF	373589050104976	False	$5,088,553,188.00	Norway
-6e9e27a6-f584-4fec-a9b2-00c364e6df21	Kubota Corp.	11/14/1977	Japan	25	marketing	128-152-1910	hr@kubotacorp.org	Norway	Banca d italia	375965990363039	False	$33,316,092,783.00	Norway

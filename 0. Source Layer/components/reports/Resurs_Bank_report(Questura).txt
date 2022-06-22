@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-940197ff-21a7-4911-85ba-123f71ab5779	CP Ships Ltd.	4/13/1987	Canada	7	marketing	512-887-1880	headquarters@cpshipsltd.org	Sweden	True	$5,336,760,497.00	True	False	False	False	True
-06dc67e7-f4b0-417e-83cb-8b6810a55aac	Atlantic Telecom Group plc	5/12/1975	United Kingdom	39	marketing	379-281-1544	marketing@atlantictelecomgroupplc.org	Sweden	True	$70,536,338,107.00	False	False	False	False	True

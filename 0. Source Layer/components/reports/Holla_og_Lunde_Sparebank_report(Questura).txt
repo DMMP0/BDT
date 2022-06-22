@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-e6bc06b2-26b0-4fda-b718-e3ad7c81055a	VI Group plc	5/24/1988	United Kingdom	31	validation	495-055-3444	headquarters@vigroupplc.org	Norway	True	$4,671,716,054.00	True	True	False	False	False
-2d3d1c8b-3cc1-4850-a919-ba4d6cb09075	Tele Sudeste Celular Participacoes S.A.	3/4/1976	Brazil	7	validation	978-489-1684	contact@telesudestecelularparticipacoessa.org	Norway	True	$22,430,176,279.00	False	False	False	False	False

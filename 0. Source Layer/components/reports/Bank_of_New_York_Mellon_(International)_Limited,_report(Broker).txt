@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-7f2d17d3-13fd-4f18-a678-5805ab5fa44d	Haemacure Corp.	12/8/1993	Canada	29	validation	757-765-4803	info@haemacurecorp.org	United Kingdom	Banca d italia	376646243258205	True	$4,619,299,843.00	United Kingdom
-0e83a8d8-b870-4565-b4c5-bdae05f42730	Tele Celular Sul Participacoes S.A.	12/7/1961	Brazil	48	validation	667-875-8361	sales@telecelularsulparticipacoessa.org	United Kingdom	experian	373687009773600	False	$49,832,850,806.00	United Kingdom

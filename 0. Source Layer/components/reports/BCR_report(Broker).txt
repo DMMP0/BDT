@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-c5bca43a-6b71-4e5f-8861-7d4ddf5d547e	Canada Life Financial Corp.	1/5/1971	Canada	37	marketing	658-667-6356	info@canadalifefinancialcorp.org	Romania	experian	376449770315781	True	$56,069,628,134.00	Romania
-51b52ac3-f0a4-4906-82b3-9ca00c50db0d	HSBC Bank plc	12/3/1976	United Kingdom	19	marketing	560-530-8771	headquarters@hsbcbankplc.org	Romania	Banca d italia	347222123669808	False	$7,785,948,797.00	Romania

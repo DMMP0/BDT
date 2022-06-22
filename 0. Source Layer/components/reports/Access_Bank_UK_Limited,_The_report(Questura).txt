@@ -1,6 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-b9c50519-ea28-43fa-bf9d-70ccaf5d895e	Guangshen Railway Co. Ltd.	3/19/1989	China	11	validation	798-857-5135	headquarters@guangshenrailwaycoltd.org	United Kingdom	True	$57,094,530,411.00	True	False	True	True	True
-bb958bd0-5f24-4346-80f3-6615a1ebfd59	Forbes Medi-Tech Inc.	1/5/1994	Canada	38	validation	502-154-4493	marketing@forbesmeditechinc.org	United Kingdom	True	$26,293,188,463.00	False	True	True	True	True
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	industrial equipment	533-768-9918	contact@chainatacorp.org	United Kingdom	False	$40,380,501,337.00	False	True	False	False	False
-b9c50519-ea28-43fa-bf9d-70ccaf5d895e	Guangshen Railway Co. Ltd.	3/19/1989	China	11	industrial equipment	798-857-5135	headquarters@guangshenrailwaycoltd.org	United Kingdom	False	$99,513,665,683.00	False	False	False	True	False

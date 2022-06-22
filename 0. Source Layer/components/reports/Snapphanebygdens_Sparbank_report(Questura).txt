@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-f07f55c1-6182-4b34-8e73-530b5e79c4ed	Pyng Technologies Corp.	12/17/1961	Canada	44	scale-up	541-439-4964	sales@pyngtechnologiescorp.org	Sweden	True	$49,064,971,073.00	True	True	False	False	True
-09fbac4b-8673-42d7-9f32-344c87c6a5f4	G. Willi-Food International Ltd.	6/24/1986	Israel	11	scale-up	220-394-7342	headquarters@gwillifoodinternationalltd.org	Sweden	True	$40,469,649,888.00	True	True	False	True	False

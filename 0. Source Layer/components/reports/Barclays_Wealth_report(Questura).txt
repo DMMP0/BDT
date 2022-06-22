@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-bb958bd0-5f24-4346-80f3-6615a1ebfd59	Forbes Medi-Tech Inc.	1/5/1994	Canada	38	validation	502-154-4493	marketing@forbesmeditechinc.org	Gibraltar	True	$75,877,061,942.00	False	False	False	True	True
-c434077a-a4b9-4a2b-9c22-d59fb66af8e5	China Yuchai International Ltd.	6/30/1978	Bermuda	48	validation	303-120-3161	info@chinayuchaiinternationalltd.org	Gibraltar	False	$90,774,067,349.00	True	True	False	True	False

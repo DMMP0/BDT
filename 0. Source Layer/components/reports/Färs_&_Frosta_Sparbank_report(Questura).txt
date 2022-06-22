@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-ba23f684-e6e1-4a63-a455-56599b6d4ca6	Tele Nordeste Celular Participacoes S.A.	11/27/1976	Brazil	26	validation	184-056-2664	headquarters@telenordestecelularparticipacoessa.org	Sweden	True	$21,921,925,405.00	True	False	False	False	True
-6f3bfa68-3fbe-484d-8c51-80c5659025d6	Willis Group Ltd.	10/3/1982	United Kingdom	17	validation	213-029-9893	hr@willisgroupltd.org	Sweden	True	$17,659,341,571.00	False	True	True	False	True

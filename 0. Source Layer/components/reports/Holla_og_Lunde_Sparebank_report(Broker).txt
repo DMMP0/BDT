@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-e6bc06b2-26b0-4fda-b718-e3ad7c81055a	VI Group plc	5/24/1988	United Kingdom	31	validation	495-055-3444	headquarters@vigroupplc.org	Norway	CTC	345113439588695	False	$35,674,537,769.00	Norway
-2d3d1c8b-3cc1-4850-a919-ba4d6cb09075	Tele Sudeste Celular Participacoes S.A.	3/4/1976	Brazil	7	validation	978-489-1684	contact@telesudestecelularparticipacoessa.org	Norway	experian	343669102247150	True	$92,088,944,367.00	Norway

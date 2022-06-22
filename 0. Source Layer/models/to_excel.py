@@ -3,10 +3,9 @@ import os
 import pandas as pd
 import random
 from random import randint
-import numpy as np
+
 import ccard
 
-from docx.shared import Pt, Mm
 
 val  = 300.00
 source = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # finds the 0. Data Source directory

@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-b9c50519-ea28-43fa-bf9d-70ccaf5d895e	Guangshen Railway Co. Ltd.	3/19/1989	China	11	marketing	798-857-5135	headquarters@guangshenrailwaycoltd.org	Norway	False	$94,304,552,082.00	True	False	False	True	False
-5e74f6bc-0894-4d6a-9b5f-a16749aeacb9	American Israeli Paper Mills Ltd.	5/24/1966	Israel	41	marketing	672-174-8489	marketing@americanisraelipapermillsltd.org	Norway	True	$67,936,170,275.00	False	False	True	False	False

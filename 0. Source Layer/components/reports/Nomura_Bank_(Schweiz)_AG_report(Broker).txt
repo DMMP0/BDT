@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-28ce529c-14c6-4c54-bf63-4f5fae569fa3	Elan Corp plc	2/2/1991	Ireland	30	validation	864-511-0083	contact@elancorpplc.org	Switzerland	CRIF	342572962882341	False	$87,011,397,456.00	Switzerland
-df98f86a-e21a-4c11-bb75-716aea0217fa	Aluminum Corp of China Ltd.	5/16/1982	China	30	validation	814-039-1974	marketing@aluminumcorpofchinaltd.org	Switzerland	CTC	376374993633382	False	$23,494,090,552.00	Switzerland

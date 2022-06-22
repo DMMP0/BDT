@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-b2219b0e-a525-4f22-b9ff-f780c01b6d00	Rhodia	6/21/1975	France	7	validation	583-692-6929	contact@rhodia.org	Italy	True	$33,783,640,475.00	True	False	True	False	True
-4e0632de-851b-483b-b9e9-c5cd433603fa	Dynamic Oil & Gas Ltd.	11/24/1983	Canada	19	validation	263-751-3055	marketing@dynamicoilgasltd.org	Italy	True	$64,016,058,630.00	True	True	False	False	False

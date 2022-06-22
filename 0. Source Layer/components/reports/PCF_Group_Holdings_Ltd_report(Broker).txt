@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-b9c50519-ea28-43fa-bf9d-70ccaf5d895e	Guangshen Railway Co. Ltd.	3/19/1989	China	11	scale-up	798-857-5135	headquarters@guangshenrailwaycoltd.org	United Kingdom	CTC	373512740004893	True	$85,218,038,629.00	United Kingdom
-1408fecd-c605-4008-afd9-9744314abd2d	Anooraq Resources Corp.	5/31/1972	Canada	39	scale-up	357-536-6476	marketing@anooraqresourcescorp.org	United Kingdom	CRIF	343309677862626	False	$24,819,894,347.00	United Kingdom

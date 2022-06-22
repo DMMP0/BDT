@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-94eb8f85-e0a9-4190-a226-03c9e2d2ea4d	Cryptologic Inc.	12/13/1995	Canada	22	validation	687-175-0790	sales@cryptologicinc.org	Greece	experian	341350975418531	False	$49,225,620,429.00	Greece
-b04575ab-57a6-4892-a506-18c3a3833bfe	Fomento Economico Mexicano S.A. de C.V.	7/8/1977	Mexico	29	validation	304-380-1927	enquiries@fomentoeconomicomexicanosadecv.org	Greece	CRIF	341038336173529	True	$98,235,786,141.00	Greece

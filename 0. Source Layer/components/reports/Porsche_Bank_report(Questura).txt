@@ -1,3 +1,3 @@
 registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-b04575ab-57a6-4892-a506-18c3a3833bfe	Fomento Economico Mexicano S.A. de C.V.	7/8/1977	Mexico	29	validation	304-380-1927	enquiries@fomentoeconomicomexicanosadecv.org	Hungary	False	$94,219,749,693.00	False	True	False	True	False
-37d3b4aa-25ae-4cd9-97e5-476c1a5234e1	Olicom A/S	11/23/1982	Denmark	11	validation	467-797-5753	reach@olicomas.org	Hungary	True	$92,755,881,239.00	True	False	False	True	False
+a0321761-63aa-490c-b7d5-a3e30f4d6eae	P.T. Pasifik Satelit Nusantara Tbk	5/5/1963	Indonesia	29	industrial equipment	629-141-2587	enquiries@ptpasifiksatelitnusantaratbk.org	Hungary	False	$31,866,002,846.00	False	False	False	True	False
+94eb8f85-e0a9-4190-a226-03c9e2d2ea4d	Cryptologic Inc.	12/13/1995	Canada	22	industrial equipment	687-175-0790	sales@cryptologicinc.org	Hungary	False	$47,230,053,220.00	True	True	False	True	True

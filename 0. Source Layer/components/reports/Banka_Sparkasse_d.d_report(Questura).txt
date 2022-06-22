@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	marketing	940-622-1937	info@professionalstaffplc.org	Slovenia	False	$69,688,675,927.00	False	False	False	True	True
-bb958bd0-5f24-4346-80f3-6615a1ebfd59	Forbes Medi-Tech Inc.	1/5/1994	Canada	38	marketing	502-154-4493	marketing@forbesmeditechinc.org	Slovenia	True	$38,874,311,946.00	True	False	False	True	True

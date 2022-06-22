@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-09fbac4b-8673-42d7-9f32-344c87c6a5f4	G. Willi-Food International Ltd.	6/24/1986	Israel	11	validation	220-394-7342	headquarters@gwillifoodinternationalltd.org	France	False	$71,903,003,628.00	True	False	False	False	True
-c5bca43a-6b71-4e5f-8861-7d4ddf5d547e	Canada Life Financial Corp.	1/5/1971	Canada	37	validation	658-667-6356	info@canadalifefinancialcorp.org	France	False	$2,983,380,022.00	True	False	False	True	True

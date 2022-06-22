@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-bb958bd0-5f24-4346-80f3-6615a1ebfd59	Forbes Medi-Tech Inc.	1/5/1994	Canada	38	industrial equipment	502-154-4493	marketing@forbesmeditechinc.org	Finland	CRIF	345386482908693	True	$52,865,565,731.00	Finland
-b2219b0e-a525-4f22-b9ff-f780c01b6d00	Rhodia	6/21/1975	France	7	industrial equipment	583-692-6929	contact@rhodia.org	Finland	CTC	343641852102372	False	$69,957,803,731.00	Finland

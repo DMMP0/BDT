@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-5ad5f65a-4601-42c0-a736-c23f95881abe	China Mobile (Hong Kong) Ltd.	10/2/1984	Hong Kong	25	industrial equipment	836-090-8645	contact@chinamobilehongkongltd.org	Sweden	True	$65,497,134,813.00	False	True	False	True	False
-940197ff-21a7-4911-85ba-123f71ab5779	CP Ships Ltd.	4/13/1987	Canada	7	industrial equipment	512-887-1880	headquarters@cpshipsltd.org	Sweden	True	$82,270,188,766.00	True	True	True	False	True

@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-76eb509c-c5a8-4542-aa8a-f2d1db863bf5	Aztek Technologies Inc.	1/5/1991	Canada	15	scale-up	370-689-6569	contact@aztektechnologiesinc.org	Greece	experian	348616612165294	False	$50,777,459,146.00	Greece
-2b917a9f-8086-4365-b880-9652ee8773c6	Net Sat Servicos Ltda.	2/28/1967	Brazil	13	scale-up	277-786-9269	headquarters@netsatservicosltda.org	Greece	experian	376755155886240	True	$73,065,450,331.00	Greece

@@ -1,7 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-e6bc06b2-26b0-4fda-b718-e3ad7c81055a	VI Group plc	5/24/1988	United Kingdom	31	office	495-055-3444	headquarters@vigroupplc.org	Norway	CTC	341157695166435	True	$48,179,618,752.00	Norway
-d8888f05-57a7-41b8-8349-316e03e7c211	IMP Industrial Mineral Park Mining Corp.	8/21/1992	Canada	45	office	882-576-3134	marketing@impindustrialmineralparkminingcorp.org	Norway	experian	370970175981246	False	$39,845,725,469.00	Norway
-536e0301-7918-475d-8eba-864c98511f72	Ekabel Hessen GmbH	3/15/1964	Germany	48	office	486-741-7082	info@ekabelhessengmbh.org	Norway	CRIF	343976803828711	True	$37,830,347,622.00	Norway
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-02895057-1d61-4576-a475-9e9ad28024d4	ID Biomedical Corp.	10/9/1996	Canada	19	industrial equipment	118-870-8437	marketing@idbiomedicalcorp.org	Norway	Banca d italia	343708037325531	False	$96,629,439,822.00	Norway
-4e0632de-851b-483b-b9e9-c5cd433603fa	Dynamic Oil & Gas Ltd.	11/24/1983	Canada	19	industrial equipment	263-751-3055	marketing@dynamicoilgasltd.org	Norway	CTC	345089711480191	True	$51,841,786,855.00	Norway

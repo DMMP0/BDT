@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-6e9e27a6-f584-4fec-a9b2-00c364e6df21	Kubota Corp.	11/14/1977	Japan	25	validation	128-152-1910	hr@kubotacorp.org	Poland	False	$9,249,933,460.00	True	False	True	False	False
-02895057-1d61-4576-a475-9e9ad28024d4	ID Biomedical Corp.	10/9/1996	Canada	19	validation	118-870-8437	marketing@idbiomedicalcorp.org	Poland	False	$76,289,713,800.00	True	True	False	False	False

@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-940197ff-21a7-4911-85ba-123f71ab5779	CP Ships Ltd.	4/13/1987	Canada	7	validation	512-887-1880	headquarters@cpshipsltd.org	Hungary	False	$70,043,507,371.00	True	True	True	True	True
-c5bca43a-6b71-4e5f-8861-7d4ddf5d547e	Canada Life Financial Corp.	1/5/1971	Canada	37	validation	658-667-6356	info@canadalifefinancialcorp.org	Hungary	True	$7,024,104,142.00	False	False	True	False	True

@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-536e0301-7918-475d-8eba-864c98511f72	Ekabel Hessen GmbH	3/15/1964	Germany	48	validation	486-741-7082	info@ekabelhessengmbh.org	Poland	False	$39,310,751,787.00	False	False	False	True	True
-b9c50519-ea28-43fa-bf9d-70ccaf5d895e	Guangshen Railway Co. Ltd.	3/19/1989	China	11	validation	798-857-5135	headquarters@guangshenrailwaycoltd.org	Poland	False	$75,226,479,104.00	True	False	True	False	False

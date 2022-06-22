@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-5afc22ee-ddc7-4af4-a3c4-96fcda87373a	Amvescap plc	2/11/1965	United Kingdom	35	industrial equipment	484-276-7725	contact@amvescapplc.org	Norway	CRIF	345720158135746	False	$83,493,427,916.00	Norway
-df98f86a-e21a-4c11-bb75-716aea0217fa	Aluminum Corp of China Ltd.	5/16/1982	China	30	industrial equipment	814-039-1974	marketing@aluminumcorpofchinaltd.org	Norway	Banca d italia	370988005914351	False	$98,349,186,333.00	Norway

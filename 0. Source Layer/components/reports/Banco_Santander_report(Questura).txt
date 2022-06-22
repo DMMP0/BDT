@@ -1,9 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-1408fecd-c605-4008-afd9-9744314abd2d	Anooraq Resources Corp.	5/31/1972	Canada	39	validation	357-536-6476	marketing@anooraqresourcescorp.org	Spain	True	$62,374,567,796.00	True	True	True	True	True
-3bb57501-4ef9-479f-9e3d-2dac7c920e39	Etruscan Resources Inc.	6/19/1992	Canada	29	validation	160-009-9526	hr@etruscanresourcesinc.org	Spain	False	$17,158,945,586.00	True	False	False	True	True
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-85a596b8-e7a4-45ee-ac04-38dd58a04154	Trivalence Mining Corp.	4/24/1963	Canada	25	validation	436-123-3850	hr@trivalenceminingcorp.org	Spain	True	$49,693,858,460.00	True	False	True	False	True
-02895057-1d61-4576-a475-9e9ad28024d4	ID Biomedical Corp.	10/9/1996	Canada	19	validation	118-870-8437	marketing@idbiomedicalcorp.org	Spain	False	$11,316,831,703.00	False	False	False	False	False
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-27ce7b74-7d6a-4d13-b91e-814f61dd179d	ABB Ltd.	8/20/1984	Switzerland	39	scale-up	688-160-3651	marketing@abbltd.org	Spain	True	$7,708,175,918.00	False	True	True	True	False
-5ad5f65a-4601-42c0-a736-c23f95881abe	China Mobile (Hong Kong) Ltd.	10/2/1984	Hong Kong	25	scale-up	836-090-8645	contact@chinamobilehongkongltd.org	Spain	True	$38,072,192,441.00	False	True	True	False	True

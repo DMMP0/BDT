@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-50bff4d2-eb09-4932-8cae-a1bf24bca8fb	Citadel Gold Mines Inc.	5/20/1963	Canada	32	validation	916-317-9829	marketing@citadelgoldminesinc.org	Italy	False	$85,622,815,165.00	False	True	True	False	True
-09fbac4b-8673-42d7-9f32-344c87c6a5f4	G. Willi-Food International Ltd.	6/24/1986	Israel	11	validation	220-394-7342	headquarters@gwillifoodinternationalltd.org	Italy	False	$57,115,589,806.00	True	True	False	False	False

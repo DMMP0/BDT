@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-32b7f179-da3f-4942-bc68-766f7a853cce	Governor and Company of the Bank of Ireland	4/23/1976	Ireland	18	scale-up	857-210-7051	contact@governorandcompanyofthebankofireland.org	Gibraltar	True	$62,049,820,497.00	True	False	True	False	True
-6a05f98f-100f-42d9-86b7-a0d589eccbb5	Verena Minerals Corp.	10/10/1981	Canada	46	scale-up	266-884-5949	sales@verenamineralscorp.org	Gibraltar	True	$90,770,498,806.00	False	True	True	True	True

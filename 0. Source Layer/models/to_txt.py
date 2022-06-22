@@ -1,13 +1,11 @@
 import os
-from abc import abstractclassmethod, abstractstaticmethod
+
 import pandas as pd
 import random
 from random import randint
-import numpy as np
-import ccard
-import docx
 
-from docx.shared import Pt, Mm
+import ccard
+
 
 source = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # finds the 0. Data Source directory
 val = 30000.00

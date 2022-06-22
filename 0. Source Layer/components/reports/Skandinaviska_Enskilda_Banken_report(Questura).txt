@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-0a5d71b5-81ac-4495-9f16-17da04d9b615	Eurotel Bratislava, A.S.	11/6/1984	Slovak Republic	44	validation	597-184-4016	marketing@eurotelbratislavaas.org	Finland	True	$83,466,930,009.00	False	True	False	True	False
-51b52ac3-f0a4-4906-82b3-9ca00c50db0d	HSBC Bank plc	12/3/1976	United Kingdom	19	validation	560-530-8771	headquarters@hsbcbankplc.org	Finland	True	$43,082,703,911.00	False	False	True	True	False

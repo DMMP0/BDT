@@ -1,4 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-8235535e-0873-43ef-91ca-879383cf8377	Mirtronics Inc.	5/2/1962	Canada	29	office	556-124-9965	info@mirtronicsinc.org	United Kingdom	False	$48,414,049,598.00	False	True	False	True	False
-06dc67e7-f4b0-417e-83cb-8b6810a55aac	Atlantic Telecom Group plc	5/12/1975	United Kingdom	39	office	379-281-1544	marketing@atlantictelecomgroupplc.org	United Kingdom	False	$18,867,098,772.00	False	False	False	True	False
-27ce7b74-7d6a-4d13-b91e-814f61dd179d	ABB Ltd.	8/20/1984	Switzerland	39	office	688-160-3651	marketing@abbltd.org	United Kingdom	False	$89,429,438,240.00	False	True	True	True	False

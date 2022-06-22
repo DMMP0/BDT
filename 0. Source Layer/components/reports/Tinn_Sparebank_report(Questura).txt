@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-ba23f684-e6e1-4a63-a455-56599b6d4ca6	Tele Nordeste Celular Participacoes S.A.	11/27/1976	Brazil	26	validation	184-056-2664	headquarters@telenordestecelularparticipacoessa.org	Norway	False	$55,480,181,346.00	True	False	True	True	False
-94eb8f85-e0a9-4190-a226-03c9e2d2ea4d	Cryptologic Inc.	12/13/1995	Canada	22	validation	687-175-0790	sales@cryptologicinc.org	Norway	False	$51,642,083,490.00	True	False	True	False	True

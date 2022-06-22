@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-ba23f684-e6e1-4a63-a455-56599b6d4ca6	Tele Nordeste Celular Participacoes S.A.	11/27/1976	Brazil	26	scale-up	184-056-2664	headquarters@telenordestecelularparticipacoessa.org	Spain	False	$83,030,090,688.00	False	False	True	False	False
-bb958bd0-5f24-4346-80f3-6615a1ebfd59	Forbes Medi-Tech Inc.	1/5/1994	Canada	38	scale-up	502-154-4493	marketing@forbesmeditechinc.org	Spain	False	$82,185,585,377.00	True	False	False	False	True

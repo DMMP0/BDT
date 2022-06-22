@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-0815f288-380b-4b4e-b263-1f75dd69b72b	AXA	8/26/1989	France	17	validation	409-122-5419	reach@axa.org	Malta	CRIF	373997640827339	False	$23,610,431,323.00	Malta
-50bff4d2-eb09-4932-8cae-a1bf24bca8fb	Citadel Gold Mines Inc.	5/20/1963	Canada	32	validation	916-317-9829	marketing@citadelgoldminesinc.org	Malta	Banca d italia	377341496945620	True	$54,935,670,762.00	Malta

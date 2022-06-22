@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-3bb57501-4ef9-479f-9e3d-2dac7c920e39	Etruscan Resources Inc.	6/19/1992	Canada	29	scale-up	160-009-9526	hr@etruscanresourcesinc.org	Lithuania	True	$24,455,895,333.00	True	False	True	False	True
-f07f55c1-6182-4b34-8e73-530b5e79c4ed	Pyng Technologies Corp.	12/17/1961	Canada	44	scale-up	541-439-4964	sales@pyngtechnologiescorp.org	Lithuania	False	$97,242,141,789.00	False	True	False	False	True

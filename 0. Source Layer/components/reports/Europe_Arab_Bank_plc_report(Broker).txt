@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-6a05f98f-100f-42d9-86b7-a0d589eccbb5	Verena Minerals Corp.	10/10/1981	Canada	46	scale-up	266-884-5949	sales@verenamineralscorp.org	United Kingdom	experian	344553381209934	True	$45,026,179,946.00	United Kingdom
-33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	scale-up	533-768-9918	contact@chainatacorp.org	United Kingdom	experian	344914946103782	False	$87,582,455,681.00	United Kingdom

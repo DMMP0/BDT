@@ -1,6 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-b9c50519-ea28-43fa-bf9d-70ccaf5d895e	Guangshen Railway Co. Ltd.	3/19/1989	China	11	validation	798-857-5135	headquarters@guangshenrailwaycoltd.org	United Kingdom	CTC	347899110293310	True	$20,397,377,361.00	United Kingdom
-bb958bd0-5f24-4346-80f3-6615a1ebfd59	Forbes Medi-Tech Inc.	1/5/1994	Canada	38	validation	502-154-4493	marketing@forbesmeditechinc.org	United Kingdom	CTC	376512166696872	True	$64,632,732,279.00	United Kingdom
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	industrial equipment	533-768-9918	contact@chainatacorp.org	United Kingdom	experian	346617266961113	False	$44,197,342,649.00	United Kingdom
-b9c50519-ea28-43fa-bf9d-70ccaf5d895e	Guangshen Railway Co. Ltd.	3/19/1989	China	11	industrial equipment	798-857-5135	headquarters@guangshenrailwaycoltd.org	United Kingdom	CRIF	347871357422282	True	$63,680,907,262.00	United Kingdom

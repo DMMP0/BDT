@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-37d3b4aa-25ae-4cd9-97e5-476c1a5234e1	Olicom A/S	11/23/1982	Denmark	11	validation	467-797-5753	reach@olicomas.org	Monaco	True	$66,485,366,045.00	False	False	True	True	False
-6e9e27a6-f584-4fec-a9b2-00c364e6df21	Kubota Corp.	11/14/1977	Japan	25	validation	128-152-1910	hr@kubotacorp.org	Monaco	False	$97,958,442,245.00	False	True	False	True	False

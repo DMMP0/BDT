@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-b2219b0e-a525-4f22-b9ff-f780c01b6d00	Rhodia	6/21/1975	France	7	marketing	583-692-6929	contact@rhodia.org	Norway	False	$35,823,194,581.00	True	False	True	True	True
-6e9e27a6-f584-4fec-a9b2-00c364e6df21	Kubota Corp.	11/14/1977	Japan	25	marketing	128-152-1910	hr@kubotacorp.org	Norway	False	$51,009,968,776.00	True	False	False	False	False

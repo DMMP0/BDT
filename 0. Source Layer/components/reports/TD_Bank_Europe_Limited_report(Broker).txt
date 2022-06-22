@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-28ce529c-14c6-4c54-bf63-4f5fae569fa3	Elan Corp plc	2/2/1991	Ireland	30	validation	864-511-0083	contact@elancorpplc.org	United Kingdom	Banca d italia	372423910851140	True	$76,396,879,497.00	United Kingdom
-50bff4d2-eb09-4932-8cae-a1bf24bca8fb	Citadel Gold Mines Inc.	5/20/1963	Canada	32	validation	916-317-9829	marketing@citadelgoldminesinc.org	United Kingdom	Banca d italia	371542357812017	True	$4,619,148,184.00	United Kingdom

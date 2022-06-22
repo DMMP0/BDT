@@ -1,6 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-3bb57501-4ef9-479f-9e3d-2dac7c920e39	Etruscan Resources Inc.	6/19/1992	Canada	29	validation	160-009-9526	hr@etruscanresourcesinc.org	Norway	Banca d italia	347525929788071	False	$50,645,452,450.00	Norway
-b9c50519-ea28-43fa-bf9d-70ccaf5d895e	Guangshen Railway Co. Ltd.	3/19/1989	China	11	validation	798-857-5135	headquarters@guangshenrailwaycoltd.org	Norway	experian	374884859123312	False	$84,617,197,784.00	Norway
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	marketing	533-768-9918	contact@chainatacorp.org	Norway	experian	373037907283619	True	$26,200,769,662.00	Norway
-b2219b0e-a525-4f22-b9ff-f780c01b6d00	Rhodia	6/21/1975	France	7	marketing	583-692-6929	contact@rhodia.org	Norway	CTC	341343339498257	True	$38,218,956,629.00	Norway

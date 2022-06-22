@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-7f2d17d3-13fd-4f18-a678-5805ab5fa44d	Haemacure Corp.	12/8/1993	Canada	29	validation	757-765-4803	info@haemacurecorp.org	United Kingdom	True	$35,947,450,178.00	True	False	True	False	False
-0e83a8d8-b870-4565-b4c5-bdae05f42730	Tele Celular Sul Participacoes S.A.	12/7/1961	Brazil	48	validation	667-875-8361	sales@telecelularsulparticipacoessa.org	United Kingdom	False	$78,448,249,640.00	True	False	True	True	True

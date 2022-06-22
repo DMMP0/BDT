@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-b2219b0e-a525-4f22-b9ff-f780c01b6d00	Rhodia	6/21/1975	France	7	scale-up	583-692-6929	contact@rhodia.org	Switzerland	Banca d italia	372652062116981	True	$22,063,348,711.00	Switzerland
-ba23f684-e6e1-4a63-a455-56599b6d4ca6	Tele Nordeste Celular Participacoes S.A.	11/27/1976	Brazil	26	scale-up	184-056-2664	headquarters@telenordestecelularparticipacoessa.org	Switzerland	CTC	344833905445424	False	$43,162,798,868.00	Switzerland

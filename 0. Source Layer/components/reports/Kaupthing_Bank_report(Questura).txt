@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-3b9e17d2-96d2-49a6-a4e9-745dcdad023e	Bennett Environmental Inc.	5/15/1962	Canada	39	scale-up	561-685-4405	sales@bennettenvironmentalinc.org	Finland	True	$1,747,060,997.00	False	True	True	True	True
-e6bc06b2-26b0-4fda-b718-e3ad7c81055a	VI Group plc	5/24/1988	United Kingdom	31	scale-up	495-055-3444	headquarters@vigroupplc.org	Finland	True	$10,806,005,986.00	True	False	False	True	False

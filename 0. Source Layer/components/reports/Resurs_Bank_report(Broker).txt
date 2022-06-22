@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-940197ff-21a7-4911-85ba-123f71ab5779	CP Ships Ltd.	4/13/1987	Canada	7	marketing	512-887-1880	headquarters@cpshipsltd.org	Sweden	CRIF	349763391713776	False	$92,902,291,333.00	Sweden
-06dc67e7-f4b0-417e-83cb-8b6810a55aac	Atlantic Telecom Group plc	5/12/1975	United Kingdom	39	marketing	379-281-1544	marketing@atlantictelecomgroupplc.org	Sweden	CRIF	341498067368914	False	$89,447,338,881.00	Sweden

@@ -1,5 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-50bff4d2-eb09-4932-8cae-a1bf24bca8fb	Citadel Gold Mines Inc.	5/20/1963	Canada	32	office	916-317-9829	marketing@citadelgoldminesinc.org	Switzerland	CTC	348564434943938	True	$70,465,887,078.00	Switzerland
-76eb509c-c5a8-4542-aa8a-f2d1db863bf5	Aztek Technologies Inc.	1/5/1991	Canada	15	office	370-689-6569	contact@aztektechnologiesinc.org	Switzerland	CTC	341446553549943	True	$5,699,935,142.00	Switzerland
-b2219b0e-a525-4f22-b9ff-f780c01b6d00	Rhodia	6/21/1975	France	7	office	583-692-6929	contact@rhodia.org	Switzerland	CTC	341101940894821	True	$24,680,826,501.00	Switzerland
-7f2d17d3-13fd-4f18-a678-5805ab5fa44d	Haemacure Corp.	12/8/1993	Canada	29	office	757-765-4803	info@haemacurecorp.org	Switzerland	CRIF	345655578814167	False	$52,236,117,065.00	Switzerland

@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-940197ff-21a7-4911-85ba-123f71ab5779	CP Ships Ltd.	4/13/1987	Canada	7	validation	512-887-1880	headquarters@cpshipsltd.org	Hungary	CRIF	374063564456800	True	$58,236,547,428.00	Hungary
-c5bca43a-6b71-4e5f-8861-7d4ddf5d547e	Canada Life Financial Corp.	1/5/1971	Canada	37	validation	658-667-6356	info@canadalifefinancialcorp.org	Hungary	experian	370340188698213	True	$16,753,405,350.00	Hungary

@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-94eb8f85-e0a9-4190-a226-03c9e2d2ea4d	Cryptologic Inc.	12/13/1995	Canada	22	scale-up	687-175-0790	sales@cryptologicinc.org	Gibraltar	experian	371503344820257	False	$59,080,570,052.00	Gibraltar
-940197ff-21a7-4911-85ba-123f71ab5779	CP Ships Ltd.	4/13/1987	Canada	7	scale-up	512-887-1880	headquarters@cpshipsltd.org	Gibraltar	Banca d italia	346737432623916	True	$10,556,963,480.00	Gibraltar

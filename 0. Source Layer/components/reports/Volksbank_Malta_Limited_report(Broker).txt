@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-b9c50519-ea28-43fa-bf9d-70ccaf5d895e	Guangshen Railway Co. Ltd.	3/19/1989	China	11	validation	798-857-5135	headquarters@guangshenrailwaycoltd.org	Malta	CRIF	344444040043395	True	$34,563,318,405.00	Malta
-09fbac4b-8673-42d7-9f32-344c87c6a5f4	G. Willi-Food International Ltd.	6/24/1986	Israel	11	validation	220-394-7342	headquarters@gwillifoodinternationalltd.org	Malta	CTC	340267221983764	False	$20,096,216,070.00	Malta

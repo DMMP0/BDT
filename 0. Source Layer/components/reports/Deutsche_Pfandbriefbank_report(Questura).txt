@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-7f2d17d3-13fd-4f18-a678-5805ab5fa44d	Haemacure Corp.	12/8/1993	Canada	29	validation	757-765-4803	info@haemacurecorp.org	Germany	True	$28,826,562,597.00	False	True	True	False	True
-37d3b4aa-25ae-4cd9-97e5-476c1a5234e1	Olicom A/S	11/23/1982	Denmark	11	validation	467-797-5753	reach@olicomas.org	Germany	True	$46,246,891,059.00	True	False	False	True	True

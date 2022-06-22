@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-940197ff-21a7-4911-85ba-123f71ab5779	CP Ships Ltd.	4/13/1987	Canada	7	marketing	512-887-1880	headquarters@cpshipsltd.org	Spain	experian	375750897847593	False	$59,953,355,884.00	Spain
-3b9e17d2-96d2-49a6-a4e9-745dcdad023e	Bennett Environmental Inc.	5/15/1962	Canada	39	marketing	561-685-4405	sales@bennettenvironmentalinc.org	Spain	CRIF	344680745537401	True	$24,178,296,059.00	Spain

@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-85a596b8-e7a4-45ee-ac04-38dd58a04154	Trivalence Mining Corp.	4/24/1963	Canada	25	validation	436-123-3850	hr@trivalenceminingcorp.org	Poland	False	$62,686,098,313.00	True	True	False	True	True
-3bb57501-4ef9-479f-9e3d-2dac7c920e39	Etruscan Resources Inc.	6/19/1992	Canada	29	validation	160-009-9526	hr@etruscanresourcesinc.org	Poland	True	$68,362,431,088.00	False	True	False	False	False

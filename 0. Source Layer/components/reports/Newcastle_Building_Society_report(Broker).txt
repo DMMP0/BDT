@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-6e9e27a6-f584-4fec-a9b2-00c364e6df21	Kubota Corp.	11/14/1977	Japan	25	marketing	128-152-1910	hr@kubotacorp.org	Gibraltar	CTC	372070834058367	True	$52,488,098,527.00	Gibraltar
-f4e7c23c-039c-4b38-96a4-35e70f3c9935	National Grid Group plc	3/24/1978	United Kingdom	42	marketing	765-804-8387	contact@nationalgridgroupplc.org	Gibraltar	experian	370539047071930	True	$61,380,975,167.00	Gibraltar

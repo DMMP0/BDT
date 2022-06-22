@@ -1,3 +1,3 @@
 registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-b04575ab-57a6-4892-a506-18c3a3833bfe	Fomento Economico Mexicano S.A. de C.V.	7/8/1977	Mexico	29	validation	304-380-1927	enquiries@fomentoeconomicomexicanosadecv.org	Hungary	Banca d italia	376218984346977	True	$6,040,653,168.00	Hungary
-37d3b4aa-25ae-4cd9-97e5-476c1a5234e1	Olicom A/S	11/23/1982	Denmark	11	validation	467-797-5753	reach@olicomas.org	Hungary	Banca d italia	375334299348201	False	$57,016,611,519.00	Hungary
+a0321761-63aa-490c-b7d5-a3e30f4d6eae	P.T. Pasifik Satelit Nusantara Tbk	5/5/1963	Indonesia	29	industrial equipment	629-141-2587	enquiries@ptpasifiksatelitnusantaratbk.org	Hungary	experian	344160023950295	True	$37,258,376,264.00	Hungary
+94eb8f85-e0a9-4190-a226-03c9e2d2ea4d	Cryptologic Inc.	12/13/1995	Canada	22	industrial equipment	687-175-0790	sales@cryptologicinc.org	Hungary	Banca d italia	376802947059239	True	$38,035,471,505.00	Hungary

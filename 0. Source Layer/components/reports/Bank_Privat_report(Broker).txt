@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-c5bca43a-6b71-4e5f-8861-7d4ddf5d547e	Canada Life Financial Corp.	1/5/1971	Canada	37	scale-up	658-667-6356	info@canadalifefinancialcorp.org	Austria	CRIF	378657244058419	False	$54,090,880,025.00	Austria
-f4e7c23c-039c-4b38-96a4-35e70f3c9935	National Grid Group plc	3/24/1978	United Kingdom	42	scale-up	765-804-8387	contact@nationalgridgroupplc.org	Austria	Banca d italia	345426514920116	True	$38,777,047,251.00	Austria

@@ -1,6 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-09fbac4b-8673-42d7-9f32-344c87c6a5f4	G. Willi-Food International Ltd.	6/24/1986	Israel	11	validation	220-394-7342	headquarters@gwillifoodinternationalltd.org	Greece	CRIF	348257794357316	False	$74,798,563,990.00	Greece
-27ce7b74-7d6a-4d13-b91e-814f61dd179d	ABB Ltd.	8/20/1984	Switzerland	39	validation	688-160-3651	marketing@abbltd.org	Greece	CRIF	349965284045634	True	$54,624,404,580.00	Greece
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-b9c50519-ea28-43fa-bf9d-70ccaf5d895e	Guangshen Railway Co. Ltd.	3/19/1989	China	11	validation	798-857-5135	headquarters@guangshenrailwaycoltd.org	Austria	CRIF	349149444272210	True	$27,979,356,293.00	Austria
-7f2d17d3-13fd-4f18-a678-5805ab5fa44d	Haemacure Corp.	12/8/1993	Canada	29	validation	757-765-4803	info@haemacurecorp.org	Austria	CTC	370920621789321	True	$2,795,581,031.00	Austria

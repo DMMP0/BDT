@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-c434077a-a4b9-4a2b-9c22-d59fb66af8e5	China Yuchai International Ltd.	6/30/1978	Bermuda	48	validation	303-120-3161	info@chinayuchaiinternationalltd.org	Netherlands	experian	349336362374108	False	$97,231,701,722.00	Netherlands
-09fbac4b-8673-42d7-9f32-344c87c6a5f4	G. Willi-Food International Ltd.	6/24/1986	Israel	11	validation	220-394-7342	headquarters@gwillifoodinternationalltd.org	Netherlands	CRIF	349074942908117	True	$60,491,450,573.00	Netherlands

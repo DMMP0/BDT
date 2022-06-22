@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-94eb8f85-e0a9-4190-a226-03c9e2d2ea4d	Cryptologic Inc.	12/13/1995	Canada	22	validation	687-175-0790	sales@cryptologicinc.org	Lithuania	False	$9,294,471,480.00	True	False	False	True	True
-bb958bd0-5f24-4346-80f3-6615a1ebfd59	Forbes Medi-Tech Inc.	1/5/1994	Canada	38	validation	502-154-4493	marketing@forbesmeditechinc.org	Lithuania	False	$58,019,053,588.00	False	False	False	False	True

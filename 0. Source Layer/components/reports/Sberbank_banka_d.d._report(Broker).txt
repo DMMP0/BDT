@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-3bb57501-4ef9-479f-9e3d-2dac7c920e39	Etruscan Resources Inc.	6/19/1992	Canada	29	validation	160-009-9526	hr@etruscanresourcesinc.org	Slovenia	CTC	345195990779136	True	$29,602,243,139.00	Slovenia
-46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	validation	940-622-1937	info@professionalstaffplc.org	Slovenia	CRIF	377305374518015	False	$5,419,599,195.00	Slovenia

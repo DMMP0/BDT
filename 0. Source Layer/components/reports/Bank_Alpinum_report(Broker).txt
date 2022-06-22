@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-c434077a-a4b9-4a2b-9c22-d59fb66af8e5	China Yuchai International Ltd.	6/30/1978	Bermuda	48	industrial equipment	303-120-3161	info@chinayuchaiinternationalltd.org	Liechtenstein	CTC	340589080152029	True	$24,462,751,441.00	Liechtenstein
-5afc22ee-ddc7-4af4-a3c4-96fcda87373a	Amvescap plc	2/11/1965	United Kingdom	35	industrial equipment	484-276-7725	contact@amvescapplc.org	Liechtenstein	Banca d italia	349778648244870	True	$66,845,433,006.00	Liechtenstein

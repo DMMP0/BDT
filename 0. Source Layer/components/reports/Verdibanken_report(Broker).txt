@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-5e74f6bc-0894-4d6a-9b5f-a16749aeacb9	American Israeli Paper Mills Ltd.	5/24/1966	Israel	41	marketing	672-174-8489	marketing@americanisraelipapermillsltd.org	Norway	CTC	372482692311087	False	$51,834,933,469.00	Norway
-51b52ac3-f0a4-4906-82b3-9ca00c50db0d	HSBC Bank plc	12/3/1976	United Kingdom	19	marketing	560-530-8771	headquarters@hsbcbankplc.org	Norway	CTC	349541738925299	False	$54,739,190,602.00	Norway

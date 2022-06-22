@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	validation	940-622-1937	info@professionalstaffplc.org	Latvia	True	$73,353,083,552.00	True	True	True	True	False
-df98f86a-e21a-4c11-bb75-716aea0217fa	Aluminum Corp of China Ltd.	5/16/1982	China	30	validation	814-039-1974	marketing@aluminumcorpofchinaltd.org	Latvia	False	$93,420,311,770.00	False	True	False	True	True

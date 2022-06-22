@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-5afc22ee-ddc7-4af4-a3c4-96fcda87373a	Amvescap plc	2/11/1965	United Kingdom	35	validation	484-276-7725	contact@amvescapplc.org	Slovakia	True	$23,070,658,073.00	False	True	False	True	True
-3b9e17d2-96d2-49a6-a4e9-745dcdad023e	Bennett Environmental Inc.	5/15/1962	Canada	39	validation	561-685-4405	sales@bennettenvironmentalinc.org	Slovakia	False	$4,609,472,360.00	True	True	False	True	True

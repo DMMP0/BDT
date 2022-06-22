@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-536e0301-7918-475d-8eba-864c98511f72	Ekabel Hessen GmbH	3/15/1964	Germany	48	industrial equipment	486-741-7082	info@ekabelhessengmbh.org	Cyprus	True	$41,093,052,429.00	True	True	False	True	True
-5ad5f65a-4601-42c0-a736-c23f95881abe	China Mobile (Hong Kong) Ltd.	10/2/1984	Hong Kong	25	industrial equipment	836-090-8645	contact@chinamobilehongkongltd.org	Cyprus	True	$27,868,416,207.00	False	False	True	False	False

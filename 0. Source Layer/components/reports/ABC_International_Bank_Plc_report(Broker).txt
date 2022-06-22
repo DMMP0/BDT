@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-5afc22ee-ddc7-4af4-a3c4-96fcda87373a	Amvescap plc	2/11/1965	United Kingdom	35	office	484-276-7725	contact@amvescapplc.org	United Kingdom	CTC	346277629547859	False	$86,587,408,077.00	United Kingdom
-02895057-1d61-4576-a475-9e9ad28024d4	ID Biomedical Corp.	10/9/1996	Canada	19	office	118-870-8437	marketing@idbiomedicalcorp.org	United Kingdom	CRIF	376226958729235	False	$82,133,355,398.00	United Kingdom

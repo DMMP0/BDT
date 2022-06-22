@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-7f2d17d3-13fd-4f18-a678-5805ab5fa44d	Haemacure Corp.	12/8/1993	Canada	29	validation	757-765-4803	info@haemacurecorp.org	Portugal	CRIF	340318613046197	False	$67,771,883,764.00	Portugal
-85a596b8-e7a4-45ee-ac04-38dd58a04154	Trivalence Mining Corp.	4/24/1963	Canada	25	validation	436-123-3850	hr@trivalenceminingcorp.org	Portugal	CRIF	371841602222992	False	$37,420,526,234.00	Portugal

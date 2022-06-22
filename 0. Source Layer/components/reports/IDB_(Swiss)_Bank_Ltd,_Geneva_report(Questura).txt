@@ -1,6 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-ba350f5c-b544-49e5-8f65-a62e26da6aab	Novartis AG	6/3/1967	Switzerland	49	validation	646-673-0302	hr@novartisag.org	Switzerland	True	$85,343,842,459.00	True	True	False	True	False
-4e0632de-851b-483b-b9e9-c5cd433603fa	Dynamic Oil & Gas Ltd.	11/24/1983	Canada	19	validation	263-751-3055	marketing@dynamicoilgasltd.org	Switzerland	False	$60,096,792,554.00	False	False	True	False	True
-b9c50519-ea28-43fa-bf9d-70ccaf5d895e	Guangshen Railway Co. Ltd.	3/19/1989	China	11	validation	798-857-5135	headquarters@guangshenrailwaycoltd.org	Switzerland	False	$50,883,757,242.00	False	True	False	True	True
-76eb509c-c5a8-4542-aa8a-f2d1db863bf5	Aztek Technologies Inc.	1/5/1991	Canada	15	validation	370-689-6569	contact@aztektechnologiesinc.org	Switzerland	False	$2,634,753,445.00	True	False	True	False	True
-60dcb249-98fd-4108-95d3-6610e68d9f8c	New Tel Ltd.	1/5/1975	Australia	32	validation	994-215-8206	info@newtelltd.org	Switzerland	False	$76,131,424,551.00	False	True	True	False	False

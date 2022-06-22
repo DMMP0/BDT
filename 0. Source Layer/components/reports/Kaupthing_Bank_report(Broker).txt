@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-3b9e17d2-96d2-49a6-a4e9-745dcdad023e	Bennett Environmental Inc.	5/15/1962	Canada	39	scale-up	561-685-4405	sales@bennettenvironmentalinc.org	Finland	CRIF	341233828581269	False	$71,685,897,943.00	Finland
-e6bc06b2-26b0-4fda-b718-e3ad7c81055a	VI Group plc	5/24/1988	United Kingdom	31	scale-up	495-055-3444	headquarters@vigroupplc.org	Finland	Banca d italia	343772069092906	True	$28,537,134,890.00	Finland

@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-bb958bd0-5f24-4346-80f3-6615a1ebfd59	Forbes Medi-Tech Inc.	1/5/1994	Canada	38	validation	502-154-4493	marketing@forbesmeditechinc.org	Romania	True	$31,064,779,980.00	False	False	True	False	True
-02895057-1d61-4576-a475-9e9ad28024d4	ID Biomedical Corp.	10/9/1996	Canada	19	validation	118-870-8437	marketing@idbiomedicalcorp.org	Romania	True	$29,799,239,308.00	False	False	False	True	False

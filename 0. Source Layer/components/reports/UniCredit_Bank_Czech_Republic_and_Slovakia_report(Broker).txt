@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-0e83a8d8-b870-4565-b4c5-bdae05f42730	Tele Celular Sul Participacoes S.A.	12/7/1961	Brazil	48	validation	667-875-8361	sales@telecelularsulparticipacoessa.org	Czech Republic	CRIF	340082866273946	False	$99,557,644,171.00	Czech Republic
-5ad5f65a-4601-42c0-a736-c23f95881abe	China Mobile (Hong Kong) Ltd.	10/2/1984	Hong Kong	25	validation	836-090-8645	contact@chinamobilehongkongltd.org	Czech Republic	experian	371073043127990	False	$57,373,268,193.00	Czech Republic

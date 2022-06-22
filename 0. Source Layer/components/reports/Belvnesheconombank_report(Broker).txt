@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	validation	940-622-1937	info@professionalstaffplc.org	Poland	CTC	372542852285502	True	$65,055,645,199.00	Poland
-c5bca43a-6b71-4e5f-8861-7d4ddf5d547e	Canada Life Financial Corp.	1/5/1971	Canada	37	validation	658-667-6356	info@canadalifefinancialcorp.org	Poland	experian	341299808269621	True	$54,551,307,920.00	Poland

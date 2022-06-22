@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-6f3bfa68-3fbe-484d-8c51-80c5659025d6	Willis Group Ltd.	10/3/1982	United Kingdom	17	scale-up	213-029-9893	hr@willisgroupltd.org	Czech Republic	CRIF	370691680804455	True	$98,514,395,723.00	Czech Republic
-4e0632de-851b-483b-b9e9-c5cd433603fa	Dynamic Oil & Gas Ltd.	11/24/1983	Canada	19	scale-up	263-751-3055	marketing@dynamicoilgasltd.org	Czech Republic	CTC	375643136179037	True	$18,374,186,902.00	Czech Republic

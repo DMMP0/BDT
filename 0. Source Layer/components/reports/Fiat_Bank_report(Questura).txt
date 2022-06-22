@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-ba350f5c-b544-49e5-8f65-a62e26da6aab	Novartis AG	6/3/1967	Switzerland	49	validation	646-673-0302	hr@novartisag.org	Poland	False	$81,592,501,155.00	False	True	False	True	False
-c434077a-a4b9-4a2b-9c22-d59fb66af8e5	China Yuchai International Ltd.	6/30/1978	Bermuda	48	validation	303-120-3161	info@chinayuchaiinternationalltd.org	Poland	False	$2,413,321,257.00	True	False	False	False	False

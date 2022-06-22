@@ -1,6 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-37d3b4aa-25ae-4cd9-97e5-476c1a5234e1	Olicom A/S	11/23/1982	Denmark	11	validation	467-797-5753	reach@olicomas.org	Sweden	CTC	371045137420218	False	$99,299,522,039.00	Sweden
-28ce529c-14c6-4c54-bf63-4f5fae569fa3	Elan Corp plc	2/2/1991	Ireland	30	validation	864-511-0083	contact@elancorpplc.org	Sweden	CRIF	378971666725573	False	$33,454,043,255.00	Sweden
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-e6bc06b2-26b0-4fda-b718-e3ad7c81055a	VI Group plc	5/24/1988	United Kingdom	31	scale-up	495-055-3444	headquarters@vigroupplc.org	Norway	CRIF	375586084780241	True	$94,268,553,274.00	Norway
-3b9e17d2-96d2-49a6-a4e9-745dcdad023e	Bennett Environmental Inc.	5/15/1962	Canada	39	scale-up	561-685-4405	sales@bennettenvironmentalinc.org	Norway	CRIF	349339577431895	False	$62,818,329,620.00	Norway

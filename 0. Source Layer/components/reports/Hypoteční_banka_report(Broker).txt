@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-8235535e-0873-43ef-91ca-879383cf8377	Mirtronics Inc.	5/2/1962	Canada	29	validation	556-124-9965	info@mirtronicsinc.org	Czech Republic	CTC	373933676472161	False	$42,135,089,969.00	Czech Republic
-df98f86a-e21a-4c11-bb75-716aea0217fa	Aluminum Corp of China Ltd.	5/16/1982	China	30	validation	814-039-1974	marketing@aluminumcorpofchinaltd.org	Czech Republic	Banca d italia	346820444017838	False	$3,400,852,492.00	Czech Republic

@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-94eb8f85-e0a9-4190-a226-03c9e2d2ea4d	Cryptologic Inc.	12/13/1995	Canada	22	marketing	687-175-0790	sales@cryptologicinc.org	Austria	CRIF	341616689319441	True	$96,429,770,142.00	Austria
-46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	marketing	940-622-1937	info@professionalstaffplc.org	Austria	CRIF	370469985780385	False	$26,145,881,903.00	Austria

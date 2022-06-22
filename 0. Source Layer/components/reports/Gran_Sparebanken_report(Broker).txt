@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-0e83a8d8-b870-4565-b4c5-bdae05f42730	Tele Celular Sul Participacoes S.A.	12/7/1961	Brazil	48	validation	667-875-8361	sales@telecelularsulparticipacoessa.org	Norway	Banca d italia	347177152879837	False	$70,691,310,369.00	Norway
-de1ab2b9-0ec0-48ac-8b3d-c3f8fbb7c76a	Intertape Polymer Group Inc.	1/22/1981	Canada	35	validation	704-390-1802	reach@intertapepolymergroupinc.org	Norway	experian	371429441351360	False	$974,658,896.00	Norway

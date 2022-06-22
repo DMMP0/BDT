@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-b2219b0e-a525-4f22-b9ff-f780c01b6d00	Rhodia	6/21/1975	France	7	validation	583-692-6929	contact@rhodia.org	Italy	Banca d italia	349080852947367	True	$15,311,127,695.00	Italy
-4e0632de-851b-483b-b9e9-c5cd433603fa	Dynamic Oil & Gas Ltd.	11/24/1983	Canada	19	validation	263-751-3055	marketing@dynamicoilgasltd.org	Italy	experian	375419205570525	True	$35,807,005,301.00	Italy

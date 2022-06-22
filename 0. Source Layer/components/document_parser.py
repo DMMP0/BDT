@@ -1,13 +1,10 @@
-import os
+
 import pandas as pd
-# import html_to_json
-# import docx  -- must install python-docx and openpyxl
+
 import io
 import csv
 from docx import Document
 
-
-# import mdtex2html
 
 
 bank_columns = ['registration_number', 'name', 'established_date', 'country', 'number_of_employees', 'purpose',

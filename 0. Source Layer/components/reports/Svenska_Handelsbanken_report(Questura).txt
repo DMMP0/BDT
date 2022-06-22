@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-51b52ac3-f0a4-4906-82b3-9ca00c50db0d	HSBC Bank plc	12/3/1976	United Kingdom	19	scale-up	560-530-8771	headquarters@hsbcbankplc.org	Latvia	False	$95,034,769,360.00	False	False	True	True	False
-940197ff-21a7-4911-85ba-123f71ab5779	CP Ships Ltd.	4/13/1987	Canada	7	scale-up	512-887-1880	headquarters@cpshipsltd.org	Latvia	False	$61,250,897,543.00	False	True	True	False	True

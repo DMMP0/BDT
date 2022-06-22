@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	marketing	940-622-1937	info@professionalstaffplc.org	Slovenia	Banca d italia	372631230085609	True	$14,123,358,119.00	Slovenia
-bb958bd0-5f24-4346-80f3-6615a1ebfd59	Forbes Medi-Tech Inc.	1/5/1994	Canada	38	marketing	502-154-4493	marketing@forbesmeditechinc.org	Slovenia	CRIF	342936303430948	True	$93,922,101,003.00	Slovenia

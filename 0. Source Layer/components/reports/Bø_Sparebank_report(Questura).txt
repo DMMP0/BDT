@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-06dc67e7-f4b0-417e-83cb-8b6810a55aac	Atlantic Telecom Group plc	5/12/1975	United Kingdom	39	industrial equipment	379-281-1544	marketing@atlantictelecomgroupplc.org	Norway	False	$25,406,742,993.00	False	False	False	False	False
-2d3d1c8b-3cc1-4850-a919-ba4d6cb09075	Tele Sudeste Celular Participacoes S.A.	3/4/1976	Brazil	7	industrial equipment	978-489-1684	contact@telesudestecelularparticipacoessa.org	Norway	True	$12,025,093,799.00	True	False	True	True	False

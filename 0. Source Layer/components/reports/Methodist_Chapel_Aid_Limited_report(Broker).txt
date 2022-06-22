@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-6a05f98f-100f-42d9-86b7-a0d589eccbb5	Verena Minerals Corp.	10/10/1981	Canada	46	validation	266-884-5949	sales@verenamineralscorp.org	United Kingdom	Banca d italia	348366830789638	False	$54,500,927,786.00	United Kingdom
-37d3b4aa-25ae-4cd9-97e5-476c1a5234e1	Olicom A/S	11/23/1982	Denmark	11	validation	467-797-5753	reach@olicomas.org	United Kingdom	CTC	345510516592443	True	$53,098,659,894.00	United Kingdom

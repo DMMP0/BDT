@@ -28,39 +28,31 @@ class RTF:
 		self.bank = bank
 
 	def create_bank_data(self,bdata):
-			# print(bank['names'])
-			
-			# print(self.bank[0])
-			bank_data = bdata
-			# bank = pd.DataFrame(bank)
-			# bank = pd.DataFrame(data = bank.values , columns=bank.columns)
-			# bank = list(bank)
-			# print(bank)
-			banksName = str(self.bank[0])
-			banksName =banksName.replace(' ','_')
-			banksName = banksName.replace('/','_')
-			bank_data = pd.DataFrame(bank_data)
-			bank_data['bank_name'] = self.bank[0]
-			bank_data['bank_country'] = self.bank[1]
-			bank_data['open_new_credit_in_6_months'] = 0
-			bank_data['ammount_in_6_months'] = 0.00
-			bank_data['new_credit_in_12_months'] = 0.00
-			bank_data['new_credit_in_18_months'] = 0.00
-			bank_data['ammount_in_12_months'] = 0.00
-			bank_data['ammount_in_18_months'] = 0.00
-			bank_data['house_mortage'] = 1
-			bank_data['amount_of_house_mortage'] = 0.00
-			bank_data['amount_duee_mortage'] = 0.00
-			bank_data['house_property'] = 00
-			bank_data['total_house_amount'] =0.00
-			bank_data['credit_card_number'] = 0
-			bank_data['actual_debit_credit_cards'] =0.00
-			bank_data['monthly_income'] = 0.00
-			bank_data['savings'] = 0.00
-			bank_data['other_savings']= 0.00
-
-
-			return bank_data
+				bank_data = bdata
+				banksName = str(self.bank[0])
+				banksName =banksName.replace(' ','_')
+				banksName = banksName.replace('/','_')
+				bank_data = pd.DataFrame(bank_data)
+				bank_data['bank_name'] = self.bank[0]
+				bank_data['bank_country'] = self.bank[1]
+				bank_data['open_new_credit_in_6_months'] = 0
+				bank_data['ammount_in_6_months'] = 0.00
+				bank_data['new_credit_in_12_months'] = 0.00
+				bank_data['new_credit_in_18_months'] = 0.00
+				bank_data['ammount_in_12_months'] = 0.00
+				bank_data['ammount_in_18_months'] = 0.00
+				bank_data['house_mortage'] = 1
+				bank_data['amount_of_house_mortage'] = 0.00
+				bank_data['amount_duee_mortage'] = 0.00
+				bank_data['house_property'] = 00
+				bank_data['total_house_amount'] =0.00
+				bank_data['credit_card_number'] = 0
+				bank_data['credit_card_limit_total'] = 0
+				bank_data['actual_debit_credit_cards'] =0.00
+				bank_data['monthly_income'] = 0.00
+				bank_data['savings'] = 0.00
+				bank_data['other_savings']= 0.00
+				return bank_data
 
 	def create_questura_data(self, questuradata)->any:
 			questura_data = questuradata

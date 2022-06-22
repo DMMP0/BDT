@@ -47,6 +47,7 @@ class Word:
 				bank_data['house_property'] = 00
 				bank_data['total_house_amount'] =0.00
 				bank_data['credit_card_number'] = 0
+				bank_data['credit_card_limit_total'] = 0
 				bank_data['actual_debit_credit_cards'] =0.00
 				bank_data['monthly_income'] = 0.00
 				bank_data['savings'] = 0.00

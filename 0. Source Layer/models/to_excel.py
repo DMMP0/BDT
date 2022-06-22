@@ -1,5 +1,5 @@
 import os
-
+import re
 import pandas as pd
 import random
 from random import randint
@@ -90,16 +90,14 @@ class Excel:
 			return broker_data
 	
 	def bank_excel(self):
-		bank_data = pd.DataFrame(self.data)
+		bank_data = pd.DataFrame(self.data)	
 		banksName = self.bank['names']
+		banksName =re.sub('[^a-zA-Z0-9 \n\.]', '', banksName)
 		bank_data['bank_name'] = self.bank['names']
 		bank_data['bank_country'] = self.bank['country']
 		banksName =banksName.replace(' ','_')
 		banksName = banksName.replace('/','_')
 		bank_data =  self.create_bank_data(bank_data)
-		banksName = str(self.bank[0])
-		banksName =banksName.replace(' ','_')
-		banksName = banksName.replace('/','_')
 		bank_data = pd.DataFrame(bank_data)
 		for index,item in bank_data.iterrows():	
 			bank_data.loc[index,'open_new_credit_in_6_months'] = random.randint(0,10)
@@ -129,16 +127,9 @@ class Excel:
 	def police_excel(self):
 			questura_data = pd.DataFrame(self.data)
 			banksName = self.bank['names']
-			# questura_data['bank_name'] = self.bank['names']
-			# questura_data['bank_country'] = self.bank['country']
-			# print(banksName)
-			banksName =banksName.replace(' ','_')
-			banksName = banksName.replace('/','_')
+			banksName =re.sub('[^a-zA-Z0-9 \n\.]', '', banksName)
 			bank = self.bank
 			questura_data =  self.create_questura_data(questura_data)
-			banksName = str(self.bank[0])
-			banksName =banksName.replace(' ','_')
-			banksName = banksName.replace('/','_')
 			questura_data = pd.DataFrame(questura_data)
 			# print(banksName)
 			for index,item in questura_data.iterrows():
@@ -174,14 +165,10 @@ class Excel:
 
 	agencey_names = ['CRIF','CTC','Banca d italia','experian']
 	def broker_excel(self):
-			broker_data = pd.DataFrame(self.data)
+			broker_data = pd.DataFrame(self.data)		
 			banksName = self.bank['names']
-			banksName =banksName.replace(' ','_')
-			banksName = banksName.replace('/','_')
+			banksName =re.sub('[^a-zA-Z0-9 \n\.]', '', banksName)
 			broker_data =  self.create_risk_broker_data(broker_data)
-			banksName = self.bank[0]
-			banksName =banksName.replace(' ','_')
-			banksName = banksName.replace('/','_')
 			broker_data = pd.DataFrame(broker_data)
 			# print(banksName)
 			for index,item in broker_data.iterrows():

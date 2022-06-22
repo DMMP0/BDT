@@ -4,7 +4,7 @@ from random import randint
 import numpy as np
 import ccard
 import docx
-
+import re
 from docx.shared import Pt, Mm
 
 val  = 30000.00
@@ -103,19 +103,11 @@ class HTML:
 			# bank = pd.DataFrame(bank)
 			## read in the text as a string
 			# print(bank)
+					
 			banksName = self.bank['names']
-			bank_data['bank_name'] = self.bank['names']
-			# bank_data['bank_country'] = self.bank['country']
-			# print(banksName)
-			banksName =banksName.replace(' ','_')
-			banksName = banksName.replace('/','_')
-			# bank = self.bank
+			banksName =re.sub('[^a-zA-Z0-9 \n\.]', '', banksName)
 			bank_data =  self.create_bank_data(bank_data)
-			banksName = self.bank[0]
-			banksName =banksName.replace(' ','_')
-			banksName = banksName.replace('/','_')
 			bank_data = pd.DataFrame(bank_data)
-			
 			# print(banksName)
 			for index,item in bank_data.iterrows():	
 				bank_data.loc[index,'open_new_credit_in_6_months'] = random.randint(0,10)
@@ -144,14 +136,11 @@ class HTML:
     
 	def police_html(self):
 			questura_data = pd.DataFrame(self.data)
+			banksName = self.bank['names']		
 			banksName = self.bank['names']
-			# questura_data['bank_name'] = self.bank['names']
-			banksName =banksName.replace(' ','_')
-			banksName = banksName.replace('/','_')
+			banksName =re.sub('[^a-zA-Z0-9 \n\.]', '', banksName)
 			questura_data =  self.create_questura_data(questura_data)
-			banksName = self.bank[0]
-			banksName =banksName.replace(' ','_')
-			banksName = banksName.replace('/','_')
+			
 			questura_data = pd.DataFrame(questura_data)
 			# print(banksName)
 			for index,item in questura_data.iterrows():
@@ -172,27 +161,23 @@ class HTML:
 	agencey_names = ['CRIF','CTC','Banca d italia','experian']
 	def broker_html(self):
 			broker_data = pd.DataFrame(self.data)
-			# bank = pd.DataFrame(bank)
-			## read in the text as a string
-			# print(bank)
+					
 			banksName = self.bank['names']
-			# broker_data['broker_country'] = self.bank['country']
-			# print(banksName)
-			banksName =banksName.replace(' ','_')
-			banksName = banksName.replace('/','_')
+			banksName =re.sub('[^a-zA-Z0-9 \n\.]', '', banksName)
 			broker_data =  self.create_risk_broker_data(broker_data)
-			banksName = self.bank[0]
-			banksName =banksName.replace(' ','_')
-			banksName = banksName.replace('/','_')
 			broker_data = pd.DataFrame(broker_data)
 			# print(banksName)
 			for index,item in broker_data.iterrows():
 					broker_data = pd.DataFrame(broker_data)
 					broker_data.loc[index,'agency_country'] = self.bank[1]
+					broker_data.loc[index,'from30to60'] = random.randint(0,3)
+					broker_data.loc[index,'from60to90'] = random.randint(0,3)
+					broker_data.loc[index,'morethan90'] = random.randint(0,3)
 					broker_data.loc[index,'agency_name'] = self.agencey_names[(randint(0,3))] 
 					broker_data.loc[index,'debit_id'] =str(ccard.americanexpress())
-					broker_data.loc[index,'installment'] =  random.choice([True, False])
-					broker_data.loc[index,'installment_ammount'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
+					broker_data.loc[index,'insolvent'] =  random.choice([True, False])
+					if(broker_data.loc[index,'insolvent'] == True):
+						broker_data.loc[index,'insolvent_ammount'] = "${:,.2f}".format(val + random.randint(5000, 1000000))
 	
 			broker_data.to_html('./reports/'+banksName+'(Risk Broker).html')
 			

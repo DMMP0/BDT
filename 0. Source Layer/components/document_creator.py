@@ -1,20 +1,19 @@
 import os
-from xmlrpc.client import DateTime
+
 import pandas as pd
-import random
+
 from random import randint
 
 import numpy as np
-import sys
+
 
 
 from models.to_txt import RTF
 from models.to_word import Word
-from models.to_tex import Tex
-from models.to_clipboard import Clipboard
+
 from models.to_excel import Excel
 from models.to_html import HTML
-# function
+
 import modulefinder
 from docx.shared import Pt, Mm
 

@@ -1,9 +1,9 @@
-from unicodedata import name
+
 import pandas as pd
 import random
 from random import randint
 import uuid
-import numpy as np
+
 import datetime
 import re
 temp = []

@@ -8,8 +8,11 @@ WORKDIR /user/app/scr
 RUN pip install pandas
 RUN pip install uuid
 RUN pip install numpy
+RUN pip install csv
 RUN pip install docx
-RUN pip install kafka
+RUN pip install ccard
+
+RUN pip install redis
 
 ADD main.py .
 ADD services/ services/

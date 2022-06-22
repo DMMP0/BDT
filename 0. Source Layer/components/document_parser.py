@@ -7,8 +7,7 @@ from docx import Document
 
 
 
-bank_columns = ['registration_number', 'name', 'established_date', 'country', 'number_of_employees', 'purpose',
-           'phone_number', 'email',
+bank_columns = ['Id_Number','first_name','last_name','sex','DOB','ethnicity','education','phone_number','email',
            'bank_name', 'bank_country', 'open_new_credit_in_6_months', 'amount_in_6_months', 'new_credit_in_12_months',
            'new_credit_in_18_months',
            'amount_in_12_months', 'amount_in_18_months', 'house_mortgage', 'amount_of_house_mortgage',
@@ -17,12 +16,12 @@ bank_columns = ['registration_number', 'name', 'established_date', 'country', 'n
            'other_savings']
 
 
-questura_columns = ['registration_number','name','established_date','country','number_of_employees','purpose',
-'phone_number','email','questura_country','bankruptcy','inscred','fraudis','investigation','accused','condamned','civ_pass']
+questura_columns = ['Id_Number','first_name','last_name','sex','DOB','ethnicity','education','phone_number','email',
+'questura_country','bankruptcy','inscred','fraudis','investigation','accused','condamned','civ_pass']
 
 
-broker_columns = ['registration_number', 'name', 'established_date', 'country', 'number_of_employees', 'purpose',
-           'phone_number', 'email','agencey_country','agency_name','debit_id','installment','installment_ammount','agency_country']
+broker_columns = ['Id_Number','first_name','last_name','sex','DOB','ethnicity','education','phone_number','email',
+'agencey_country','agency_name','from30to60','from60to90','morethan90','debit_id','insolvent','insolvent_ammount','agency_country']
 
 def read_docx_tables(filename, tab_id=None, **kwargs):
     """

@@ -80,18 +80,19 @@ class Word:
 				return questura_data
 		
 		def create_risk_broker_data(self, broker_data)->any:
-				broker_data = broker_data
-				banksName = str(self.bank[0])
-				banksName =banksName.replace(' ','_')
-				banksName = banksName.replace('/','_')
-				broker_data = pd.DataFrame(broker_data)
-				broker_data['agencey_country'] = self.bank[1]
-				broker_data['agency_name'] = ''
-				broker_data['debit_id'] =''
-				broker_data['installment'] = bool
-				broker_data['installment_ammount'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
-			
-				return broker_data
+			broker_data = broker_data
+			banksName = str(self.bank[0])
+			banksName =banksName.replace(' ','_')
+			banksName = banksName.replace('/','_')
+			broker_data = pd.DataFrame(broker_data)
+			broker_data['agencey_country'] = self.bank[1]
+			broker_data['agency_name'] = ''
+			broker_data['from30to60'] = random.randint(0,3)
+			broker_data['from60to90'] = random.randint(0,3)
+			broker_data['morethan90'] = random.randint(0,3)
+			broker_data['debit_id'] =''
+			broker_data['insolvent'] = bool
+			broker_data['insolvent_ammount'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
 
 		
 		def bank_to_word(self):

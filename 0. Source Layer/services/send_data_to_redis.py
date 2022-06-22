@@ -15,17 +15,16 @@ def send():
     path = source_layer + '/components/reports/'
     excel = [f for f in os.listdir(path) if f.endswith('.xlsx')]
     html = [f for f in os.listdir(path) if f.endswith('.html')]
-    # tex = [f for f in os.listdir(path) if f.endswith('.tex')]
     word = [f for f in os.listdir(path) if f.endswith('.docx')]
     txt = [f for f in os.listdir(path) if f.endswith('.txt')]
+    csv = [f for f in os.listdir(path) if f.endswith('.csv')]
 
-    def send_files_to_redis(filepaths: list, format: str):
-        """This function will convert the files into dictionaries with the parser. Once done, it will send them to redis as
-        a hash that will have the filename as key and the dictionary as values.
-        @:param format: the extension of the file. Possile values: {'docx','excel','html','txt'}"""
+    def send_files_to_redis(filepaths: list, formato: str):
+        """This function will convert the files into dictionaries with the parser.
+        Once done, it will send them to redis as a hash that will have the filename as key and the dictionary as values.
+        @:param format: the extension of the file. Possible values: {'docx','excel','html','txt','csv'}"""
 
         global r  # redis instance
-
 
         if not filepaths:
             print("No new files so far.\n")
@@ -34,25 +33,27 @@ def send():
             sent = False
             while not sent:
                 fp = path + str(fp)
-                d = dict()
+                # d = dict()
 
                 # convert into dict
-                if format == 'docx':
+                if formato == 'docx':
                     d = docx_to_dict(fp)
-                elif format == 'excel':
+                elif formato == 'excel':
                     d = excel_to_dict(fp)
-                elif format == 'html':
+                elif formato == 'html':
                     d = html_to_dict(fp)
-                else:  # elif format == 'txt'
+                elif formato == 'txt':
                     d = txt_to_dict(fp)
+                else:  # elif formato == 'csv':
+                    d = csv_to_dict(fp)
 
                 key = list(d.keys())[0]
                 # send to redis
-                sent = r.set(name=key, value=json.dumps(d[key])[:-1] + ",\"1\":\"" + format + "\"}")
+                sent = r.set(name=key, value=json.dumps(d[key])[:-1] + ",\"1\":\"" + formato + "\"}")
                 if not sent:
                     print(key + 'not sent.\tRetrying...')
             os.remove(fp)
-        print("Batch of " + format + " sent succesfully")
+        print("Batch of " + formato + " sent succesfully")
 
     t1 = threading.Thread(target=send_files_to_redis,
                           args=(excel, 'excel'))
@@ -62,13 +63,17 @@ def send():
                           args=(word, 'docx'))
     t4 = threading.Thread(target=send_files_to_redis,
                           args=(txt, 'txt'))
+    t5 = threading.Thread(target=send_files_to_redis,
+                          args=(csv, 'csv'))
 
     t1.start()
     t2.start()
     t3.start()
     t4.start()
+    t5.start()
     # stop threads after completing the task
     t1.join()
     t2.join()
     t3.join()
     t4.join()
+    t5.join()

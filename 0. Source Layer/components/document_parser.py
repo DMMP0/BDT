@@ -10,7 +10,8 @@ bank_columns = ['Id_Number', 'first_name', 'last_name', 'sex', 'DOB', 'ethnicity
                 'new_credit_in_18_months',
                 'amount_in_12_months', 'amount_in_18_months', 'house_mortgage', 'amount_of_house_mortgage',
                 'amount_due_mortgage', 'house_property',
-                'total_house_amount', 'credit_card_number', 'actual_debit_credit_cards', 'monthly_income', 'savings',
+                'total_house_amount', 'credit_card_number', 'credit_card_limit_total', 'actual_debit_credit_cards',
+                'monthly_income', 'savings',
                 'other_savings']
 
 questura_columns = ['Id_Number', 'first_name', 'last_name', 'sex', 'DOB', 'ethnicity', 'education', 'phone_number',

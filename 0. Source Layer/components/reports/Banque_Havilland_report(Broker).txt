@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+b2219b0e-a525-4f22-b9ff-f780c01b6d00	Rhodia	6/21/1975	France	7	office	583-692-6929	contact@rhodia.org	Monaco	experian	347116436678730	True	$75,369,581,249.00	Monaco
+b04575ab-57a6-4892-a506-18c3a3833bfe	Fomento Economico Mexicano S.A. de C.V.	7/8/1977	Mexico	29	office	304-380-1927	enquiries@fomentoeconomicomexicanosadecv.org	Monaco	experian	348163586828334	True	$29,411,519,156.00	Monaco

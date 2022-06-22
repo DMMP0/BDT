@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-27ce7b74-7d6a-4d13-b91e-814f61dd179d	ABB Ltd.	8/20/1984	Switzerland	39	office	688-160-3651	marketing@abbltd.org	Malta	True	$96,511,220,372.00	True	True	True	True	False
-940197ff-21a7-4911-85ba-123f71ab5779	CP Ships Ltd.	4/13/1987	Canada	7	office	512-887-1880	headquarters@cpshipsltd.org	Malta	False	$16,887,052,201.00	True	False	False	True	False

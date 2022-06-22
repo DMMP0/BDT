@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+6e9e27a6-f584-4fec-a9b2-00c364e6df21	Kubota Corp.	11/14/1977	Japan	25	validation	128-152-1910	hr@kubotacorp.org	Poland	CRIF	348632100709634	False	$11,027,577,899.00	Poland
+02895057-1d61-4576-a475-9e9ad28024d4	ID Biomedical Corp.	10/9/1996	Canada	19	validation	118-870-8437	marketing@idbiomedicalcorp.org	Poland	Banca d italia	375122808447246	False	$45,073,461,930.00	Poland

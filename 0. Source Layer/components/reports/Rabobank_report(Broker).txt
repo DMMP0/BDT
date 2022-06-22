@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+7f2d17d3-13fd-4f18-a678-5805ab5fa44d	Haemacure Corp.	12/8/1993	Canada	29	industrial equipment	757-765-4803	info@haemacurecorp.org	Poland	CTC	374986393817083	False	$93,393,962,294.00	Poland
+c5bca43a-6b71-4e5f-8861-7d4ddf5d547e	Canada Life Financial Corp.	1/5/1971	Canada	37	industrial equipment	658-667-6356	info@canadalifefinancialcorp.org	Poland	experian	349147598547445	False	$95,915,450,586.00	Poland

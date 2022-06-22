@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+ba23f684-e6e1-4a63-a455-56599b6d4ca6	Tele Nordeste Celular Participacoes S.A.	11/27/1976	Brazil	26	validation	184-056-2664	headquarters@telenordestecelularparticipacoessa.org	Norway	Banca d italia	378895405989804	True	$26,117,450,614.00	Norway
+94eb8f85-e0a9-4190-a226-03c9e2d2ea4d	Cryptologic Inc.	12/13/1995	Canada	22	validation	687-175-0790	sales@cryptologicinc.org	Norway	experian	373206650426556	True	$4,827,443,928.00	Norway

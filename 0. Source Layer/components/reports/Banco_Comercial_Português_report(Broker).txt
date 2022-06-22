@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+6e9e27a6-f584-4fec-a9b2-00c364e6df21	Kubota Corp.	11/14/1977	Japan	25	marketing	128-152-1910	hr@kubotacorp.org	Portugal	experian	340785946367633	True	$64,129,479,371.00	Portugal
+bb958bd0-5f24-4346-80f3-6615a1ebfd59	Forbes Medi-Tech Inc.	1/5/1994	Canada	38	marketing	502-154-4493	marketing@forbesmeditechinc.org	Portugal	CRIF	349673365224942	True	$61,268,919,544.00	Portugal

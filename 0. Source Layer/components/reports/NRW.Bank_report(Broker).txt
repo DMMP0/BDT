@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+5ad5f65a-4601-42c0-a736-c23f95881abe	China Mobile (Hong Kong) Ltd.	10/2/1984	Hong Kong	25	scale-up	836-090-8645	contact@chinamobilehongkongltd.org	Germany	CRIF	340442964553864	True	$9,336,283,238.00	Germany
+02895057-1d61-4576-a475-9e9ad28024d4	ID Biomedical Corp.	10/9/1996	Canada	19	scale-up	118-870-8437	marketing@idbiomedicalcorp.org	Germany	Banca d italia	376297895435301	True	$19,163,745,495.00	Germany

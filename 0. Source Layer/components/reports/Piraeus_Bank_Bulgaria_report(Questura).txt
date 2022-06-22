@@ -1,0 +1,11 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+27ce7b74-7d6a-4d13-b91e-814f61dd179d	ABB Ltd.	8/20/1984	Switzerland	39	scale-up	688-160-3651	marketing@abbltd.org	Bulgaria	True	$3,934,948,573.00	False	False	False	True	False
+f4e7c23c-039c-4b38-96a4-35e70f3c9935	National Grid Group plc	3/24/1978	United Kingdom	42	scale-up	765-804-8387	contact@nationalgridgroupplc.org	Bulgaria	True	$63,412,184,587.00	True	True	True	False	True
+85a596b8-e7a4-45ee-ac04-38dd58a04154	Trivalence Mining Corp.	4/24/1963	Canada	25	scale-up	436-123-3850	hr@trivalenceminingcorp.org	Bulgaria	True	$97,025,598,385.00	False	False	True	True	True
+c5bca43a-6b71-4e5f-8861-7d4ddf5d547e	Canada Life Financial Corp.	1/5/1971	Canada	37	scale-up	658-667-6356	info@canadalifefinancialcorp.org	Bulgaria	False	$92,335,903,240.00	False	False	False	True	False
+33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	scale-up	533-768-9918	contact@chainatacorp.org	Bulgaria	True	$73,329,936,753.00	True	False	False	False	True
+3b9e17d2-96d2-49a6-a4e9-745dcdad023e	Bennett Environmental Inc.	5/15/1962	Canada	39	scale-up	561-685-4405	sales@bennettenvironmentalinc.org	Bulgaria	False	$94,247,747,001.00	False	True	True	True	True
+46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	scale-up	940-622-1937	info@professionalstaffplc.org	Bulgaria	False	$71,064,441,774.00	True	False	True	False	True
+94eb8f85-e0a9-4190-a226-03c9e2d2ea4d	Cryptologic Inc.	12/13/1995	Canada	22	scale-up	687-175-0790	sales@cryptologicinc.org	Bulgaria	True	$64,011,671,600.00	False	False	False	False	True
+5e74f6bc-0894-4d6a-9b5f-a16749aeacb9	American Israeli Paper Mills Ltd.	5/24/1966	Israel	41	scale-up	672-174-8489	marketing@americanisraelipapermillsltd.org	Bulgaria	True	$28,884,760,195.00	True	True	True	True	True
+5ad5f65a-4601-42c0-a736-c23f95881abe	China Mobile (Hong Kong) Ltd.	10/2/1984	Hong Kong	25	scale-up	836-090-8645	contact@chinamobilehongkongltd.org	Bulgaria	True	$52,947,133,375.00	True	False	True	False	True

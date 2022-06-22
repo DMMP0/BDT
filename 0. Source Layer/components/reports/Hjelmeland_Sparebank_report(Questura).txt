@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-ba23f684-e6e1-4a63-a455-56599b6d4ca6	Tele Nordeste Celular Participacoes S.A.	11/27/1976	Brazil	26	office	184-056-2664	headquarters@telenordestecelularparticipacoessa.org	Norway	False	$16,454,167,656.00	False	True	False	False	False
-09fbac4b-8673-42d7-9f32-344c87c6a5f4	G. Willi-Food International Ltd.	6/24/1986	Israel	11	office	220-394-7342	headquarters@gwillifoodinternationalltd.org	Norway	True	$24,911,380,501.00	False	False	True	True	False

@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+940197ff-21a7-4911-85ba-123f71ab5779	CP Ships Ltd.	4/13/1987	Canada	7	validation	512-887-1880	headquarters@cpshipsltd.org	Poland	experian	342814373161265	False	$47,406,510,840.00	Poland
+33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	validation	533-768-9918	contact@chainatacorp.org	Poland	Banca d italia	379894596103092	False	$2,394,920,945.00	Poland

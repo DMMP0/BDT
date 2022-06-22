@@ -1,3 +1,5 @@
+import os
+
 import pandas as pd
 import random
 from random import randint
@@ -8,7 +10,7 @@ import docx
 from docx.shared import Pt, Mm
 
 val  = 30000.00
-
+source = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # finds the 0. Data Source directory
 
 class HTML:
 	
@@ -131,7 +133,7 @@ class HTML:
 				bank_data.loc[index,'monthly_income'] = "${:,.2f}".format(val + random.randint(500000,100000000000))
 				bank_data.loc[index,'savings'] = "${:,.2f}".format(val + random.randint(5000000,100000000000))
 				bank_data.loc[index,'other_savings']= "${:,.2f}".format(val + random.randint(5000,100000000000))
-			bank_data.to_html('./reports/'+banksName+'(Bank).html')
+			bank_data.to_html(source + '/components/reports/'+banksName+'(Bank).html')
 
     
 	def police_html(self):
@@ -156,7 +158,7 @@ class HTML:
 					questura_data.loc[index,'accused'] = random.choice([True, False])
 					questura_data.loc[index,'condamned'] = random.choice([True, False])
 					questura_data.loc[index,'civ_pass'] = random.choice([True, False])
-			questura_data.to_html('./reports/'+banksName+'(Questura).html')
+			questura_data.to_html(source + '/components/reports/'+banksName+'(Questura).html')
 
 	agencey_names = ['CRIF','CTC','Banca d italia','experian']
 	def broker_html(self):
@@ -183,5 +185,5 @@ class HTML:
 					broker_data.loc[index,'installment'] =  random.choice([True, False])
 					broker_data.loc[index,'installment_ammount'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
 	
-			broker_data.to_html('./reports/'+banksName+'(Risk Broker).html')
+			broker_data.to_html(source + '/components/reports/'+banksName+'(Risk Broker).html')
 			

@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	validation	940-622-1937	info@professionalstaffplc.org	Latvia	Banca d italia	370542764924620	False	$57,060,212,397.00	Latvia
+df98f86a-e21a-4c11-bb75-716aea0217fa	Aluminum Corp of China Ltd.	5/16/1982	China	30	validation	814-039-1974	marketing@aluminumcorpofchinaltd.org	Latvia	CTC	375410445952011	False	$28,864,255,139.00	Latvia

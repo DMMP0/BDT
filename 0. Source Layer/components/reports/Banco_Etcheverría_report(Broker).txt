@@ -1,0 +1,11 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+e6bc06b2-26b0-4fda-b718-e3ad7c81055a	VI Group plc	5/24/1988	United Kingdom	31	validation	495-055-3444	headquarters@vigroupplc.org	Spain	CTC	372244370169272	False	$18,291,062,153.00	Spain
+0815f288-380b-4b4e-b263-1f75dd69b72b	AXA	8/26/1989	France	17	validation	409-122-5419	reach@axa.org	Spain	CTC	348514955372462	True	$3,235,327,892.00	Spain
+6e9e27a6-f584-4fec-a9b2-00c364e6df21	Kubota Corp.	11/14/1977	Japan	25	validation	128-152-1910	hr@kubotacorp.org	Spain	CRIF	379301801809281	True	$97,565,040,323.00	Spain
+de1ab2b9-0ec0-48ac-8b3d-c3f8fbb7c76a	Intertape Polymer Group Inc.	1/22/1981	Canada	35	validation	704-390-1802	reach@intertapepolymergroupinc.org	Spain	Banca d italia	341127766580509	True	$93,974,431,664.00	Spain
+7f2d17d3-13fd-4f18-a678-5805ab5fa44d	Haemacure Corp.	12/8/1993	Canada	29	validation	757-765-4803	info@haemacurecorp.org	Spain	Banca d italia	378820427019539	False	$1,633,562,870.00	Spain
+50bff4d2-eb09-4932-8cae-a1bf24bca8fb	Citadel Gold Mines Inc.	5/20/1963	Canada	32	validation	916-317-9829	marketing@citadelgoldminesinc.org	Spain	experian	375517262540883	True	$3,095,829,841.00	Spain
+6a05f98f-100f-42d9-86b7-a0d589eccbb5	Verena Minerals Corp.	10/10/1981	Canada	46	validation	266-884-5949	sales@verenamineralscorp.org	Spain	CTC	343813425120229	True	$68,663,502,922.00	Spain
+bb958bd0-5f24-4346-80f3-6615a1ebfd59	Forbes Medi-Tech Inc.	1/5/1994	Canada	38	validation	502-154-4493	marketing@forbesmeditechinc.org	Spain	experian	374873670019643	True	$96,295,937,040.00	Spain
+ba23f684-e6e1-4a63-a455-56599b6d4ca6	Tele Nordeste Celular Participacoes S.A.	11/27/1976	Brazil	26	validation	184-056-2664	headquarters@telenordestecelularparticipacoessa.org	Spain	CTC	342841908704707	True	$54,366,691,370.00	Spain
+09fbac4b-8673-42d7-9f32-344c87c6a5f4	G. Willi-Food International Ltd.	6/24/1986	Israel	11	validation	220-394-7342	headquarters@gwillifoodinternationalltd.org	Spain	Banca d italia	377091207821103	False	$6,643,388,557.00	Spain

@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+27ce7b74-7d6a-4d13-b91e-814f61dd179d	ABB Ltd.	8/20/1984	Switzerland	39	validation	688-160-3651	marketing@abbltd.org	Norway	CTC	345016559883681	False	$52,388,092,794.00	Norway
+a0321761-63aa-490c-b7d5-a3e30f4d6eae	P.T. Pasifik Satelit Nusantara Tbk	5/5/1963	Indonesia	29	validation	629-141-2587	enquiries@ptpasifiksatelitnusantaratbk.org	Norway	experian	375109642127985	True	$76,709,402,625.00	Norway

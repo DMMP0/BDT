@@ -1,0 +1,6 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+b2219b0e-a525-4f22-b9ff-f780c01b6d00	Rhodia	6/21/1975	France	7	validation	583-692-6929	contact@rhodia.org	Norway	CRIF	372048253235088	False	$40,079,595,141.00	Norway
+5ad5f65a-4601-42c0-a736-c23f95881abe	China Mobile (Hong Kong) Ltd.	10/2/1984	Hong Kong	25	validation	836-090-8645	contact@chinamobilehongkongltd.org	Norway	CTC	343621180701400	True	$65,545,882,484.00	Norway
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+2d3d1c8b-3cc1-4850-a919-ba4d6cb09075	Tele Sudeste Celular Participacoes S.A.	3/4/1976	Brazil	7	industrial equipment	978-489-1684	contact@telesudestecelularparticipacoessa.org	Norway	experian	345048859416201	True	$44,204,055,086.00	Norway
+2b917a9f-8086-4365-b880-9652ee8773c6	Net Sat Servicos Ltda.	2/28/1967	Brazil	13	industrial equipment	277-786-9269	headquarters@netsatservicosltda.org	Norway	CRIF	342395285393170	False	$36,751,668,344.00	Norway

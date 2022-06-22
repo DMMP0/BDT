@@ -1,0 +1,6 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+3b9e17d2-96d2-49a6-a4e9-745dcdad023e	Bennett Environmental Inc.	5/15/1962	Canada	39	validation	561-685-4405	sales@bennettenvironmentalinc.org	Bulgaria	experian	371983422133155	False	$91,720,759,304.00	Bulgaria
+51b52ac3-f0a4-4906-82b3-9ca00c50db0d	HSBC Bank plc	12/3/1976	United Kingdom	19	validation	560-530-8771	headquarters@hsbcbankplc.org	Bulgaria	CTC	340918479144349	True	$38,914,593,310.00	Bulgaria
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+3bb57501-4ef9-479f-9e3d-2dac7c920e39	Etruscan Resources Inc.	6/19/1992	Canada	29	industrial equipment	160-009-9526	hr@etruscanresourcesinc.org	Bulgaria	CTC	378276512253915	False	$60,015,392,769.00	Bulgaria
+a0321761-63aa-490c-b7d5-a3e30f4d6eae	P.T. Pasifik Satelit Nusantara Tbk	5/5/1963	Indonesia	29	industrial equipment	629-141-2587	enquiries@ptpasifiksatelitnusantaratbk.org	Bulgaria	experian	379237046928397	False	$78,701,767,816.00	Bulgaria

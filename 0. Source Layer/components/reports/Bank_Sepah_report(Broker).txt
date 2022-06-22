@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+de1ab2b9-0ec0-48ac-8b3d-c3f8fbb7c76a	Intertape Polymer Group Inc.	1/22/1981	Canada	35	scale-up	704-390-1802	reach@intertapepolymergroupinc.org	Germany	experian	341401853885778	True	$22,134,701,625.00	Germany
+0a5d71b5-81ac-4495-9f16-17da04d9b615	Eurotel Bratislava, A.S.	11/6/1984	Slovak Republic	44	scale-up	597-184-4016	marketing@eurotelbratislavaas.org	Germany	CTC	345836619340913	False	$58,747,935,233.00	Germany

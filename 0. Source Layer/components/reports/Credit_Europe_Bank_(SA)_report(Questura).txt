@@ -1,0 +1,5 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+50bff4d2-eb09-4932-8cae-a1bf24bca8fb	Citadel Gold Mines Inc.	5/20/1963	Canada	32	office	916-317-9829	marketing@citadelgoldminesinc.org	Switzerland	True	$51,832,162,549.00	True	True	False	False	False
+76eb509c-c5a8-4542-aa8a-f2d1db863bf5	Aztek Technologies Inc.	1/5/1991	Canada	15	office	370-689-6569	contact@aztektechnologiesinc.org	Switzerland	False	$10,803,741,619.00	False	False	False	True	False
+b2219b0e-a525-4f22-b9ff-f780c01b6d00	Rhodia	6/21/1975	France	7	office	583-692-6929	contact@rhodia.org	Switzerland	False	$13,010,925,976.00	True	True	True	False	True
+7f2d17d3-13fd-4f18-a678-5805ab5fa44d	Haemacure Corp.	12/8/1993	Canada	29	office	757-765-4803	info@haemacurecorp.org	Switzerland	False	$95,565,161,897.00	True	True	True	False	True

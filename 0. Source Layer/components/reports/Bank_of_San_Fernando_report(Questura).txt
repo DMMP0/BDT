@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+940197ff-21a7-4911-85ba-123f71ab5779	CP Ships Ltd.	4/13/1987	Canada	7	marketing	512-887-1880	headquarters@cpshipsltd.org	Spain	True	$96,594,847,003.00	True	True	False	False	True
+3b9e17d2-96d2-49a6-a4e9-745dcdad023e	Bennett Environmental Inc.	5/15/1962	Canada	39	marketing	561-685-4405	sales@bennettenvironmentalinc.org	Spain	True	$41,534,142,539.00	False	False	True	False	True

@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+28ce529c-14c6-4c54-bf63-4f5fae569fa3	Elan Corp plc	2/2/1991	Ireland	30	scale-up	864-511-0083	contact@elancorpplc.org	Sweden	Banca d italia	379590169703942	True	$16,822,754,854.00	Sweden
+6f3bfa68-3fbe-484d-8c51-80c5659025d6	Willis Group Ltd.	10/3/1982	United Kingdom	17	scale-up	213-029-9893	hr@willisgroupltd.org	Sweden	Banca d italia	344524076666837	False	$38,673,431,395.00	Sweden

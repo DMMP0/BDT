@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+06dc67e7-f4b0-417e-83cb-8b6810a55aac	Atlantic Telecom Group plc	5/12/1975	United Kingdom	39	marketing	379-281-1544	marketing@atlantictelecomgroupplc.org	United Kingdom	CTC	371310604904569	False	$50,895,522,286.00	United Kingdom
+d8888f05-57a7-41b8-8349-316e03e7c211	IMP Industrial Mineral Park Mining Corp.	8/21/1992	Canada	45	marketing	882-576-3134	marketing@impindustrialmineralparkminingcorp.org	United Kingdom	CTC	372997272792760	False	$94,657,691,008.00	United Kingdom

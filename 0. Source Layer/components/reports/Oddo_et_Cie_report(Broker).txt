@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	industrial equipment	940-622-1937	info@professionalstaffplc.org	France	Banca d italia	347358736201025	False	$44,806,063,710.00	France
+94eb8f85-e0a9-4190-a226-03c9e2d2ea4d	Cryptologic Inc.	12/13/1995	Canada	22	industrial equipment	687-175-0790	sales@cryptologicinc.org	France	CRIF	340012958412334	False	$25,396,786,497.00	France

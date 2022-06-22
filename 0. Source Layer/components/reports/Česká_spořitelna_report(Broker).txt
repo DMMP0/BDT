@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+8235535e-0873-43ef-91ca-879383cf8377	Mirtronics Inc.	5/2/1962	Canada	29	industrial equipment	556-124-9965	info@mirtronicsinc.org	Czech Republic	experian	378877781596015	True	$52,540,474,657.00	Czech Republic
+76eb509c-c5a8-4542-aa8a-f2d1db863bf5	Aztek Technologies Inc.	1/5/1991	Canada	15	industrial equipment	370-689-6569	contact@aztektechnologiesinc.org	Czech Republic	Banca d italia	375563327445395	True	$80,216,679,110.00	Czech Republic

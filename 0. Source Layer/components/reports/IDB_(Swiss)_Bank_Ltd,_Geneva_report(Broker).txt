@@ -1,0 +1,6 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+ba350f5c-b544-49e5-8f65-a62e26da6aab	Novartis AG	6/3/1967	Switzerland	49	validation	646-673-0302	hr@novartisag.org	Switzerland	CTC	372721975440083	False	$79,886,796,255.00	Switzerland
+4e0632de-851b-483b-b9e9-c5cd433603fa	Dynamic Oil & Gas Ltd.	11/24/1983	Canada	19	validation	263-751-3055	marketing@dynamicoilgasltd.org	Switzerland	CTC	344454555598360	True	$91,652,405,409.00	Switzerland
+b9c50519-ea28-43fa-bf9d-70ccaf5d895e	Guangshen Railway Co. Ltd.	3/19/1989	China	11	validation	798-857-5135	headquarters@guangshenrailwaycoltd.org	Switzerland	experian	375215753906180	False	$43,734,769,446.00	Switzerland
+76eb509c-c5a8-4542-aa8a-f2d1db863bf5	Aztek Technologies Inc.	1/5/1991	Canada	15	validation	370-689-6569	contact@aztektechnologiesinc.org	Switzerland	Banca d italia	370066794329816	False	$5,134,792,169.00	Switzerland
+60dcb249-98fd-4108-95d3-6610e68d9f8c	New Tel Ltd.	1/5/1975	Australia	32	validation	994-215-8206	info@newtelltd.org	Switzerland	CTC	376199770183644	False	$45,863,886,491.00	Switzerland

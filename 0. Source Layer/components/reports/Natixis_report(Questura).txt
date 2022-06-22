@@ -1,0 +1,11 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	validation	533-768-9918	contact@chainatacorp.org	France	True	$57,417,677,420.00	False	True	False	True	True
+940197ff-21a7-4911-85ba-123f71ab5779	CP Ships Ltd.	4/13/1987	Canada	7	validation	512-887-1880	headquarters@cpshipsltd.org	France	False	$76,050,908,379.00	False	False	True	False	True
+37d3b4aa-25ae-4cd9-97e5-476c1a5234e1	Olicom A/S	11/23/1982	Denmark	11	validation	467-797-5753	reach@olicomas.org	France	False	$81,657,733,501.00	True	False	True	True	False
+0815f288-380b-4b4e-b263-1f75dd69b72b	AXA	8/26/1989	France	17	validation	409-122-5419	reach@axa.org	France	True	$26,604,796,682.00	True	False	False	False	True
+27ce7b74-7d6a-4d13-b91e-814f61dd179d	ABB Ltd.	8/20/1984	Switzerland	39	validation	688-160-3651	marketing@abbltd.org	France	False	$57,013,485,734.00	False	True	True	True	False
+bb958bd0-5f24-4346-80f3-6615a1ebfd59	Forbes Medi-Tech Inc.	1/5/1994	Canada	38	validation	502-154-4493	marketing@forbesmeditechinc.org	France	False	$24,697,660,276.00	False	True	True	False	False
+3b9e17d2-96d2-49a6-a4e9-745dcdad023e	Bennett Environmental Inc.	5/15/1962	Canada	39	validation	561-685-4405	sales@bennettenvironmentalinc.org	France	False	$64,739,248,484.00	False	False	True	True	True
+b9c50519-ea28-43fa-bf9d-70ccaf5d895e	Guangshen Railway Co. Ltd.	3/19/1989	China	11	validation	798-857-5135	headquarters@guangshenrailwaycoltd.org	France	True	$27,518,370,016.00	True	True	True	False	True
+94eb8f85-e0a9-4190-a226-03c9e2d2ea4d	Cryptologic Inc.	12/13/1995	Canada	22	validation	687-175-0790	sales@cryptologicinc.org	France	True	$92,279,586,901.00	False	True	True	False	False
+0e83a8d8-b870-4565-b4c5-bdae05f42730	Tele Celular Sul Participacoes S.A.	12/7/1961	Brazil	48	validation	667-875-8361	sales@telecelularsulparticipacoessa.org	France	False	$9,289,717,737.00	True	True	True	True	True

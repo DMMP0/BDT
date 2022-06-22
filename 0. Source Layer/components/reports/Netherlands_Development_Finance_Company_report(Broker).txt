@@ -1,3 +1,3 @@
 registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-2b917a9f-8086-4365-b880-9652ee8773c6	Net Sat Servicos Ltda.	2/28/1967	Brazil	13	office	277-786-9269	headquarters@netsatservicosltda.org	Netherlands	Banca d italia	374283873642474	False	$90,851,301,219.00	Netherlands
-8235535e-0873-43ef-91ca-879383cf8377	Mirtronics Inc.	5/2/1962	Canada	29	office	556-124-9965	info@mirtronicsinc.org	Netherlands	Banca d italia	373722116124932	False	$42,113,326,606.00	Netherlands
+c434077a-a4b9-4a2b-9c22-d59fb66af8e5	China Yuchai International Ltd.	6/30/1978	Bermuda	48	validation	303-120-3161	info@chinayuchaiinternationalltd.org	Netherlands	experian	349336362374108	False	$97,231,701,722.00	Netherlands
+09fbac4b-8673-42d7-9f32-344c87c6a5f4	G. Willi-Food International Ltd.	6/24/1986	Israel	11	validation	220-394-7342	headquarters@gwillifoodinternationalltd.org	Netherlands	CRIF	349074942908117	True	$60,491,450,573.00	Netherlands

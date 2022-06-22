@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+28ce529c-14c6-4c54-bf63-4f5fae569fa3	Elan Corp plc	2/2/1991	Ireland	30	validation	864-511-0083	contact@elancorpplc.org	Sweden	False	$93,204,880,584.00	False	True	True	True	False
+c434077a-a4b9-4a2b-9c22-d59fb66af8e5	China Yuchai International Ltd.	6/30/1978	Bermuda	48	validation	303-120-3161	info@chinayuchaiinternationalltd.org	Sweden	True	$61,382,346,072.00	True	True	False	True	True

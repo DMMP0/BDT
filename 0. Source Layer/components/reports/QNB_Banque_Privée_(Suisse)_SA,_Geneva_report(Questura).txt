@@ -1,6 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-c5bca43a-6b71-4e5f-8861-7d4ddf5d547e	Canada Life Financial Corp.	1/5/1971	Canada	37	office	658-667-6356	info@canadalifefinancialcorp.org	Switzerland	True	$71,639,247,811.00	False	False	False	True	False
-f4e7c23c-039c-4b38-96a4-35e70f3c9935	National Grid Group plc	3/24/1978	United Kingdom	42	office	765-804-8387	contact@nationalgridgroupplc.org	Switzerland	False	$35,976,320,991.00	True	True	False	True	False
-b9c50519-ea28-43fa-bf9d-70ccaf5d895e	Guangshen Railway Co. Ltd.	3/19/1989	China	11	office	798-857-5135	headquarters@guangshenrailwaycoltd.org	Switzerland	True	$60,057,909,601.00	False	True	False	True	True
-32b7f179-da3f-4942-bc68-766f7a853cce	Governor and Company of the Bank of Ireland	4/23/1976	Ireland	18	office	857-210-7051	contact@governorandcompanyofthebankofireland.org	Switzerland	False	$24,471,643,714.00	False	True	True	True	True
-6e9e27a6-f584-4fec-a9b2-00c364e6df21	Kubota Corp.	11/14/1977	Japan	25	office	128-152-1910	hr@kubotacorp.org	Switzerland	True	$23,483,696,359.00	True	True	True	False	True

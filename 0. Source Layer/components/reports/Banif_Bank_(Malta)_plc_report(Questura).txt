@@ -1,0 +1,4 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+ba23f684-e6e1-4a63-a455-56599b6d4ca6	Tele Nordeste Celular Participacoes S.A.	11/27/1976	Brazil	26	industrial equipment	184-056-2664	headquarters@telenordestecelularparticipacoessa.org	Malta	True	$23,464,868,792.00	True	True	True	True	False
+76eb509c-c5a8-4542-aa8a-f2d1db863bf5	Aztek Technologies Inc.	1/5/1991	Canada	15	industrial equipment	370-689-6569	contact@aztektechnologiesinc.org	Malta	True	$86,792,463,218.00	True	False	False	True	False
+6f3bfa68-3fbe-484d-8c51-80c5659025d6	Willis Group Ltd.	10/3/1982	United Kingdom	17	industrial equipment	213-029-9893	hr@willisgroupltd.org	Malta	False	$74,764,086,462.00	False	False	False	False	False

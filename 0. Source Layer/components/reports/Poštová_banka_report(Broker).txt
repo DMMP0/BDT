@@ -1,0 +1,6 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+3b9e17d2-96d2-49a6-a4e9-745dcdad023e	Bennett Environmental Inc.	5/15/1962	Canada	39	validation	561-685-4405	sales@bennettenvironmentalinc.org	Czech Republic	CRIF	345602846760814	True	$21,459,880,049.00	Czech Republic
+ba350f5c-b544-49e5-8f65-a62e26da6aab	Novartis AG	6/3/1967	Switzerland	49	validation	646-673-0302	hr@novartisag.org	Czech Republic	CTC	348295254687145	True	$17,107,188,987.00	Czech Republic
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+a0321761-63aa-490c-b7d5-a3e30f4d6eae	P.T. Pasifik Satelit Nusantara Tbk	5/5/1963	Indonesia	29	validation	629-141-2587	enquiries@ptpasifiksatelitnusantaratbk.org	Slovakia	CTC	345086242306911	False	$68,523,201,705.00	Slovakia
+ba23f684-e6e1-4a63-a455-56599b6d4ca6	Tele Nordeste Celular Participacoes S.A.	11/27/1976	Brazil	26	validation	184-056-2664	headquarters@telenordestecelularparticipacoessa.org	Slovakia	CRIF	345901184664202	False	$44,361,909,850.00	Slovakia

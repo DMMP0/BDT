@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+b2219b0e-a525-4f22-b9ff-f780c01b6d00	Rhodia	6/21/1975	France	7	scale-up	583-692-6929	contact@rhodia.org	Austria	CRIF	378811487002267	True	$69,827,133,606.00	Austria
+b9c50519-ea28-43fa-bf9d-70ccaf5d895e	Guangshen Railway Co. Ltd.	3/19/1989	China	11	scale-up	798-857-5135	headquarters@guangshenrailwaycoltd.org	Austria	experian	340285603227352	False	$37,342,507,916.00	Austria

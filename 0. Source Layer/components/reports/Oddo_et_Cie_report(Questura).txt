@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	industrial equipment	940-622-1937	info@professionalstaffplc.org	France	True	$6,418,914,292.00	False	True	True	True	True
+94eb8f85-e0a9-4190-a226-03c9e2d2ea4d	Cryptologic Inc.	12/13/1995	Canada	22	industrial equipment	687-175-0790	sales@cryptologicinc.org	France	True	$98,928,404,396.00	True	False	True	False	False

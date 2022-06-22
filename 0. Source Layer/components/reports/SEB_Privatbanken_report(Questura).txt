@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-6a05f98f-100f-42d9-86b7-a0d589eccbb5	Verena Minerals Corp.	10/10/1981	Canada	46	office	266-884-5949	sales@verenamineralscorp.org	Norway	False	$42,438,158,460.00	False	True	False	False	False
-33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	office	533-768-9918	contact@chainatacorp.org	Norway	True	$2,661,964,429.00	True	True	True	True	True

@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+b2219b0e-a525-4f22-b9ff-f780c01b6d00	Rhodia	6/21/1975	France	7	scale-up	583-692-6929	contact@rhodia.org	Switzerland	False	$61,352,748,686.00	True	True	True	False	True
+ba23f684-e6e1-4a63-a455-56599b6d4ca6	Tele Nordeste Celular Participacoes S.A.	11/27/1976	Brazil	26	scale-up	184-056-2664	headquarters@telenordestecelularparticipacoessa.org	Switzerland	False	$39,527,081,865.00	False	False	False	True	True

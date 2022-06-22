@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	scale-up	533-768-9918	contact@chainatacorp.org	United Kingdom	experian	342272449588930	True	$29,080,648,223.00	United Kingdom
+0a5d71b5-81ac-4495-9f16-17da04d9b615	Eurotel Bratislava, A.S.	11/6/1984	Slovak Republic	44	scale-up	597-184-4016	marketing@eurotelbratislavaas.org	United Kingdom	Banca d italia	349382181495104	False	$91,144,664,913.00	United Kingdom

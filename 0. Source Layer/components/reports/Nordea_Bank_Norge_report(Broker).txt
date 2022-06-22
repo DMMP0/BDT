@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-0815f288-380b-4b4e-b263-1f75dd69b72b	AXA	8/26/1989	France	17	office	409-122-5419	reach@axa.org	Norway	CRIF	371073343777106	False	$83,675,014,885.00	Norway
-85a596b8-e7a4-45ee-ac04-38dd58a04154	Trivalence Mining Corp.	4/24/1963	Canada	25	office	436-123-3850	hr@trivalenceminingcorp.org	Norway	Banca d italia	373563882176668	False	$74,977,014,254.00	Norway

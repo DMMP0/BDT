@@ -1,0 +1,6 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+de1ab2b9-0ec0-48ac-8b3d-c3f8fbb7c76a	Intertape Polymer Group Inc.	1/22/1981	Canada	35	validation	704-390-1802	reach@intertapepolymergroupinc.org	Iceland	False	$55,369,770,200.00	False	False	True	False	False
+f4e7c23c-039c-4b38-96a4-35e70f3c9935	National Grid Group plc	3/24/1978	United Kingdom	42	validation	765-804-8387	contact@nationalgridgroupplc.org	Iceland	True	$19,898,246,035.00	True	True	False	False	True
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+02895057-1d61-4576-a475-9e9ad28024d4	ID Biomedical Corp.	10/9/1996	Canada	19	validation	118-870-8437	marketing@idbiomedicalcorp.org	Iceland	False	$36,660,416,674.00	False	False	False	False	False
+46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	validation	940-622-1937	info@professionalstaffplc.org	Iceland	False	$18,413,857,647.00	False	True	False	False	False

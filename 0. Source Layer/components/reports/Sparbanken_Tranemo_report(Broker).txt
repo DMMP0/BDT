@@ -1,0 +1,6 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+6f3bfa68-3fbe-484d-8c51-80c5659025d6	Willis Group Ltd.	10/3/1982	United Kingdom	17	marketing	213-029-9893	hr@willisgroupltd.org	Sweden	CTC	344093513820647	True	$63,590,706,684.00	Sweden
+536e0301-7918-475d-8eba-864c98511f72	Ekabel Hessen GmbH	3/15/1964	Germany	48	marketing	486-741-7082	info@ekabelhessengmbh.org	Sweden	experian	370082128635687	False	$41,244,216,692.00	Sweden
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+bf36cc88-14e9-4795-a5d0-7d939ec42333	Premier International Foods plc	6/13/1979	United Kingdom	12	industrial equipment	509-222-0158	info@premierinternationalfoodsplc.org	Sweden	experian	379829262441442	False	$25,018,113,004.00	Sweden
+09fbac4b-8673-42d7-9f32-344c87c6a5f4	G. Willi-Food International Ltd.	6/24/1986	Israel	11	industrial equipment	220-394-7342	headquarters@gwillifoodinternationalltd.org	Sweden	CRIF	376655229506990	True	$70,046,009,207.00	Sweden

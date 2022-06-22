@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+7f2d17d3-13fd-4f18-a678-5805ab5fa44d	Haemacure Corp.	12/8/1993	Canada	29	industrial equipment	757-765-4803	info@haemacurecorp.org	Bulgaria	True	$54,107,315,709.00	True	True	False	True	False
+09fbac4b-8673-42d7-9f32-344c87c6a5f4	G. Willi-Food International Ltd.	6/24/1986	Israel	11	industrial equipment	220-394-7342	headquarters@gwillifoodinternationalltd.org	Bulgaria	False	$13,508,473,371.00	False	False	False	False	False

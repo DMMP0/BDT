@@ -1,4 +1,3 @@
 registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	office	940-622-1937	info@professionalstaffplc.org	Sweden	True	$15,080,944,514.00	True	False	False	True	True
-0815f288-380b-4b4e-b263-1f75dd69b72b	AXA	8/26/1989	France	17	office	409-122-5419	reach@axa.org	Sweden	True	$26,100,044,712.00	False	True	False	False	False
-bf36cc88-14e9-4795-a5d0-7d939ec42333	Premier International Foods plc	6/13/1979	United Kingdom	12	office	509-222-0158	info@premierinternationalfoodsplc.org	Sweden	False	$56,187,457,024.00	False	True	True	True	False
+51b52ac3-f0a4-4906-82b3-9ca00c50db0d	HSBC Bank plc	12/3/1976	United Kingdom	19	scale-up	560-530-8771	headquarters@hsbcbankplc.org	Latvia	False	$95,034,769,360.00	False	False	True	True	False
+940197ff-21a7-4911-85ba-123f71ab5779	CP Ships Ltd.	4/13/1987	Canada	7	scale-up	512-887-1880	headquarters@cpshipsltd.org	Latvia	False	$61,250,897,543.00	False	True	True	False	True

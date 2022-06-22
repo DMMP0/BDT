@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-7f2d17d3-13fd-4f18-a678-5805ab5fa44d	Haemacure Corp.	12/8/1993	Canada	29	office	757-765-4803	info@haemacurecorp.org	Lithuania	Banca d italia	373956481460188	False	$39,499,150,946.00	Lithuania
-5e74f6bc-0894-4d6a-9b5f-a16749aeacb9	American Israeli Paper Mills Ltd.	5/24/1966	Israel	41	office	672-174-8489	marketing@americanisraelipapermillsltd.org	Lithuania	CTC	375588317152081	True	$63,389,742,827.00	Lithuania

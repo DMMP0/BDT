@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+b04575ab-57a6-4892-a506-18c3a3833bfe	Fomento Economico Mexicano S.A. de C.V.	7/8/1977	Mexico	29	scale-up	304-380-1927	enquiries@fomentoeconomicomexicanosadecv.org	Italy	Banca d italia	345682065546680	False	$30,543,031,883.00	Italy
+50bff4d2-eb09-4932-8cae-a1bf24bca8fb	Citadel Gold Mines Inc.	5/20/1963	Canada	32	scale-up	916-317-9829	marketing@citadelgoldminesinc.org	Italy	CRIF	378967298710439	True	$58,723,301,688.00	Italy

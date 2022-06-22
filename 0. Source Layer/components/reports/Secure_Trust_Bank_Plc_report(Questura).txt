@@ -1,0 +1,4 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+2d3d1c8b-3cc1-4850-a919-ba4d6cb09075	Tele Sudeste Celular Participacoes S.A.	3/4/1976	Brazil	7	scale-up	978-489-1684	contact@telesudestecelularparticipacoessa.org	United Kingdom	True	$29,714,706,507.00	True	False	True	True	True
+536e0301-7918-475d-8eba-864c98511f72	Ekabel Hessen GmbH	3/15/1964	Germany	48	scale-up	486-741-7082	info@ekabelhessengmbh.org	United Kingdom	True	$85,742,641,368.00	True	False	False	True	False
+3bb57501-4ef9-479f-9e3d-2dac7c920e39	Etruscan Resources Inc.	6/19/1992	Canada	29	scale-up	160-009-9526	hr@etruscanresourcesinc.org	United Kingdom	True	$24,411,598,086.00	True	False	True	True	False

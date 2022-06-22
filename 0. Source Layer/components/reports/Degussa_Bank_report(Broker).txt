@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+0e83a8d8-b870-4565-b4c5-bdae05f42730	Tele Celular Sul Participacoes S.A.	12/7/1961	Brazil	48	validation	667-875-8361	sales@telecelularsulparticipacoessa.org	Germany	CTC	348595292398930	True	$26,834,491,449.00	Germany
+0815f288-380b-4b4e-b263-1f75dd69b72b	AXA	8/26/1989	France	17	validation	409-122-5419	reach@axa.org	Germany	CTC	341568723075812	True	$42,105,281,642.00	Germany

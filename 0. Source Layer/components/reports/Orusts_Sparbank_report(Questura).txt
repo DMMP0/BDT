@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-3b9e17d2-96d2-49a6-a4e9-745dcdad023e	Bennett Environmental Inc.	5/15/1962	Canada	39	office	561-685-4405	sales@bennettenvironmentalinc.org	Sweden	True	$6,815,791,651.00	True	False	True	False	True
-28ce529c-14c6-4c54-bf63-4f5fae569fa3	Elan Corp plc	2/2/1991	Ireland	30	office	864-511-0083	contact@elancorpplc.org	Sweden	False	$71,902,503,788.00	False	False	True	True	True

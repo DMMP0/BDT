@@ -1,0 +1,6 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+32b7f179-da3f-4942-bc68-766f7a853cce	Governor and Company of the Bank of Ireland	4/23/1976	Ireland	18	validation	857-210-7051	contact@governorandcompanyofthebankofireland.org	Malta	True	$30,869,710,812.00	False	True	True	True	True
+de1ab2b9-0ec0-48ac-8b3d-c3f8fbb7c76a	Intertape Polymer Group Inc.	1/22/1981	Canada	35	validation	704-390-1802	reach@intertapepolymergroupinc.org	Malta	True	$12,953,084,185.00	False	False	False	True	False
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+ba23f684-e6e1-4a63-a455-56599b6d4ca6	Tele Nordeste Celular Participacoes S.A.	11/27/1976	Brazil	26	scale-up	184-056-2664	headquarters@telenordestecelularparticipacoessa.org	Malta	True	$72,889,886,415.00	True	True	False	False	False
+4e0632de-851b-483b-b9e9-c5cd433603fa	Dynamic Oil & Gas Ltd.	11/24/1983	Canada	19	scale-up	263-751-3055	marketing@dynamicoilgasltd.org	Malta	False	$6,724,554,792.00	True	True	True	False	False

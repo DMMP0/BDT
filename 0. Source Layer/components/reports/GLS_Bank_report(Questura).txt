@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+e6bc06b2-26b0-4fda-b718-e3ad7c81055a	VI Group plc	5/24/1988	United Kingdom	31	scale-up	495-055-3444	headquarters@vigroupplc.org	Germany	False	$21,192,356,659.00	True	False	False	True	True
+8235535e-0873-43ef-91ca-879383cf8377	Mirtronics Inc.	5/2/1962	Canada	29	scale-up	556-124-9965	info@mirtronicsinc.org	Germany	True	$80,565,949,186.00	True	False	False	True	False

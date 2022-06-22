@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+ba23f684-e6e1-4a63-a455-56599b6d4ca6	Tele Nordeste Celular Participacoes S.A.	11/27/1976	Brazil	26	scale-up	184-056-2664	headquarters@telenordestecelularparticipacoessa.org	Switzerland	True	$82,729,532,828.00	False	False	True	False	False
+0815f288-380b-4b4e-b263-1f75dd69b72b	AXA	8/26/1989	France	17	scale-up	409-122-5419	reach@axa.org	Switzerland	False	$55,021,183,525.00	False	True	True	False	False

@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+5e74f6bc-0894-4d6a-9b5f-a16749aeacb9	American Israeli Paper Mills Ltd.	5/24/1966	Israel	41	validation	672-174-8489	marketing@americanisraelipapermillsltd.org	Hungary	Banca d italia	371004755919589	True	$90,787,701,086.00	Hungary
+0815f288-380b-4b4e-b263-1f75dd69b72b	AXA	8/26/1989	France	17	validation	409-122-5419	reach@axa.org	Hungary	experian	378565619453505	True	$68,207,550,100.00	Hungary

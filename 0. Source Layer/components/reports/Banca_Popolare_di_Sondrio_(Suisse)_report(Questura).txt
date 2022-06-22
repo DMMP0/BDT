@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+3bb57501-4ef9-479f-9e3d-2dac7c920e39	Etruscan Resources Inc.	6/19/1992	Canada	29	industrial equipment	160-009-9526	hr@etruscanresourcesinc.org	Switzerland	True	$67,031,124,671.00	True	True	False	True	False
+37d3b4aa-25ae-4cd9-97e5-476c1a5234e1	Olicom A/S	11/23/1982	Denmark	11	industrial equipment	467-797-5753	reach@olicomas.org	Switzerland	True	$55,798,701,618.00	True	True	True	False	True

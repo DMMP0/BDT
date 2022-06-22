@@ -1,3 +1,3 @@
 registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	office	940-622-1937	info@professionalstaffplc.org	Norway	False	$20,858,698,995.00	True	True	True	False	False
-4e0632de-851b-483b-b9e9-c5cd433603fa	Dynamic Oil & Gas Ltd.	11/24/1983	Canada	19	office	263-751-3055	marketing@dynamicoilgasltd.org	Norway	True	$55,118,517,174.00	True	False	False	False	False
+b2219b0e-a525-4f22-b9ff-f780c01b6d00	Rhodia	6/21/1975	France	7	marketing	583-692-6929	contact@rhodia.org	Norway	False	$35,823,194,581.00	True	False	True	True	True
+6e9e27a6-f584-4fec-a9b2-00c364e6df21	Kubota Corp.	11/14/1977	Japan	25	marketing	128-152-1910	hr@kubotacorp.org	Norway	False	$51,009,968,776.00	True	False	False	False	False

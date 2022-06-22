@@ -1,0 +1,6 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+6f3bfa68-3fbe-484d-8c51-80c5659025d6	Willis Group Ltd.	10/3/1982	United Kingdom	17	validation	213-029-9893	hr@willisgroupltd.org	Poland	False	$32,133,352,438.00	False	False	True	False	False
+e6bc06b2-26b0-4fda-b718-e3ad7c81055a	VI Group plc	5/24/1988	United Kingdom	31	validation	495-055-3444	headquarters@vigroupplc.org	Poland	False	$67,309,574,242.00	True	True	True	False	True
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+a0321761-63aa-490c-b7d5-a3e30f4d6eae	P.T. Pasifik Satelit Nusantara Tbk	5/5/1963	Indonesia	29	scale-up	629-141-2587	enquiries@ptpasifiksatelitnusantaratbk.org	Poland	False	$70,285,753,771.00	True	False	True	False	True
+940197ff-21a7-4911-85ba-123f71ab5779	CP Ships Ltd.	4/13/1987	Canada	7	scale-up	512-887-1880	headquarters@cpshipsltd.org	Poland	False	$39,843,524,093.00	False	True	False	True	True

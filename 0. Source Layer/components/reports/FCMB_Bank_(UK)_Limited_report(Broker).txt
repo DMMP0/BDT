@@ -1,0 +1,12 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+6e9e27a6-f584-4fec-a9b2-00c364e6df21	Kubota Corp.	11/14/1977	Japan	25	office	128-152-1910	hr@kubotacorp.org	United Kingdom	experian	347246272133613	True	$97,895,320,483.00	United Kingdom
+ba23f684-e6e1-4a63-a455-56599b6d4ca6	Tele Nordeste Celular Participacoes S.A.	11/27/1976	Brazil	26	office	184-056-2664	headquarters@telenordestecelularparticipacoessa.org	United Kingdom	CTC	346536980428466	True	$99,252,636,020.00	United Kingdom
+09fbac4b-8673-42d7-9f32-344c87c6a5f4	G. Willi-Food International Ltd.	6/24/1986	Israel	11	office	220-394-7342	headquarters@gwillifoodinternationalltd.org	United Kingdom	CRIF	371592840076266	True	$84,777,390,047.00	United Kingdom
+c434077a-a4b9-4a2b-9c22-d59fb66af8e5	China Yuchai International Ltd.	6/30/1978	Bermuda	48	office	303-120-3161	info@chinayuchaiinternationalltd.org	United Kingdom	CRIF	344334572534533	False	$23,215,129,945.00	United Kingdom
+b2219b0e-a525-4f22-b9ff-f780c01b6d00	Rhodia	6/21/1975	France	7	office	583-692-6929	contact@rhodia.org	United Kingdom	CRIF	371588825357630	False	$16,541,473,121.00	United Kingdom
+33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	office	533-768-9918	contact@chainatacorp.org	United Kingdom	CRIF	371709904759781	True	$62,265,772,354.00	United Kingdom
+7f2d17d3-13fd-4f18-a678-5805ab5fa44d	Haemacure Corp.	12/8/1993	Canada	29	office	757-765-4803	info@haemacurecorp.org	United Kingdom	CRIF	346601524020292	True	$42,802,292,712.00	United Kingdom
+94eb8f85-e0a9-4190-a226-03c9e2d2ea4d	Cryptologic Inc.	12/13/1995	Canada	22	office	687-175-0790	sales@cryptologicinc.org	United Kingdom	CTC	340885916587655	True	$91,268,580,307.00	United Kingdom
+02895057-1d61-4576-a475-9e9ad28024d4	ID Biomedical Corp.	10/9/1996	Canada	19	office	118-870-8437	marketing@idbiomedicalcorp.org	United Kingdom	CTC	379103734378255	True	$70,904,373,174.00	United Kingdom
+c5bca43a-6b71-4e5f-8861-7d4ddf5d547e	Canada Life Financial Corp.	1/5/1971	Canada	37	office	658-667-6356	info@canadalifefinancialcorp.org	United Kingdom	CTC	341488977344055	False	$57,611,985,584.00	United Kingdom
+76eb509c-c5a8-4542-aa8a-f2d1db863bf5	Aztek Technologies Inc.	1/5/1991	Canada	15	office	370-689-6569	contact@aztektechnologiesinc.org	United Kingdom	CTC	377034415447519	False	$30,888,629,032.00	United Kingdom

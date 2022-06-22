@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+6e9e27a6-f584-4fec-a9b2-00c364e6df21	Kubota Corp.	11/14/1977	Japan	25	scale-up	128-152-1910	hr@kubotacorp.org	Romania	True	$79,847,698,678.00	False	False	True	False	True
+b2219b0e-a525-4f22-b9ff-f780c01b6d00	Rhodia	6/21/1975	France	7	scale-up	583-692-6929	contact@rhodia.org	Romania	False	$69,250,900,484.00	True	True	False	False	True

@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-06dc67e7-f4b0-417e-83cb-8b6810a55aac	Atlantic Telecom Group plc	5/12/1975	United Kingdom	39	office	379-281-1544	marketing@atlantictelecomgroupplc.org	Norway	CRIF	379491110744533	True	$54,709,480,740.00	Norway
-d8888f05-57a7-41b8-8349-316e03e7c211	IMP Industrial Mineral Park Mining Corp.	8/21/1992	Canada	45	office	882-576-3134	marketing@impindustrialmineralparkminingcorp.org	Norway	CTC	345659889622723	True	$98,914,659,195.00	Norway

@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+d8888f05-57a7-41b8-8349-316e03e7c211	IMP Industrial Mineral Park Mining Corp.	8/21/1992	Canada	45	validation	882-576-3134	marketing@impindustrialmineralparkminingcorp.org	Finland	experian	371279082847295	False	$67,259,040,628.00	Finland
+b04575ab-57a6-4892-a506-18c3a3833bfe	Fomento Economico Mexicano S.A. de C.V.	7/8/1977	Mexico	29	validation	304-380-1927	enquiries@fomentoeconomicomexicanosadecv.org	Finland	CTC	379117867211240	False	$48,095,222,130.00	Finland

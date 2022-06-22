@@ -1,0 +1,8 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+f07f55c1-6182-4b34-8e73-530b5e79c4ed	Pyng Technologies Corp.	12/17/1961	Canada	44	validation	541-439-4964	sales@pyngtechnologiescorp.org	Romania	True	$21,854,224,023.00	True	True	False	True	True
+33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	validation	533-768-9918	contact@chainatacorp.org	Romania	False	$55,437,240,837.00	False	True	False	False	True
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+37d3b4aa-25ae-4cd9-97e5-476c1a5234e1	Olicom A/S	11/23/1982	Denmark	11	scale-up	467-797-5753	reach@olicomas.org	Romania	True	$19,347,138,213.00	True	False	False	False	True
+6e9e27a6-f584-4fec-a9b2-00c364e6df21	Kubota Corp.	11/14/1977	Japan	25	scale-up	128-152-1910	hr@kubotacorp.org	Romania	False	$30,252,382,970.00	True	True	False	False	False
+6f3bfa68-3fbe-484d-8c51-80c5659025d6	Willis Group Ltd.	10/3/1982	United Kingdom	17	scale-up	213-029-9893	hr@willisgroupltd.org	Romania	False	$99,749,848,973.00	True	False	True	False	False
+bf36cc88-14e9-4795-a5d0-7d939ec42333	Premier International Foods plc	6/13/1979	United Kingdom	12	scale-up	509-222-0158	info@premierinternationalfoodsplc.org	Romania	True	$41,690,453,716.00	False	False	True	True	False

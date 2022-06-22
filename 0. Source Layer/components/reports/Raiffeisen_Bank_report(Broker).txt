@@ -1,0 +1,8 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+f07f55c1-6182-4b34-8e73-530b5e79c4ed	Pyng Technologies Corp.	12/17/1961	Canada	44	validation	541-439-4964	sales@pyngtechnologiescorp.org	Romania	experian	349935372356029	False	$65,252,476,710.00	Romania
+33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	validation	533-768-9918	contact@chainatacorp.org	Romania	Banca d italia	341048237074213	False	$44,225,498,049.00	Romania
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+37d3b4aa-25ae-4cd9-97e5-476c1a5234e1	Olicom A/S	11/23/1982	Denmark	11	scale-up	467-797-5753	reach@olicomas.org	Romania	CTC	340749339185747	False	$76,606,634,679.00	Romania
+6e9e27a6-f584-4fec-a9b2-00c364e6df21	Kubota Corp.	11/14/1977	Japan	25	scale-up	128-152-1910	hr@kubotacorp.org	Romania	experian	370096266959998	False	$24,181,196,461.00	Romania
+6f3bfa68-3fbe-484d-8c51-80c5659025d6	Willis Group Ltd.	10/3/1982	United Kingdom	17	scale-up	213-029-9893	hr@willisgroupltd.org	Romania	CTC	370071191748410	False	$96,771,916,896.00	Romania
+bf36cc88-14e9-4795-a5d0-7d939ec42333	Premier International Foods plc	6/13/1979	United Kingdom	12	scale-up	509-222-0158	info@premierinternationalfoodsplc.org	Romania	Banca d italia	345908790422578	False	$30,768,195,879.00	Romania

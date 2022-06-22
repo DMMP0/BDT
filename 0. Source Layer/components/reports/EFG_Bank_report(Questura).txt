@@ -1,0 +1,4 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+6a05f98f-100f-42d9-86b7-a0d589eccbb5	Verena Minerals Corp.	10/10/1981	Canada	46	validation	266-884-5949	sales@verenamineralscorp.org	Gibraltar	True	$68,472,529,888.00	False	False	True	True	True
+2b917a9f-8086-4365-b880-9652ee8773c6	Net Sat Servicos Ltda.	2/28/1967	Brazil	13	validation	277-786-9269	headquarters@netsatservicosltda.org	Gibraltar	False	$93,173,712,349.00	True	True	False	False	False
+0a5d71b5-81ac-4495-9f16-17da04d9b615	Eurotel Bratislava, A.S.	11/6/1984	Slovak Republic	44	validation	597-184-4016	marketing@eurotelbratislavaas.org	Gibraltar	False	$13,340,856,113.00	False	False	True	True	True

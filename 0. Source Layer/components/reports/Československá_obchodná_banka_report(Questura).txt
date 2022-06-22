@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+c5bca43a-6b71-4e5f-8861-7d4ddf5d547e	Canada Life Financial Corp.	1/5/1971	Canada	37	industrial equipment	658-667-6356	info@canadalifefinancialcorp.org	Slovakia	False	$83,643,797,084.00	False	True	False	False	True
+0815f288-380b-4b4e-b263-1f75dd69b72b	AXA	8/26/1989	France	17	industrial equipment	409-122-5419	reach@axa.org	Slovakia	True	$46,106,600,743.00	False	True	False	True	False

@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+4e0632de-851b-483b-b9e9-c5cd433603fa	Dynamic Oil & Gas Ltd.	11/24/1983	Canada	19	marketing	263-751-3055	marketing@dynamicoilgasltd.org	Norway	Banca d italia	371744420694253	False	$36,304,931,727.00	Norway
+0815f288-380b-4b4e-b263-1f75dd69b72b	AXA	8/26/1989	France	17	marketing	409-122-5419	reach@axa.org	Norway	CRIF	348564867759553	False	$56,756,555,359.00	Norway

@@ -1,3 +1,5 @@
+import os
+
 import pandas as pd
 import random
 from random import randint
@@ -8,6 +10,7 @@ import docx
 from docx.shared import Pt, Mm
 
 val  = 3000.00
+source = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # finds the 0. Data Source directory
 
 class Word:
 
@@ -129,7 +132,7 @@ class Word:
 			for i in range(bank_data.shape[0]):
 				for j in range(bank_data.shape[1]):
 					table_cells[j + i * bank_data.shape[1]].text = str(bank_data.values[i][j])
-					doc.save(f'../components/reports/{banksName}(Bank).docx')
+					doc.save(source + '/components/reports/'+banksName+'(Bank).docx')
 
 
 
@@ -164,7 +167,7 @@ class Word:
 			for i in range(questura_data.shape[0]):
 				for j in range(questura_data.shape[1]):
 					table_cells[j + i * questura_data.shape[1]].text = str(questura_data.values[i][j])
-			doc.save(f'../components/reports/{banksName}(Questura).docx')
+			doc.save(source + '/components/reports/'+banksName+'(Questura).docx')
 
 		agencey_names = ['CRIF','CTC','Banca d italia','experian']
 		def broker_to_word(self):
@@ -192,4 +195,4 @@ class Word:
 				for i in range(broker_data.shape[0]):
 					for j in range(broker_data.shape[1]):
 						table_cells[j + i * broker_data.shape[1]].text = str(broker_data.values[i][j])
-				doc.save(f'../components/reports/{banksName}(Broker).docx')
+				doc.save(source + '/components/reports/'+banksName+'(Broker).docx')

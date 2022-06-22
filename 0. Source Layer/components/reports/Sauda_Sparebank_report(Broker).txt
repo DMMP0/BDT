@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+60dcb249-98fd-4108-95d3-6610e68d9f8c	New Tel Ltd.	1/5/1975	Australia	32	marketing	994-215-8206	info@newtelltd.org	Norway	experian	340580651641482	False	$88,040,833,554.00	Norway
+0a5d71b5-81ac-4495-9f16-17da04d9b615	Eurotel Bratislava, A.S.	11/6/1984	Slovak Republic	44	marketing	597-184-4016	marketing@eurotelbratislavaas.org	Norway	CRIF	379675611068760	False	$8,007,468,763.00	Norway

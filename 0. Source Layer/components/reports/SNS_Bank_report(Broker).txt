@@ -1,0 +1,8 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+51b52ac3-f0a4-4906-82b3-9ca00c50db0d	HSBC Bank plc	12/3/1976	United Kingdom	19	office	560-530-8771	headquarters@hsbcbankplc.org	Netherlands	CTC	375157641583005	False	$48,483,769,543.00	Netherlands
+6e9e27a6-f584-4fec-a9b2-00c364e6df21	Kubota Corp.	11/14/1977	Japan	25	office	128-152-1910	hr@kubotacorp.org	Netherlands	experian	348998842077501	True	$45,665,000,677.00	Netherlands
+c5bca43a-6b71-4e5f-8861-7d4ddf5d547e	Canada Life Financial Corp.	1/5/1971	Canada	37	office	658-667-6356	info@canadalifefinancialcorp.org	Netherlands	CTC	347849289095673	False	$21,105,197,557.00	Netherlands
+5e74f6bc-0894-4d6a-9b5f-a16749aeacb9	American Israeli Paper Mills Ltd.	5/24/1966	Israel	41	office	672-174-8489	marketing@americanisraelipapermillsltd.org	Netherlands	Banca d italia	371641275423210	True	$33,800,652,794.00	Netherlands
+33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	office	533-768-9918	contact@chainatacorp.org	Netherlands	Banca d italia	348446880625435	True	$68,307,237,044.00	Netherlands
+3bb57501-4ef9-479f-9e3d-2dac7c920e39	Etruscan Resources Inc.	6/19/1992	Canada	29	office	160-009-9526	hr@etruscanresourcesinc.org	Netherlands	CRIF	347596322720169	False	$77,735,416,706.00	Netherlands
+85a596b8-e7a4-45ee-ac04-38dd58a04154	Trivalence Mining Corp.	4/24/1963	Canada	25	office	436-123-3850	hr@trivalenceminingcorp.org	Netherlands	experian	379331780360626	True	$34,843,715,532.00	Netherlands

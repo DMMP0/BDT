@@ -1,3 +1,3 @@
 registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-f4e7c23c-039c-4b38-96a4-35e70f3c9935	National Grid Group plc	3/24/1978	United Kingdom	42	office	765-804-8387	contact@nationalgridgroupplc.org	Greece	experian	374983826042561	True	$83,873,520,508.00	Greece
-bb958bd0-5f24-4346-80f3-6615a1ebfd59	Forbes Medi-Tech Inc.	1/5/1994	Canada	38	office	502-154-4493	marketing@forbesmeditechinc.org	Greece	experian	376940486296901	False	$97,673,292,570.00	Greece
+76eb509c-c5a8-4542-aa8a-f2d1db863bf5	Aztek Technologies Inc.	1/5/1991	Canada	15	scale-up	370-689-6569	contact@aztektechnologiesinc.org	Greece	experian	348616612165294	False	$50,777,459,146.00	Greece
+2b917a9f-8086-4365-b880-9652ee8773c6	Net Sat Servicos Ltda.	2/28/1967	Brazil	13	scale-up	277-786-9269	headquarters@netsatservicosltda.org	Greece	experian	376755155886240	True	$73,065,450,331.00	Greece

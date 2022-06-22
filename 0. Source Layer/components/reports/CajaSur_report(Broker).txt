@@ -1,0 +1,6 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+2b917a9f-8086-4365-b880-9652ee8773c6	Net Sat Servicos Ltda.	2/28/1967	Brazil	13	marketing	277-786-9269	headquarters@netsatservicosltda.org	Spain	experian	341484809450558	False	$9,780,151,569.00	Spain
+8235535e-0873-43ef-91ca-879383cf8377	Mirtronics Inc.	5/2/1962	Canada	29	marketing	556-124-9965	info@mirtronicsinc.org	Spain	experian	345474281068511	False	$39,103,289,042.00	Spain
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+85a596b8-e7a4-45ee-ac04-38dd58a04154	Trivalence Mining Corp.	4/24/1963	Canada	25	industrial equipment	436-123-3850	hr@trivalenceminingcorp.org	Spain	Banca d italia	349194527314026	True	$70,179,584,882.00	Spain
+f4e7c23c-039c-4b38-96a4-35e70f3c9935	National Grid Group plc	3/24/1978	United Kingdom	42	industrial equipment	765-804-8387	contact@nationalgridgroupplc.org	Spain	CRIF	345608845887417	True	$70,750,517,169.00	Spain

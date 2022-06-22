@@ -1,0 +1,6 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+2b917a9f-8086-4365-b880-9652ee8773c6	Net Sat Servicos Ltda.	2/28/1967	Brazil	13	marketing	277-786-9269	headquarters@netsatservicosltda.org	Spain	False	$78,168,748,091.00	True	True	False	True	False
+8235535e-0873-43ef-91ca-879383cf8377	Mirtronics Inc.	5/2/1962	Canada	29	marketing	556-124-9965	info@mirtronicsinc.org	Spain	True	$13,016,030,219.00	False	True	False	True	True
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+85a596b8-e7a4-45ee-ac04-38dd58a04154	Trivalence Mining Corp.	4/24/1963	Canada	25	industrial equipment	436-123-3850	hr@trivalenceminingcorp.org	Spain	True	$92,975,659,215.00	True	True	True	True	True
+f4e7c23c-039c-4b38-96a4-35e70f3c9935	National Grid Group plc	3/24/1978	United Kingdom	42	industrial equipment	765-804-8387	contact@nationalgridgroupplc.org	Spain	True	$2,935,983,364.00	False	False	False	False	False

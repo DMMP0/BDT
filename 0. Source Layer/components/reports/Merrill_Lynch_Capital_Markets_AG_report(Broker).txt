@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+37d3b4aa-25ae-4cd9-97e5-476c1a5234e1	Olicom A/S	11/23/1982	Denmark	11	marketing	467-797-5753	reach@olicomas.org	Switzerland	CRIF	376463507684179	False	$19,575,823,740.00	Switzerland
+27ce7b74-7d6a-4d13-b91e-814f61dd179d	ABB Ltd.	8/20/1984	Switzerland	39	marketing	688-160-3651	marketing@abbltd.org	Switzerland	Banca d italia	370679992760614	True	$18,806,056,122.00	Switzerland

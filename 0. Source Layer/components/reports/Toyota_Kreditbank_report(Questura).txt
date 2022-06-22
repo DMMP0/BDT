@@ -1,3 +1,6 @@
 registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-1408fecd-c605-4008-afd9-9744314abd2d	Anooraq Resources Corp.	5/31/1972	Canada	39	office	357-536-6476	marketing@anooraqresourcescorp.org	Norway	False	$45,856,584,297.00	True	True	False	True	False
-2d3d1c8b-3cc1-4850-a919-ba4d6cb09075	Tele Sudeste Celular Participacoes S.A.	3/4/1976	Brazil	7	office	978-489-1684	contact@telesudestecelularparticipacoessa.org	Norway	True	$26,454,446,079.00	False	True	False	False	False
+3bb57501-4ef9-479f-9e3d-2dac7c920e39	Etruscan Resources Inc.	6/19/1992	Canada	29	validation	160-009-9526	hr@etruscanresourcesinc.org	Norway	True	$49,923,140,005.00	True	True	False	False	False
+b9c50519-ea28-43fa-bf9d-70ccaf5d895e	Guangshen Railway Co. Ltd.	3/19/1989	China	11	validation	798-857-5135	headquarters@guangshenrailwaycoltd.org	Norway	True	$22,803,379,810.00	True	True	False	False	False
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
+33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	marketing	533-768-9918	contact@chainatacorp.org	Norway	False	$95,490,859,150.00	True	False	True	True	True
+b2219b0e-a525-4f22-b9ff-f780c01b6d00	Rhodia	6/21/1975	France	7	marketing	583-692-6929	contact@rhodia.org	Norway	True	$383,520,332.00	True	False	False	True	False

@@ -1,0 +1,3 @@
+registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
+bb958bd0-5f24-4346-80f3-6615a1ebfd59	Forbes Medi-Tech Inc.	1/5/1994	Canada	38	scale-up	502-154-4493	marketing@forbesmeditechinc.org	Italy	CTC	345314299047364	False	$76,472,303,972.00	Italy
+5ad5f65a-4601-42c0-a736-c23f95881abe	China Mobile (Hong Kong) Ltd.	10/2/1984	Hong Kong	25	scale-up	836-090-8645	contact@chinamobilehongkongltd.org	Italy	CRIF	377744802954659	False	$52,038,894,332.00	Italy

@@ -36,11 +36,11 @@ class MessageProducer:
         for el in list_of_tuples:
             if el[0] != self.topic:
                 continue  # not a message from this  producer
-            ris = self.send_msg(json.dumps(el[1]))
+            ris = self.send_msg(json.dumps(el[1])+el[2].decode('utf-8')[-4:])
             if ris['status_code'] != 200:
                 print(ris['error'])
                 self.__redis_error_keys.append(el[2])
-            time.sleep(0.5)
+            time.sleep(2)
 
     def get_error_keys(self):
         return self.__redis_error_keys

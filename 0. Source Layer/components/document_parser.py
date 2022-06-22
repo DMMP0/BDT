@@ -19,9 +19,9 @@ bank_columns = ['registration_number', 'name', 'established_date', 'country', 'n
            'total_house_amount', 'credit_card_number', 'actual_debit_credit_cards', 'monthly_income', 'savings',
            'other_savings']
 
-questura_columns = ['registeration_number','name','establied_date','country','number_of_employes','purpose',
-'phone_number','email','bank_name','questura_country','bankruptcy','inscred','fraudis','investegation','accused','condamned','civ_pass']
 
+questura_columns = ['registration_number','name','established_date','country','number_of_employees','purpose',
+'phone_number','email','questura_country','bankruptcy','inscred','fraudis','investigation','accused','condamned','civ_pass']
 
 
 broker_columns = ['registration_number', 'name', 'established_date', 'country', 'number_of_employees', 'purpose',

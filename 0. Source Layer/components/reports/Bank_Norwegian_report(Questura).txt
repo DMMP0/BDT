@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-c5bca43a-6b71-4e5f-8861-7d4ddf5d547e	Canada Life Financial Corp.	1/5/1971	Canada	37	employee	658-667-6356	info@canadalifefinancialcorp.org	Sweden	False	$41,713,718,302.00	True	True	False	True	True
-28ce529c-14c6-4c54-bf63-4f5fae569fa3	Elan Corp plc	2/2/1991	Ireland	30	employee	864-511-0083	contact@elancorpplc.org	Sweden	False	$2,363,454,323.00	False	False	False	False	False

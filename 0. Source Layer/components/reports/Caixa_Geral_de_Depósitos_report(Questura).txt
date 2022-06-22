@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	employee	940-622-1937	info@professionalstaffplc.org	Portugal	False	$83,076,285,750.00	True	True	False	False	True
-0a5d71b5-81ac-4495-9f16-17da04d9b615	Eurotel Bratislava, A.S.	11/6/1984	Slovak Republic	44	employee	597-184-4016	marketing@eurotelbratislavaas.org	Portugal	True	$79,122,085,940.00	False	False	False	False	True

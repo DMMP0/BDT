@@ -42,6 +42,9 @@ def send_messages(messages: [], redis_keys: []):
          broker_producer.get_error_keys() + \
          questura_producer.get_error_keys()
 
+    if not redis_keys:  # no keys on redis
+        return
+
     # the keys with an error will be duplicates
     # remove duplicates, so we get only keys without an error
     redis_keys = list(set(redis_keys))

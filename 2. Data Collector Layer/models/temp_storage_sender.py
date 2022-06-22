@@ -1,25 +1,22 @@
 import os
 import random
 import sys
-from gcloud import storage
-from oauth2client.service_account import ServiceAccountCredentials
+from google.cloud import storage
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # finds the parent directory
-from credentials.GCS_credentials import credentials_dict
-from credentials.GCS_credentials import project_name
 
+# gsutil -m rm -r gs://questura-bdt-13/\* to remove all files into google cloud storage
 
 class TempStorageSender:
-    credentials = ServiceAccountCredentials.from_json_keyfile_dict(
-        credentials_dict
-    )
-    client = storage.Client(credentials=credentials, project=project_name)
+    client = storage.Client.from_service_account_json(
+        json_credentials_path='/home/dmmp/Documents/GitHub/BDT/credentials/bdt-project-200-6164fe338b7d.json')
+
 
     def __init__(self, bucket_name:str):
         self.bucket = self.client.get_bucket(bucket_name)
 
-    def create_name(self, message: str, topic='', name='_report_row_') -> str:
-        ris = message[-10:]  # this string will contain the format
+    def create_name(self, message: str, topic='', name='-report-row-') -> str:
+        ris = message[-4:]  # this string will contain the format
 
         random_string = ''
         for _ in range(20):
@@ -31,7 +28,7 @@ class TempStorageSender:
             # Keep appending random characters using chr(x)
             random_string += (chr(random_integer))
 
-        return topic + name + ' '+random_string+ris.split('.')[-1]
+        return topic + name + ' '+random_string+'-'+ris
 
     def send_message(self, message, topic, name='report'):
         blob = self.bucket.blob(blob_name=self.create_name(message=message, topic=topic,name=name))

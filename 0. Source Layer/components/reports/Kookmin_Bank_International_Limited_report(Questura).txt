@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-85a596b8-e7a4-45ee-ac04-38dd58a04154	Trivalence Mining Corp.	4/24/1963	Canada	25	employee	436-123-3850	hr@trivalenceminingcorp.org	United Kingdom	False	$22,363,716,395.00	True	True	True	False	True
-33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	employee	533-768-9918	contact@chainatacorp.org	United Kingdom	False	$18,993,083,305.00	False	True	False	False	True

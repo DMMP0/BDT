@@ -1,7 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-e6bc06b2-26b0-4fda-b718-e3ad7c81055a	VI Group plc	5/24/1988	United Kingdom	31	employee	495-055-3444	headquarters@vigroupplc.org	Norway	CRIF	341436714010356	False	$94,274,369,673.00	Norway
-51b52ac3-f0a4-4906-82b3-9ca00c50db0d	HSBC Bank plc	12/3/1976	United Kingdom	19	employee	560-530-8771	headquarters@hsbcbankplc.org	Norway	CTC	345730099346179	False	$24,967,856,308.00	Norway
-940197ff-21a7-4911-85ba-123f71ab5779	CP Ships Ltd.	4/13/1987	Canada	7	employee	512-887-1880	headquarters@cpshipsltd.org	Norway	Banca d italia	377841606822262	False	$57,564,128,562.00	Norway
-b04575ab-57a6-4892-a506-18c3a3833bfe	Fomento Economico Mexicano S.A. de C.V.	7/8/1977	Mexico	29	employee	304-380-1927	enquiries@fomentoeconomicomexicanosadecv.org	Norway	CTC	376270992926415	False	$97,388,351,682.00	Norway
-46c8d780-dea9-4778-ada7-1c13e0316186	Professional Staff plc	7/27/1975	United Kingdom	27	employee	940-622-1937	info@professionalstaffplc.org	Norway	CTC	375674800866682	True	$81,310,797,045.00	Norway
-94eb8f85-e0a9-4190-a226-03c9e2d2ea4d	Cryptologic Inc.	12/13/1995	Canada	22	employee	687-175-0790	sales@cryptologicinc.org	Norway	CTC	347601847096044	False	$14,792,430,475.00	Norway

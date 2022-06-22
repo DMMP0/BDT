@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-536e0301-7918-475d-8eba-864c98511f72	Ekabel Hessen GmbH	3/15/1964	Germany	48	employee	486-741-7082	info@ekabelhessengmbh.org	Norway	False	$24,954,299,822.00	True	False	False	True	False
-32b7f179-da3f-4942-bc68-766f7a853cce	Governor and Company of the Bank of Ireland	4/23/1976	Ireland	18	employee	857-210-7051	contact@governorandcompanyofthebankofireland.org	Norway	False	$73,742,476,812.00	True	False	True	True	True

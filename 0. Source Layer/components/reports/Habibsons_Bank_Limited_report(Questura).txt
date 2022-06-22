@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	questura_country	bankruptcy	inscred	fraudis	investegation	accused	condamned	civ_pass
-3b9e17d2-96d2-49a6-a4e9-745dcdad023e	Bennett Environmental Inc.	5/15/1962	Canada	39	employee	561-685-4405	sales@bennettenvironmentalinc.org	United Kingdom	True	$3,690,444,843.00	True	False	False	False	True
-06dc67e7-f4b0-417e-83cb-8b6810a55aac	Atlantic Telecom Group plc	5/12/1975	United Kingdom	39	employee	379-281-1544	marketing@atlantictelecomgroupplc.org	United Kingdom	False	$96,926,345,366.00	True	True	False	True	True

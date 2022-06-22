@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-536e0301-7918-475d-8eba-864c98511f72	Ekabel Hessen GmbH	3/15/1964	Germany	48	employee	486-741-7082	info@ekabelhessengmbh.org	Norway	CTC	349654858903713	True	$22,949,573,442.00	Norway
-32b7f179-da3f-4942-bc68-766f7a853cce	Governor and Company of the Bank of Ireland	4/23/1976	Ireland	18	employee	857-210-7051	contact@governorandcompanyofthebankofireland.org	Norway	CRIF	371815366440651	False	$64,384,925,812.00	Norway

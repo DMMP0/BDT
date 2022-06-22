@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-28ce529c-14c6-4c54-bf63-4f5fae569fa3	Elan Corp plc	2/2/1991	Ireland	30	employee	864-511-0083	contact@elancorpplc.org	Poland	experian	375692126767608	False	$91,512,427,822.00	Poland
-37d3b4aa-25ae-4cd9-97e5-476c1a5234e1	Olicom A/S	11/23/1982	Denmark	11	employee	467-797-5753	reach@olicomas.org	Poland	CTC	378631765380122	True	$79,190,253,833.00	Poland

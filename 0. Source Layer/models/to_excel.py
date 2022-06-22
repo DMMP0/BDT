@@ -113,20 +113,25 @@ class Excel:
 		for index,item in bank_data.iterrows():	
 			bank_data.loc[index,'open_new_credit_in_6_months'] = random.randint(0,10)
 			bank_data.loc[index,'ammount_in_6_months'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
-			bank_data.loc[index,'new_credit_in_12_months'] = random.randint(0,10)
-			bank_data.loc[index,'new_credit_in_18_months'] = random.randint(0,10)
-			bank_data.loc[index,'ammount_in_12_months'] ="${:,.2f}".format(val + random.randint(5000,100000000000))
+			bank_data.loc[index,'new_credit_in_12_months'] = random.randint(0,3)
+			bank_data.loc[index,'new_credit_in_18_months'] = random.randint(0,3)
+			bank_data.loc[index,'ammount_in_12_months'] ="${:,.2f}".format(val + random.randint(2000,20000))
 			bank_data.loc[index,'ammount_in_18_months'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
-			bank_data.loc[index,'house_mortage'] = random.randint(1,10)
-			bank_data.loc[index,'amount_of_house_mortage'] ="${:,.2f}".format(val + random.randint(5000,100000000000))
-			bank_data.loc[index,'amount_duee_mortage'] =  val  + random.randint(5000,100000000000)
-			bank_data.loc[index,'house_property'] = random.randint(0,10)
-			bank_data.loc[index,'total_house_amount'] ="${:,.2f}".format(val + random.randint(5000,100000000000))
-			bank_data.loc[index,'credit_card_number'] = str(ccard.visa())
-			bank_data.loc[index,'actual_debit_credit_cards'] = random.randint(2,10)
-			bank_data.loc[index,'monthly_income'] ="${:,.2f}".format(val + random.randint(5000,100000000000))
-			bank_data.loc[index,'savings'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
-			bank_data.loc[index,'other_savings']= "${:,.2f}".format(val + random.randint(5000,100000000000))
+			bank_data.loc[index,'house_mortage'] = random.choice([True, False])
+			if(bank_data.loc[index,'house_mortage'] == True):
+				bank_data.loc[index,'amount_of_house_mortage'] ="${:,.2f}".format(val + random.randint(50000,500000))
+				bank_data.loc[index,'amount_duee_mortage'] ="${:,.2f}".format(val  + random.randint(50000,500000))
+				bank_data.loc[index,'house_property'] = random.choice([True, False])
+			else:
+				bank_data.loc[index,'house_property'] = "${:,.2f}".format(val  + random.randint(0,500000))
+			if(bank_data.loc[index,'house_property'] is True):
+				bank_data.loc[index,'total_house_amount'] ="${:,.2f}".format(val + random.randint(500,50000))
+			bank_data.loc[index,'credit_card_number'] = random.randint(1,5)
+			bank_data.loc[index,'credit_card_limit_total'] = random.randint(10000,500000)
+			bank_data.loc[index,'actual_debit_credit_cards'] = random.randint(0,5)
+			bank_data.loc[index,'monthly_income'] ="${:,.2f}".format(val + random.randint(0,50000))
+			bank_data.loc[index,'savings'] = "${:,.2f}".format(val + random.randint(1000,100000))
+			bank_data.loc[index,'other_savings']= "${:,.2f}".format(val + random.randint(100,20000))
 		bank_data.to_excel('./reports/'+banksName+'(Bank).xlsx')
 
 	def police_excel(self):
@@ -148,8 +153,11 @@ class Excel:
 					questura_data = pd.DataFrame(questura_data)
 					questura_data.loc[index,'questura_country'] = self.bank[1]
 					questura_data.loc[index,'bankruptcy'] = random.choice([True, False])
-					questura_data.loc[index,'inscred'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
-					questura_data.loc[index,'fraudis'] = random.choice([True, False])
+					if(questura_data.loc[index,'bankruptcy'] == True):
+						questura_data.loc[index,'inscred'] = "${:,.2f}".format(val + random.randint(500000,1000000))
+					if(questura_data.loc[index,'bankruptcy'] == False):
+						questura_data.loc[index,'fraudis'] = False
+					else: questura_data.loc[index,'fraudis'] = True
 					questura_data.loc[index,'investegation'] = random.choice([True, False])
 					questura_data.loc[index,'accused'] = random.choice([True, False])
 					questura_data.loc[index,'condamned'] = random.choice([True, False])
@@ -173,9 +181,13 @@ class Excel:
 			for index,item in broker_data.iterrows():
 					broker_data = pd.DataFrame(broker_data)
 					broker_data.loc[index,'agency_country'] = self.bank[1]
+					broker_data.loc[index,'from30to60'] = random.randint(0,3)
+					broker_data.loc[index,'from60to90'] = random.randint(0,3)
+					broker_data.loc[index,'morethan90'] = random.randint(0,3)
 					broker_data.loc[index,'agency_name'] = self.agencey_names[(randint(0,3))] 
 					broker_data.loc[index,'debit_id'] =str(ccard.americanexpress())
-					broker_data.loc[index,'installment'] =  random.choice([True, False])
-					broker_data.loc[index,'installment_ammount'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
+					broker_data.loc[index,'insolvent'] =  random.choice([True, False])
+					if(broker_data.loc[index,'insolvent'] == True):
+						broker_data.loc[index,'insolvent_ammount'] = "${:,.2f}".format(val + random.randint(5000, 1000000))
 	
 			broker_data.to_excel('./reports/'+banksName+'(Broker).xlsx')

@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-c5bca43a-6b71-4e5f-8861-7d4ddf5d547e	Canada Life Financial Corp.	1/5/1971	Canada	37	employee	658-667-6356	info@canadalifefinancialcorp.org	Sweden	Banca d italia	378685605823493	True	$29,139,868,374.00	Sweden
-28ce529c-14c6-4c54-bf63-4f5fae569fa3	Elan Corp plc	2/2/1991	Ireland	30	employee	864-511-0083	contact@elancorpplc.org	Sweden	CRIF	347360445365521	True	$39,825,147,221.00	Sweden

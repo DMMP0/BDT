@@ -1,3 +1,0 @@
-registeration_number	name	establied_date	country	number_of_employes	purpose	phone_number	email	agencey_country	agency_name	debit_id	installment	installment_ammount	agency_country
-85a596b8-e7a4-45ee-ac04-38dd58a04154	Trivalence Mining Corp.	4/24/1963	Canada	25	employee	436-123-3850	hr@trivalenceminingcorp.org	United Kingdom	experian	349126506697401	True	$39,299,450,494.00	United Kingdom
-33d454a8-14e0-433e-801c-1d8082b0e164	Chai-Na-Ta Corp.	4/7/1962	Canada	23	employee	533-768-9918	contact@chainatacorp.org	United Kingdom	CTC	345418520443829	True	$65,989,981,157.00	United Kingdom

@@ -1,27 +1,28 @@
-
 import pandas as pd
 
 import io
 import csv
 from docx import Document
 
+bank_columns = ['Id_Number', 'first_name', 'last_name', 'sex', 'DOB', 'ethnicity', 'education', 'phone_number', 'email',
+                'bank_name', 'bank_country', 'open_new_credit_in_6_months', 'amount_in_6_months',
+                'new_credit_in_12_months',
+                'new_credit_in_18_months',
+                'amount_in_12_months', 'amount_in_18_months', 'house_mortgage', 'amount_of_house_mortgage',
+                'amount_due_mortgage', 'house_property',
+                'total_house_amount', 'credit_card_number', 'actual_debit_credit_cards', 'monthly_income', 'savings',
+                'other_savings']
 
+questura_columns = ['Id_Number', 'first_name', 'last_name', 'sex', 'DOB', 'ethnicity', 'education', 'phone_number',
+                    'email',
+                    'questura_country', 'bankruptcy', 'inscred', 'fraudis', 'investigation', 'accused', 'condamned',
+                    'civ_pass']
 
-bank_columns = ['Id_Number','first_name','last_name','sex','DOB','ethnicity','education','phone_number','email',
-           'bank_name', 'bank_country', 'open_new_credit_in_6_months', 'amount_in_6_months', 'new_credit_in_12_months',
-           'new_credit_in_18_months',
-           'amount_in_12_months', 'amount_in_18_months', 'house_mortgage', 'amount_of_house_mortgage',
-           'amount_due_mortgage', 'house_property',
-           'total_house_amount', 'credit_card_number', 'actual_debit_credit_cards', 'monthly_income', 'savings',
-           'other_savings']
+broker_columns = ['Id_Number', 'first_name', 'last_name', 'sex', 'DOB', 'ethnicity', 'education', 'phone_number',
+                  'email',
+                  'agencey_country', 'agency_name', 'from30to60', 'from60to90', 'morethan90', 'debit_id', 'insolvent',
+                  'insolvent_ammount', 'agency_country']
 
-
-questura_columns = ['Id_Number','first_name','last_name','sex','DOB','ethnicity','education','phone_number','email',
-'questura_country','bankruptcy','inscred','fraudis','investigation','accused','condamned','civ_pass']
-
-
-broker_columns = ['Id_Number','first_name','last_name','sex','DOB','ethnicity','education','phone_number','email',
-'agencey_country','agency_name','from30to60','from60to90','morethan90','debit_id','insolvent','insolvent_ammount','agency_country']
 
 def read_docx_tables(filename, tab_id=None, **kwargs):
     """
@@ -115,5 +116,18 @@ def txt_to_dict(filepath: str) -> dict:
     name = str(filepath).split('/')[-1]
     data = pd.read_csv(filepath, sep='\t')
     data = pd.DataFrame(data)
+    return {name: data.to_dict(orient='index')}
+    # temp = data.to_json('./jsons/' + name + '.json', indent=4, orient='index')
+
+
+def csv_to_dict(filepath: str) -> dict:
+    """The function returns a dictionary from a filepath. The dictionary will have the filename as key and the values
+           as another dictionary"""
+    # for what we designed, only the declaration will be in csv
+
+    # Read a text file to a dataframe using read_table function
+    name = str(filepath).split('/')[-1]
+    data = pd.read_csv(filepath, sep=',')
+    # data = pd.DataFrame(data)
     return {name: data.to_dict(orient='index')}
     # temp = data.to_json('./jsons/' + name + '.json', indent=4, orient='index')

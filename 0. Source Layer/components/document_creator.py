@@ -80,7 +80,7 @@ def Generate():
             obj3.set_bank(bank)
             obj3.broker_rtf()
             obj3.clean()
-        print(rnd)
+        # print(rnd)
 
     def create_Word(data, rnd):
         banks = bank_data.sample(n=rnd)
@@ -106,7 +106,7 @@ def Generate():
             obj3.set_bank(bank)
             obj3.broker_to_word()
             obj3.clean()
-        print(idx)
+        # print(idx)
 
     def create_HTML(data, rnd):
         banks = bank_data.sample(n=rnd)
@@ -132,7 +132,7 @@ def Generate():
             obj3.set_bank(bank)
             obj3.broker_html()
             obj3.clean()
-        print(idx)
+        # print(idx)
 
     def create_Excel(data, rnd):
         banks = bank_data.sample(n=rnd)
@@ -159,7 +159,7 @@ def Generate():
             obj3.set_bank(bank)
             obj3.broker_excel()
             obj3.clean()
-        print(idx)
+        # print(idx)
 
     def declaration_file():
         for i in range(0, 5):
@@ -220,7 +220,7 @@ def Generate():
         rnd = randint(2, len(client))
         idx = rnd
         # rnd_banks = randint(5, idx)
-        print("Random number", rnd)
+        # print("Random number", rnd)
         if i == 0:
             create_RTF(client_full_data, rnd)
         if i == 1:

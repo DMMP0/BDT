@@ -1,12 +1,11 @@
-from lib2to3.pgen2.pgen import generate_grammar
 import os
-
 import pandas as pd
 import re
 from random import randint
-
+import datetime as dt
 import numpy as np
 import sys
+from datetime import date, datetime
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # finds the parent directory
 from models.to_txt import RTF
@@ -166,7 +165,7 @@ def create_Excel(data, rnd):
         # print(idx)
 
 def declaration_file():
-        for i in range(0, 5):
+        for i in range(0, 50):
             no_of_partners = randint(2, 5)
             company_partners = person_data.sample(n=no_of_partners)
             # print(company_partners)
@@ -202,8 +201,8 @@ def declaration_file():
         clients = [item for sublist in unique_partners for item in sublist]
         # print(clients)
         clients = pd.DataFrame(clients, columns=['Fiscal Code'])
-        clients.to_csv('./0.Client_List.csv')
-
+        clients.loc[:,'Date and Time'] = datetime.now().strftime("%d-%m-%Y_%H-%M-%S")
+        return clients
         # with open('list.csv', 'w') as f:
 
         #     # using csv.writer method from CSV package
@@ -211,17 +210,35 @@ def declaration_file():
 
         #     write.writerow(clients)
 
+import csv
 
-####################### Main
 
 update_header_of_data()
 print('Imhere')
-declaration_file()
-client = pd.read_csv('./0.Client_List.csv')
-client_full_data = personal_data[personal_data['Id_Number'].isin(client['Fiscal Code'])]
+name = '0.Client_List'
+tag = True
+new_clients = declaration_file()
+
+with open('0.Client_List.csv', 'r') as csvfile:
+    csv_dict = [row for row in csv.DictReader(csvfile)]
+    if len(csv_dict) == 0:
+        tag = False
+
+
+if(tag):
+    client = pd.read_csv(name + '.csv')
+    client = pd.concat([client,new_clients]) 
+    client.to_csv(name + '.csv')
+else:
+    new_clients.to_csv(name + '.csv')
+
+
+
+clients = pd.read_csv( name + '.csv')
+client_full_data = personal_data[personal_data['Id_Number'].isin(new_clients['Fiscal Code'])]
 for i in range(0, 4):
 
-    rnd = randint(2, len(client))
+    rnd = randint(2, len(new_clients))
     idx = rnd
     # rnd_banks = randint(5, idx)
     # print("Random number", rnd)

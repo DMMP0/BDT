@@ -95,7 +95,7 @@ class Excel:
 		bank_data = pd.DataFrame(bank_data)
 		for index,item in bank_data.iterrows():	
 			bank_data.loc[index,'open_new_credit_in_6_months'] = random.randint(0,10)
-			bank_data.loc[index,'ammount_in_6_months'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
+			bank_data.loc[index,'ammount_in_6_months'] = "${:,.2f}".format(val + random.randint(5000,10000000))
 			bank_data.loc[index,'new_credit_in_12_months'] = random.randint(0,3)
 			bank_data.loc[index,'new_credit_in_18_months'] = random.randint(0,3)
 			bank_data.loc[index,'ammount_in_12_months'] ="${:,.2f}".format(val + random.randint(2000,20000))
@@ -115,7 +115,7 @@ class Excel:
 			bank_data.loc[index,'monthly_income'] ="${:,.2f}".format(val + random.randint(0,50000))
 			bank_data.loc[index,'savings'] = "${:,.2f}".format(val + random.randint(1000,100000))
 			bank_data.loc[index,'other_savings']= "${:,.2f}".format(val + random.randint(100,20000))
-		bank_data.to_excel('./reports/'+banksName+'(Bank).xlsx')
+		bank_data.to_excel('reports/'+banksName+'(Bank).xlsx')
 
 
 	def police_excel(self):

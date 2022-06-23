@@ -39,25 +39,17 @@ def read_docx_tables(filename, tab_id=None, **kwargs):
     Return: a single DataFrame if tab_id != None or a list of DataFrames otherwise
     """
 
-    def read_docx_tab(tab, **kwargs):
-        vf = io.StringIO()
-        writer = csv.writer(vf)
-        for row in tab.rows:
-            writer.writerow(cell.text for cell in row.cells)
-        vf.seek(0)
-        return pd.read_csv(vf, **kwargs)
+    def read_docx_tab(table):
+        data = [[cell.text for cell in row.cells] for row in table.rows]
+        return pd.DataFrame(data)
 
     doc = Document(filename)
-    if tab_id is None:
-        for tab in doc.tables:
-            df = read_docx_tab(tab, **kwargs)
+
+    for tab in doc.tables:
+        if len(tab.rows) == 0:
+            raise Exception("The document is empty")
+        df = read_docx_tab(tab)
         return df
-    else:
-        try:
-            return read_docx_tab(doc.tables[tab_id], **kwargs)
-        except IndexError:
-            print('Error: specified [tab_id]: {}  does not exist.'.format(tab_id))
-            raise
 
 
 # print(len(excel))

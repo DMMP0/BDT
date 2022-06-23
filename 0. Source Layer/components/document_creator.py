@@ -1,3 +1,4 @@
+from lib2to3.pgen2.pgen import generate_grammar
 import os
 
 import pandas as pd
@@ -15,28 +16,31 @@ from models.to_excel import Excel
 from models.to_html import HTML
 
 
-def Generate():
-    root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # finds the root dir
-    currentDir = os.path.dirname(os.path.abspath(__file__))
-    threshold = 1000  # this is the number of companies request for the bank data
+## Public variables
 
-    business_data = pd.read_csv(root + '/assets/0. Source Data/credit data/company_information.csv')
-    personal_data = pd.read_csv(root + '/assets/0. Source Data/credit data/user_information.csv')
-    bank_data = pd.read_excel(root + '/assets/0. Source Data/credit data/banks.xlsx')
+root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # finds the root dir
+currentDir = os.path.dirname(os.path.abspath(__file__))
+threshold = 1000  # this is the number of companies request for the bank data
+
+business_data = pd.read_csv(root + '/assets/0. Source Data/credit data/company_information.csv')
+personal_data = pd.read_csv(root + '/assets/0. Source Data/credit data/user_information.csv')
+bank_data = pd.read_excel(root + '/assets/0. Source Data/credit data/banks.xlsx')
     # bank_data.drop(columns=bank_data.columns[0], axis=1, inplace=True)
-    business_data = pd.DataFrame(data=business_data, columns=business_data.columns)
-    personal_data = pd.DataFrame(data=personal_data, columns=personal_data.columns)
-    purpose = ['prototype', 'marketing', 'validation', 'scale-up', 'industrial equipment', 'office', 'employee',
+business_data = pd.DataFrame(data=business_data, columns=business_data.columns)
+personal_data = pd.DataFrame(data=personal_data, columns=personal_data.columns)
+purpose = ['prototype', 'marketing', 'validation', 'scale-up', 'industrial equipment', 'office', 'employee',
                'other investment']
-    unique_companies = []
-    unique_partners = []
+unique_companies = []
+unique_partners = []
 
-    data = business_data
-    person_data = personal_data
-    # declaration_data = []
-    declaration_data = []
+data = business_data
+person_data = personal_data
+declaration_data = []
 
-    def update_header(data) -> list:
+
+
+   
+def update_header(data) -> list:
         temp = []
         data = pd.DataFrame(data)
         columns = data.columns
@@ -45,16 +49,16 @@ def Generate():
             temp.append(column)
         return temp
 
-    def data_cleaning_for_classes(obj, df, bank):
+def data_cleaning_for_classes(obj, df, bank):
         obj.set_data(df)
         obj.set_bank(bank)
 
-    def update_header_of_data():
+def update_header_of_data():
         business_data.columns = update_header(business_data)
         personal_data.columns = update_header(personal_data)
         bank_data.columns = update_header(bank_data)
 
-    def create_RTF(data, rnd):
+def create_RTF(data, rnd):
         banks = bank_data.sample(n=rnd)
         banks = pd.DataFrame(banks)
         for index, bank in banks.iterrows():
@@ -82,7 +86,7 @@ def Generate():
             obj3.clean()
         # print(rnd)
 
-    def create_Word(data, rnd):
+def create_Word(data, rnd):
         banks = bank_data.sample(n=rnd)
         banks = pd.DataFrame(banks)
         for index, bank in banks.iterrows():
@@ -108,7 +112,7 @@ def Generate():
             obj3.clean()
         # print(idx)
 
-    def create_HTML(data, rnd):
+def create_HTML(data, rnd):
         banks = bank_data.sample(n=rnd)
         banks = pd.DataFrame(banks)
         for index, bank in banks.iterrows():
@@ -134,7 +138,7 @@ def Generate():
             obj3.clean()
         # print(idx)
 
-    def create_Excel(data, rnd):
+def create_Excel(data, rnd):
         banks = bank_data.sample(n=rnd)
         banks = pd.DataFrame(banks)
         for index, bank in banks.iterrows():
@@ -161,7 +165,7 @@ def Generate():
             obj3.clean()
         # print(idx)
 
-    def declaration_file():
+def declaration_file():
         for i in range(0, 5):
             no_of_partners = randint(2, 5)
             company_partners = person_data.sample(n=no_of_partners)
@@ -207,25 +211,25 @@ def Generate():
 
         #     write.writerow(clients)
 
-    ####################### Main
 
-    # print(list(data.columns) + list(person_data.columns))
+####################### Main
 
-    update_header_of_data()
-    declaration_file()
-    client = pd.read_csv('./0.Client_List.csv')
-    client_full_data = personal_data[personal_data['Id_Number'].isin(client['Fiscal Code'])]
-    for i in range(0, 4):
+update_header_of_data()
+print('Imhere')
+declaration_file()
+client = pd.read_csv('./0.Client_List.csv')
+client_full_data = personal_data[personal_data['Id_Number'].isin(client['Fiscal Code'])]
+for i in range(0, 4):
 
-        rnd = randint(2, len(client))
-        idx = rnd
-        # rnd_banks = randint(5, idx)
-        # print("Random number", rnd)
-        if i == 0:
+    rnd = randint(2, len(client))
+    idx = rnd
+    # rnd_banks = randint(5, idx)
+    # print("Random number", rnd)
+    if i == 0:
             create_RTF(client_full_data, rnd)
-        if i == 1:
+    if i == 1:
             create_Word(client_full_data, rnd)
-        if i == 2:
+    if i == 2:
             create_HTML(client_full_data, rnd)
-        if i == 3:
+    if i == 3:
             create_Excel(client_full_data, rnd)

@@ -152,8 +152,7 @@ class HTML:
 
 	agencey_names = ['CRIF','CTC','Banca d italia','experian']
 	def broker_html(self):
-			broker_data = pd.DataFrame(self.data)
-					
+			broker_data = pd.DataFrame(self.data)		
 			banksName = self.bank['names']
 			banksName =re.sub('[^a-zA-Z0-9 \n\.]', '', banksName)
 			broker_data =  self.create_risk_broker_data(broker_data)
@@ -166,10 +165,10 @@ class HTML:
 					broker_data.loc[index,'from60to90'] = random.randint(0,3)
 					broker_data.loc[index,'morethan90'] = random.randint(0,3)
 					broker_data.loc[index,'agency_name'] = self.agencey_names[(randint(0,3))] 
-					broker_data.loc[index,'debit_id'] =str(ccard.americanexpress())
+					broker_data.loc[index,'debit_id'] =str(ccard.mastercard())
 					broker_data.loc[index,'insolvent'] =  random.choice([True, False])
 					if(broker_data.loc[index,'insolvent'] == True):
 						broker_data.loc[index,'insolvent_ammount'] = "${:,.2f}".format(val + random.randint(5000, 1000000))
 	
-			broker_data.to_html('reports/'+banksName+'(Risk Broker).html')
+			broker_data.to_html('reports/'+banksName+'(Broker).html')
 			

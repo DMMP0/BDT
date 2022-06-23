@@ -165,7 +165,7 @@ def create_Excel(data, rnd):
         # print(idx)
 
 def declaration_file():
-        for i in range(0, 50):
+        for i in range(0, 5):
             no_of_partners = randint(2, 5)
             company_partners = person_data.sample(n=no_of_partners)
             # print(company_partners)

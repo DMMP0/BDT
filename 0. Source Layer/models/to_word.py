@@ -94,7 +94,7 @@ class Word:
 			broker_data['debit_id'] =''
 			broker_data['insolvent'] = bool
 			broker_data['insolvent_ammount'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
-
+			return broker_data
 		
 		def bank_to_word(self):
 			bank_data = pd.DataFrame(self.data)
@@ -168,31 +168,27 @@ class Word:
 
 		agencey_names = ['CRIF','CTC','Banca d italia','experian']
 		def broker_to_word(self):
-				broker_data = pd.DataFrame(self.data)
-				banksName = self.bank['names']
-				banksName =banksName.replace(' ','_')
-				banksName = banksName.replace('/','_')
-				broker_data =  self.create_risk_broker_data(broker_data)
-				banksName = self.bank[0]
-				banksName =banksName.replace(' ','_')
-				banksName = banksName.replace('/','_')
-				broker_data = pd.DataFrame(broker_data)
-				# print(banksName)
-				for index,item in broker_data.iterrows():
-						broker_data = pd.DataFrame(broker_data)
-						broker_data.loc[index,'agency_country'] = self.bank[1]
-						broker_data.loc[index,'from30to60'] = random.randint(0,3)
-						broker_data.loc[index,'from60to90'] = random.randint(0,3)
-						broker_data.loc[index,'morethan90'] = random.randint(0,3)
-						broker_data.loc[index,'agency_name'] = self.agencey_names[(randint(0,3))] 
-						broker_data.loc[index,'debit_id'] =str(ccard.americanexpress())
-						broker_data.loc[index,'insolvent'] =  random.choice([True, False])
-						if(broker_data.loc[index,'insolvent'] == True):
-							broker_data.loc[index,'insolvent_ammount'] = "${:,.2f}".format(val + random.randint(5000, 1000000))
-				doc = docx.Document()
-				table = doc.add_table(rows = broker_data.shape[0], cols = broker_data.shape[1])
-				table_cells = table._cells
-				for i in range(broker_data.shape[0]):
-					for j in range(broker_data.shape[1]):
-						table_cells[j + i * broker_data.shape[1]].text = str(broker_data.values[i][j])
-				doc.save(f'../components/reports/{banksName}(Broker).docx')
+			broker_data = pd.DataFrame(self.data)		
+			banksName = self.bank['names']
+			banksName =re.sub('[^a-zA-Z0-9 \n\.]', '', banksName)
+			broker_data =  self.create_risk_broker_data(broker_data)
+			broker_data = pd.DataFrame(broker_data)
+			# print(banksName)
+			for index,item in broker_data.iterrows():
+					broker_data = pd.DataFrame(broker_data)
+					broker_data.loc[index,'agency_country'] = self.bank[1]
+					broker_data.loc[index,'agency_name'] = self.agencey_names[(randint(0,3))] 
+					broker_data.loc[index,'from30to60'] = random.randint(0,3)
+					broker_data.loc[index,'from60to90'] = random.randint(0,3)
+					broker_data.loc[index,'morethan90'] = random.randint(0,3)
+					broker_data.loc[index,'debit_id'] =str(ccard.mastercard())
+					broker_data.loc[index,'insolvent'] =  random.choice([True, False])
+					if(broker_data.loc[index,'insolvent'] == True):
+						broker_data.loc[index,'insolvent_ammount'] = "${:,.2f}".format(val + random.randint(5000, 1000000))				
+			doc = docx.Document()
+			table = doc.add_table(rows = broker_data.shape[0], cols = broker_data.shape[1])
+			table_cells = table._cells
+			for i in range(broker_data.shape[0]):
+				for j in range(broker_data.shape[1]):
+					table_cells[j + i * broker_data.shape[1]].text = str(broker_data.values[i][j])
+			doc.save(f'../components/reports/{banksName}(Broker).docx')

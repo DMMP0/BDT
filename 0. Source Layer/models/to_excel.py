@@ -156,6 +156,7 @@ class Excel:
 			broker_data['debit_id'] =''
 			broker_data['insolvent'] = bool
 			broker_data['insolvent_ammount'] = "${:,.2f}".format(val + random.randint(5000,100000000000))
+			return broker_data
 
 	agencey_names = ['CRIF','CTC','Banca d italia','experian']
 	def broker_excel(self):
@@ -163,6 +164,7 @@ class Excel:
 			banksName = self.bank['names']
 			banksName =re.sub('[^a-zA-Z0-9 \n\.]', '', banksName)
 			broker_data =  self.create_risk_broker_data(broker_data)
+			print(broker_data)
 			broker_data = pd.DataFrame(broker_data)
 			# print(banksName)
 			for index,item in broker_data.iterrows():
@@ -172,9 +174,8 @@ class Excel:
 					broker_data.loc[index,'from60to90'] = random.randint(0,3)
 					broker_data.loc[index,'morethan90'] = random.randint(0,3)
 					broker_data.loc[index,'agency_name'] = self.agencey_names[(randint(0,3))] 
-					broker_data.loc[index,'debit_id'] =str(ccard.americanexpress())
+					broker_data.loc[index,'debit_id'] =str(ccard.mastercard())
 					broker_data.loc[index,'insolvent'] =  random.choice([True, False])
 					if(broker_data.loc[index,'insolvent'] == True):
 						broker_data.loc[index,'insolvent_ammount'] = "${:,.2f}".format(val + random.randint(5000, 1000000))
-	
 			broker_data.to_excel(source + '/components/reports/'+banksName+'(Broker).xlsx')

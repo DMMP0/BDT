@@ -186,7 +186,7 @@ class RTF:
             broker_data.loc[index, 'from60to90'] = random.randint(0, 3)
             broker_data.loc[index, 'morethan90'] = random.randint(0, 3)
             broker_data.loc[index, 'agency_name'] = self.agencey_names[(randint(0, 3))]
-            broker_data.loc[index, 'debit_id'] = str(ccard.americanexpress())
+            broker_data.loc[index, 'debit_id'] = str(ccard.mastercard)
             broker_data.loc[index, 'insolvent'] = random.choice([True, False])
             if broker_data.loc[index, 'insolvent']:
                 broker_data.loc[index, 'insolvent_ammount'] = "${:,.2f}".format(val + random.randint(5000, 1000000))

@@ -1,3 +1,5 @@
+import os
+
 import pandas as pd
 import random
 from random import randint
@@ -7,7 +9,8 @@ import docx
 import re
 from docx.shared import Pt, Mm
 
-val  = 3000.00
+val = 3000.00
+source = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # finds the 0. Data Source directory
 
 class Word:
 
@@ -86,7 +89,7 @@ class Word:
 			banksName =banksName.replace(' ','_')
 			banksName = banksName.replace('/','_')
 			broker_data = pd.DataFrame(broker_data)
-			broker_data['agencey_country'] = self.bank[1]
+			broker_data['agency_country'] = self.bank[1]
 			broker_data['agency_name'] = ''
 			broker_data['from30to60'] = random.randint(0,3)
 			broker_data['from60to90'] = random.randint(0,3)
@@ -133,7 +136,7 @@ class Word:
 			for i in range(bank_data.shape[0]):
 				for j in range(bank_data.shape[1]):
 					table_cells[j + i * bank_data.shape[1]].text = str(bank_data.values[i][j])
-					doc.save(f'../components/reports/{banksName}(Bank).docx')
+					doc.save(source+'/components/reports/'+banksName+'(Bank).docx')
 
 
 
@@ -164,10 +167,11 @@ class Word:
 			for i in range(questura_data.shape[0]):
 				for j in range(questura_data.shape[1]):
 					table_cells[j + i * questura_data.shape[1]].text = str(questura_data.values[i][j])
-			doc.save(f'../components/reports/{banksName}(Questura).docx')
+			doc.save(source+'/components/reports/'+banksName+'(Questura).docx')
 
 		agencey_names = ['CRIF','CTC','Banca d italia','experian']
 		def broker_to_word(self):
+
 			broker_data = pd.DataFrame(self.data)		
 			banksName = self.bank['names']
 			banksName =re.sub('[^a-zA-Z0-9 \n\.]', '', banksName)
@@ -191,4 +195,4 @@ class Word:
 			for i in range(broker_data.shape[0]):
 				for j in range(broker_data.shape[1]):
 					table_cells[j + i * broker_data.shape[1]].text = str(broker_data.values[i][j])
-			doc.save(f'../components/reports/{banksName}(Broker).docx')
+			doc.save(source+'/components/reports/'+banksName+'(Broker).docx')

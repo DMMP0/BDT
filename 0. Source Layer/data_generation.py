@@ -1,7 +1,6 @@
-import components.document_creator as Documents
+# while True:
+import components.document_creator
 import components.data_generator as Data
 
-Documents.Generate()
-print("Documents generated")
 Data.Generate()
-print("Statements generated")
+print("Data generated")

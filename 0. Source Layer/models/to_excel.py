@@ -7,7 +7,7 @@ from random import randint
 import ccard
 
 
-val  = 300.00
+val = 300.00
 source = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # finds the 0. Data Source directory
 
 class Excel:
@@ -148,7 +148,7 @@ class Excel:
 			banksName =banksName.replace(' ','_')
 			banksName = banksName.replace('/','_')
 			broker_data = pd.DataFrame(broker_data)
-			broker_data['agencey_country'] = self.bank[1]
+			broker_data['agency_country'] = self.bank[1]
 			broker_data['agency_name'] = ''
 			broker_data['from30to60'] = random.randint(0,3)
 			broker_data['from60to90'] = random.randint(0,3)

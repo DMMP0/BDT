@@ -79,13 +79,13 @@ class RTF:
 
         return questura_data
 
-    def create_risk_broker_data(self, broker_data) -> any:
-        broker_data = broker_data
+    def create_risk_broker_data(self, data) -> any:
+        broker_data = data
         banksName = str(self.bank[0])
         banksName = banksName.replace(' ', '_')
         banksName = banksName.replace('/', '_')
         broker_data = pd.DataFrame(broker_data)
-        broker_data['agencey_country'] = self.bank[1]
+        broker_data['agency_country'] = self.bank[1]
         broker_data['agency_name'] = ''
         broker_data['from30to60'] = random.randint(0, 3)
         broker_data['from60to90'] = random.randint(0, 3)
@@ -181,12 +181,12 @@ class RTF:
         # print(banksName)
         for index, item in broker_data.iterrows():
             broker_data = pd.DataFrame(broker_data)
+            broker_data.loc[index, 'agency_name'] = self.agencey_names[(randint(0, 3))]
             broker_data.loc[index, 'agency_country'] = self.bank[1]
             broker_data.loc[index, 'from30to60'] = random.randint(0, 3)
             broker_data.loc[index, 'from60to90'] = random.randint(0, 3)
             broker_data.loc[index, 'morethan90'] = random.randint(0, 3)
-            broker_data.loc[index, 'agency_name'] = self.agencey_names[(randint(0, 3))]
-            broker_data.loc[index, 'debit_id'] = str(ccard.mastercard)
+            broker_data.loc[index, 'debit_id'] = str(ccard.mastercard())
             broker_data.loc[index, 'insolvent'] = random.choice([True, False])
             if broker_data.loc[index, 'insolvent']:
                 broker_data.loc[index, 'insolvent_ammount'] = "${:,.2f}".format(val + random.randint(5000, 1000000))

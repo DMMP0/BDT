@@ -10,7 +10,7 @@ from docx.shared import Pt, Mm
 val  = 3000.00
 
 class Word:
-
+		agencey_names = ['CRIF','CTC','Banca d italia','experian']
 		def __init__(self):
 				self.data = []
 				self.bank = []
@@ -80,14 +80,14 @@ class Word:
 			
 				return questura_data
 		
-		def create_risk_broker_data(self, broker_data)->any:
-			broker_data = broker_data
+		def create_risk_broker_data(self, data)->any:
+			broker_data = data
 			banksName = str(self.bank[0])
 			banksName =banksName.replace(' ','_')
 			banksName = banksName.replace('/','_')
 			broker_data = pd.DataFrame(broker_data)
-			broker_data['agencey_country'] = self.bank[1]
-			broker_data['agency_name'] = ''
+			broker_data['agency_country'] = self.bank[1]
+			broker_data['agency_name'] = self.agencey_names[(randint(0,3))] 
 			broker_data['from30to60'] = random.randint(0,3)
 			broker_data['from60to90'] = random.randint(0,3)
 			broker_data['morethan90'] = random.randint(0,3)
@@ -166,7 +166,7 @@ class Word:
 					table_cells[j + i * questura_data.shape[1]].text = str(questura_data.values[i][j])
 			doc.save(f'../components/reports/{banksName}(Questura).docx')
 
-		agencey_names = ['CRIF','CTC','Banca d italia','experian']
+
 		def broker_to_word(self):
 			broker_data = pd.DataFrame(self.data)		
 			banksName = self.bank['names']
@@ -174,17 +174,17 @@ class Word:
 			broker_data =  self.create_risk_broker_data(broker_data)
 			broker_data = pd.DataFrame(broker_data)
 			# print(banksName)
-			for index,item in broker_data.iterrows():
-					broker_data = pd.DataFrame(broker_data)
-					broker_data.loc[index,'agency_country'] = self.bank[1]
-					broker_data.loc[index,'agency_name'] = self.agencey_names[(randint(0,3))] 
-					broker_data.loc[index,'from30to60'] = random.randint(0,3)
-					broker_data.loc[index,'from60to90'] = random.randint(0,3)
-					broker_data.loc[index,'morethan90'] = random.randint(0,3)
-					broker_data.loc[index,'debit_id'] =str(ccard.mastercard())
-					broker_data.loc[index,'insolvent'] =  random.choice([True, False])
-					if(broker_data.loc[index,'insolvent'] == True):
-						broker_data.loc[index,'insolvent_ammount'] = "${:,.2f}".format(val + random.randint(5000, 1000000))				
+			for index, item in broker_data.iterrows():
+				broker_data = pd.DataFrame(broker_data)
+				broker_data.loc[index, 'agency_name'] = self.agencey_names[(randint(0, 3))]
+				broker_data.loc[index, 'agency_country'] = self.bank[1]
+				broker_data.loc[index, 'from30to60'] = random.randint(0, 3)
+				broker_data.loc[index, 'from60to90'] = random.randint(0, 3)
+				broker_data.loc[index, 'morethan90'] = random.randint(0, 3)
+				broker_data.loc[index, 'debit_id'] = str(ccard.mastercard())
+				broker_data.loc[index, 'insolvent'] = random.choice([True, False])
+				if broker_data.loc[index, 'insolvent']:
+					broker_data.loc[index, 'insolvent_ammount'] = "${:,.2f}".format(val + random.randint(5000, 1000000))				
 			doc = docx.Document()
 			table = doc.add_table(rows = broker_data.shape[0], cols = broker_data.shape[1])
 			table_cells = table._cells

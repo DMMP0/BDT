@@ -165,7 +165,7 @@ def create_Excel(data, rnd):
         # print(idx)
 
 def declaration_file():
-        for i in range(0, 5):
+        for i in range(0,5):
             no_of_partners = randint(2, 5)
             company_partners = person_data.sample(n=no_of_partners)
             # print(company_partners)
@@ -227,7 +227,7 @@ with open('0.Client_List.csv', 'r') as csvfile:
 
 if(tag):
     client = pd.read_csv(name + '.csv')
-    client = pd.concat([client,new_clients]) 
+    client = pd.concat([client,new_clients],ignore_index=True) 
     client.to_csv(name + '.csv')
 else:
     new_clients.to_csv(name + '.csv')

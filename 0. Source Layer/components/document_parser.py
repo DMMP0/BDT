@@ -21,7 +21,7 @@ questura_columns = ['Id_Number', 'first_name', 'last_name', 'sex', 'DOB', 'ethni
 
 broker_columns = ['Id_Number', 'first_name', 'last_name', 'sex', 'DOB', 'ethnicity', 'education', 'phone_number',
                   'email','agencey_country', 'agency_name', 'from30to60', 'from60to90', 'morethan90', 'debit_id', 'insolvent',
-                  'insolvent_ammount','agencey_country']
+                  'insolvent_ammount']
 
 
 def read_docx_tables(filename, tab_id=None, **kwargs):

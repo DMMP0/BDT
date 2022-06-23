@@ -1,4 +1,23 @@
-@dataclasses
+def sex_converter(sex):
+    to_outside = {0: "female",
+                  1: "male",
+                  2: "other"}
+    to_class = {"female": 0,
+                "male": 1,
+                "other": 2}
+
+    if type(sex) is str:
+        if sex in to_class:
+            return to_class[sex]
+        else:
+            return to_class[2]
+    else:
+        if sex in range(0, 2):
+            return to_outside[sex]
+        else:
+            return to_outside[2]
+
+
 class PersonalData:
     """ This class represents the data we get about the owners of the company"""
 
@@ -9,11 +28,7 @@ class PersonalData:
         self._fiscal_code = fiscal_code
         self._name = name
         self._surname = surname
-        self._sex_conversion = {"female":0,
-                     "male":1,
-                     "not declared":2,
-                     "other":2}
-        self.
+        self._sex = sex_converter(sex)
         self._date_of_birth = date_of_birth
         self._ethnicity = ethnicity
         self._highest_degree = highest_degree
@@ -62,7 +77,31 @@ class PersonalData:
 
         self._surname = surname
 
-    def ge
+    def get_sex(self):
+        return sex_converter(self._sex)
 
+    def set_sex(self, sex):
+        self._sex = sex_converter(sex)
+        
+    def get_DOB(self):
+        return self._date_of_birth
+    
+    def set_DOB(self, date_of_birth):
+        # checks
+        if date_of_birth == "":
+            print("Date of birth was empty, could not update")
+            return 
+        # TODO: add other checks
+        
+        self._date_of_birth = date_of_birth
+        
+    def get_ethnicity(self):
+        return self._ethnicity
 
+    def set_ethnicity(self, ethnicity):
+        # checks
+        if ethnicity == "":
+            print("Couldn't modify ethnicity, string was empty")
+            return
 
+        self._ethnicity = ethnicity

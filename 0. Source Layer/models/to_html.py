@@ -11,8 +11,6 @@ val  = 30000.00
 
 
 class HTML:
-	
-
 
 	def __init__(self):
 			self.data = []
@@ -125,7 +123,6 @@ class HTML:
 				bank_data.loc[index,'other_savings']= "${:,.2f}".format(val + random.randint(100,20000))
 			bank_data.to_html('reports/'+banksName+'(Bank).html')
 
-    
 	def police_html(self):
 			questura_data = pd.DataFrame(self.data)
 			banksName = self.bank['names']		

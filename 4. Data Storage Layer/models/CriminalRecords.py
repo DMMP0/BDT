@@ -1,15 +1,14 @@
 class CriminalRecords:
     # TODO: add string descriptor
 
-    def __init__(self, fiscal_code: str, bankruptcy: bool, fraudis: bool, investigation: bool,
-                 accused: bool, condemned: bool, civ_pass: bool):
-        self._civ_pass = civ_pass
-        self._condemned = condemned
-        self._accused = accused
-        self._investigation = investigation
-        self._fraudis = fraudis
-        self._bankruptcy = bankruptcy
-        self._fiscal_code = fiscal_code
+    def __init__(self):
+        self._civ_pass = False
+        self._condemned = False
+        self._accused = False
+        self._investigation = False
+        self._fraudis = False
+        self._bankruptcy = False
+        self._fiscal_code = ""
 
     # getters and setters
     def get_fiscal_code(self) -> str:

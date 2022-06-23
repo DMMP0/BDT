@@ -22,21 +22,19 @@ class PersonalData:
     """ This class represents the data we get about the owners of the company"""
 
     # Constructor
-    def __init__(self, fiscal_code: str, name: str, surname: str, sex: str, date_of_birth: str, ethnicity: str,
-                 highest_degree: str, address: str, e_mail: str, telephone_number: str, state: str,
-                 firm_registration_number: str):
-        self._fiscal_code = fiscal_code
-        self._name = name
-        self._surname = surname
-        self._sex = sex_converter(sex)
-        self._date_of_birth = date_of_birth
-        self._ethnicity = ethnicity
-        self._highest_degree = highest_degree
-        self._address = address
-        self._email = e_mail
-        self._telephone_number = telephone_number
-        self._state = state
-        self._firm_registration_number = firm_registration_number
+    def __init__(self):
+        self._fiscal_code = ""
+        self._name = ""
+        self._surname = ""
+        self._sex = 2
+        self._date_of_birth = ""
+        self._ethnicity = ""
+        self._highest_degree = ""
+        self._address = ""
+        self._email = ""
+        self._telephone_number = ""
+        self._state = ""
+        self._firm_registration_number = ""
 
     # getters and setters
     def get_fiscal_code(self) -> str:

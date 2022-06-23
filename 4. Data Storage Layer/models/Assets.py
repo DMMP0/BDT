@@ -68,4 +68,5 @@ class Assets:
             return
 
         self._other_savings = other_savings
-            
+
+        # TODO: add print and repr

@@ -6,8 +6,7 @@ class CriminalRecords:
         self._condemned = False
         self._accused = False
         self._investigation = False
-        self._fraudis = False
-        self._bankruptcy = False
+        self._bankruptcy = 0
         self._fiscal_code = ""
 
     # getters and setters
@@ -23,15 +22,17 @@ class CriminalRecords:
 
         self._fiscal_code = fiscal_code
         
-    def get_bankruptcy(self) -> bool:
+    def get_bankruptcy(self) -> int:
         return self._bankruptcy
 
-    # TODO: check for fraudis
-    def set_bankruptcy(self, bankruptcy: bool):
-        """if bankruptcy is set to true, then condemned will be set to true too"""
+    def set_bankruptcy(self, bankruptcy: int):
+        """0 = no bankruptcy \n
+        1 = bankruptcy \n
+        2 = no bankruptcy"""
         # checks
-        if bankruptcy:
-            self._condemned = True
+        if bankruptcy < 0 or bankruptcy > 2:
+            print("Bankrupcy was not set due to a value grater than 2 or inferior to 0")
+            return
 
         self._bankruptcy = bankruptcy
 
@@ -67,11 +68,4 @@ class CriminalRecords:
 
         self._investigation = investigation
 
-    def get_fraudis(self) -> bool:
-        return self._fraudis
-
-    def set_fraudis(self, fraudis: bool):
-        # checks
-
-        self._fraudis = fraudis
 

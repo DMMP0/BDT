@@ -17,7 +17,7 @@ class NewCredit:
 
         self._fiscal_code = fiscal_code
 
-    def get_amount_in_12_monthss(self) -> float:
+    def get_amount_in_12_months(self) -> float:
         return self._amount_in_12_months
 
     def set_amount_in_12_months(self, amount_in_12_months: float):

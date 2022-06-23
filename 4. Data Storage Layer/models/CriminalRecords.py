@@ -34,6 +34,9 @@ class CriminalRecords:
             print("Bankrupcy was not set due to a value grater than 2 or inferior to 0")
             return
 
+        if self._bankruptcy > 0:
+            self._condemned = True
+
         self._bankruptcy = bankruptcy
 
     def get_civ_pass(self) -> bool:
@@ -48,7 +51,6 @@ class CriminalRecords:
         return self._condemned
 
     def set_condemned(self, condemned: bool):
-        # checks
 
         self._condemned = condemned
 

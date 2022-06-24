@@ -11,25 +11,29 @@ def send_messages(messages: [], redis_keys: []):
     """@:param messages: must be a list of tuples (topic,messages)"""
     # Running multiple producers
     broker = 'localhost:9092'  # TODO: change
-    topics = ['bank', 'broker', 'questura']
+    topics = ['bank', 'broker', 'questura', 'statement']
     r = redis.StrictRedis()
 
     bank_producer = MessageProducer(broker, topics[0])
     broker_producer = MessageProducer(broker, topics[1])
     questura_producer = MessageProducer(broker, topics[2])
+    statement_producer = MessageProducer(broker, topics[3])
 
     t1 = threading.Thread(target=bank_producer.send_gathered_data, args=(messages,))
     t2 = threading.Thread(target=broker_producer.send_gathered_data, args=(messages,))
     t3 = threading.Thread(target=questura_producer.send_gathered_data, args=(messages,))
+    t4 = threading.Thread(target=statement_producer.send_gathered_data, args=(messages,))
 
     t1.start()
     t2.start()
     t3.start()
+    t4.start()
 
     # stop threads after completing the task
     t1.join()
     t2.join()
     t3.join()
+    t4.join()
 
     while t1.is_alive() and t2.is_alive() and t3.is_alive():
         pass
@@ -40,7 +44,7 @@ def send_messages(messages: [], redis_keys: []):
     redis_keys = redis_keys + \
          bank_producer.get_error_keys() + \
          broker_producer.get_error_keys() + \
-         questura_producer.get_error_keys()
+         questura_producer.get_error_keys() + statement_producer.get_error_keys()
 
     if not redis_keys:  # no keys on redis
         return

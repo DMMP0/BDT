@@ -14,3 +14,10 @@ class Questura:
     phone_number: str
     email: str
     questura_country: str
+    bankruptcy: str
+    inscred: str
+    fraudis: str
+    investigation: str
+    accused: str
+    condamned: str
+    civ_pass: str

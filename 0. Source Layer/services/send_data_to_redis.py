@@ -49,7 +49,7 @@ def send():
 
                 key = list(d.keys())[0]
                 # send to redis
-                sent = r.set(name=key, value=json.dumps(d[key])[:-1] + ",\"1\":\"" + formato + "\"}")
+                sent = r.set(name=key, value=json.dumps(d[key])[:-1]+'}')
                 if not sent:
                     print(key + 'not sent.\tRetrying...')
             os.remove(fp)

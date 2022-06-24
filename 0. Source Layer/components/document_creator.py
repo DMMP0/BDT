@@ -19,11 +19,12 @@ from models.to_html import HTML
 
 root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # finds the root dir
 currentDir = os.path.dirname(os.path.abspath(__file__))
+parentDir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 threshold = 1000  # this is the number of companies request for the bank data
 
-business_data = pd.read_csv(root + '/assets/0. Source Data/credit data/company_information.csv')
-personal_data = pd.read_csv(root + '/assets/0. Source Data/credit data/user_information.csv')
-bank_data = pd.read_excel(root + '/assets/0. Source Data/credit data/banks.xlsx')
+business_data = pd.read_csv(parentDir + '/assets/credit data/company_information.csv')
+personal_data = pd.read_csv(parentDir + '/assets/credit data/user_information.csv')
+bank_data = pd.read_excel(parentDir + '/assets/credit data/banks.xlsx')
     # bank_data.drop(columns=bank_data.columns[0], axis=1, inplace=True)
 business_data = pd.DataFrame(data=business_data, columns=business_data.columns)
 personal_data = pd.DataFrame(data=personal_data, columns=personal_data.columns)
@@ -214,7 +215,7 @@ import csv
 
 
 update_header_of_data()
-print('Imhere')
+# print('Imhere')
 name = '0.Client_List'
 tag = True
 new_clients = declaration_file()

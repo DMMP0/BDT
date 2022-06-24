@@ -12,7 +12,7 @@ import re
 
 
 def Generate():
-    root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # finds the root dir
+    parentDir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # finds the parent dir
     temp = []
     fiscale = []
     users = []
@@ -66,7 +66,7 @@ def Generate():
         users_information.to_csv('user_information.csv')
 
     def companyData():
-        companyNames = pd.read_excel(root+'/assets/0. Source Data/datasets/company.xlsx')
+        companyNames = pd.read_excel(parentDir+'/assets/datasets/company.xlsx')
         country = companyNames['COUNTRY']
         names = companyNames['COMPANY']
         market = companyNames['MARKET']

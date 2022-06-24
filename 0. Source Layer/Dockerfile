@@ -14,15 +14,19 @@ RUN pip install uuid
 RUN pip install numpy
 RUN pip install python-docx
 RUN pip install ccard
-
+RUN pip install openpyxl
 RUN pip install redis
 
 ADD main.py .
 ADD data_generation.py .
+ADD 0.Client_List.csv .
+ADD company_information.csv .
+
 ADD services/ services/
 ADD models/ models/
 ADD components/ components/
+ADD assets/ assets/
 
 CMD ["python", "data_generation.py"]
-CMD ["python","./main.py"]
+CMD ["python","main.py"]
 

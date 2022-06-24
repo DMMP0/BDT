@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+
 @dataclass
 class Questura:
     """Class for storing the arriving messages from cloud storage"""

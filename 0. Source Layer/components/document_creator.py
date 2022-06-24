@@ -194,7 +194,7 @@ def declaration_file():
                     # print(company_partners)
                     company_name = company[1]
                     company_name = re.sub('[^a-zA-Z0-9 \n\.]', '', company_name)
-                    company_partners.to_csv(currentDir+'/reports/' + str(company_name) + '.csv')
+                    company_partners.to_csv(currentDir+'/reports/' + str(company_name) + '(Declaration).csv')
 
                     # declaration_data.append(company_partners)
 

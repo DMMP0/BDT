@@ -47,7 +47,9 @@ def send():
                 else:  # elif formato == 'csv':
                     d = csv_to_dict(fp)
 
+
                 key = list(d.keys())[0]
+
                 # send to redis
                 sent = r.set(name=key, value=json.dumps(d[key])[:-1]+'}')
                 if not sent:

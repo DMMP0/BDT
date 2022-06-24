@@ -18,7 +18,7 @@ class MessageConsumer:
         self.broker = broker
         self.topic = topic
         self.group_id = group_id
-        self.client = TempStorageSender(topic+"-bdt-13")
+        self.client = TempStorageSender(topic + "-bdt-13")
 
     def activate_listener(self):
         consumer = KafkaConsumer(bootstrap_servers=self.broker,
@@ -34,15 +34,11 @@ class MessageConsumer:
             for message in consumer:  # TODO: not sure about this yet
                 # send the message to the persistence layer
 
-#                  try:
-                    # send message to google cloud storage
-                    self.client.send_message(message.value, self.topic)
+                self.client.send_message(message.value, self.topic)
 
-                    # committing message manually after reading from the topic
-                    consumer.commit()
-                    print("message sent successfully")
-                # except Exception:
-                #     print("Could not send message to temp. storage, retrying...")
+                consumer.commit()
+                print("message sent successfully")
+
         except KeyboardInterrupt:
             print("Aborted by user...")
         finally:

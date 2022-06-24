@@ -14,12 +14,14 @@ def get_dicts_from_redis():
     for key in keys:
         # we need to understand the topic
         redis_value = r.get(key).decode(encoding='utf-8')
-        if b"Questura" in key:  # it's a bank
+        if b"(Questura)" in key:  # it's a bank
             topic = "questura"
-        elif b"Broker" in key:
+        elif b"(Broker)" in key:
             topic = "broker"
-        else:
+        elif b"(Bank)" in key:
             topic = "bank"
+        else:
+            topic = "statement"
 
         redis_value = json.loads(redis_value)  # should be a list of dicts
         for k, el in redis_value.items():

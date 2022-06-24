@@ -9,4 +9,4 @@ while True:
         sleep(10)
         continue
     send_messages(to_send, redis_keys)
-    sleep(5)
+    sleep(0.5)

@@ -7,7 +7,7 @@ def get_dicts_from_redis():
      dictionary with all the values. The tuple also has a third element, which is the redis key corresponding to the record piece.
      @:returns a tuple of lists. the first element is a list of tuples, the second a list of keys"""
     r = redis.StrictRedis(host='localhost')
-    keys = r.keys('*')  # get all keys available at the moment
+    keys = r.keys('*(*)*')  # get all keys available that has name(kind).format
     values = list()
     if not keys:
         return False, False

@@ -1,4 +1,6 @@
+# docker build -t bdt/source-layer .
 
+# docker run -d --name 0-Source-Layer-BDT --network app-tier bdt/source-layer
 
 FROM python:latest
 LABEL Mantainer1="huma.rehman@studenti.unitn.it", Mantainer2="maurizio.demarchi@studenti.unitn.it", Mantainer3="stefano.moro@studenti.unitn.it"

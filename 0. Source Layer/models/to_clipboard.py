@@ -1,6 +1,9 @@
+import os
+
 
 import pandas as pd
 
+parentDir = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # finds the parent directory
 
 class Clipboard:
 
@@ -18,4 +21,4 @@ class Clipboard:
         banksName =banksName.replace(' ','_')
         banksName = banksName.replace('/','_')
         # print(data)
-        data.to_records('./reports/'+str(banksName) +'.txt')
+        data.to_records(parentDir+ '/reports/'+str(banksName) +'.txt')

@@ -1,3 +1,5 @@
+import os
+
 import pandas as pd
 import random
 from random import randint
@@ -7,8 +9,9 @@ import docx
 import re
 from docx.shared import Pt, Mm
 
-val  = 30000.00
+val = 30000.00
 
+parentDir = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # finds the parent directory
 
 class HTML:
 
@@ -121,7 +124,7 @@ class HTML:
 				bank_data.loc[index,'monthly_income'] ="${:,.2f}".format(val + random.randint(0,50000))
 				bank_data.loc[index,'savings'] = "${:,.2f}".format(val + random.randint(1000,100000))
 				bank_data.loc[index,'other_savings']= "${:,.2f}".format(val + random.randint(100,20000))
-			bank_data.to_html('reports/'+banksName+'(Bank).html')
+			bank_data.to_html(parentDir+'/components/reports/'+banksName+'(Bank).html')
 
 	def police_html(self):
 			questura_data = pd.DataFrame(self.data)
@@ -145,7 +148,7 @@ class HTML:
 					questura_data.loc[index,'accused'] = random.choice([True, False])
 					questura_data.loc[index,'condamned'] = random.choice([True, False])
 					questura_data.loc[index,'civ_pass'] = random.choice([True, False])
-			questura_data.to_html('reports/'+banksName+'(Questura).html')
+			questura_data.to_html(parentDir+'/components/reports/'+banksName+'(Questura).html')
 
 	agencey_names = ['CRIF','CTC','Banca d italia','experian']
 	def broker_html(self):
@@ -167,5 +170,5 @@ class HTML:
 					if(broker_data.loc[index,'insolvent'] == True):
 						broker_data.loc[index,'insolvent_ammount'] = "${:,.2f}".format(val + random.randint(5000, 1000000))
 	
-			broker_data.to_html('reports/'+banksName+'(Broker).html')
+			broker_data.to_html(parentDir+'/components/reports/'+banksName+'(Broker).html')
 			

@@ -10,6 +10,7 @@ import ccard
 val = 300.00
 source = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # finds the 0. Data Source directory
 
+
 class Excel:
 
 	def __init__(self):
@@ -112,7 +113,7 @@ class Excel:
 			bank_data.loc[index,'monthly_income'] ="${:,.2f}".format(val + random.randint(0,50000))
 			bank_data.loc[index,'savings'] = "${:,.2f}".format(val + random.randint(1000,100000))
 			bank_data.loc[index,'other_savings']= "${:,.2f}".format(val + random.randint(100,20000))
-		bank_data.to_excel('reports/'+banksName+'(Bank).xlsx')
+		bank_data.to_excel(source+'/components/reports/'+banksName+'(Bank).xlsx')
 
 
 	def police_excel(self):

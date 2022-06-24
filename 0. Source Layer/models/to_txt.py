@@ -6,7 +6,7 @@ from random import randint
 import ccard
 
 source = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # finds the 0. Data Source directory
-currentDir = os.path.dirname(os.path.abspath(__file__))
+
 currentDir = source + '/components'
 val = 30000.00
 purpose = ['prototype', 'marketing', 'validation', 'scale-up', 'industrial equipment', 'office', 'employee',

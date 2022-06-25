@@ -10,7 +10,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # 
 # gsutil -m rm -r gs://questura-bdt-13/\* to remove all files into google cloud storage
 
 class TempStorageSender:
-    client = storage.Client.from_service_account_info(info=json.loads(os.environ['credentials']))
+    client = storage.Client.from_service_account_info(info=json.loads(os.environ['CREDENTIALS']))
 
     # .from_service_account_json(json_credentials_path='/home/dmmp/Documents/GitHub/BDT/credentials/bdt-project-200-6164fe338b7d.json')
 

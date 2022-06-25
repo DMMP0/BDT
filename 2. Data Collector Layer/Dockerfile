@@ -1,7 +1,7 @@
 # credentials=$(< ../credentials/bdt-project-200-6164fe338b7d.json)
 # docker build -t bdt/collector-layer .
 
-# docker run -d --name 2-Collector-Layer-BDT -e $credentials --network app-tier bdt/collector-layer
+# docker run -e CREDENTIALS=$credentials -d --name 2-Collector-Layer-BDT  --network app-tier bdt/collector-layer
 
 FROM python:latest
 LABEL Mantainer1="huma.rehman@studenti.unitn.it", Mantainer2="maurizio.demarchi@studenti.unitn.it", Mantainer3="stefano.moro@studenti.unitn.it"

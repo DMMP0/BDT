@@ -18,4 +18,4 @@ ADD services/ services/
 ADD models/ models/
 ADD components/ components/
 
-CMD ["python","./main.py"]
+CMD ["stdbuf", "-oL","python","./main.py"]

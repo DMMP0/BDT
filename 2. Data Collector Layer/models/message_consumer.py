@@ -37,7 +37,7 @@ class MessageConsumer:
                 self.client.send_message(message.value, self.topic)
 
                 consumer.commit()
-                print("message sent successfully")
+                # print("message sent successfully")
 
         except KeyboardInterrupt:
             print("Aborted by user...")

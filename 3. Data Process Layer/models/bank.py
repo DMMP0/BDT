@@ -22,3 +22,6 @@ class Questura:
     accused: str
     condamned: str
     civ_pass: str
+
+    def make_sense_from_data(self) -> dict:
+        return dict()

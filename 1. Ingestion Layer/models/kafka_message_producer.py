@@ -31,11 +31,12 @@ class MessageProducer:
             return ex
 
     def send_gathered_data(self, list_of_tuples):
+        #                        (topic, value, filename)
         r = redis.StrictRedis()
         for el in list_of_tuples:
             if el[0] != self.topic:
                 continue  # not a message from this  producer
-            ris = self.send_msg(json.dumps(el[1])+el[2].decode('utf-8')[-4:])
+            ris = self.send_msg(json.dumps(el[1]))
             if ris['status_code'] != 200:
                 print(ris['error'])
                 self.__redis_error_keys.append(el[2])

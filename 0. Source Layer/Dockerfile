@@ -27,6 +27,6 @@ ADD models/ models/
 ADD components/ components/
 ADD assets/ assets/
 
-CMD ["python", "data_generation.py"]
-CMD ["python","main.py"]
+CMD ["stdbuf", "-oL","python", "data_generation.py"]
+CMD ["stdbuf", "-oL","python","main.py"]
 

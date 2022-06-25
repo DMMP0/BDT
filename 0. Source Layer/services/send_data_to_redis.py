@@ -8,7 +8,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # 
 from components.document_parser import *
 
 source_layer = os.path.dirname(os.path.dirname(__file__))
-r = redis.StrictRedis(host='redis')  # redis object.
+r = redis.StrictRedis( host='redis')  # redis object. host='localhost')#
 # This assumes docker, use host = localhost for localhost
 
 
@@ -32,30 +32,34 @@ def send():
             return
         for fp in filepaths:
             sent = False
-            while not sent:
-                fp = path + str(fp)
-                # d = dict()
+            fp = path + str(fp)
+            try:
+                while not sent:
 
-                # convert into dict
-                if formato == 'docx':
-                    d = docx_to_dict(fp)
-                elif formato == 'excel':
-                    d = excel_to_dict(fp)
-                elif formato == 'html':
-                    d = html_to_dict(fp)
-                elif formato == 'txt':
-                    d = txt_to_dict(fp)
-                else:  # elif formato == 'csv':
-                    d = csv_to_dict(fp)
+                    # d = dict()
+
+                    # convert into dict
+                    if formato == 'docx':
+                        d = docx_to_dict(fp)
+                    elif formato == 'excel':
+                        d = excel_to_dict(fp)
+                    elif formato == 'html':
+                        d = html_to_dict(fp)
+                    elif formato == 'txt':
+                        d = txt_to_dict(fp)
+                    else:  # elif formato == 'csv':
+                        d = csv_to_dict(fp)
 
 
-                key = list(d.keys())[0]
+                    key = list(d.keys())[0]
 
-                # send to redis
-                sent = r.set(name=key, value=json.dumps(d[key])[:-1]+'}')
-                if not sent:
-                    print(key + 'not sent.\tRetrying...')
-            os.remove(fp)
+                    # send to redis
+                    sent = r.set(name=key, value=json.dumps(d[key])[:-1]+'}')
+                    if not sent:
+                        print(key + 'not sent.\tRetrying...')
+                os.remove(fp)
+            except Exception:
+                print("Error while reading the file")
         print("Batch of " + formato + " sent succesfully")
 
     t1 = threading.Thread(target=send_files_to_redis,

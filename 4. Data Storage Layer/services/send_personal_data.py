@@ -73,7 +73,7 @@ def send_person_data(dict_data:dict,cursor,connection):
             person_id = 0
         else:
             person_id = row[0]+1
-
+##                                                                                                                                      blank
         insert_query = "INSERT INTO personal_data(person_id,fiscal_code,first_name,last_name,sex,date_of_birth,ethnicity,highest_degree,address,email,phone_number,state,firm_registration,last_update_time_stamp)"
         value_attr = "VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
         values = (person_id,person_dict.fiscal_code,person_dict.first_name,person_dict.last_name,person_dict.sex,person_dict.DOB,person_dict.ethnicity,person_dict.education,person_dict.state,person_dict.email,person_dict.phone_number,person_dict.country,person_dict.firm_registeration_number,datetime.datetime.now())

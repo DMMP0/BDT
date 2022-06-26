@@ -1,0 +1,39 @@
+
+bank report:
+{"Id_Number": "a93b7ad0-deab-4e2e-9897-36741b1c7321",
+"first_name": "mertie", "last_name": "ureta", "sex": "Female",
+"DOB": "1/12/1970", "ethnicity": "black", "education": "no diploma",
+"phone_number": "755-555-2797", "email": "mertie_ureta@gmail.com", 
+"bank_name": "Swedbank", "bank_country": "Norway", "open_new_credit_in_6_months": "1",
+"amount_in_6_months": "$43,956,365,609.00", "new_credit_in_12_months": "0.0", "new_credit_in_18_months": "1.0",
+"amount_in_12_months": "$10,564.00", "amount_in_18_months": "$46,333,874,939.00", "house_mortgage": "True",
+"amount_of_house_mortgage": "$269,659.00", "amount_due_mortgage": "$351,078.00", "house_property": "False",
+"total_house_amount": "0.0", "credit_card_number": "5", "credit_card_limit_total": "162333", "actual_debit_credit_cards": "1.0", "monthly_income": "$5,640.00", "savings": "$12,790.00", "other_savings": "$13,175.00"}docx
+
+broker:
+
+{"Unnamed: 0": 105718, "Id_Number": "a93b7ad0-deab-4e2e-9897-36741b1c7321",
+"first_name": "mertie", "last_name": "ureta", "sex": "Female", "DOB": "1/12/1970",
+"ethnicity": "black", "education": "no diploma", "phone_number": "755-555-2797", 
+"email": "mertie_ureta@gmail.com", "agency_country": "Czech Republic", "agency_name": "experian",
+"from30to60": 3, "from60to90": 3, "morethan90": 2, "debit_id": 5223375666475302, "insolvent": false, 
+"insolvent_ammount": "$42,261,306,500.00"}xlsx
+
+questura:
+
+{"Unnamed: 0": 147966,
+"Id_Number": "9c95a5f7-6ffc-4713-accd-75e15d3d394e", 
+"first_name": "kujuan", "last_name": "ronero", 
+"sex": "Female", "DOB": "6/25/1982", "ethnicity": "mix",
+"education": "bachelor", "phone_number": "313-312-0697", "email": "kujuan_ronero@gmail.com",
+"questura_country": "Switzerland", "bankruptcy": true, "inscred": "$1,016,386.00", 
+"fraudis": true, "investegation": true, "accused": true, "condamned": true, "civ_pass": true}html
+
+statement:
+
+{"Unnamed: 0": 53024, "Id_Number": "13a9cd05-07ba-4d47-8a46-1cfa22b045a6",
+"first_name": "carrizales", "last_name": "idiaquez", "sex": "Male", "DOB": "10/24/1961", 
+"ethnicity": "native american", "education": "middle school", "phone_number": "307-166-6420",
+"email": "hr@jameshardieindustriesnv.org", "purpose": "other investment", 
+"registeration_number": "e48f4632-6ded-42b9-911f-63c024f30ee2", "company_name": "James Hardie Industries N.V.", 
+"establied_date": "10/12/1966", "country": "Netherlands", "number_of_employes": 18}.csv

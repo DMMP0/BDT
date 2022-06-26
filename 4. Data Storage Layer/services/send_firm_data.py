@@ -21,7 +21,13 @@ data ={"Id_Number": "13a9cd05-07ba-4d47-8a46-1cfa22b045a6",
 "ethnicity": "native american", "education": "middle school", "phone_number": "307-166-6420",
 "email": "hr@jameshardieindustriesnv.org", "purpose": "other investment", 
 "registeration_number": "e48f4632-6ded-42b9-911f-63c024f30ee2", "company_name": "James Hardie Industries N.V.", 
-"establied_date": "10/12/1966", "country": "Netherlands", "number_of_employes": 18}
+"establied_date": "10/12/1966", "country": "Netherlands", "number_of_employes": 18,
+"amount_of_credit":2000000,"purpose":"Employee","duration_in_months":18}
+
+'''
+['CNIC',ID,Fiscal,Fiscal code,id_number,identity number]
+for the first key find if the list have same name . if yes - > Id_Number
+'''
 
 
 
@@ -81,8 +87,34 @@ def send_firm_data(dict_data:dict,cursor,connection):
         connection.commit()
 
 
+def send_credit_data(dict_data:dict,cursor,connection):
+    tag = True
+    firm_dict = Statement(dict_data)
+    # print(dict.number_of_employes)
+    query = 'SELECT MAX(credit_data_id) FROM credit_data'
+    cursor = connection.cursor()
+    cursor.execute(query)
+    firm_data = cursor.fetchall()
+    for row in firm_data :
+        firm_data = row[0]
+    if(tag):
+        if(row[0] == None):
+            print('here')
+            firm_id = 0
+        else:
+            firm_id = row[0]+1
+        insert_query = "INSERT INTO credit_data(credit_data_id,firm_registeration_number,amount_of_credit,purpose,duration_in_months,last_update_time_stamp)"
+        value_attr = "VALUES(%s,%s,%s,%s,%s,%s)"
+        values = (firm_id,firm_dict.registeration_number,firm_dict.amount_of_credit,firm_dict.purpose,firm_dict.duration_in_months,datetime.datetime.now())
+        print(values)
+        cursor.execute(insert_query+value_attr , values)
+        print(cursor.rowcount, "was inserted.")
+        connection.commit()
+
+
     
 ## main
 (cursor,connection) = connect_db()
-send_firm_data(data,cursor,connection)
+# send_firm_data(data,cursor,connection)
+send_credit_data(data,cursor,connection)
 close_db_connection(cursor)

@@ -6,7 +6,7 @@ import datetime as dt
 import numpy as np
 import sys
 from datetime import date, datetime
-
+import random
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # finds the parent directory
 from models.to_txt import RTF
 from models.to_word import Word
@@ -14,7 +14,7 @@ from models.to_word import Word
 from models.to_excel import Excel
 from models.to_html import HTML
 
-
+import pycountry
 ## Public variables
 
 root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # finds the root dir
@@ -191,6 +191,8 @@ def declaration_file():
                     company_partners['number_of_employes'] = company[4]
                     company_partners['phone_number'] = company[5]
                     company_partners['email'] = company[6]
+                    company_partners['amount_of_credit'] = "${:,.2f}".format(random.randint(5000,100000000000))
+                    company_partners['duration_in_months'] = random.randint(6,20)
                     company_partners = pd.DataFrame(company_partners)
                     # print(company_partners)
                     company_name = company[1]
@@ -203,6 +205,7 @@ def declaration_file():
         # print(clients)
         clients = pd.DataFrame(clients, columns=['Fiscal Code'])
         clients.loc[:,'Date and Time'] = datetime.now().strftime("%d-%m-%Y_%H-%M-%S")
+        
         return clients
         # with open('list.csv', 'w') as f:
 

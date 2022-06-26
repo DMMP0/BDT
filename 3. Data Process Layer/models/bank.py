@@ -1,4 +1,4 @@
-#Ex data
+# Ex data
 # {"Id_Number": "90a4aafd-d331-44f8-83d7-763f162d0507", "first_name": "wyndee", "last_name": "chawla", "sex": "Male",
 # "DOB": "5/24/1981", "ethnicity": "native american", "education": "primary school", "phone_number": "191-038-9613",
 # "email": "wyndee_chawla@gmail.com", "bank_name": "Volkswagen Bank", "bank_country": "Greece",
@@ -9,6 +9,8 @@
 # "monthly_income": "$54,514.00", "savings": "$36,928.00", "other_savings": "$40,055.00"}
 
 from utils import get_meaning, clean_string, bank_synonyms
+
+
 # import re
 
 class Bank:
@@ -71,7 +73,7 @@ class Bank:
                 pass
 
     def make_sense(self):
-        """@:returns a tuple of dictionaries, for the records of personal data and firm"""
+        """@:returns a tuple of dictionaries: new_credit, credit_mix, assets, losses"""
         new_credit = dict()
         credit_mix = dict()
         assets = dict()
@@ -79,32 +81,23 @@ class Bank:
 
         #
         new_credit['fiscal_code'] = self.fiscal_code
-        new_credit["amount_in_12_months"] = self.amount_in_12_months.replace(",",'').replace('$','')  # I know, I know, should be done with regex
-        new_credit['amount_in_6_months'] = self.amount_in_6_months.replace(",",'').replace('$','')
-        new_credit['amount_in_18_months'] = self.amount_in_18_months.replace(",",'').replace('$','')
+        new_credit["amount_in_12_months"] = self.amount_in_12_months.replace(",", '').replace('$',
+                                                                                              '')  # I know, I know, should be done with regex
+        new_credit['amount_in_6_months'] = self.amount_in_6_months.replace(",", '').replace('$', '')
+        new_credit['amount_in_18_months'] = self.amount_in_18_months.replace(",", '').replace('$', '')
 
         credit_mix['fiscal_code'] = self.fiscal_code
-        credit_mix['house_mortgage'] = self.amount_of_house_mortgage.replace(",",'').replace('$','')
+        credit_mix['house_mortgage'] = self.amount_of_house_mortgage.replace(",", '').replace('$', '')
         credit_mix['credit_card_number'] = self.credit_card_number.split(sep='.')[0]
-        if self.sex == "male":
-            personal_data["sex"] = "1"
-        elif self.sex == "female":
-            personal_data['sex'] = "0"
-        else:
-            personal_data['sex'] = '2'
-        personal_data['DOB'] = self.DOB
-        personal_data['ethnicity'] = self.ethnicity
-        personal_data['highest_degree'] = self.education
-        personal_data['email'] = self.email
-        personal_data['address'] = " "
-        personal_data['phone_number'] = self.phone_number
-        personal_data['state'] = self.country
-        personal_data['firm_registration'] = self.registration_number
 
-        firm['registeration_number'] = self.registration_number
-        firm['company_name'] = self.company_name
-        firm['established_date'] = self.established_date
-        firm['number_of_employes'] = self.employees
-        firm['country'] = self.country
+        assets['fiscal_code'] = self.fiscal_code
+        assets['total_house_amount'] = self.total_house_amount.replace(",", '').replace('$', '')
+        assets['monthly_income'] = self.monthly_income.replace(",", '').replace('$', '')
+        assets['savings'] = self.savings.replace(",", '').replace('$', '')
+        assets['other_savings'] = self.other_savings.replace(",", '').replace('$', '')
 
-        return personal_data, firm
+        losses['fiscal_code'] = self.fiscal_code
+        losses['actual_debit_credit_cards'] = self.actual_debit_credit_cards
+        losses['amount_due_mortgage'] = self.amount_due_mortgage
+
+        return new_credit, credit_mix, assets, losses

@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 import email
+from sre_parse import State
 
 from cv2 import Stitcher_ERR_CAMERA_PARAMS_ADJUST_FAIL
 # import super
@@ -19,6 +20,7 @@ class Person(object):
     phone_number: str
     email : str
     firm_registeration_number:str
+    state:str
 
     def __init__(self, data_dict):
         self.fiscal_code = data_dict.get('Id_Number')
@@ -32,3 +34,4 @@ class Person(object):
         self.email= data_dict.get('email')
         self.firm_registeration_number= data_dict.get('registeration_number')
         self.country= data_dict.get('country')
+        self.state= data_dict.get('country')

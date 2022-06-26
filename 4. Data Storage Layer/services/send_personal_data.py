@@ -53,6 +53,7 @@ def close_db_connection(cursor):
 
 
 
+
 def send_person_data(dict_data:dict,cursor,connection):
     tag = True
     person_dict = Person(dict_data)
@@ -61,6 +62,7 @@ def send_person_data(dict_data:dict,cursor,connection):
     cursor = connection.cursor()
     cursor.execute(query)
     firm_data = cursor.fetchall()
+    print(firm_data)
     for row in firm_data :
         print(row)
         if(row[1] == person_dict.fiscal_code):
@@ -70,11 +72,11 @@ def send_person_data(dict_data:dict,cursor,connection):
             print('here')
             person_id = 0
         else:
-            firm_id = row[0]+1
+            person_id = row[0]+1
 
         insert_query = "INSERT INTO personal_data(person_id,fiscal_code,first_name,last_name,sex,date_of_birth,ethnicity,highest_degree,address,email,phone_number,state,firm_registration,last_update_time_stamp)"
         value_attr = "VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
-        values = (person_id,person_dict.fiscal_code,person_dict.first_name,person_dict.last_name,person_dict.sex,person_dict.DOB,person_dict.ethnicity,person_dict.education,'',person_dict.email,person_dict.phone_number,person_dict.country,person_dict.firm_registeration_number,datetime.datetime.now())
+        values = (person_id,person_dict.fiscal_code,person_dict.first_name,person_dict.last_name,person_dict.sex,person_dict.DOB,person_dict.ethnicity,person_dict.education,person_dict.state,person_dict.email,person_dict.phone_number,person_dict.country,person_dict.firm_registeration_number,datetime.datetime.now())
         print(values)
         cursor.execute(insert_query+value_attr , values)
         print(cursor.rowcount, "was inserted.")

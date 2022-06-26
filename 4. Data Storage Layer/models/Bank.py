@@ -4,27 +4,6 @@ from dataclasses import dataclass
 @dataclass
 class Bank:
     """Class for storing the arriving messages from cloud storage"""
-
-    # fiscal_code: str
-    # bank_name: str
-    # bank_country: str
-    # open_new_credit_in_6_months: int
-    # amount_in_6_months : float
-    # amount_in_12_months: float
-    # new_credit_in_12_months:int
-    # amount_in_18_months: float
-    # new_credit_in_18_months : int
-    # house_mortgage : bool
-    # amount_of_house_mortgage : float
-    # amount_due_mortgage :float
-    # house_property : bool
-    # total_house_amount : float
-    # credit_card_number :  int
-    # credit_card_limit_total : float
-    # actual_debit_credit_cards : int
-    # monthly_income = float
-    # savings : float
-    # savings : float
     
     fiscal_code: str
     bank_name: str
@@ -45,7 +24,7 @@ class Bank:
     actual_debit_credit_cards : str
     monthly_income = str
     savings : str
-    savings : str
+    other_savings : str
 
 
     def __init__(self,bank_data):
@@ -69,4 +48,4 @@ class Bank:
             self.actual_debit_credit_cards = bank_data.get('actual_debit_credit_cards')
             self.monthly_income = bank_data.get('monthly_income')
             self.savings = bank_data.get('savings')
-            self.savings = bank_data.get('other_savings')
+            self.other_savings = bank_data.get('other_savings')

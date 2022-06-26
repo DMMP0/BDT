@@ -1,4 +1,4 @@
-'''this script here is to send the personal data to the personal information table'''
+'''this script here is to send the firm data to the firm information table'''
 from asyncio.windows_events import NULL
 from matplotlib.font_manager import json_dump
 import mysql.connector

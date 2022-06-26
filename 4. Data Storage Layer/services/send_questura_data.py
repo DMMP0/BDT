@@ -16,12 +16,12 @@ from models.statement import Statement
 from models.person_info import Person
 
 
-data ={"Id_Number": "13a9cd05-07ba-4d47-8a46-1cfa22b045a6",
-"first_name": "carrizales", "last_name": "idiaquez", "sex": "Male", "DOB": "10/24/1961", 
-"ethnicity": "native american", "education": "middle school", "phone_number": "307-166-6420",
-"email": "hr@jameshardieindustriesnv.org", "purpose": "other investment", 
-"registeration_number": "e48f4632-6ded-42b9-911f-63c024f30ee2", "company_name": "James Hardie Industries N.V.", 
-"establied_date": "10/12/1966", "country": "Netherlands", "number_of_employes": 18}
+data ={"Id_Number": "13a9cd05-07ba-4d47-8a46-1cfa2245a6", 
+"first_name": "kujuan", "last_name": "ronero", 
+"sex": "Female", "DOB": "6/25/1982", "ethnicity": "mix",
+"education": "bachelor", "phone_number": "313-312-0697", "email": "kujuan_ronero@gmail.com",
+"questura_country": "Switzerland", "bankruptcy": True, "inscred": 1016386.00, 
+"fraudis": True, "investegation": True, "accused": True, "condamned": True, "civ_pass": True}
 
 
 
@@ -51,38 +51,52 @@ def close_db_connection(cursor):
             connection.close()
             print("MySQL connection is closed")
 
-
-
-
-def send_firm_data(dict_data:dict,cursor,connection):
+def find_fk(dict_data:dict,cursor,connection)->bool:
     tag = True
-    firm_dict = Statement(dict_data)
+    person_dict = Questura(dict_data)
     # print(dict.number_of_employes)
-    query = 'SELECT MAX(firm_data_id),registeration_number FROM firm_data'
+    query = 'SELECT fiscal_code FROM personal_data'
+    cursor = connection.cursor()
+    cursor.execute(query)
+    personal_data = cursor.fetchall()
+    for row in personal_data :
+        print(row)
+        if(row[0] == person_dict.fiscal_code):
+            tag = False
+    return tag
+
+
+def send_questura_data(dict_data:dict,cursor,connection):
+    tag = True
+    questura_dict = Questura(dict_data)
+    # print(dict.number_of_employes)
+    query = 'SELECT MAX(criminal_id) FROM criminal_records'
     cursor = connection.cursor()
     cursor.execute(query)
     firm_data = cursor.fetchall()
     for row in firm_data :
-        print(row)
-        if(row[1] == firm_dict.registeration_number):
-            tag = False
+        criminal_id = row[0]
     if(tag):
-        if(row[0] == None):
+        if(criminal_id== None):
             print('here')
-            firm_id = 0
+            criminal_id = 0
         else:
-            firm_id = row[0]+1
-        insert_query = "INSERT INTO firm_data(firm_data_id,registeration_number,firm_name,established_date,number_of_employes,country,last_update_time_stamp) VALUES (%s,%s,%s,%s,%s,%s,%s)"
-        # value_attr = "VALUES(%s,%s,%s,%s,%s,%s,%s)"
-        values = (firm_id,firm_dict.registeration_number,firm_dict.company_name,firm_dict.established_date,firm_dict.number_of_employes,firm_dict.country,datetime.datetime.now())
+            criminal_id = criminal_id+1
+
+    if(find_fk(dict_data,cursor,connection) == False):
+        insert_query = "INSERT INTO criminal_records(criminal_id,bankrupty,fraudis,investigation,accused,condemned,civ_pass,last_updated_time_stamp,fiscal_code_fk)"
+        value_attr = "VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s)"
+        values = (criminal_id,questura_dict.bankruptcy,questura_dict.fraudis,questura_dict.investigation,questura_dict.accused,questura_dict.condamned,questura_dict.civ_pass,datetime.datetime.now(),questura_dict.fiscal_code)
         print(values)
-        cursor.execute(insert_query , values)
+        cursor.execute(insert_query+value_attr , values)
         print(cursor.rowcount, "was inserted.")
         connection.commit()
+    else:
+        print("personal data not found")
 
 
     
 ## main
 (cursor,connection) = connect_db()
-send_firm_data(data,cursor,connection)
+send_questura_data(data,cursor,connection)
 close_db_connection(cursor)

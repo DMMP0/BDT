@@ -23,6 +23,11 @@ data ={"Id_Number": "13a9cd05-07ba-4d47-8a46-1cfa22b045a6",
 "registeration_number": "e48f4632-6ded-42b9-911f-63c024f30ee2", "company_name": "James Hardie Industries N.V.", 
 "establied_date": "10/12/1966", "country": "Netherlands", "number_of_employes": 18}
 
+'''
+['CNIC',ID,Fiscal,Fiscal code,id_number,identity number]
+for the first key find if the list have same name . if yes - > Id_Number
+'''
+
 
 
 def connect_db():

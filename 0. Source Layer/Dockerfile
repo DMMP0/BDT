@@ -28,5 +28,7 @@ ADD components/ components/
 ADD assets/ assets/
 
 CMD ["stdbuf", "-oL","python", "data_generation.py"]
-CMD ["stdbuf", "-oL","python","main.py"]
+CMD ["stdbuf", "-oL","python","main.py"] 
+
+## main.py sends the data to redis
 

@@ -12,7 +12,9 @@ class Statement(object):
     established_date: str
     country: str
     number_of_employes: int
-
+    amount_of_credit:float
+    purpose:str
+    duration_in_months:int
 
     def __init__(self, data_dict):
         self.purpose= data_dict.get('purpose')
@@ -21,4 +23,8 @@ class Statement(object):
         self.established_date= data_dict.get('establied_date')
         self.country= data_dict.get('country')
         self.number_of_employes = data_dict.get('number_of_employes')
+        self.amount_of_credit = data_dict.get('amount_of_credit')
+        self.purpose = data_dict.get('purpose')
+        self.duration_in_months = data_dict.get('duration_in_months')
+
 

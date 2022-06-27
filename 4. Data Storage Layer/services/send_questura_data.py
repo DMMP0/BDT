@@ -85,7 +85,7 @@ def send_questura_data(dict_data:dict,cursor,connection):
         else:
             criminal_id = criminal_id+1
 
-    if(find_fk(dict_data,cursor,connection) == False):
+    if(find_fk(dict_data,cursor,connection) == False):  #                  remove
         insert_query = "INSERT INTO criminal_records(criminal_id,bankrupty,fraudis,investigation,accused,condemned,civ_pass,last_updated_time_stamp,fiscal_code_fk)"
         value_attr = "VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s)"
         values = (criminal_id,questura_dict.bankruptcy,questura_dict.fraudis,questura_dict.investigation,questura_dict.accused,questura_dict.condamned,questura_dict.civ_pass,datetime.datetime.now(),questura_dict.fiscal_code)

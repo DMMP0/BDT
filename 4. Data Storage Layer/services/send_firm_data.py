@@ -25,6 +25,12 @@ data ={"Id_Number": "13a9cd05-07ba-4d47-8a46-1cfa22b045a6",
 "establied_date": "10/12/1966", "country": "Netherlands", "number_of_employes": 18,
 "amount_of_credit":2000000,"purpose":"Employee","duration_in_months":18}
 
+# TODO: to get data from redis:
+
+# firm_dict = get_dicts_from_redis('firm')
+# credit_data ?
+
+
 '''
 ['CNIC',ID,Fiscal,Fiscal code,id_number,identity number]
 for the first key find if the list have same name . if yes - > Id_Number

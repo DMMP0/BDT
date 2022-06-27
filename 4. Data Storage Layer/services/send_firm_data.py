@@ -6,7 +6,7 @@ from mysql.connector import Error
 import sys,os
 import json
 import datetime
-
+import json
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # finds the parent directory
 from models.bank import Bank
@@ -14,6 +14,7 @@ from models.broker import Broker
 from models.questura import Questura
 from models.statement import Statement
 from models.person_info import Person
+# config_db = json.load("..\credentials\db-config.json")
 
 
 data ={"Id_Number": "13a9cd05-07ba-4d47-8a46-1cfa22b045a6",
@@ -32,22 +33,23 @@ for the first key find if the list have same name . if yes - > Id_Number
 
 
 def connect_db():
+    with open("..\..\credentials\db-config.json", "r") as jsonfile:
+        config_db = json.load(jsonfile) # Reading the file
+        jsonfile.close()
     try:
-        connection = mysql.connector.connect(host='localhost',
-                                            database='credit_scoring',
-                                            user='root',
-                                            password='123$Weet')
+
+        connection = mysql.connector.connect(host=config_db['host'],
+                                            database=config_db['database'],
+                                            user=config_db['user'],
+                                            password=config_db['password'])
         if connection.is_connected():
             db_Info = connection.get_server_info()
             print("Connected to MySQL Server version ", db_Info)
             cursor = connection.cursor()
-            # cursor.execute("select database();")
-            # record = cursor.fetchone()
             print("You're connected to database: ")
 
     except Error as e:
         print("Error while connecting to MySQL", e)
-
     return (cursor,connection)
         
 
@@ -116,5 +118,5 @@ def send_credit_data(dict_data:dict,cursor,connection):
 ## main
 (cursor,connection) = connect_db()
 # send_firm_data(data,cursor,connection)
-send_credit_data(data,cursor,connection)
-close_db_connection(cursor)
+# send_credit_data(data,cursor,connection)
+# close_db_connection(cursor)

@@ -35,23 +35,25 @@ data ={"Id_Number": "13a9cd05-07ba-4d47-8a46-1cfa22b045a6",
 
 
 def connect_db():
+    with open("..\..\credentials\db-config.json", "r") as jsonfile:
+        config_db = json.load(jsonfile) # Reading the file
+        jsonfile.close()
     try:
-        connection = mysql.connector.connect(host='localhost',
-                                            database='credit_scoring',
-                                            user='root',
-                                            password='123$Weet')
+
+        connection = mysql.connector.connect(host=config_db['host'],
+                                            database=config_db['database'],
+                                            user=config_db['user'],
+                                            password=config_db['password'])
         if connection.is_connected():
             db_Info = connection.get_server_info()
             print("Connected to MySQL Server version ", db_Info)
             cursor = connection.cursor()
-            # cursor.execute("select database();")
-            # record = cursor.fetchone()
             print("You're connected to database: ")
 
     except Error as e:
         print("Error while connecting to MySQL", e)
-
     return (cursor,connection)
+        
         
 
 def close_db_connection(cursor):
@@ -63,7 +65,7 @@ def close_db_connection(cursor):
 
 def find_fk(dict_data:dict,cursor,connection)->bool:
     tag = True
-    person_dict = Questura(dict_data)
+    person_dict = Bank(dict_data)
     query = 'SELECT fiscal_code FROM personal_data'
     cursor = connection.cursor()
     cursor.execute(query)
@@ -170,6 +172,67 @@ def send_losses_data(dict_data:dict,cursor,connection):
         cursor.execute(insert_query+value_attr , values)
         print(cursor.rowcount, "was inserted.")
         connection.commit()
+
+
+
+
+def send_bank_data(dict_data:dict,cursor,connection):
+    tag = True
+    check_data = True
+    bank_dict = Bank(dict_data)
+    # check first if the data has been there already
+    query = 'SELECT * FROM bank_data'
+    cursor = connection.cursor()
+    cursor.execute(query)
+    data = cursor.fetchall()
+    for row in data :
+        if(str(row[1]) == bank_dict.bank_name and str(row[2]) == bank_dict.bank_country):
+            check_data = False
+    if(check_data):
+        ## now if not there then send the data
+        query = 'SELECT MAX(bank_data_id) FROM bank_data'
+        cursor = connection.cursor()
+        cursor.execute(query)
+        data = cursor.fetchall()
+        for row in data :
+            bank_id = row[0]
+        if(tag):
+            if(bank_id == None):
+                bank_id = 0
+            else:
+                bank_id += 1
+        print(bank_id)
+        if(find_fk(dict_data,cursor,connection) == False):
+            ## first add bank data
+            insert_query = "INSERT INTO bank_data(bank_data_id,bank_name,bank_country)"
+            value_attr = "VALUES(%s,%s,%s)"
+            values = (bank_id,bank_dict.bank_name,bank_dict.bank_country)
+            cursor.execute(insert_query+value_attr , values)
+            print(cursor.rowcount, "was inserted.")
+            connection.commit()
+
+
+            ## add personal relation of person and bank
+        query = 'SELECT MAX(bank_person_relationships_id) FROM 	bank_person_relationships'
+        cursor = connection.cursor()
+        cursor.execute(query)
+        data = cursor.fetchall()
+        for row in data :
+            p_id = row[0]
+        if(tag):
+            if(p_id == None):
+                p_id = 0
+            else:
+                p_id += 1
+        if(find_fk(dict_data,cursor,connection) == False):
+            ## first add bank data
+            insert_query = "INSERT INTO bank_person_relationships(bank_person_relationships_id,bank_id,person_id,last_update_time_stamp)"
+            value_attr = "VALUES(%s,%s,%s,%s)"
+            values = (p_id,bank_id,bank_dict.fiscal_code,datetime.datetime.now())
+            cursor.execute(insert_query+value_attr , values)
+            print(cursor.rowcount, "was inserted.")
+            connection.commit()
+    
     
 ## main
 (cursor,connection) = connect_db()
@@ -177,4 +240,5 @@ def send_losses_data(dict_data:dict,cursor,connection):
 # send_credit_mix(data,cursor,connection)
 # send_assets_data(data,cursor,connection)
 # send_losses_data(data,cursor,connection)
+send_bank_data(data,cursor,connection)
 close_db_connection(cursor)

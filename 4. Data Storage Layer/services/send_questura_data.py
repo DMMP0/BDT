@@ -16,7 +16,7 @@ from models.statement import Statement
 from models.person_info import Person
 
 
-data ={"Id_Number": "13a9cd05-07ba-4d47-8a46-1cfa2245a6", 
+data ={"Id_Number": "13a9cd05-07ba-4d47-8a46-1cfa22b045a6", 
 "first_name": "kujuan", "last_name": "ronero", 
 "sex": "Female", "DOB": "6/25/1982", "ethnicity": "mix",
 "education": "bachelor", "phone_number": "313-312-0697", "email": "kujuan_ronero@gmail.com",
@@ -26,23 +26,25 @@ data ={"Id_Number": "13a9cd05-07ba-4d47-8a46-1cfa2245a6",
 
 
 def connect_db():
+    with open("..\..\credentials\db-config.json", "r") as jsonfile:
+        config_db = json.load(jsonfile) # Reading the file
+        jsonfile.close()
     try:
-        connection = mysql.connector.connect(host='localhost',
-                                            database='credit_scoring',
-                                            user='root',
-                                            password='123$Weet')
+
+        connection = mysql.connector.connect(host=config_db['host'],
+                                            database=config_db['database'],
+                                            user=config_db['user'],
+                                            password=config_db['password'])
         if connection.is_connected():
             db_Info = connection.get_server_info()
             print("Connected to MySQL Server version ", db_Info)
             cursor = connection.cursor()
-            # cursor.execute("select database();")
-            # record = cursor.fetchone()
             print("You're connected to database: ")
 
     except Error as e:
         print("Error while connecting to MySQL", e)
-
     return (cursor,connection)
+        
         
 
 def close_db_connection(cursor):

@@ -2,68 +2,72 @@
 ### {"Unnamed: 0": 36538, "Id_Number": "0b6c2e52-b9aa-4b77-966f-b4ed712c0c88", "first_name": "zafeiroula", "last_name": "camburn", "sex": "Female", "DOB": "4/13/1980",
 # "ethnicity": "caribbean", "education": "middle school", "phone_number": "658-667-6356", "email": "headquarters@canadalifefinancialcorp.org", "purpose": "employee",
 # "registeration_number": "c5bca43a-6b71-4e5f-8861-7d4ddf5d547e", "company_name": "Canada Life Financial Corp.", "establied_date": "12/7/1995", "country": "Canada", "number_of_employes": 20}
+import os
+import sys
 
-from utils import clean_string, statement_synonyms, get_meaning
+sys.path.append(os.path.abspath(__file__))  # finds the parent directory
+from .utils import clean_string, statement_synonyms, get_meaning
 
 
 class Statement:
     """Class for storing the arriving messages from cloud storage"""
 
-    fiscal_code: str
-    first_name: str
-    last_name: str
-    sex: str
-    DOB: str
-    ethnicity: str
-    education: str
-    phone_number: str
-    email: str
-    purpose: str
-    firm_id: str
-    company_name: str
-    established_date: str
-    country: str
-    employees: str
-
     def __init__(self, d: dict):
+        self.fiscal_code = ''
+        self.first_name = ''
+        self.last_name = ''
+        self.sex = ''
+        self.DOB = ''
+        self.ethnicity = ''
+        self.education = ''
+        self.phone_number = ''
+        self.email = ''
+        self.purpose = ''
+        self.firm_id = ''
+        self.company_name = ''
+        self.established_date = ''
+        self.country = ''
+        self.employees = ''
         keys = list(d.keys())
         for key in keys:
             value = d[key]
             key = clean_string(key)  # lower and transform space to _
             meaning = get_meaning(key, statement_synonyms)
             if meaning == "fiscal_code":
-                self.fiscal_code = value
+                self.fiscal_code = str(value)
             elif meaning == "first_name":
-                self.first_name = value
+                self.first_name = str(value)
             elif meaning == "last_name":
-                self.last_name = value
+                self.last_name = str(value)
             elif meaning == "DOB":
-                self.DOB = value
+                self.DOB = str(value)
+            elif meaning == "sex":
+                self.sex = str(value)
             elif meaning == "ethnicity":
-                self.ethnicity = value
+                self.ethnicity = str(value)
             elif meaning == "education":
-                self.education = value
+                self.education = str(value)
             elif meaning == "phone_number":
-                self.phone_number = value
+                self.phone_number = str(value)
             elif meaning == "email":
-                self.email = value
+                self.email = str(value)
             elif meaning == "purpose":
-                self.purpose = value
+                self.purpose = str(value)
             elif meaning == "registration_number":
-                self.registration_number = value
+                self.registration_number = str(value)
             elif meaning == "company_name":
-                self.company_name = value
+                self.company_name = str(value)
             elif meaning == "established_date":
-                self.established_date = value
+                self.established_date = str(value)
             elif meaning == "country":
-                self.country = value
+                self.country = str(value)
             elif meaning == "employees":
-                self.employees = value
+                self.employees = str(value)
             # else
             #   pass
 
     def make_sense(self):
-        """@:returns a tuple of dictionaries, for the records of personal data and firm"""
+        """@:returns a tuple of dictionaries: personal data , firm"""
         personal_data = dict()
         firm = dict()
 
@@ -93,6 +97,3 @@ class Statement:
         firm['country'] = self.country
 
         return personal_data, firm
-
-
-

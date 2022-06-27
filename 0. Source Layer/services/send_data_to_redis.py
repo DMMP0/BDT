@@ -8,8 +8,8 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # 
 from components.document_parser import *
 
 source_layer = os.path.dirname(os.path.dirname(__file__))
-r = redis.StrictRedis( host='redis')  # redis object. host='localhost')#
-# This assumes docker, use host = localhost for localhost
+r = redis.StrictRedis( )  # redis object. host='localhost')#
+# host='redis' assumes docker, use host = localhost for localhost
 
 
 def send():

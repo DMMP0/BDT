@@ -29,14 +29,15 @@ class BucketRetriever:
 
         for blob in self.blobs:
             ris.append(json.dumps(blob.download_as_text()))
+            blob.delete()
 
 
         return ris
 
-    def delete_blobs(self, lst=None):
-
-        if lst is None:
-            lst = self.blobs
-
-        for blob in lst:
-            blob.delete()
+    # def delete_blobs(self, lst=None):
+#
+    #     if lst is None:
+    #         lst = self.blobs
+#
+    #     for blob in lst:
+    #         blob.delete()

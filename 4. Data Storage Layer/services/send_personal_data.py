@@ -23,7 +23,9 @@ data ={"Id_Number": "13a9cd05-07ba-4d47-8a46-1cfa22b045a6",
 "registeration_number": "e48f4632-6ded-42b9-911f-63c024f30ee2", "company_name": "James Hardie Industries N.V.", 
 "establied_date": "10/12/1966", "country": "Netherlands", "number_of_employes": 18}
 
+# TODO: to get data from redis:
 
+# person_dict = get_dicts_from_redis('personal_data')
 
 def connect_db():
     try:

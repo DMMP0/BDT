@@ -12,13 +12,14 @@ import json
 import datetime
 from send_personal_data import send_person_data
 
-
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))  # finds the current directory
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # finds the parent directory
 from models.bank import Bank
 from models.broker import Broker
 from models.questura import Questura
 from models.statement import Statement
 from models.person_info import Person
+from .get_data_from_redis import get_dicts_from_redis
 
 
 data ={"Id_Number": "13a9cd05-07ba-4d47-8a46-1cfa22b045a6",
@@ -32,6 +33,12 @@ data ={"Id_Number": "13a9cd05-07ba-4d47-8a46-1cfa22b045a6",
 "total_house_amount": 0, "credit_card_number": 5, "credit_card_limit_total": 162333, "actual_debit_credit_cards": 1,
 "monthly_income": 5640.00, "savings": 12790.00, "other_savings": 13175.00}
 
+# TODO: to get data from redis:
+
+# new_credit_dict = get_dicts_from_redis('new_credit')
+# credit_mix_dict = get_dicts_from_redis('credit_mix')
+# assets_dict = get_dicts_from_redis('assets')
+# losses_dict = get_dicts_from_redis('losses')
 
 
 def connect_db():

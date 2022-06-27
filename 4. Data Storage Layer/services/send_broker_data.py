@@ -23,6 +23,9 @@ data ={"Id_Number": "13a9cd05-07ba-4d47-8a46-1cfa22b045a6",
 "from30to60": 3, "from60to90": 3, "morethan90": 2, "debit_id": 5223375666475302, "insolvent": False, 
 "insolvent_ammount": 42261306500.00}
 
+# TODO: to get data from redis:
+
+# broker_dict = get_dicts_from_redis('broker')
 
 
 def connect_db():

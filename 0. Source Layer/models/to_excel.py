@@ -113,7 +113,7 @@ class Excel:
 			bank_data.loc[index,'credit_card_number'] = number_credit_cards
 			max_credit_credit_card = number_credit_cards*random.randint(1000,4000)
 			bank_data.loc[index,'credit_card_limit_total'] = max_credit_credit_card
-			bank_data.loc[index,'actual_debit_credit_cards'] = random.randint(5000,max_credit_credit_card)
+			bank_data.loc[index,'actual_debit_credit_cards'] = random.randint(1000,max_credit_credit_card)
 			bank_data.loc[index,'monthly_income'] ="${:,.2f}".format(val + random.randint(0,5000))
 			bank_data.loc[index,'savings'] = "${:,.2f}".format(val + random.randint(200,100000))
 			bank_data.loc[index,'other_savings']= "${:,.2f}".format(val + random.randint(100,20000))

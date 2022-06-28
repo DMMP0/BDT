@@ -6,7 +6,7 @@ from random import randint
 
 import ccard
 
-
+# prova
 val = 300.00
 source = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # finds the 0. Data Source directory
 

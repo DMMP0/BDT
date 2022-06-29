@@ -95,8 +95,12 @@ def send_credit_data(dict_data: dict, cursor, connection):
         values = (
             firm_id, dict_data['registeration_number'], dict_data['amount_of_credit'], dict_data['purpose'],
             dict_data['duration_in_months'], datetime.datetime.now())
-        print(values)
-        cursor.execute(insert_query + value_attr, values)
+        # print(values)
+        try:
+            cursor.execute(insert_query + value_attr, values)
+            print(cursor.rowcount, "was inserted.")
+        except mysql.connector.errors.IntegrityError:
+            print("Duplicated key not inserted")
         print(cursor.rowcount, "was inserted.")
         connection.commit()
 

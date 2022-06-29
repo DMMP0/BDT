@@ -80,7 +80,11 @@ def send_new_credit(dict_data: dict, cursor, connection):
             mix_credit_id, dict_data['amount_in_12_months'], dict_data['amount_in_6_months'],
             dict_data['amount_in_18_months'],
             datetime.datetime.now(), dict_data['fiscal_code'])
-        cursor.execute(insert_query + value_attr, values)
+        try:
+            cursor.execute(insert_query + value_attr, values)
+            print(cursor.rowcount, "was inserted.")
+        except mysql.connector.errors.IntegrityError:
+            print("Duplicated key not inserted")
         print(cursor.rowcount, "was inserted.")
         connection.commit()
 

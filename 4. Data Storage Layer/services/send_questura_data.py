@@ -79,8 +79,11 @@ def send_questura_data(dict_data:dict,cursor,connection):
         values = (criminal_id,dict_data['bankruptcy'],dict_data['investigation'],dict_data['accused'],
                   dict_data['condamned'],dict_data['civ_pass'],datetime.datetime.now(),dict_data['fiscal_code'])
         print(values)
-        cursor.execute(insert_query+value_attr , values)
-        print(cursor.rowcount, "was inserted.")
+        try:
+            cursor.execute(insert_query + value_attr, values)
+            print(cursor.rowcount, "was inserted.")
+        except mysql.connector.errors.IntegrityError:
+            print("Duplicated key not inserted")
         connection.commit()
     else:
         print("personal data not found")

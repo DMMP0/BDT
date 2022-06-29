@@ -71,7 +71,11 @@ def send_person_data(dict_data:dict,cursor,connection):
                   dict_data['email'], dict_data['phone_number'],dict_data['state'],
                   dict_data['firm_registration'],datetime.datetime.now())
         # print(values)
-        cursor.execute(insert_query+value_attr , values)
+        try:
+            cursor.execute(insert_query + value_attr, values)
+            print(cursor.rowcount, "was inserted.")
+        except mysql.connector.errors.IntegrityError:
+            print("Duplicated key not inserted")
         # print(cursor.rowcount, "was inserted.")
         connection.commit()
     

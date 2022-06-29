@@ -66,10 +66,13 @@ def send_broker_data(dict_data:dict,cursor,connection):
         insert_query = "INSERT INTO credit_history(credit_history_id,from30to60,from60to90,more_than_90,insolvent_ammount,last_update_time_stamp,fiscal_code_fk)"
         value_attr = "VALUES(%s,%s,%s,%s,%s,%s,%s)"
         values = (broker_id,dict_data['from30to60'],dict_data['from60to90'],dict_data['morethan90'],
-                  dict_data['insolvent_ammount'],datetime.datetime.now(),dict_data['fiscal_code'])
+                  dict_data['insolvent_amount'],datetime.datetime.now(),dict_data['fiscal_code'])
         print(values)
-        cursor.execute(insert_query+value_attr , values)
-        print(cursor.rowcount, "was inserted.")
+        try:
+            cursor.execute(insert_query+value_attr , values)
+            print(cursor.rowcount, "was inserted.")
+        except mysql.connector.errors.IntegrityError:
+            print("Duplicated key not inserted")
         connection.commit()
 
 

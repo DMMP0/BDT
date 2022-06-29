@@ -1,5 +1,6 @@
-from time import sleep
+import components.data_generator as g
+import components.document_creator as work
 while True:
-    import components.document_creator
+    g.Generate()
+    work.work()
     print("Data generated")
-    sleep(5)

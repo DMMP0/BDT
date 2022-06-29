@@ -71,6 +71,11 @@ statement_synonyms = (
     {"country": "country",
      "paese": "country", },
 
+{"amount_of_credit": "amount_of_credit",
+     "requested_credit": "amount_of_credit", },
+
+{"duration_in_months": "duration_in_months", },
+
     {"employees": "employees",
      "number_of_employees": "employees",
      "employes": "employees",

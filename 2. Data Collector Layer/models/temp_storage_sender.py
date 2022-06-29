@@ -10,8 +10,8 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # 
 # gsutil -m rm -r gs://questura-bdt-13/\* to remove all files into google cloud storage
 
 class TempStorageSender:
-    client = storage.Client.from_service_account_info(info=json.loads(os.environ['CREDENTIALS']))
-
+    client = storage.Client.from_service_account_json(json_credentials_path='/home/dmmp/Documents/GitHub/BDT/credentials/bdt-project-200-6164fe338b7d.json')
+    # .from_service_account_info(info=json.loads(os.environ['CREDENTIALS']))
     # .from_service_account_json(json_credentials_path='/home/dmmp/Documents/GitHub/BDT/credentials/bdt-project-200-6164fe338b7d.json')
 
     def __init__(self, bucket_name: str):
@@ -35,4 +35,4 @@ class TempStorageSender:
     def send_message(self, message, topic, name='report'):
         blob = self.bucket.blob(blob_name=self.create_name(message=message, topic=topic, name=name))
         a = blob.upload_from_string(data=message)
-        print(a)
+        # print(a)

@@ -7,6 +7,7 @@ import numpy as np
 import sys
 from datetime import date, datetime
 import random
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # finds the parent directory
 from models.to_txt import RTF
 from models.to_word import Word
@@ -14,7 +15,6 @@ from models.to_word import Word
 from models.to_excel import Excel
 from models.to_html import HTML
 
-import pycountry
 ## Public variables
 
 root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # finds the root dir
@@ -25,11 +25,11 @@ threshold = 1000  # this is the number of companies request for the bank data
 business_data = pd.read_csv(parentDir + '/assets/credit data/company_information.csv')
 personal_data = pd.read_csv(parentDir + '/assets/credit data/user_information.csv')
 bank_data = pd.read_excel(parentDir + '/assets/credit data/banks.xlsx')
-    # bank_data.drop(columns=bank_data.columns[0], axis=1, inplace=True)
+# bank_data.drop(columns=bank_data.columns[0], axis=1, inplace=True)
 business_data = pd.DataFrame(data=business_data, columns=business_data.columns)
 personal_data = pd.DataFrame(data=personal_data, columns=personal_data.columns)
 purpose = ['prototype', 'marketing', 'validation', 'scale-up', 'industrial equipment', 'office', 'employee',
-               'other investment']
+           'other investment']
 unique_companies = []
 unique_partners = []
 
@@ -38,25 +38,25 @@ person_data = personal_data
 declaration_data = []
 
 
-
-   
 def update_header(data) -> list:
-        temp = []
-        data = pd.DataFrame(data)
-        columns = data.columns
-        for column in columns:
-            column = str(column).replace(' ', '_')
-            temp.append(column)
-        return temp
+    temp = []
+    data = pd.DataFrame(data)
+    columns = data.columns
+    for column in columns:
+        column = str(column).replace(' ', '_')
+        temp.append(column)
+    return temp
+
 
 def data_cleaning_for_classes(obj, df, bank):
-        obj.set_data(df)
-        obj.set_bank(bank)
+    obj.set_data(df)
+    obj.set_bank(bank)
+
 
 def update_header_of_data():
-        business_data.columns = update_header(business_data)
-        personal_data.columns = update_header(personal_data)
-        bank_data.columns = update_header(bank_data)
+    business_data.columns = update_header(business_data)
+    personal_data.columns = update_header(personal_data)
+    bank_data.columns = update_header(bank_data)
 
 def create_RTF(data, rnd):
         banks = bank_data.sample(n=randint(1,2))
@@ -214,43 +214,42 @@ def declaration_file():
 
         #     write.writerow(clients)
 
+
 import csv
 
 
-update_header_of_data()
-# print('Imhere')
-name = '0.Client_List'
-tag = True
-new_clients = declaration_file()
+def work():
+    update_header_of_data()
+    # print('Imhere')
+    name = '0.Client_List'
+    tag = True
+    new_clients = declaration_file()
 
-with open('0.Client_List.csv', 'r') as csvfile:
-    csv_dict = [row for row in csv.DictReader(csvfile)]
-    if len(csv_dict) == 0:
-        tag = False
+    with open('0.Client_List.csv', 'r') as csvfile:
+        csv_dict = [row for row in csv.DictReader(csvfile)]
+        if len(csv_dict) == 0:
+            tag = False
 
+    if (tag):
+        client = pd.read_csv(name + '.csv')
+        client = pd.concat([client, new_clients], ignore_index=True)
+        client.to_csv(name + '.csv')
+    else:
+        new_clients.to_csv(name + '.csv')
 
-if(tag):
-    client = pd.read_csv(name + '.csv')
-    client = pd.concat([client,new_clients],ignore_index=True) 
-    client.to_csv(name + '.csv')
-else:
-    new_clients.to_csv(name + '.csv')
+    clients = pd.read_csv(name + '.csv')
+    client_full_data = personal_data[personal_data['Id_Number'].isin(new_clients['Fiscal Code'])]
+    for i in range(0, 4):
 
-
-
-clients = pd.read_csv( name + '.csv')
-client_full_data = personal_data[personal_data['Id_Number'].isin(new_clients['Fiscal Code'])]
-for i in range(0, 4):
-
-    rnd = randint(2, len(new_clients))
-    idx = rnd
-    # rnd_banks = randint(5, idx)
-    # print("Random number", rnd)
-    if i == 0:
+        rnd = randint(2, len(new_clients))
+        idx = rnd
+        # rnd_banks = randint(5, idx)
+        # print("Random number", rnd)
+        if i == 0:
             create_RTF(client_full_data, rnd)
-    if i == 1:
+        if i == 1:
             create_Word(client_full_data, rnd)
-    if i == 2:
+        if i == 2:
             create_HTML(client_full_data, rnd)
-    if i == 3:
+        if i == 3:
             create_Excel(client_full_data, rnd)

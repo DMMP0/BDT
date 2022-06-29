@@ -78,11 +78,12 @@ class Bank:
                 pass
 
     def make_sense(self):
-        """@:returns a tuple of dictionaries: new_credit, credit_mix, assets, losses"""
+        """@:returns a tuple of dictionaries: new_credit, credit_mix, assets, losses, bank"""
         new_credit = dict()
         credit_mix = dict()
         assets = dict()
         losses = dict()
+        bank = dict()
 
         #
         new_credit['fiscal_code'] = self.fiscal_code
@@ -103,5 +104,9 @@ class Bank:
         losses['fiscal_code'] = self.fiscal_code
         losses['actual_debit_credit_cards'] = self.actual_debit_credit_cards.split(sep='.')[0]
         losses['amount_due_mortgage'] = clean_money(self.amount_due_mortgage)
+
+        bank['bank_name'] = self.bank_name
+        bank['bank_country'] = self.bank_country
+        bank['fiscal_code'] = self.fiscal_code
 
         return new_credit, credit_mix, assets, losses

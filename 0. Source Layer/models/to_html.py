@@ -172,10 +172,10 @@ class HTML:
 			broker_data = pd.DataFrame(broker_data)
 			# print(banksName)
 			for index,item in broker_data.iterrows():
-					broker_data = pd.DataFrame(broker_data)
-					broker_data.loc[index,'agency_name'] = self.agencey_names[(randint(0,3))] 
-					broker_data.loc[index, 'agency_country'] = self.bank[1]
-					broker_data['from30to60'] = random.choice([0,0,0,0,0,0,0,0,0,1])
+				broker_data = pd.DataFrame(broker_data)
+				broker_data.loc[index,'agency_name'] = self.agencey_names[(randint(0,3))]
+				broker_data.loc[index, 'agency_country'] = self.bank[1]
+				broker_data['from30to60'] = random.choice([0,0,0,0,0,0,0,0,0,1])
 				broker_data['from60to90'] = random.choice([0,0,0,0,0,0,0,0,0,1])
 				broker_data['morethan90'] = random.choice([0,0,0,0,0,0,0,0,0,1])
 				broker_data.loc[index, 'debit_id'] = str(ccard.mastercard())

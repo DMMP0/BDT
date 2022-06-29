@@ -5,6 +5,7 @@ from services.send_personal_data import main as personal_main
 
 from services.send_questura_data import main as questura_main
 import redis
+import threading
 
 r = redis.StrictRedis()
 while True:
@@ -12,6 +13,8 @@ while True:
     print("Firm data sent")
     personal_main(r)
     print("personal data sent")
+    t1 = threading.Thread(target=bank_main, args=(r,))
+    t1 = threading.Thread(target=bank_main, args=(r,))
     bank_main(r)
     print("bank data sent")
     broker_main(r)

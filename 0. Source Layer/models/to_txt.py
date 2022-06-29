@@ -143,14 +143,17 @@ class RTF:
 
         # print(banksName)
         for index, item in bank_data.iterrows():
-		    bank_data.loc[index,'open_new_credit_in_6_months'] = random.choice(0,0,0,0,0,0,0,0,0,1)
+		    six_month_total = 0
+		    twelve_month_total = 0
+		    eighteen_month_total = 0
+		    bank_data.loc[index,'open_new_credit_in_6_months'] = random.choice([0,0,0,0,0,0,0,0,0,1])
 		    if bank_data.loc[index,'open_new_credit_in_6_months'] == 1:
 			   six_month_total = val + random.randint(2000,10000)
 		    bank_data.loc[index,'ammount_in_6_months'] = "${:,.2f}".format(six_month_total)
-		    bank_data.loc[index,'new_credit_in_12_months'] = random.choice(0,0,0,0,0,0,0,0,0,1)
+		    bank_data.loc[index,'new_credit_in_12_months'] = random.choice([0,0,0,0,0,0,0,0,0,1])
 		    if bank_data.loc[index,'new_credit_in_12_months'] == 1:
 			   twelve_month_total = six_month_total + val + random.randint(2000,10000)
-		    bank_data.loc[index,'new_credit_in_18_months'] = random.choice(0,0,0,0,0,0,0,0,0,1)
+		    bank_data.loc[index,'new_credit_in_18_months'] = random.choice([0,0,0,0,0,0,0,0,0,1])
 		    if bank_data.loc[index,'new_credit_in_18_months'] == 1:
 			   eighteen_month_total = twelve_month_total + val + random.randint(2000,10000)
 		    bank_data.loc[index,'ammount_in_12_months'] = "${:,.2f}".format(twelve_month_total)

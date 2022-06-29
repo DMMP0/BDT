@@ -59,7 +59,7 @@ def update_header_of_data():
         bank_data.columns = update_header(bank_data)
 
 def create_RTF(data, rnd):
-        banks = bank_data.sample(n=rnd)
+        banks = bank_data.sample(n=randint(1,2))
         banks = pd.DataFrame(banks)
         for index, bank in banks.iterrows():
             rand = np.random.permutation(len(data))[:rnd]
@@ -87,7 +87,7 @@ def create_RTF(data, rnd):
         # print(rnd)
 
 def create_Word(data, rnd):
-        banks = bank_data.sample(n=rnd)
+        banks = bank_data.sample(n=randint(1,2))
         banks = pd.DataFrame(banks)
         for index, bank in banks.iterrows():
             rand = np.random.permutation(len(data))[:rnd]
@@ -113,7 +113,7 @@ def create_Word(data, rnd):
         # print(idx)
 
 def create_HTML(data, rnd):
-        banks = bank_data.sample(n=rnd)
+        banks = bank_data.sample(n=randint(1,2))
         banks = pd.DataFrame(banks)
         for index, bank in banks.iterrows():
             rand = np.random.permutation(len(data))[:rnd]
@@ -139,7 +139,7 @@ def create_HTML(data, rnd):
         # print(idx)
 
 def create_Excel(data, rnd):
-        banks = bank_data.sample(n=rnd)
+        banks = bank_data.sample(n=randint(1,2))
         banks = pd.DataFrame(banks)
         for index, bank in banks.iterrows():
             rand = np.random.permutation(len(data))[:rnd]

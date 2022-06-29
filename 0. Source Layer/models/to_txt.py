@@ -155,7 +155,7 @@ class RTF:
                 bank_data.loc[index, 'amount_duee_mortage'] = "${:,.2f}".format(val + random.randint(50000, 500000))
                 bank_data.loc[index, 'house_property'] = random.choice([True, False])
             else:
-                bank_data.loc[index, 'house_property'] = "${:,.2f}".format(val + random.randint(0, 500000))
+                bank_data.loc[index, 'house_property'] = random.choice([True, False])
             if (bank_data.loc[index, 'house_property'] is True):
                 bank_data.loc[index, 'total_house_amount'] = "${:,.2f}".format(val + random.randint(500, 50000))
             bank_data.loc[index, 'credit_card_number'] = random.randint(1, 5)

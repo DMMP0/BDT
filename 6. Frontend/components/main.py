@@ -26,8 +26,6 @@ except Error as e:
     print("Error while connecting to MySQL", e)
 
 
-
-
 @anvil.server.callable
 def get_items(id):
     query = 'SELECT * FROM personal_data WHERE fiscal_code = %s'

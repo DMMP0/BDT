@@ -22,14 +22,19 @@ import services.get_bank_data as bd
 
 
 def read_data(fk):
-    bank = bd.get_bank_data(fk)
+    # bank = bd.get_bank_data(fk)
     credit_mix = bd.get_credit_mix(fk)
     assets = bd.get_assets_data(fk)
     losses = bd.get_losses_data(fk)
-    person_banks = bd.get_person_banks(fk)
-    print(bank)
+    new_credit  =bd.get_new_credit(fk)
+    print(credit_mix)
+    print(assets)
+    print(losses)
+    print(new_credit)
+    return(credit_mix,assets,losses,new_credit)
 
 
 
 
-read_data('13a9cd05-07ba-4d47-8a46-1cfa22b045a6')
+
+read_data('81804c59-627e-4a5d-9a91-87d6eb3a705c')

@@ -52,7 +52,7 @@ def get_firm_data(firm):
 
 def get_credit_data(firm):
     (cursor,connection) = connect_db()
-    query = 'SELECT * FROM credit_data where registeration_number = %s'
+    query = 'SELECT * FROM credit_data where firm_registeration_number = %s'
     val = (firm,)
     cursor = connection.cursor()
     cursor.execute(query,val)

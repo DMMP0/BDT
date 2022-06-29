@@ -67,7 +67,7 @@ def send_broker_data(dict_data:dict,cursor,connection):
         value_attr = "VALUES(%s,%s,%s,%s,%s,%s,%s)"
         values = (broker_id,dict_data['from30to60'],dict_data['from60to90'],dict_data['morethan90'],
                   dict_data['insolvent_amount'],datetime.datetime.now(),dict_data['fiscal_code'])
-        print(values)
+        print("broker data")
         try:
             cursor.execute(insert_query+value_attr , values)
             print(cursor.rowcount, "was inserted.")

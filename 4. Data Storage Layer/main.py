@@ -9,22 +9,22 @@ import threading
 
 r = redis.StrictRedis()
 while True:
-    #firm_main(r)
+    firm_main(r)
     print("Firm data sent")
-    #personal_main(r)
+    personal_main(r)
     print("personal data sent")
-    #t1 = threading.Thread(target=bank_main, args=(r,))
-    #t2 = threading.Thread(target=broker_main, args=(r,))
+    t1 = threading.Thread(target=bank_main, args=(r,))
+    t2 = threading.Thread(target=broker_main, args=(r,))
     t3 = threading.Thread(target=questura_main, args=(r,))
 
-    #t1.start()
-    #t2.start()
+    t1.start()
+    t2.start()
     t3.start()
 
-    #t1.join()
-    #t2.join()
+    t1.join()
+    t2.join()
     t3.join()
 
-    while t3.is_alive():#t1.isAlive() or t2.isAlive() or t3.isAlive():
+    while t1.is_alive() or t2.is_alive() or t3.is_alive():
         pass
 

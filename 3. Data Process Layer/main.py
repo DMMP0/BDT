@@ -47,10 +47,10 @@ def work(bucket, kind: str, amount=25):  # TODO: change the name
         # bucket.delete_blobs()  # delete records  can't do that because of iterator
 
 
-t1 = threading.Thread(target=work, args=(statement_bucket, 'statement', 25))
-t2 = threading.Thread(target=work, args=(bank_bucket, 'bank', 25))
-t3 = threading.Thread(target=work, args=(broker_bucket, 'broker', 25))
-t4 = threading.Thread(target=work, args=(questura_bucket, 'questura', 25))
+t1 = threading.Thread(target=work, args=(statement_bucket, 'statement', 50))
+t2 = threading.Thread(target=work, args=(bank_bucket, 'bank', 50))
+t3 = threading.Thread(target=work, args=(broker_bucket, 'broker', 50))
+t4 = threading.Thread(target=work, args=(questura_bucket, 'questura', 50))
 
 
 t1.start()

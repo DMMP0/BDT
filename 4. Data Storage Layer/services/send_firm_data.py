@@ -65,7 +65,7 @@ def send_firm_data(dict_data: dict, cursor, connection):
         # value_attr = "VALUES(%s,%s,%s,%s,%s,%s,%s)"
         values = (firm_id, dict_data['registeration_number'], dict_data['company_name'], dict_data['established_date'],
                   dict_data['number_of_employes'], dict_data['country'], datetime.datetime.now())
-        print(values)
+        print("(firm data)")
         try:
             cursor.execute(insert_query, values)
             # print(cursor.rowcount, "was inserted.")
@@ -98,7 +98,7 @@ def send_credit_data(dict_data: dict, cursor, connection):
         # print(values)
         try:
             cursor.execute(insert_query + value_attr, values)
-            print(cursor.rowcount, "was inserted.")
+            print(cursor.rowcount, "was inserted.(credit data)")
         except mysql.connector.errors.IntegrityError:
             print("Duplicated key not inserted")
         print(cursor.rowcount, "was inserted.")

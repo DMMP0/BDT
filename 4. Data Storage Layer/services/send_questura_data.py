@@ -73,15 +73,15 @@ def send_questura_data(dict_data:dict,cursor,connection):
         else:
             criminal_id = criminal_id+1
 
-    if(find_fk(dict_data,cursor,connection) == False):
-        insert_query = "INSERT INTO criminal_records(criminal_id,bankrupty,,investigation,accused,condemned,civ_pass,last_updated_time_stamp,fiscal_code_fk)"
-        value_attr = "VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s)"
+    if(find_fk(dict_data,cursor,connection) == False): #  %s,       %s,        %s,          %s,       %s,      %s,       %s,                   %s
+        insert_query = "INSERT INTO criminal_records(criminal_id,bankrupty,investigation,accused,condemned,civ_pass,last_updated_time_stamp,fiscal_code_fk)"
+        value_attr = "VALUES(%s,%s,%s,%s,%s,%s,%s,%s)"
         values = (criminal_id,dict_data['bankruptcy'],dict_data['investigation'],dict_data['accused'],
                   dict_data['condamned'],dict_data['civ_pass'],datetime.datetime.now(),dict_data['fiscal_code'])
-        print(values)
+        # print(values)
         try:
             cursor.execute(insert_query + value_attr, values)
-            print(cursor.rowcount, "was inserted.")
+            print(cursor.rowcount, "was inserted (questura).")
         except mysql.connector.errors.IntegrityError:
             print("Duplicated key not inserted")
         connection.commit()

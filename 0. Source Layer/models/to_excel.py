@@ -71,7 +71,7 @@ class Excel:
 			questura_data = pd.DataFrame(questura_data)
 			questura_data['questura_country'] = self.bank[1]
 			questura_data['bankruptcy'] = bool
-			questura_data['inscred'] = "${:,.2f}".format(val + random.randint(5000,10000000))
+			questura_data['inscred'] = "${:,.2f}".format(0)
 			questura_data['fraudis'] = bool
 			questura_data['investegation'] = bool
 			questura_data['accused'] = bool
@@ -146,10 +146,9 @@ class Excel:
 					questura_data.loc[index,'bankruptcy'] = random.choice([True, False, False, False, False, False, False, False, False, False])
 					if(questura_data.loc[index,'bankruptcy'] == True):
 						questura_data.loc[index,'inscred'] = "${:,.2f}".format(val + random.randint(5000,10000000))
+						questura_data.loc[index,'fraudis'] = random.choice([True, False, False, False, False, False, False, False, False, False])
 					if(questura_data.loc[index,'bankruptcy'] == False):
 						questura_data.loc[index,'fraudis'] = False
-					else: 
-						questura_data.loc[index,'fraudis'] = random.choice([True, False, False, False, False, False, False, False, False, False])
 					questura_data.loc[index,'investegation'] = random.choice([True, False, False, False, False, False, False, False, False, False])
 					questura_data.loc[index,'accused'] = random.choice([True, False, False, False, False, False, False, False, False, False])
 					questura_data.loc[index,'condamned'] = random.choice([True, False, False, False, False, False, False, False, False, False])

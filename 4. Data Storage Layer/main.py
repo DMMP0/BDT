@@ -14,11 +14,17 @@ while True:
     personal_main(r)
     print("personal data sent")
     t1 = threading.Thread(target=bank_main, args=(r,))
-    t1 = threading.Thread(target=bank_main, args=(r,))
-    bank_main(r)
-    print("bank data sent")
-    broker_main(r)
-    print("broker data sent")
-    questura_main(r)
-    print("questura data sent")
+    t2 = threading.Thread(target=broker_main, args=(r,))
+    t3 = threading.Thread(target=questura_main, args=(r,))
+
+    t1.start()
+    t2.start()
+    t3.start()
+
+    t1.join()
+    t2.join()
+    t3.join()
+
+    while t1.isAlive() or t2.isAlive() or t3.isAlive():
+        pass
 

@@ -15,9 +15,10 @@ class Statement(object):
     amount_of_credit:float
     purpose:str
     duration_in_months:int
+    email:str
 
     def __init__(self, data_dict):
-        self.purpose= data_dict.get('purpose')
+        self.email= data_dict.get('email')
         self.registeration_number= data_dict.get('registeration_number')
         self.company_name= data_dict.get('company_name')
         self.established_date= data_dict.get('establied_date')

@@ -14,7 +14,6 @@ from models.to_word import Word
 from models.to_excel import Excel
 from models.to_html import HTML
 
-import pycountry
 ## Public variables
 
 root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # finds the root dir
@@ -216,41 +215,41 @@ def declaration_file():
 
 import csv
 
+def work():
+    update_header_of_data()
+    # print('Imhere')
+    name = '0.Client_List'
+    tag = True
+    new_clients = declaration_file()
 
-update_header_of_data()
-# print('Imhere')
-name = '0.Client_List'
-tag = True
-new_clients = declaration_file()
-
-with open('0.Client_List.csv', 'r') as csvfile:
-    csv_dict = [row for row in csv.DictReader(csvfile)]
-    if len(csv_dict) == 0:
-        tag = False
-
-
-if(tag):
-    client = pd.read_csv(name + '.csv')
-    client = pd.concat([client,new_clients],ignore_index=True) 
-    client.to_csv(name + '.csv')
-else:
-    new_clients.to_csv(name + '.csv')
+    with open('0.Client_List.csv', 'r') as csvfile:
+        csv_dict = [row for row in csv.DictReader(csvfile)]
+        if len(csv_dict) == 0:
+            tag = False
 
 
+    if(tag):
+        client = pd.read_csv(name + '.csv')
+        client = pd.concat([client,new_clients],ignore_index=True)
+        client.to_csv(name + '.csv')
+    else:
+        new_clients.to_csv(name + '.csv')
 
-clients = pd.read_csv( name + '.csv')
-client_full_data = personal_data[personal_data['Id_Number'].isin(new_clients['Fiscal Code'])]
-for i in range(0, 4):
 
-    rnd = randint(2, len(new_clients))
-    idx = rnd
-    # rnd_banks = randint(5, idx)
-    # print("Random number", rnd)
-    if i == 0:
-            create_RTF(client_full_data, rnd)
-    if i == 1:
-            create_Word(client_full_data, rnd)
-    if i == 2:
-            create_HTML(client_full_data, rnd)
-    if i == 3:
-            create_Excel(client_full_data, rnd)
+
+    clients = pd.read_csv( name + '.csv')
+    client_full_data = personal_data[personal_data['Id_Number'].isin(new_clients['Fiscal Code'])]
+    for i in range(0, 4):
+
+        rnd = randint(2, len(new_clients))
+        idx = rnd
+        # rnd_banks = randint(5, idx)
+        # print("Random number", rnd)
+        if i == 0:
+                create_RTF(client_full_data, rnd)
+        if i == 1:
+                create_Word(client_full_data, rnd)
+        if i == 2:
+                create_HTML(client_full_data, rnd)
+        if i == 3:
+                create_Excel(client_full_data, rnd)

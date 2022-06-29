@@ -1,6 +1,5 @@
 '''this script here is to send the personal data to the personal information table'''
-from asyncio.windows_events import NULL
-from matplotlib.font_manager import json_dump
+
 import mysql.connector
 from mysql.connector import Error
 import sys,os
@@ -9,28 +8,16 @@ import datetime
 
 # curr = os.path.dirname(os.path.curdir)
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # finds the parent directory
-from models.bank import Bank
-from models.broker import Broker
-from models.questura import Questura
-from models.statement import Statement
-from models.person_info import Person
 
-data ={"Id_Number": "13a9cd05-07ba-4d47-8a46-1cfa22b045a6",
-"first_name": "carrizales", "last_name": "idiaquez", "sex": "Male", "DOB": "10/24/1961", 
-"ethnicity": "native american", "education": "middle school", "phone_number": "307-166-6420",
-"email": "hr@jameshardieindustriesnv.org", "purpose": "other investment", 
-"registeration_number": "e48f4632-6ded-42b9-911f-63c024f30ee2", "company_name": "James Hardie Industries N.V.", 
-"establied_date": "10/12/1966", "country": "Netherlands", "number_of_employes": 18}
+import redis
+source = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # finds the parent directory
+from .get_data_from_redis import get_dicts_from_redis
 
-# TODO: to get data from redis:
+config_db = json.load(open(source + "/credentials/db-config.json"))
 
-# person_dict = get_dicts_from_redis('personal_data')
 
 def connect_db():
-    with open("..\..\credentials\db-config.json", "r") as jsonfile:
-        config_db = json.load(jsonfile) # Reading the file
-        jsonfile.close()
+
     try:
 
         connection = mysql.connector.connect(host=config_db['host'],
@@ -49,7 +36,7 @@ def connect_db():
         
         
 
-def close_db_connection(cursor):
+def close_db_connection(connection,cursor):
     if connection.is_connected():
             cursor.close()
             connection.close()
@@ -60,7 +47,6 @@ def close_db_connection(cursor):
 
 def send_person_data(dict_data:dict,cursor,connection):
     tag = True
-    person_dict = Person(dict_data)
     # print(dict.number_of_employes)
     query = 'SELECT MAX(person_id),fiscal_code FROM personal_data'
     cursor = connection.cursor()
@@ -69,7 +55,7 @@ def send_person_data(dict_data:dict,cursor,connection):
     print(firm_data)
     for row in firm_data :
         print(row)
-        if(row[1] == person_dict.fiscal_code):
+        if(row[1] == dict_data['fiscal_code']):
             tag = False
     if(tag):
         if(row[0] == None):
@@ -77,17 +63,28 @@ def send_person_data(dict_data:dict,cursor,connection):
             person_id = 0
         else:
             person_id = row[0]+1
-##                                                                                                                                      blank
+
         insert_query = "INSERT INTO personal_data(person_id,fiscal_code,first_name,last_name,sex,date_of_birth,ethnicity,highest_degree,address,email,phone_number,state,firm_registration,last_update_time_stamp)"
         value_attr = "VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
-        values = (person_id,person_dict.fiscal_code,person_dict.first_name,person_dict.last_name,person_dict.sex,person_dict.DOB,person_dict.ethnicity,person_dict.education,person_dict.state,person_dict.email,person_dict.phone_number,person_dict.country,person_dict.firm_registeration_number,datetime.datetime.now())
-        print(values)
+        values = (person_id,dict_data['fiscal_code'],dict_data['first_name'], dict_data['last_name'], dict_data['sex'],
+                  dict_data['DOB'],dict_data['ethnicity'], dict_data['highest_degree'],dict_data['address'],
+                  dict_data['email'], dict_data['phone_number'],dict_data['state'],
+                  dict_data['firm_registration'],datetime.datetime.now())
+        # print(values)
         cursor.execute(insert_query+value_attr , values)
-        print(cursor.rowcount, "was inserted.")
+        # print(cursor.rowcount, "was inserted.")
         connection.commit()
     
     
 ## main
-(cursor,connection) = connect_db()
-send_person_data(data,cursor,connection)
-close_db_connection(cursor)
+def main(r: redis.StrictRedis):
+    person_dicts, keys_to_delete = get_dicts_from_redis('personal_data')
+    if person_dicts == False:
+        print("No new personal data")
+        return
+    (cursor,connection) = connect_db()
+    for person_dict in person_dicts:
+        send_person_data(person_dict,cursor,connection)
+    close_db_connection(connection,cursor)
+    if keys_to_delete:
+        r.delete(*keys_to_delete)

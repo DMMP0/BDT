@@ -1,12 +1,15 @@
 ### Example of statement:
-### {"Unnamed: 0": 36538, "Id_Number": "0b6c2e52-b9aa-4b77-966f-b4ed712c0c88", "first_name": "zafeiroula", "last_name": "camburn", "sex": "Female", "DOB": "4/13/1980",
-# "ethnicity": "caribbean", "education": "middle school", "phone_number": "658-667-6356", "email": "headquarters@canadalifefinancialcorp.org", "purpose": "employee",
-# "registeration_number": "c5bca43a-6b71-4e5f-8861-7d4ddf5d547e", "company_name": "Canada Life Financial Corp.", "establied_date": "12/7/1995", "country": "Canada", "number_of_employes": 20}
+# {"Unnamed: 0": 123657, "Id_Number": "ffed21b1-04fd-429c-8b4c-44164697eb81", "first_name": "mendez-ortiz",
+# "last_name": "fujino", "sex": "Male", "DOB": "4/16/1996", "ethnicity": "caribbean", "education": "phd",
+# "phone_number": "687-828-7488", "Personal_email": "mendez-ortiz_fujino@gmail.com", "purpose": "validation",
+# "registeration_number": "b700a831-9993-4446-aa49-b2d3f351122c", "company_name": "Mercury Scheduling Systems Inc.",
+# "establied_date": "7/4/1979", "country": "Canada", "number_of_employes": 18, "email":
+# "headquarters@mercuryschedulingsystemsinc.org", "amount_of_credit": "$32,173,793,107.00", "duration_in_months": 8}
 import os
 import sys
 
 sys.path.append(os.path.abspath(__file__))  # finds the parent directory
-from .utils import clean_string, statement_synonyms, get_meaning
+from .utils import clean_string, statement_synonyms, get_meaning, clean_money
 
 
 class Statement:
@@ -28,6 +31,8 @@ class Statement:
         self.established_date = ''
         self.country = ''
         self.employees = ''
+        self.amount_of_credit = ''
+        self.duration_in_months = ''
         keys = list(d.keys())
         for key in keys:
             value = d[key]
@@ -63,13 +68,18 @@ class Statement:
                 self.country = str(value)
             elif meaning == "employees":
                 self.employees = str(value)
-            # else
-            #   pass
+            elif meaning == "amount_of_credit":
+                self.amount_of_credit = str(value)
+            elif meaning == "duration_in_months":
+                self.duration_in_months = str(value)
+            else:
+                pass
 
     def make_sense(self):
-        """@:returns a tuple of dictionaries: personal data , firm"""
+        """@:returns a tuple of dictionaries: personal data , firm, credit_data"""
         personal_data = dict()
         firm = dict()
+        credit_data = dict()
 
         # personal data
         personal_data["fiscal_code"] = self.fiscal_code
@@ -96,4 +106,9 @@ class Statement:
         firm['number_of_employes'] = self.employees
         firm['country'] = self.country
 
-        return personal_data, firm
+        credit_data['registeration_number'] = self.registration_number
+        credit_data['amount_of_credit'] = clean_money(self.amount_of_credit)
+        credit_data['purpose'] = self.purpose
+        credit_data['duration_in_months'] = self.duration_in_months
+
+        return personal_data, firm, credit_data

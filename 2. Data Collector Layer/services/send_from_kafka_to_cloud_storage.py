@@ -11,7 +11,7 @@ from models.message_consumer import MessageConsumer
 def send_messages():
     """@:param messages: must be a list of tuples (topic,messages)"""
     # Running multiple producers
-    broker = 'kafka-server'
+    broker = 'localhost'#'kafka-server'
     topics = ['bank', 'broker', 'questura', 'statement']
     group_ids = ['bank-consumer', 'broker-consumer', 'questura-consumer', 'statement-consumer']
 

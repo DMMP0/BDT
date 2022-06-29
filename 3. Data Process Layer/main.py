@@ -24,9 +24,10 @@ def work(bucket, kind: str, amount=25):  # TODO: change the name
             record = json.loads(json.loads(record))
             if kind == 'statement':
                 record = Statement(record)
-                personal_data, firm = record.make_sense()
+                personal_data, firm, credit = record.make_sense()
                 send_record(personal_data, 'personal_data')
                 send_record(firm, 'firm')
+                send_record(credit, 'credit_data')
             elif kind == 'bank':
                 record = Bank(record)
                 new_credit, credit_mix, assets, losses = record.make_sense()

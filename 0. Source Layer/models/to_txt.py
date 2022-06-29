@@ -112,16 +112,16 @@ class RTF:
             questura_data = pd.DataFrame(questura_data)
             questura_data.loc[index, 'questura_country'] = self.bank[1]
             questura_data.loc[index,'bankruptcy'] = random.choice([True, False, False, False, False, False, False, False, False, False])
-	           if(questura_data.loc[index,'bankruptcy'] == True):
-		           questura_data.loc[index,'inscred'] = "${:,.2f}".format(val + random.randint(5000,10000000))
-		if(questura_data.loc[index,'bankruptcy'] == False):
-		           questura_data.loc[index,'fraudis'] = False
-	           else: 
-		           questura_data.loc[index,'fraudis'] = random.choice([True, False, False, False, False, False, False, False, False, False])
-	           questura_data.loc[index,'investegation'] = random.choice([True, False, False, False, False, False, False, False, False, False])
-		questura_data.loc[index,'accused'] = random.choice([True, False, False, False, False, False, False, False, False, False])
-		questura_data.loc[index,'condamned'] = random.choice([True, False, False, False, False, False, False, False, False, False])
-		questura_data.loc[index,'civ_pass'] = random.choice([True, False, False, False, False, False, False, False, False, False])
+	    if(questura_data.loc[index,'bankruptcy'] == True):
+	   	 questura_data.loc[index,'inscred'] = "${:,.2f}".format(val + random.randint(5000,10000000))
+	    if(questura_data.loc[index,'bankruptcy'] == False):
+	    	 questura_data.loc[index,'fraudis'] = False
+	    else: 
+		 questura_data.loc[index,'fraudis'] = random.choice([True, False, False, False, False, False, False, False, False, False])
+	    questura_data.loc[index,'investegation'] = random.choice([True, False, False, False, False, False, False, False, False, False])
+	    questura_data.loc[index,'accused'] = random.choice([True, False, False, False, False, False, False, False, False, False])
+	    questura_data.loc[index,'condamned'] = random.choice([True, False, False, False, False, False, False, False, False, False])
+	    questura_data.loc[index,'civ_pass'] = random.choice([True, False, False, False, False, False, False, False, False, False])
         # print(questura_data.columns)
         with open(currentDir+'/reports/' + banksName + '_report(Questura).txt', 'a', encoding='utf-8') as f:
             questura_data = pd.DataFrame(questura_data)
@@ -143,36 +143,36 @@ class RTF:
 
         # print(banksName)
         for index, item in bank_data.iterrows():
-            bank_data.loc[index,'open_new_credit_in_6_months'] = random.choice(0,0,0,0,0,0,0,0,0,1)
-	 if bank_data.loc[index,'open_new_credit_in_6_months'] == 1:
-	           six_month_total = val + random.randint(2000,10000)
-		bank_data.loc[index,'ammount_in_6_months'] = "${:,.2f}".format(six_month_total)
-		bank_data.loc[index,'new_credit_in_12_months'] = random.choice(0,0,0,0,0,0,0,0,0,1)
-	 if bank_data.loc[index,'new_credit_in_12_months'] == 1:
-	           twelve_month_total = six_month_total + val + random.randint(2000,10000)
-		bank_data.loc[index,'new_credit_in_18_months'] = random.choice(0,0,0,0,0,0,0,0,0,1)
-	 if bank_data.loc[index,'new_credit_in_18_months'] == 1:
-	           eighteen_month_total = twelve_month_total + val + random.randint(2000,10000)
-	 bank_data.loc[index,'ammount_in_12_months'] = "${:,.2f}".format(twelve_month_total)
-	 bank_data.loc[index,'ammount_in_18_months'] = "${:,.2f}".format(eighteen_month_total)
-	 bank_data.loc[index,'house_mortage'] = random.choice([True, False])
-	 if(bank_data.loc[index,'house_mortage'] == True):
-	           max_mortgage = val + random.randint(50000,500000)
-	           bank_data.loc[index,'amount_of_house_mortage'] = "${:,.2f}".format(max_mortgage)
-		bank_data.loc[index,'amount_duee_mortage'] ="${:,.2f}".format(val  + random.randint(50000,max_mortgage))
-		bank_data.loc[index,'house_property'] = True
-	 else:
-	           bank_data.loc[index,'house_property'] = random.choice([True, False])	
-	 if(bank_data.loc[index,'house_property'] is True):
-	           bank_data.loc[index,'total_house_amount'] ="${:,.2f}".format(val + random.randint(50000,500000))
-	 number_credit_cards = random.randint(1,5)
-	 bank_data.loc[index,'credit_card_number'] = number_credit_cards
-	 max_credit_credit_card = number_credit_cards*random.randint(1000,4000)
-	 bank_data.loc[index,'credit_card_limit_total'] = max_credit_credit_card
-	 bank_data.loc[index,'actual_debit_credit_cards'] = random.randint(1000,max_credit_credit_card)
-            bank_data.loc[index,'monthly_income'] ="${:,.2f}".format(val + random.randint(0,5000))
-	 bank_data.loc[index,'savings'] = "${:,.2f}".format(val + random.randint(200,100000))
-            bank_data.loc[index,'other_savings']= "${:,.2f}".format(val + random.randint(100,20000))
+		    bank_data.loc[index,'open_new_credit_in_6_months'] = random.choice(0,0,0,0,0,0,0,0,0,1)
+		    if bank_data.loc[index,'open_new_credit_in_6_months'] == 1:
+			   six_month_total = val + random.randint(2000,10000)
+		    bank_data.loc[index,'ammount_in_6_months'] = "${:,.2f}".format(six_month_total)
+		    bank_data.loc[index,'new_credit_in_12_months'] = random.choice(0,0,0,0,0,0,0,0,0,1)
+		    if bank_data.loc[index,'new_credit_in_12_months'] == 1:
+			   twelve_month_total = six_month_total + val + random.randint(2000,10000)
+		    bank_data.loc[index,'new_credit_in_18_months'] = random.choice(0,0,0,0,0,0,0,0,0,1)
+		    if bank_data.loc[index,'new_credit_in_18_months'] == 1:
+			   eighteen_month_total = twelve_month_total + val + random.randint(2000,10000)
+		    bank_data.loc[index,'ammount_in_12_months'] = "${:,.2f}".format(twelve_month_total)
+		    bank_data.loc[index,'ammount_in_18_months'] = "${:,.2f}".format(eighteen_month_total)
+		    bank_data.loc[index,'house_mortage'] = random.choice([True, False])
+		    if(bank_data.loc[index,'house_mortage'] == True):
+			   max_mortgage = val + random.randint(50000,500000)
+			   bank_data.loc[index,'amount_of_house_mortage'] = "${:,.2f}".format(max_mortgage)
+			   bank_data.loc[index,'amount_duee_mortage'] ="${:,.2f}".format(val  + random.randint(50000,max_mortgage))
+			   bank_data.loc[index,'house_property'] = True
+		    else:
+			   bank_data.loc[index,'house_property'] = random.choice([True, False])	
+		    if(bank_data.loc[index,'house_property'] is True):
+			 bank_data.loc[index,'total_house_amount'] ="${:,.2f}".format(val + random.randint(50000,500000))
+		    number_credit_cards = random.randint(1,5)
+		    bank_data.loc[index,'credit_card_number'] = number_credit_cards
+		    max_credit_credit_card = number_credit_cards*random.randint(1000,4000)
+		    bank_data.loc[index,'credit_card_limit_total'] = max_credit_credit_card
+		    bank_data.loc[index,'actual_debit_credit_cards'] = random.randint(1000,max_credit_credit_card)
+		    bank_data.loc[index,'monthly_income'] ="${:,.2f}".format(val + random.randint(0,5000))
+		    bank_data.loc[index,'savings'] = "${:,.2f}".format(val + random.randint(200,100000))
+		    bank_data.loc[index,'other_savings']= "${:,.2f}".format(val + random.randint(100,20000))
         with open(currentDir+'/reports/' + banksName + '_report(Bank).txt', 'a', encoding='utf-8') as f:
             bank_data = pd.DataFrame(bank_data)
             # business_data= business_data.decode('utf-8')
@@ -190,13 +190,13 @@ class RTF:
         # print(banksName)
         for index, item in broker_data.iterrows():
             broker_data = pd.DataFrame(broker_data)
-	 broker_data.loc[index, 'agency_name'] = self.agencey_names[(randint(0, 3))]
+	    broker_data.loc[index, 'agency_name'] = self.agencey_names[(randint(0, 3))]
             broker_data.loc[index, 'agency_country'] = self.bank[1]
-	 broker_data['from30to60'] = random.choice([0,0,0,0,0,0,0,0,0,1])
-	 broker_data['from60to90'] = random.choice([0,0,0,0,0,0,0,0,0,1])
-	 broker_data['morethan90'] = random.choice([0,0,0,0,0,0,0,0,0,1])
-	 broker_data.loc[index, 'debit_id'] = str(ccard.mastercard())
-	 broker_data.loc[index, 'insolvent'] = random.choice([True, False, False, False, False, False, False, False, False, False])
+	    broker_data['from30to60'] = random.choice([0,0,0,0,0,0,0,0,0,1])
+	    broker_data['from60to90'] = random.choice([0,0,0,0,0,0,0,0,0,1])
+	    broker_data['morethan90'] = random.choice([0,0,0,0,0,0,0,0,0,1])
+	    broker_data.loc[index, 'debit_id'] = str(ccard.mastercard())
+	    broker_data.loc[index, 'insolvent'] = random.choice([True, False, False, False, False, False, False, False, False, False])
 	           if broker_data.loc[index, 'insolvent'] == True:
 		           broker_data.loc[index, 'insolvent_ammount'] = "${:,.2f}".format(val + random.randint(5000, 20000))
         with open(currentDir+'/reports/' + banksName + '_report(Broker).txt', 'a', encoding='utf-8') as f:

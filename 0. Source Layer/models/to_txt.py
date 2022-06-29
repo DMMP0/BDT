@@ -8,7 +8,7 @@ import ccard
 source = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # finds the 0. Data Source directory
 
 currentDir = source + '/components'
-val = 30000.00
+val = 300.00
 purpose = ['prototype', 'marketing', 'validation', 'scale-up', 'industrial equipment', 'office', 'employee',
            'other investment']
 
@@ -153,9 +153,13 @@ class RTF:
             bank_data.loc[index,'new_credit_in_12_months'] = random.choice([0,0,0,0,0,0,0,0,0,1])
             if bank_data.loc[index,'new_credit_in_12_months'] == 1:
                twelve_month_total = six_month_total + val + random.randint(2000,10000)
+            else:
+               twelve_month_total = six_month_total
             bank_data.loc[index,'new_credit_in_18_months'] = random.choice([0,0,0,0,0,0,0,0,0,1])
             if bank_data.loc[index,'new_credit_in_18_months'] == 1:
                eighteen_month_total = twelve_month_total + val + random.randint(2000,10000)
+            else:
+               eighteen_month_total = twelve_month_total
             bank_data.loc[index,'ammount_in_12_months'] = "${:,.2f}".format(twelve_month_total)
             bank_data.loc[index,'ammount_in_18_months'] = "${:,.2f}".format(eighteen_month_total)
             bank_data.loc[index,'house_mortage'] = random.choice([True, False])

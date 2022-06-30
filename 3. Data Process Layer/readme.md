@@ -26,3 +26,5 @@ The script will fetch data from cloud storage, process it and divide it in order
 The processing was designed with flexibility in mind, so the processing functions and synonym dictionaries can be found in models/utils.py
 
 Processed records will be sent to redis in json format with the following key logic: (table-report-row)randomcharacters (e.g. "(broker-report-row)MIuInyBCZkhIutwSLxmr")
+
+The script is multithreaded and will start a thread for each bucket (statement, bank, broker, questura)

@@ -73,7 +73,7 @@ class Statement:
                 self.amount_of_credit = str(value)
             elif meaning == "duration_in_months":
                 self.duration_in_months = str(value)
-            elif meaning == "personal_meaning":
+            elif meaning == "pmail":
                 self.pemail = str(value)
             else:
                 pass

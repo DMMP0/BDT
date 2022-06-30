@@ -66,11 +66,11 @@ For each company, the script will generate the following files:
    - questura country;
    - if bankruptcy was declared;
    - whether it was fraudolent
-   - inscred;
+   - insolvency credit;
    - investigation;
    - accused;
    - condemned;
-   - civ pass
+   - passive actor in civil trial
 
 You can expect the script to generate ~ 197 reports every ~7 seconds (for a total of 3.2 MB).
 

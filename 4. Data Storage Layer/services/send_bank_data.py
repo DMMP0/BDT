@@ -254,17 +254,17 @@ def main(r: redis.StrictRedis):
     else:
         losses_dicts = t[0]
         keys_to_delete += t[1]
-    t = get_dicts_from_redis('bank')
-    if t[0] == False:
-        print("No new bank data")
-        bank_dicts = []
-    else:
-        bank_dicts = t[0]
-        keys_to_delete += t[1]
+    # t = get_dicts_from_redis('bank')
+    # if t[0] == False:
+    #     print("No new bank data")
+    #     bank_dicts = []
+    # else:
+    #     bank_dicts = t[0]
+    #     keys_to_delete += t[1]
 
     (cursor, connection) = connect_db()
-    for bank_dict in bank_dicts:
-        send_bank_data(bank_dict, cursor, connection)
+    # for bank_dict in bank_dicts:
+    #     send_bank_data(bank_dict, cursor, connection)
     for new_credit_dict in new_credit_dicts:
         send_new_credit(new_credit_dict, cursor, connection)
     for credit_mix_dict in credit_mix_dicts:

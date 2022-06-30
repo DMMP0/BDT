@@ -47,7 +47,7 @@ This layer will read the messages with a Kafka Listener and based on the topic i
 
 ***An instance of Zookeeper and Apache Kafka must run for this layer to work.***
 
-***Since Google Cloud Storage has been chosen as an object storage, the credentials json must be downloaded into the "credentials" folder***
+***Since Google Cloud Storage has been chosen as an object storage, the credentials json must be downloaded into the "credentials" folder.***
 
 ## 3. Data processing Layer
 
@@ -62,14 +62,14 @@ This layer will fetch the prepared data from redis and insert it into an SQL dat
 ***An instance of Redis Server must run for this layer to work.***
 
 ***An instance of a mysql database also must run for this layer to work. 
-We used a remote database server, so the code is expecting a file called "db-credentials.json" in the credentials' folder in order to work***
+We used a remote database server, so the code is expecting a file called "db-credentials.json" in the credentials' folder in order to work.***
 
 ## 5. Query Layer
 
 This layer will act as a broker between the front-end and the back-end of the application.
 
 ***An instance of a mysql database also must run for this layer to work. 
-We used a remote database server, so the code is expecting a file called "db-credentials.json" in the credentials' folder in order to work***
+We used a remote database server, so the code is expecting a file called "db-credentials.json" in the "credentials" folder in order to work.***
 
 ## 6. Frontend
 

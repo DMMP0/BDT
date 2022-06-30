@@ -9,8 +9,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # 
 current_dir = os.getcwd()
 par_dir = os.path.dirname(current_dir) 
 par_dir = os.path.dirname(par_dir)
-sys.path.append(par_dir+'\\5. Query Layer\components')
-import credit_formulation as CF
+import components.credit_formulation as CF
 
 
 

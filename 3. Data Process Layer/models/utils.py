@@ -75,6 +75,8 @@ statement_synonyms = (
      "requested_credit": "amount_of_credit", },
 
 {"duration_in_months": "duration_in_months", },
+{"pemail": "pemail",
+ "personal_email":"pemail"},
 
     {"employees": "employees",
      "number_of_employees": "employees",

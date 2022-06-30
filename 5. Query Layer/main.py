@@ -1,3 +1,4 @@
+import anvil.server
 import json
 import anvil.server
 import mysql.connector
@@ -8,14 +9,17 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # 
 current_dir = os.getcwd()
 par_dir = os.path.dirname(current_dir) 
 par_dir = os.path.dirname(par_dir)
+sys.path.append(par_dir+'\\5. Query Layer\components')
+import credit_formulation as CF
 
-import components.credit_formulation as CF
 
 
+anvil.server.connect('QPUZ5V5FYSNM7LIKFAXM6INZ-UZZP33BE5EVXZYOW')
 
-anvil.server.connect('NKBJP7OHDHIAKL4IW2C2FOWE-UZZP33BE5EVXZYOW')
 
-config_db = json.loads(os.environ['CREDENTIALS'])
+with open("..\..\credentials\db-config.json", "r") as jsonfile:
+    config_db = json.load(jsonfile) # Reading the file
+    jsonfile.close()
 try:
 
     connection = mysql.connector.connect(host=config_db['host'],
@@ -76,6 +80,6 @@ def get_company_info(id):
 
 @anvil.server.callable
 def get_CS(id):
-    return CF.call_data_all(id)
+    return  CF.call_data_all(id)
 
 anvil.server.wait_forever()

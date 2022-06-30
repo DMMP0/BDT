@@ -48,7 +48,7 @@ def get_credit_history(key):
     data = cursor.fetchall()
     for row in data:
         date = row[0]
-    query = 'SELECT sum(insolvent_ammount) FROM credit_history where fiscal_code_fk = %s and last_update_time_stamp = %s'
+    query = 'SELECT MAX(insolvent_ammount) FROM credit_history where fiscal_code_fk = %s and last_update_time_stamp = %s'
     val = (key,date)
     cursor.execute(query,val)
     data = cursor.fetchall()

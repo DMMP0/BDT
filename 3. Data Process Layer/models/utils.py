@@ -52,6 +52,10 @@ statement_synonyms = (
      "mail": "email",
      "indirizzo_di_posta_elettronica": "email"},
 
+{"personal_email": "pmail",
+     "pmail": "pmail",
+     "pemail": "pmail"},
+
     {"purpose": "purpose",
      "ruolo": "purpose",
      "scopo": "purpose"},
@@ -75,8 +79,7 @@ statement_synonyms = (
      "requested_credit": "amount_of_credit", },
 
 {"duration_in_months": "duration_in_months", },
-{"pemail": "pemail",
- "personal_email":"pemail"},
+
 
     {"employees": "employees",
      "number_of_employees": "employees",

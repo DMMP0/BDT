@@ -61,10 +61,10 @@ def send_firm_data(dict_data: dict, cursor, connection):
             firm_id = 0
         else:
             firm_id = row[0] + 1
-        insert_query = "INSERT INTO firm_data(firm_data_id,registeration_number,firm_name,established_date,number_of_employes,country,last_update_time_stamp,email) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)"
+        insert_query = "INSERT INTO firm_data(firm_data_id,registeration_number,firm_name,established_date,number_of_employes,country,last_update_time_stamp) VALUES (%s,%s,%s,%s,%s,%s,%s)"
         # value_attr = "VALUES(%s,%s,%s,%s,%s,%s,%s)"
         values = (firm_id, dict_data['registeration_number'], dict_data['company_name'], dict_data['established_date'],
-                  dict_data['number_of_employes'], dict_data['country'], datetime.datetime.now(),dict_data['email'])
+                  dict_data['number_of_employes'], dict_data['country'], datetime.datetime.now()) #,dict_data['email'])
         print("(firm data)")
         try:
             cursor.execute(insert_query, values)

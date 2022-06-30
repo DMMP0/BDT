@@ -38,16 +38,22 @@ except Error as e:
 @anvil.server.callable
 def get_items(id):
     # cf.call_data_all(id)
-    query = 'SELECT * FROM personal_data WHERE fiscal_code = %s'
+    query = 'SELECT firm_registration FROM personal_data WHERE fiscal_code = %s'
     val =(str(id),)
     cursor.execute(query,val)
     items = cursor.fetchall()
+    query = 'SELECT * FROM personal_data WHERE firm_registration = %s'
+    val =items[0]
+    cursor.execute(query,val)
+    items = cursor.fetchall()
     for item in items:
-        if(item[4] == 2):
-            sex = 'Male'
-        else:
-            sex = 'female'
-
+            if (item[4] == 0):
+                sex = "Male"
+            if (item[4] == 1):
+                sex = "Female"
+            if (item[4] == 2):
+                sex = "Other"
+    
     return [
         {'id': item[1], 'fname': item[2], 'lname': item[3],'dob':item[5],'phone_number':item[10],'education':item[7],'sex':sex}
         for item in items

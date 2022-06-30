@@ -16,7 +16,7 @@ from models.firm import Firm
 from models.person_info import Person
 
 
-# key = '13a9cd05-07ba-4d47-8a46-1cfa22b045a6'
+key = '5dd541fd-0f36-4b36-92b4-b29a22ef2acc'
 
 def credit_score_formulation(firm_data:Firm,credit_data:Statement,credit_history:Broker,bank_data:Bank,questura_data:Questura):  
         # print(credit_history.insolvent_ammount) ## pick the highest
@@ -26,6 +26,7 @@ def credit_score_formulation(firm_data:Firm,credit_data:Statement,credit_history
         # print(bank_data.savings)
         # print(bank_data.other_savings)
         # print(bank_data.actual_debit_credit_cards)
+        # print(bank_data.amount_due_mortgage)
         # print(bank_data.amount_due_mortgage)
         data_used = []
         
@@ -54,7 +55,7 @@ def credit_score_formulation(firm_data:Firm,credit_data:Statement,credit_history
             print("FISCO",FISCO)
             # print(type( bank_data.total_house_amount))
             # print(type( bank_data.monthly_income))
-            # print(type( bank_data.savings))
+            print("savings",bank_data.savings)
             # print(type( bank_data.other_savings))
             # print(type( float(bank_data.actual_debit_credit_cards)))
             # print(type(float(bank_data.amount_due_mortgage)))
@@ -75,7 +76,7 @@ def credit_score_formulation(firm_data:Firm,credit_data:Statement,credit_history
             data_used.append(questura_data.bankruptcy)
             data_used.append(bank_data.total_house_amount)
             data_used.append(bank_data.monthly_income)
-            data_used.append(bank_data.savings)
+            data_used.append(str(bank_data.savings))
             data_used.append(bank_data.other_savings)
             data_used.append(float(bank_data.actual_debit_credit_cards))
             data_used.append(bank_data.amount_due_mortgage)
@@ -110,7 +111,7 @@ def call_data_all(key):
 
     ## getting bank data 
     (credit_mix,assets,losses,new_credit) = bank.read_data(key)
-    if(len(credit_mix) != 0 and len(assets) != 0 and len(losses) != 0 , len(new_credit) != 0):
+    if(len(credit_mix) != 0 and len(assets) != 0 and len(losses) != 0 and len(new_credit) != 0):
         bank_data = Bank(credit_mix[0],assets[0],losses[0],new_credit[0])
         print(bank_data.amount_in_12_months)
     else:
@@ -132,3 +133,5 @@ def call_data_all(key):
         print("No credit score calculated due to incomplete information")
         return ("No credit score calculated due to incomplete information",False)
   
+
+call_data_all(key)

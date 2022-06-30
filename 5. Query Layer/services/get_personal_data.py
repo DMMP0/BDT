@@ -55,7 +55,10 @@ def get_person_data(key):
     val = (key,)
     cursor = connection.cursor()
     cursor.execute(query,val)
-    person_data = cursor.fetchall()
-    close_db_connection(connection,cursor)
-    return person_data
+    if (cursor.description is None):
+        return []
+    else:
+        data = cursor.fetchall()
+        close_db_connection(connection,cursor)
+        return data
 

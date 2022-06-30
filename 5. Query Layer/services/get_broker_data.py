@@ -50,9 +50,11 @@ def get_credit_history(key):
         date = row[0]
     query = 'SELECT MAX(insolvent_ammount) FROM credit_history where fiscal_code_fk = %s and last_update_time_stamp = %s'
     val = (key,date)
-    cursor.execute(query,val)
-    data = cursor.fetchall()
-    close_db_connection(connection,cursor)
-    return data 
+    if (cursor.description is None):
+        return []
+    else:
+        data = cursor.fetchall()
+        close_db_connection(connection,cursor)
+        return data
 
 

@@ -55,10 +55,12 @@ def get_new_credit(key): ## done
     query = 'SELECT sum(amount_in_12_months) FROM new_credit where fiscal_code_fk = %s and last_update_time_stamp = %s'
     val = (key,date)
     cursor.execute(query,val)
-    data = cursor.fetchall()
-    close_db_connection(connection,cursor)
-    return data    
-
+    if (cursor.description is None):
+        return []
+    else:
+        data = cursor.fetchall()
+        close_db_connection(connection,cursor)
+        return data
 
 
 def get_credit_mix(key): #Done
@@ -75,10 +77,12 @@ def get_credit_mix(key): #Done
     query = 'SELECT sum(house_mortgage),sum(credit_card_number) FROM credit_mix where fiscal_code_fk = %s and last_update_time_stamp = %s'
     val = (key,date)
     cursor.execute(query,val)
-    data = cursor.fetchall()
-    close_db_connection(connection,cursor)
-    return data 
-    
+    if (cursor.description is None):
+        return []
+    else:
+        data = cursor.fetchall()
+        close_db_connection(connection,cursor)
+        return data
 
 def get_assets_data(key:str): #done
     # send_person_data(dict_data,cursor,connection)
@@ -94,9 +98,12 @@ def get_assets_data(key:str): #done
     query = 'SELECT sum(total_amount_of_house),sum(monthly_income),sum(savings),sum(other_savings) FROM assets where fiscal_code_fk = %s and last_updated_time_stamp = %s'
     val = (key,date)
     cursor.execute(query,val)
-    data = cursor.fetchall()
-    close_db_connection(connection,cursor)
-    return data   
+    if (cursor.description is None):
+        return []
+    else:
+        data = cursor.fetchall()
+        close_db_connection(connection,cursor)
+        return data  
     
 
 
@@ -114,6 +121,9 @@ def get_losses_data(key): ## done
     query = 'SELECT sum(actual_debit_credit_cards),sum(amount_due_mortgage) FROM losses where fiscal_code_fk = %s and last_update_time_stamp = %s'
     val = (key,date)
     cursor.execute(query,val)
-    data = cursor.fetchall()
-    close_db_connection(connection,cursor)
-    return data       
+    if (cursor.description is None):
+        return []
+    else:
+        data = cursor.fetchall()
+        close_db_connection(connection,cursor)
+        return data

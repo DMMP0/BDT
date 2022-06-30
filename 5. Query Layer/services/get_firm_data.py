@@ -45,10 +45,12 @@ def get_firm_data(firm):
     val = (firm,)
     cursor = connection.cursor()
     cursor.execute(query,val)
-    firm_data = cursor.fetchall()
-    close_db_connection(connection,cursor)
-    return firm_data
-
+    if (cursor.description is None):
+        return []
+    else:
+        data = cursor.fetchall()
+        close_db_connection(connection,cursor)
+        return data
 
 def get_credit_data(firm):
     (cursor,connection) = connect_db()
@@ -56,6 +58,9 @@ def get_credit_data(firm):
     val = (firm,)
     cursor = connection.cursor()
     cursor.execute(query,val)
-    firm_data = cursor.fetchall()
-    close_db_connection(connection,cursor)
-    return firm_data
+    if (cursor.description is None):
+        return []
+    else:
+        data = cursor.fetchall()
+        close_db_connection(connection,cursor)
+        return data

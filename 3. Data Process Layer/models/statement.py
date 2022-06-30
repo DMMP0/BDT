@@ -25,6 +25,7 @@ class Statement:
         self.education = ''
         self.phone_number = ''
         self.email = ''
+        self.pemail = ''
         self.purpose = ''
         self.firm_id = ''
         self.company_name = ''
@@ -72,6 +73,8 @@ class Statement:
                 self.amount_of_credit = str(value)
             elif meaning == "duration_in_months":
                 self.duration_in_months = str(value)
+            elif meaning == "personal_meaning":
+                self.pemail = str(value)
             else:
                 pass
 
@@ -94,7 +97,7 @@ class Statement:
         personal_data['DOB'] = self.DOB
         personal_data['ethnicity'] = self.ethnicity
         personal_data['highest_degree'] = self.education
-        personal_data['email'] = self.email
+        personal_data['email'] = self.pemail
         personal_data['address'] = " "
         personal_data['phone_number'] = self.phone_number
         personal_data['state'] = self.country
@@ -105,6 +108,7 @@ class Statement:
         firm['established_date'] = self.established_date
         firm['number_of_employes'] = self.employees
         firm['country'] = self.country
+        firm['email'] = self.email
 
         credit_data['registeration_number'] = self.registration_number
         credit_data['amount_of_credit'] = clean_money(self.amount_of_credit)

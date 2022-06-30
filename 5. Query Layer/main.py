@@ -13,7 +13,7 @@ import components.credit_formulation as CF
 
 
 
-anvil.server.connect('QPUZ5V5FYSNM7LIKFAXM6INZ-UZZP33BE5EVXZYOW')
+anvil.server.connect('YEYSXEONGPEBZ6WIIRN3WNSD-UZZP33BE5EVXZYOW')
 
 
 config_db = json.loads(os.environ['CREDENTIALS'])

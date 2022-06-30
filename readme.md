@@ -1,18 +1,4 @@
----
-title: "Big Data Technologies Project: FISCO"
-date: "Jul 1, 2022"
-author: "Maurizio De Marchi, Huma Rehman, Stefano Moro"
-output: 
-  html_document:
-    theme: readable
-    toc: true
-    toc_float: true
-    df_print: paged
-editor_options:
-    chink_output_type: console
----
-
-# 
+# Big Data Technologies Project: FISCO
 
 The scope of this project was to design and implement a big data system that can provide credit scoring for companies that are not mandated to deposit a balance sheet (e.g., partnerships).
 

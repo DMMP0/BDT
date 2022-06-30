@@ -1,3 +1,8 @@
+# credentials=$(< ../credentials/db-config.json)
+# docker build -t bdt/frontend-layer .
+
+# docker run -e "CREDENTIALS=$credentials" -d --name 5-Frontend-Layer-BDT  --network app-tier bdt/Frontend-layer
+
 FROM python:latest
 LABEL Mantainer1="huma.rehman@studenti.unitn.it", Mantainer2="maurizio.demarchi@studenti.unitn.it", Mantainer3="stefano.moro@studenti.unitn.it"
 

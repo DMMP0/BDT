@@ -1,6 +1,6 @@
 '''this script here is to send the personal data to the personal information table'''
 
-from matplotlib.font_manager import json_dump
+
 import mysql.connector
 from mysql.connector import Error
 import sys,os

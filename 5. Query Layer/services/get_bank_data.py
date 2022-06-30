@@ -6,7 +6,6 @@ new credit'''
 import os
 
 from datetime import datetime
-from matplotlib.font_manager import json_dump
 import mysql.connector
 from mysql.connector import Error
 import json

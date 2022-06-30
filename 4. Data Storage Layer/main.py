@@ -25,6 +25,6 @@ while True:
     t2.join()
     t3.join()
 
-    while t1.isAlive() or t2.isAlive() or t3.isAlive():
+    while t1.is_alive() or t2.is_alive() or t3.is_alive():
         pass
 

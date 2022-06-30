@@ -73,7 +73,7 @@ def send_person_data(dict_data:dict,cursor,connection):
         # print(values)
         try:
             cursor.execute(insert_query + value_attr, values)
-            print(cursor.rowcount, "was inserted.")
+            print(cursor.rowcount, "was inserted(personal data).")
         except mysql.connector.errors.IntegrityError:
             print("Duplicated key not inserted")
         # print(cursor.rowcount, "was inserted.")

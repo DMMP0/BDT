@@ -85,9 +85,9 @@ class Statement:
         personal_data["fiscal_code"] = self.fiscal_code
         personal_data['first_name'] = self.first_name
         personal_data['last_name'] = self.last_name
-        if self.sex == "male":
+        if clean_string(self.sex) == "male":
             personal_data["sex"] = "1"
-        elif self.sex == "female":
+        elif clean_string(self.sex) == "female":
             personal_data['sex'] = "0"
         else:
             personal_data['sex'] = '2'

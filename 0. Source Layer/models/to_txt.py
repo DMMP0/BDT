@@ -166,7 +166,7 @@ class RTF:
             if(bank_data.loc[index,'house_mortage'] == True):
                max_mortgage = val + random.randint(50000,500000)
                bank_data.loc[index,'amount_of_house_mortage'] = "${:,.2f}".format(max_mortgage)
-               bank_data.loc[index,'amount_duee_mortage'] ="${:,.2f}".format(val  + random.randint(50000,max_mortgage))
+               bank_data.loc[index,'amount_duee_mortage'] ="${:,.2f}".format(val  + random.randint(50000,int(max_mortgage)))
                bank_data.loc[index,'house_property'] = True
             else:
                 bank_data.loc[index, 'house_property'] = random.choice([True, False])

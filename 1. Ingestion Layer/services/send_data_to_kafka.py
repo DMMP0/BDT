@@ -12,7 +12,7 @@ def send_messages(messages: [], redis_keys: []):
     # Running multiple producers
     broker = 'localhost' # 'kafka-server'
     topics = ['bank', 'broker', 'questura', 'statement']
-    r = redis.StrictRedis(host='redis')
+    r = redis.StrictRedis()
 
     bank_producer = MessageProducer(broker, topics[0])
     broker_producer = MessageProducer(broker, topics[1])
@@ -23,13 +23,14 @@ def send_messages(messages: [], redis_keys: []):
     t2 = threading.Thread(target=broker_producer.send_gathered_data, args=(messages,))
     t3 = threading.Thread(target=questura_producer.send_gathered_data, args=(messages,))
     t4 = threading.Thread(target=statement_producer.send_gathered_data, args=(messages,))
-
+    r.delete(*redis_keys)
     t1.start()
     t2.start()
     t3.start()
     t4.start()
 
     # stop threads after completing the task
+
     t1.join()
     t2.join()
     t3.join()

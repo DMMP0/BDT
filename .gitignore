@@ -2,7 +2,8 @@
 0. Source Layer/components/reports
 0. Source Layer/0.Client_List.csv
 0. Source Layer/components/0.Client_List.csv
-credentials
+credentials/db-config.json
+credentials/bdt-project-200-6164fe338b7d.json
 
 ### VisualStudioCode template
 .vscode/*

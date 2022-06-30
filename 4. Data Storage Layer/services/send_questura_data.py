@@ -51,8 +51,8 @@ def find_fk(dict_data:dict,cursor,connection)->bool:
     cursor.execute(query)
     personal_data = cursor.fetchall()
     for row in personal_data :
-        print(row)
-        if(row[0] == dict_data.fiscal_code):
+        # print(row)
+        if(row[0] == dict_data['fiscal_code']):
             tag = False
     return tag
 
@@ -68,20 +68,20 @@ def send_questura_data(dict_data:dict,cursor,connection):
         criminal_id = row[0]
     if(tag):
         if(criminal_id== None):
-            print('here')
+            # print('here')
             criminal_id = 0
         else:
             criminal_id = criminal_id+1
 
-    if(find_fk(dict_data,cursor,connection) == False):  #                  remove
+    if(find_fk(dict_data,cursor,connection) == False): #  %s,       %s,        %s,          %s,       %s,      %s,       %s,                   %s
         insert_query = "INSERT INTO criminal_records(criminal_id,bankrupty,investigation,accused,condemned,civ_pass,last_updated_time_stamp,fiscal_code_fk)"
-        value_attr = "VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s)"
+        value_attr = "VALUES(%s,%s,%s,%s,%s,%s,%s,%s)"
         values = (criminal_id,dict_data['bankruptcy'],dict_data['investigation'],dict_data['accused'],
                   dict_data['condamned'],dict_data['civ_pass'],datetime.datetime.now(),dict_data['fiscal_code'])
-        print(values)
+        # print(values)
         try:
             cursor.execute(insert_query + value_attr, values)
-            print(cursor.rowcount, "was inserted.")
+            print(cursor.rowcount, "was inserted (questura).")
         except mysql.connector.errors.IntegrityError:
             print("Duplicated key not inserted")
         connection.commit()
@@ -92,7 +92,7 @@ def send_questura_data(dict_data:dict,cursor,connection):
     
 ## main
 def main(r: redis.StrictRedis):
-    questura_dicts, keys_to_delete = get_dicts_from_redis('questura')
+    questura_dicts, keys_to_delete = get_dicts_from_redis('criminal_records')
     if questura_dicts == False:
         print("No new questura data")
         return

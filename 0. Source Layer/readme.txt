@@ -1,1 +1,0 @@
-This layer will take the documents, convert them to json and store the temp. conversion on redis, in order to send them as kafka messages

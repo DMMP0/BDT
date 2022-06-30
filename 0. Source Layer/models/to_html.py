@@ -80,9 +80,10 @@ class HTML:
 			broker_data = pd.DataFrame(broker_data)
 			broker_data['agency_country'] = self.bank[1]
 			broker_data['agency_name'] = ''
-			broker_data['from30to60'] = random.choice([0,0,0,0,0,0,0,0,0,1])
-			broker_data['from60to90'] = random.choice([0,0,0,0,0,0,0,0,0,1])
-			broker_data['morethan90'] = random.choice([0,0,0,0,0,0,0,0,0,1])
+			n=len(broker_data.values)
+			broker_data['from30to60'] = random.choices((0, 1), cum_weights=(9, 10), k=n)
+			broker_data['from60to90'] = random.choices((0, 1), cum_weights=(9, 10), k=n)
+			broker_data['morethan90'] = random.choices((0, 1), cum_weights=(9, 10), k=n)
 			broker_data['debit_id'] =''
 			broker_data['insolvent'] = bool
 			broker_data['insolvent_ammount'] = "$0.00"

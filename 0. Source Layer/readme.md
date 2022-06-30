@@ -85,6 +85,6 @@ The script will come in the following file formats:
 
 The data can be sent to redis by simply starting the main.py script.
 
-The script will continuously send all the files to redis, delete them from the "reports" folder, waiting 10s after doing so.
+The script will continuously send all the files to redis (deleting them from the "reports" folder), waiting 10s after doing so.
 The files can be found as redis strings, having the filename as key *(e.g. 'Oberbank AG(Questura).xlsx')*.
 The script is multithreaded and will start a thread for every file format.

@@ -16,9 +16,7 @@ import components.credit_formulation as CF
 anvil.server.connect('QPUZ5V5FYSNM7LIKFAXM6INZ-UZZP33BE5EVXZYOW')
 
 
-with open("..\..\credentials\db-config.json", "r") as jsonfile:
-    config_db = json.load(jsonfile) # Reading the file
-    jsonfile.close()
+config_db = json.loads(os.environ['CREDENTIALS'])
 try:
 
     connection = mysql.connector.connect(host=config_db['host'],

@@ -76,6 +76,6 @@ def get_company_info(id):
 
 @anvil.server.callable
 def get_CS(id):
-    return  CF.call_data_all(id)
+    return CF.call_data_all(id)
 
 anvil.server.wait_forever()

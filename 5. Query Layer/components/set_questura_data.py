@@ -1,6 +1,5 @@
 
-from asyncio.windows_events import NULL
-from matplotlib.font_manager import json_dump
+
 from mysql.connector import Error
 import sys,os
 import json
@@ -14,7 +13,6 @@ from models.questura import Questura
 from models.statement import Statement
 from models.person_info import Person
 import services.get_questura_data as bd 
-import operator
 
 
 

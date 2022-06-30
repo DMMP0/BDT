@@ -4,7 +4,7 @@
 3. losses
 new credit'''
 import os
-from asyncio.windows_events import NULL
+
 from datetime import datetime
 from matplotlib.font_manager import json_dump
 import mysql.connector

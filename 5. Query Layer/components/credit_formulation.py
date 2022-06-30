@@ -1,13 +1,15 @@
-
-import set_bank_data as bank
-import set_broker_data as broker
-import set_questura_data as questura
-import set_firm_data as f
-import set_person_data as p
 import sys,os
-
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))  # finds the current directory
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # finds the parent directory
+
+import components.set_bank_data as bank
+import components.set_broker_data as broker
+import components.set_questura_data as questura
+import components.set_firm_data as f
+import components.set_person_data as p
+
+
+
 from models.bank import Bank
 from models.broker import Broker
 from models.questura import Questura

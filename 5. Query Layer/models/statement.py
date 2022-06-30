@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from cv2 import Stitcher_ERR_CAMERA_PARAMS_ADJUST_FAIL
+
 # import super
 
 @dataclass

@@ -9,3 +9,7 @@ Once downloaded and installed, an instance of Redis server can simply be started
 If you want to check what's going under the hood, you can get all the keys with the command _'keys \*_'. If you already have other keys in your redis instance, a better
 option would be _'keys \*(\*).\*'_. If you want to see the content of a specific key, the command _'get "**Key name**"'_ shold be issued. For multiple keys, the command _mget_
 can be used. 
+
+## Data generation 
+
+In order to start the data 

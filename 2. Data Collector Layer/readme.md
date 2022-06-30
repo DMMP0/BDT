@@ -17,7 +17,7 @@ If you want to **manually listen for a topic** (e.g. Bank topic), then the follo
 **In order for the script to work, a json credential file must be present into the "credentials" folder.**
 The credential path can be changed in the file models/temp_storage_sender at line 13.
 
-**The script does not create the buckets automatically**, they were created with the following logic: kafka_topic-bdt-13.  The name can be changed at models/message_consumer.py, line 21.
+**The script does not create the buckets automatically**, they were created with the following logic: kafka_topic-bdt-13 *(e.g. bank-bdt-13)*.  The name can be changed at models/message_consumer.py, line 21.
 
 If you wish to **delete all files sent into a bucket**, the following command must be issued in the Google Cloud shell: gsutil -m rm -r gs://bucket-name/\*
 
@@ -25,6 +25,7 @@ If you wish to **delete all files sent into a bucket**, the following command mu
 ## Start the collection
 
 The layer can be easily started by running the script 'main.py'.
+
 The script will start a listener for each topic, read the messages and then send them to cloud storage into the buckets. If no messages are present, it will wait 60s before start listening again.
 
 The script is multithreaded, a thread will be started for each consumer (statement, bank, broker, questura).

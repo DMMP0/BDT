@@ -4,6 +4,7 @@ from matplotlib.font_manager import json_dump
 import mysql.connector
 from mysql.connector import Error
 import json
+import datetime
 
 
 def connect_db():
@@ -37,14 +38,21 @@ def close_db_connection(connection,cursor):
 
 
 
-def send_broker_data(key):
+def get_credit_history(key):
+    # send_person_data(dict_data,cursor,connection)
     (cursor,connection) = connect_db()
-    query = 'SELECT * FROM credit_history where fiscal_code_fk = %s'
+    query = 'SELECT MAX(last_update_time_stamp) FROM credit_history where fiscal_code_fk = %s'
     val = (key,)
     cursor = connection.cursor()
     cursor.execute(query,val)
-    broker_data = cursor.fetchall()
+    data = cursor.fetchall()
+    for row in data:
+        date = row[0]
+    query = 'SELECT MAX(insolvent_ammount) FROM credit_history where fiscal_code_fk = %s and last_update_time_stamp = %s'
+    val = (key,date)
+    cursor.execute(query,val)
+    data = cursor.fetchall()
     close_db_connection(connection,cursor)
-    return broker_data
+    return data 
 
 

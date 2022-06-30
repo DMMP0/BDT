@@ -5,47 +5,25 @@ from dataclasses import dataclass
 class Bank:
     """Class for storing the arriving messages from cloud storage"""
     
-    fiscal_code: str
-    bank_name: str
-    bank_country: str
-    open_new_credit_in_6_months: str
-    amount_in_6_months : str
-    amount_in_12_months: str
-    new_credit_in_12_months:str
-    amount_in_18_months: str
-    new_credit_in_18_months : str
-    house_mortgage : str
-    amount_of_house_mortgage : str
-    amount_due_mortgage :str
-    house_property : str
-    total_house_amount : str
-    credit_card_number :  str
-    credit_card_limit_total : str
-    actual_debit_credit_cards : str
-    monthly_income = str
-    savings : str
-    other_savings : str
+    
+    amount_in_12_months: float
+    house_mortgage : float
+    amount_due_mortgage :float
+    total_house_amount : float
+    credit_card_number :  int
+    actual_debit_credit_cards : float
+    monthly_income = float
+    savings : float
+    other_savings : float
 
 
-    def __init__(self,bank_data):
-            self.fiscal_code = bank_data.get('Id_Number')
-            self.email = bank_data.get('email')
-            self.bank_name = bank_data.get('bank_name')
-            self.bank_country = bank_data.get('bank_country')
-            self.open_new_credit_in_6_months = bank_data.get('open_new_credit_in_6_months')
-            self.amount_in_6_months = bank_data.get('amount_in_6_months')
-            self.amount_in_12_months = bank_data.get('amount_in_12_months')
-            self.new_credit_in_12_months = bank_data.get('new_credit_in_12_months')
-            self.amount_in_18_months = bank_data.get('amount_in_18_months')
-            self.new_credit_in_18_months = bank_data.get('new_credit_in_18_months')
-            self.house_mortgage = bank_data.get('house_mortgage')
-            self.amount_of_house_mortgage = bank_data.get('amount_of_house_mortgage')
-            self.amount_due_mortgage = bank_data.get('amount_due_mortgage')
-            self.house_property = bank_data.get('house_property')
-            self.total_house_amount = bank_data.get('total_house_amount')
-            self.credit_card_number = bank_data.get('credit_card_number')
-            self.credit_card_limit_total = bank_data.get('credit_card_limit_total')
-            self.actual_debit_credit_cards = bank_data.get('actual_debit_credit_cards')
-            self.monthly_income = bank_data.get('monthly_income')
-            self.savings = bank_data.get('savings')
-            self.other_savings = bank_data.get('other_savings')
+    def __init__(self,credit_mix,assets,losses,new_credit):
+            self.amount_in_12_months = new_credit[0]
+            self.house_mortgage = credit_mix[0]
+            self.amount_due_mortgage = losses[1]
+            self.total_house_amount = assets[0]
+            self.credit_card_number = credit_mix[1]
+            self.actual_debit_credit_cards = losses[0]
+            self.monthly_income = assets[1]
+            self.savings = assets[2]
+            self.other_savings = assets[3]

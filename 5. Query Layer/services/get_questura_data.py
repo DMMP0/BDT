@@ -42,15 +42,22 @@ def close_db_connection(connection,cursor):
 
 
 
-def get_person_data(key):
+def get_criminal_data(key):
+    # send_person_data(dict_data,cursor,connection)
     (cursor,connection) = connect_db()
-    query = 'SELECT * FROM criminal_records where fiscal_code_fk=%s'
+    query = 'SELECT MAX(last_updated_time_stamp) FROM criminal_records where fiscal_code_fk = %s'
     val = (key,)
     cursor = connection.cursor()
     cursor.execute(query,val)
     data = cursor.fetchall()
+    for row in data:
+        date = row[0]
+    query = 'SELECT bankrupty FROM criminal_records where fiscal_code_fk = %s and last_updated_time_stamp = %s'
+    val = (key,date)
+    cursor.execute(query,val)
+    data = cursor.fetchall()
     close_db_connection(connection,cursor)
-    return data
+    return data 
 ## main
 
 

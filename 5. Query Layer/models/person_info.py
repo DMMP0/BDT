@@ -23,15 +23,15 @@ class Person(object):
     state:str
 
     def __init__(self, data_dict):
-        self.fiscal_code = data_dict.get('Id_Number')
-        self.first_name= data_dict.get('first_name')
-        self.last_name= data_dict.get('last_name')
-        self.sex= data_dict.get('sex')
-        self.DOB= data_dict.get('DOB')
-        self.ethnicity= data_dict.get('ethnicity')
-        self.education= data_dict.get('education')
-        self.phone_number= data_dict.get('phone_number')
-        self.email= data_dict.get('email')
-        self.firm_registeration_number= data_dict.get('registeration_number')
-        self.country= data_dict.get('country')
-        self.state= data_dict.get('country')
+        self.fiscal_code = data_dict[1]
+        self.first_name= data_dict[2]
+        self.last_name= data_dict[3]
+        self.sex= data_dict[4]
+        self.DOB= data_dict[5]
+        self.ethnicity= data_dict[6]
+        self.education= data_dict[7]
+        self.email= data_dict[9]
+        self.phone_number= data_dict[10]
+        self.state= data_dict[11]
+        self.firm_registeration_number= data_dict[12]
+        

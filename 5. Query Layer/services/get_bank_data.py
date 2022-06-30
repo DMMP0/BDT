@@ -4,6 +4,7 @@
 3. losses
 new credit'''
 from asyncio.windows_events import NULL
+from datetime import datetime
 from matplotlib.font_manager import json_dump
 import mysql.connector
 from mysql.connector import Error
@@ -41,12 +42,18 @@ def close_db_connection(connection,cursor):
 
 
 
-def get_new_credit(key):
+def get_new_credit(key): ## done
     # send_person_data(dict_data,cursor,connection)
     (cursor,connection) = connect_db()
-    query = 'SELECT * FROM new_credit where fiscal_code_fk = %s'
+    query = 'SELECT MAX(last_update_time_stamp) FROM new_credit where fiscal_code_fk = %s'
     val = (key,)
     cursor = connection.cursor()
+    cursor.execute(query,val)
+    data = cursor.fetchall()
+    for row in data:
+        date = row[0]
+    query = 'SELECT sum(amount_in_12_months) FROM new_credit where fiscal_code_fk = %s and last_update_time_stamp = %s'
+    val = (key,date)
     cursor.execute(query,val)
     data = cursor.fetchall()
     close_db_connection(connection,cursor)
@@ -54,63 +61,59 @@ def get_new_credit(key):
 
 
 
-def get_credit_mix(key):
+def get_credit_mix(key): #Done
     # send_person_data(dict_data,cursor,connection)
     (cursor,connection) = connect_db()
-    query = 'SELECT * FROM credit_mix where fiscal_code_fk = %s'
+    query = 'SELECT MAX(last_update_time_stamp) FROM credit_mix where fiscal_code_fk = %s'
+    print(datetime.date(datetime.today()))
     val = (key,)
     cursor = connection.cursor()
     cursor.execute(query,val)
     data = cursor.fetchall()
+    for row in data:
+        date = row[0]
+    query = 'SELECT sum(house_mortgage),sum(credit_card_number) FROM credit_mix where fiscal_code_fk = %s and last_update_time_stamp = %s'
+    val = (key,date)
+    cursor.execute(query,val)
+    data = cursor.fetchall()
     close_db_connection(connection,cursor)
-    return data
+    return data 
     
 
-def get_assets_data(key:str):
+def get_assets_data(key:str): #done
     # send_person_data(dict_data,cursor,connection)
     (cursor,connection) = connect_db()
-    query = "SELECT * FROM assets where fiscal_code_fk = %s "
+    query = 'SELECT MAX(last_updated_time_stamp) FROM assets where fiscal_code_fk = %s'
+    print(datetime.date(datetime.today()))
     val = (key,)
     cursor = connection.cursor()
     cursor.execute(query,val)
     data = cursor.fetchall()
+    for row in data:
+        date = row[0]
+    query = 'SELECT sum(total_amount_of_house),sum(monthly_income),sum(savings),sum(other_savings) FROM assets where fiscal_code_fk = %s and last_updated_time_stamp = %s'
+    val = (key,date)
+    cursor.execute(query,val)
+    data = cursor.fetchall()
     close_db_connection(connection,cursor)
-    return data  
+    return data   
     
 
 
-def get_losses_data(key):
+def get_losses_data(key): ## done
+    # send_person_data(dict_data,cursor,connection)
     (cursor,connection) = connect_db()
-    query = 'SELECT * FROM losses where fiscal_code_fk = %s'
+    query = 'SELECT MAX(last_update_time_stamp) FROM losses where fiscal_code_fk = %s'
+    print(datetime.date(datetime.today()))
     val = (key,)
     cursor = connection.cursor()
     cursor.execute(query,val)
     data = cursor.fetchall()
-    close_db_connection(connection,cursor)
-    return data  
-    
-
-
-
-
-def get_bank_data():
-    # check first if the data has been there already
-    (cursor,connection) = connect_db()
-    query = 'SELECT * FROM bank_data'
-    cursor = connection.cursor()
-    cursor.execute(query)
-    data = cursor.fetchall()
-    close_db_connection(connection,cursor)
-    return data  
-
-    
-def get_person_banks(key):
-    (cursor,connection) = connect_db()
-    query = 'SELECT * FROM 	bank_person_relationships WHERE person_id = %s'
-    val = (key,)
-    cursor = connection.cursor()
+    for row in data:
+        date = row[0]
+    query = 'SELECT sum(actual_debit_credit_cards),sum(amount_due_mortgage) FROM losses where fiscal_code_fk = %s and last_update_time_stamp = %s'
+    val = (key,date)
     cursor.execute(query,val)
     data = cursor.fetchall()
     close_db_connection(connection,cursor)
-    return data  
-    
+    return data       

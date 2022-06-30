@@ -10,7 +10,7 @@ from models.kafka_message_producer import MessageProducer
 def send_messages(messages: [], redis_keys: []):
     """@:param messages: must be a list of tuples (topic,messages)"""
     # Running multiple producers
-    broker = 'localhost' # 'kafka-server'
+    broker = 'kafka-server'
     topics = ['bank', 'broker', 'questura', 'statement']
     r = redis.StrictRedis()
 

@@ -1,6 +1,8 @@
 # credentials=$(< ../credentials/db-config.json)
 # docker build -t bdt/storage-layer .
 
+# docker run -e MYSQL_ALLOW_EMPTY_PASSWORD=1 -p 13306:3306 -d --name mysql --network app-tier mysql
+
 # docker run -e "CREDENTIALS=$credentials" -d --name 4-Storage-Layer-BDT  --network app-tier bdt/storage-layer
 # redis and sql container must run too
 

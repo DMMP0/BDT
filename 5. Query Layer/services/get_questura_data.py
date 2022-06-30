@@ -12,9 +12,7 @@ import datetime
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # finds the parent directory
 
 def connect_db():
-    with open("..\..\credentials\db-config.json", "r") as jsonfile:
-        config_db = json.load(jsonfile) # Reading the file
-        jsonfile.close()
+    config_db = json.loads(os.environ['CREDENTIALS'])
     try:
 
         connection = mysql.connector.connect(host=config_db['host'],

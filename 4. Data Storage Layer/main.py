@@ -7,7 +7,7 @@ from services.send_questura_data import main as questura_main
 import redis
 import threading
 
-r = redis.StrictRedis()
+r = redis.StrictRedis(host='redis')
 while True:
     firm_main(r)
     print("Firm data sent")

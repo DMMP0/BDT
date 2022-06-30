@@ -1,5 +1,4 @@
 
-from asyncio.windows_events import NULL
 from matplotlib.font_manager import json_dump
 from mysql.connector import Error
 import sys,os

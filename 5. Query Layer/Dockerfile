@@ -1,4 +1,9 @@
-#Py4J (currently version 0.10.9.3),
-#CloudPickle (currently version 1.2.2),
-#python-dateutil(currently version 2.8.0),
-# pyflink
+FROM python:latest
+LABEL Mantainer1="huma.rehman@studenti.unitn.it", Mantainer2="maurizio.demarchi@studenti.unitn.it", Mantainer3="stefano.moro@studenti.unitn.it"
+
+# set working directory,
+WORKDIR /user/app/scr/BDT/Frontend
+
+# install libraries
+RUN pip install anvil
+RUN pip install anvil-uplink

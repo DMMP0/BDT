@@ -3,7 +3,7 @@ import random
 
 import redis
 
-r = redis.StrictRedis()  # redis object. host='localhost')#
+r = redis.StrictRedis(host='redis')  # redis object. host='localhost')#
 
 
 # host='redis' assumes docker, use host = localhost for localhost

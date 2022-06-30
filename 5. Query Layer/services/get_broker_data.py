@@ -1,4 +1,5 @@
 '''this script here is to send the personal data to the personal information table'''
+import os
 from asyncio.windows_events import NULL
 from matplotlib.font_manager import json_dump
 import mysql.connector
@@ -8,9 +9,9 @@ import datetime
 
 
 def connect_db():
-    with open("..\..\credentials\db-config.json", "r") as jsonfile:
-        config_db = json.load(jsonfile) # Reading the file
-        jsonfile.close()
+
+    config_db = json.loads(os.environ['CREDENTIALS'])
+
     try:
 
         connection = mysql.connector.connect(host=config_db['host'],

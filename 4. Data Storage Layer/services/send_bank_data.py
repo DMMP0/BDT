@@ -13,7 +13,7 @@ import redis
 source = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # finds the parent directory
 
 
-config_db = json.load(open(source + "/credentials/db-config.json"))
+config_db = json.loads(os.environ['CREDENTIALS'])
 
 from .get_data_from_redis import get_dicts_from_redis
 

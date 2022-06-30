@@ -5,7 +5,7 @@ import redis
 def get_dicts_from_redis(table: str):
     """
      @:returns a tuple of lists. the first element is a list of dicts, the second a list of keys"""
-    r = redis.StrictRedis(host='localhost')
+    r = redis.StrictRedis(host='redis')
     keys = r.keys('('+table+'-report-row)*')  # get all keys available for that table
     values = list()
     if not keys:

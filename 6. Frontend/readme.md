@@ -16,6 +16,8 @@ The credential path can be changed at the start of each service file of the Quer
 https://uzzp33be5evxzyow.anvil.app/3KH7ZTWIILA3AGMRVMK7S3P4
 
 You can enter the following fical codes:
-9bab1a69-2001-4bf6-83b9-ce106f83fcbe
-0ab28c68-44c9-4d5d-8f61-6022da914d5d
-3b860747-f8c6-416b-a553-aa1039e50676
+* 9bab1a69-2001-4bf6-83b9-ce106f83fcbe
+
+* 0ab28c68-44c9-4d5d-8f61-6022da914d5d
+
+* 3b860747-f8c6-416b-a553-aa1039e50676

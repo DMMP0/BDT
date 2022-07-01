@@ -10,7 +10,7 @@ Every step has been divided in three folders:
 2. Model, where all the classes are located;
 3. Services, which aim is to handle data transportation between technologies;
 
-This branch of the project works locally, for a containerized solution please refer to the branch _"Dockerized"_.
+This branch of the project works locally, for a containerized solution please refer to the branch _"Docker-final-form"_.
 
 This project is licensed with the *GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007*, for more information please refer to the file **COPYING**.
 

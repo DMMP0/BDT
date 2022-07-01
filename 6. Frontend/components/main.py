@@ -14,7 +14,7 @@ import credit_formulation as CF
 
 
 
-anvil.server.connect('NKBJP7OHDHIAKL4IW2C2FOWE-UZZP33BE5EVXZYOW')
+anvil.server.connect('YEYSXEONGPEBZ6WIIRN3WNSD-UZZP33BE5EVXZYOW')
 
 
 with open("..\..\credentials\db-config.json", "r") as jsonfile:

@@ -16,7 +16,7 @@ from models.firm import Firm
 from models.person_info import Person
 
 
-key = '5dd541fd-0f36-4b36-92b4-b29a22ef2acc'
+# key = '5dd541fd-0f36-4b36-92b4-b29a22ef2acc'
 
 def credit_score_formulation(firm_data:Firm,credit_data:Statement,credit_history:Broker,bank_data:Bank,questura_data:Questura):  
         # print(credit_history.insolvent_ammount) ## pick the highest
@@ -134,4 +134,4 @@ def call_data_all(key):
         return ("No credit score calculated due to incomplete information",False)
   
 
-call_data_all(key)
+# call_data_all(key)

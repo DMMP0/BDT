@@ -112,14 +112,14 @@ class Excel:
 			bank_data.loc[index,'ammount_in_12_months'] = "${:,.2f}".format(twelve_month_total)
 			bank_data.loc[index,'ammount_in_18_months'] = "${:,.2f}".format(eighteen_month_total)
 			bank_data.loc[index,'house_mortage'] = random.choice([True, False])
-			if(bank_data.loc[index,'house_mortage'] == True):
+			if bank_data.loc[index, 'house_mortage'] == True:
 				max_mortgage = val + random.randint(50000,500000)
 				bank_data.loc[index,'amount_of_house_mortage'] = "${:,.2f}".format(max_mortgage)
 				bank_data.loc[index,'amount_duee_mortage'] ="${:,.2f}".format(val  + random.randint(50000,int(max_mortgage)))
 				bank_data.loc[index,'house_property'] = True
 			else:
 				bank_data.loc[index,'house_property'] = random.choice([True, False])
-			if(bank_data.loc[index,'house_property'] is True):
+			if bank_data.loc[index, 'house_property'] is True:
 				bank_data.loc[index,'total_house_amount'] ="${:,.2f}".format(val + random.randint(50000,500000))
 			number_credit_cards = random.randint(1,5)
 			bank_data.loc[index,'credit_card_number'] = number_credit_cards

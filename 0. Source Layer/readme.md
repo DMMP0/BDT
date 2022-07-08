@@ -4,11 +4,8 @@ The aim of this layer is to generate and parse the data, sending it to Redis (th
 
 ***NB: this layer was designed with Python 3.10 in mind.***
 
-***NB: an instance of redis-server must run in order for this layer to work.*** In order to do that [Redis](https://redis.io/download/) must be downloaded.
-Once downloaded and installed, an instance of Redis server can simply be started by typing *redis-server* in your terminal.
-If you want to check what's going under the hood, you can get all the keys with the command _'keys \*_'. If you already have other keys in your redis instance, a better
-option would be _'keys \*(\*).\*'_. If you want to see the content of a specific key, the command _'get "**Key name**"'_ shold be issued. For multiple keys, the command _mget_
-can be used. 
+***NB: an instance of a redis container must run in order for this layer to work.*** 
+It can be instantiated with the following command: *docker run -d --name redis --network app-tier redis*
 
 ## Data generation 
 
@@ -81,10 +78,8 @@ The script will come in the following file formats:
 - docx
 - csv
 
-## Sending data to Redis
+## Sending data to Redis container
 
-The data can be sent to redis by simply starting the main.py script.
-
-The script will continuously send all the files to redis (deleting them from the "reports" folder), waiting 10s after doing so.
-The files can be found as redis strings, having the filename as key *(e.g. 'Oberbank AG(Questura).xlsx')*.
-The script is multithreaded and will start a thread for every file format.
+The program can be started by:
+1. building the image: *docker build -t bdt/source-layer .*
+2. starting the container: *docker run -d --name 0-Source-Layer-BDT --network app-tier bdt/source-layer*

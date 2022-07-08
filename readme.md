@@ -25,6 +25,9 @@ Below lies a brief description of what each layer does, for a more detailed expl
 
 the credentials for Google Cloud Storage and MySQL must be passed as environment variables.
 
+***NB: a driver bridge must be created in order to allow the containers to speak together***
+On can be created with the following command: *docker network create app-tier --driver bridge*
+
 
 ## 0. Source Layer
 
@@ -60,10 +63,10 @@ This layer will fetch the prepared data from redis and insert it into an SQL dat
 
 ***An instance of Redis container called 'redis' must run for this layer to work, if you are not going to modify the code.***
 
-***An instance of a mysql container called 'mysql' also must run for this layer to work, if you are not going to modify the code. ***
+***An instance of a mysql container called 'mysql' also must run for this layer to work, if you are not going to modify the code.***
 
 ## 5. Query Layer
 
 This layer will act as a broker between the front-end and the back-end of the application.
 
-***An instance of a mysql container called 'mysql' also must run for this layer to work, if you are not going to modify the code. ***
+***An instance of a mysql container called 'mysql' also must run for this layer to work, if you are not going to modify the code.***

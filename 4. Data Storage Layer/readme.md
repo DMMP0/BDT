@@ -5,7 +5,7 @@ The aim of this layer is to fetch the processed data from the previous persisten
 ***NB: this layer was designed with Python 3.10 in mind.***
 
 ***NB: an sql container be available***. 
-A script to recreate from scratch an example of database can be found here, named "crete_database.sql".
+A script to recreate from scratch an example of database can be found here in the general directory".
 
 **In order for the script to work, a json credential file must be present into the "credentials" folder.**
 The credential path can be changed at the start of each service file:
